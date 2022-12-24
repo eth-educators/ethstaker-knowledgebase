@@ -52,4 +52,4 @@ An unbiased, open source collection of useful information and concepts about Eth
 
 Yes! This is a living documentation site, which means we need help from the community to maintain and update the content. Any contribution, from writing whole sections, translations, to simply correcting spelling and grammar mistakes will be greatly appreciated.
 
-To suggest changes or add new content please visit our [EthStaker Github ↗](how-to-contribute.md).
+To suggest changes or add new content please visit our [EthStaker Github ↗](get-involved/how-to-contribute.md).

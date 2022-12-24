@@ -230,7 +230,7 @@ To reflect the relative value of an attestation, the reward given to a validator
 
 ## Input data
 
-The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the [validator public key](validator-keys.md) and the [withdrawal public key](validator-keys.md), which were signed with by the validator private key. The input data needs to be added to the transaction to the [deposit contract](getting-started/deposit-process.md) in order to get identified by the [beacon-chain](staking-glossary.md#beacon-chain).
+The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the [validator public key](https://github.com/Buttaa/ethstaker/blob/main/validator-keys.md) and the [withdrawal public key](https://github.com/Buttaa/ethstaker/blob/main/validator-keys.md), which were signed with by the validator private key. The input data needs to be added to the transaction to the [deposit contract](getting-started/deposit-process.md) in order to get identified by the [beacon-chain](staking-glossary.md#beacon-chain).
 
 [_More info about the deposit process ↗_](getting-started/deposit-process.md)
 
@@ -297,7 +297,7 @@ There are three ways a validator can be slashed, all of which amount to the dish
 
 ## Slasher node
 
-The [**slasher**](slasher.md) **is its own entity** but requires a beacon-node to receive [attestations](https://kb.beaconcha.in/glossary#attestation). To find malicious activity by validators, the slashers iterates through all received attestations until a **slashable offense** has been found. Found slashings are broadcasted to the network and the next [block proposer](staking-glossary.md#block-proposer) adds the proof to the block. The block proposer receives a reward for slashing the malicious validator. However, the whistleblower (Slasher) does not receive a reward.
+The [**slasher**](https://github.com/Buttaa/ethstaker/blob/main/slasher.md) **is its own entity** but requires a beacon-node to receive [attestations](https://kb.beaconcha.in/glossary#attestation). To find malicious activity by validators, the slashers iterates through all received attestations until a **slashable offense** has been found. Found slashings are broadcasted to the network and the next [block proposer](staking-glossary.md#block-proposer) adds the proof to the block. The block proposer receives a reward for slashing the malicious validator. However, the whistleblower (Slasher) does not receive a reward.
 
 ## Slot
 

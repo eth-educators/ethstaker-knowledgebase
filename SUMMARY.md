@@ -57,7 +57,7 @@
 
 ## ✏️ Get Involved
 
-* [How to contribute](how-to-contribute.md)
+* [How to contribute](get-involved/how-to-contribute.md)
 
 ***
 

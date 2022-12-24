@@ -31,7 +31,7 @@ Validators that participate in securing the [beacon chain](staking-glossary.md#b
 
 You can view a validator's reward for proposed blocks by looking at the fee recipient address on [etherscan.io](https://etherscan.io) under `Produced Blocks`.
 
-<figure><img src=".gitbook/assets/image (6).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (12).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
 
 See a detailed explanation here: [How does my validator earn ETH?](rewards/chain-rewards.md)
 
