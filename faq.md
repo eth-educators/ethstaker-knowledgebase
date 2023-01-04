@@ -1,21 +1,36 @@
-# Staking FAQ
+# Staking FAQ <!-- omit in toc -->
 
-* [Can I be slashed for being offline?](faq.md#can-i-be-slashed-for-being-offline)
-* [Can I withdraw my ETH at any time?](faq.md#can-i-withdraw-my-eth-at-any-time)
-* [I proposed a block! What did I earn?](faq.md#i-proposed-a-block-what-did-i-earn)
-* [Is there a penalty for missing a block proposal?](faq.md#is-there-a-penalty-for-missing-a-block-proposal)
-* [Is there a penalty for missing an attestation?](faq.md#is-there-a-penalty-for-missing-an-attestation)
-* [Should I set a withdrawal address when setting up my solo staking validator?](faq.md#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator)
-* [What is the time commitment for running a validator?](faq.md#what-is-the-time-commitment-for-running-a-validator)
-* [What happens if I lose my validator keys?](faq.md#what-happens-if-i-lose-my-validator-keys)
-* [What happens if I lose my validator seed phrase / mnemonic?](faq.md#what-happens-if-i-lose-my-validator-seed-phrase--mnemonic)
-* [What if I want to stop staking?](faq.md#what-if-i-want-to-stop-staking)
+- [Can I be slashed for being offline?](#can-i-be-slashed-for-being-offline)
+- [Can I stop running my validator for a few days and then start it back up again?](#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
+- [Can I withdraw my ETH at any time?](#can-i-withdraw-my-eth-at-any-time)
+- [How much ETH do I need to stake to become a validator?](#how-much-eth-do-i-need-to-stake-to-become-a-validator)
+- [I proposed a block! What did I earn?](#i-proposed-a-block-what-did-i-earn)
+- [Is the deposit/source address shown anywhere?](#is-the-depositsource-address-shown-anywhere)
+- [Is there a penalty for missing a block proposal?](#is-there-a-penalty-for-missing-a-block-proposal)
+- [Is there a penalty for missing an attestation?](#is-there-a-penalty-for-missing-an-attestation)
+- [Is there any advantage to having more than 32 ETH at stake?](#is-there-any-advantage-to-having-more-than-32-eth-at-stake)
+- [Should I set a withdrawal address when setting up my solo staking validator?](#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator)
+- [What exactly is a validator?](#what-exactly-is-a-validator)
+- [What happens if I lose my validator keys?](#what-happens-if-i-lose-my-validator-keys)
+- [What happens if I lose my validator seed phrase / mnemonic?](#what-happens-if-i-lose-my-validator-seed-phrase--mnemonic)
+- [What if I want to stop staking?](#what-if-i-want-to-stop-staking)
+- [What is a node operator?](#what-is-a-node-operator)
+- [What is a validator client?](#what-is-a-validator-client)
+- [What is the deposit contract?](#what-is-the-deposit-contract)
+- [What is the time commitment for running a validator?](#what-is-the-time-commitment-for-running-a-validator)
+- [When should I top up my validator’s balance?](#when-should-i-top-up-my-validators-balance)
+- [Why do I need to have funds at stake?](#why-do-i-need-to-have-funds-at-stake)
+- [Why the 32 ETH maximum?](#why-the-32-eth-maximum)
 
-***
+---
 
 ## Can I be slashed for being offline?
 
 No. Realistically, the only condition that can cause a [slashing event](staking-glossary.md#slashable-offenses) is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and you won't get slashed. **Slashing cannot occur from being offline for maintenance**.
+
+## Can I stop running my validator for a few days and then start it back up again?
+
+Yes, but with small penalties. See [I'm worried about downtime](help/downtime-explained.md).
 
 ## Can I withdraw my ETH at any time?
 
@@ -24,6 +39,10 @@ Withdrawals are not currently enabled on the [beacon chain](staking-glossary.md#
 If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](rewards/chain-rewards.md#priority-fees) and [MEV](rewards/chain-rewards.md#mev) (if you are using an [MEV-Boost](validator-clients/mev-boost.md) relay).
 
 In future, when withdrawals have been enabled, you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](staking-glossary.md#validator-queue).
+
+## How much ETH do I need to stake to become a validator?
+
+Each key-pair associated with a validator requires locking 32 ETH to be activated, which represents your initial balance as well as your initial and maximum voting power for any validator.
 
 ## I proposed a block! What did I earn?
 
@@ -51,6 +70,12 @@ No. If you miss your block proposal, the [slot](staking-glossary.md#slot) that s
 
 Missing some [attestations](staking-glossary.md#attestation) is completely normal and extremely low-cost. The penalty for missing an attestation is exactly the same as the reward for a successful one. So, with around 240 attestations per day per validator, missing one or two is still a successful attestation rate of over 99%!
 
+## Is there any advantage to having more than 32 ETH at stake?
+
+No. There is no advantage to having more than 32 ETH staked.
+
+Depositing more than 32 ETH to a single set of keys does not increase rewards potential, nor does accumulating rewards above 32 ETH, as each [validator](staking-glossary.md#validator) is limited to an effective balance of 32. This means that staking is done in 32 ETH increments, each with its own set of keys and balance.
+
 ## Should I set a withdrawal address when setting up my solo staking validator?
 
 Setting a [withdrawal address](staking-glossary.md#withdrawal-address) when creating your validator keys can be useful as you won't need to set it again when withdrawals are enabled.
@@ -61,18 +86,18 @@ And that’s it. Once your validator uses v1 credentials the withdrawal address 
 
 A tool to export the withdrawal key will likely not be created, and it’d also not be very useful. You need the withdrawal key at most twice:
 
-* Once to generate the signing key (only if no withdrawal address was set at that time).
-* Once more to sign a message to set one.
+- Once to generate the signing key (only if no withdrawal address was set at that time).
+- Once more to sign a message to set one.
 
 In both cases the key can be generated inside the CLI tool, be used for its purpose, and then be discarded again without ever being written to disk.
 
 However, there are some cases to be aware of that make it beneficial to **not** set a withdrawal address at the start:
 
-* If you plan to migrate your validator to a pool e.g. (Rocketpool) in the future, then you won't be able to perform this migration if you set a [withdrawal address](staking-glossary.md#withdrawal-address) when you created your validator keys. You would have to wait for withdrawals to be enabled, potentially wait in the withdrawal queue, then re-stake your ETH, potentially waiting in the activation queue as well!
+- If you plan to migrate your validator to a pool e.g. (Rocketpool) in the future, then you won't be able to perform this migration if you set a [withdrawal address](staking-glossary.md#withdrawal-address) when you created your validator keys. You would have to wait for withdrawals to be enabled, potentially wait in the withdrawal queue, then re-stake your ETH, potentially waiting in the activation queue as well!
 
-## What is the time commitment for running a validator?
+## What exactly is a validator?
 
-The majority of the time commitment for staking is the initial learning and setup. It will probably take a day or two of tinkering to get it all figured out (maybe more, and that's okay!). Once you get going you're looking at updating once a month or so (ten minutes) and responding to outages, which are rare.
+A validator is a virtual entity that lives on the [Beacon Chain](staking-glossary.md#beacon-chain), represented by a balance, [public key](staking-glossary.md#public-key), and other properties, and participates in [consensus](staking-glossary.md#consensus-layer) of the Ethereum network.
 
 ## What happens if I lose my validator keys?
 
@@ -89,3 +114,36 @@ However, if you had set a withdrawal address, then the validator keys are enough
 ## What if I want to stop staking?
 
 In the event that you can't recover your validator or you decide you want to stop staking, you have the option to exit your validator. Even though withdrawals are not currently enabled, you can still exit your validator from the network. This means that, while you won't be able to get your validator balance back right away (until withdrawals are enabled), you won't receive any penalties for being offline once the validator exits the [withdrawal queue](staking-glossary.md#validator-queue). Exiting a validator is currently a one way process. For details on how to exit your validator, [check out our guide](tutorials/how-to-exit-a-validator.md).
+
+## What is a node operator?
+
+A node operator is the human being who makes sure the client software is running appropriately, maintaining hardware as needed.
+
+## What is a validator client?
+
+A [validator](staking-glossary.md#validator) client is the software that acts on behalf of the validator by holding and using its [private key](staking-glossary.md#private-key) to make [attestations](staking-glossary.md#attestation) about the state of the chain. A single validator client can hold many key pairs, controlling many validators.
+
+## What is the deposit contract?
+
+You can think of the deposit contract as a transfer of funds from an Ethereum account to a proof-of-stake validator account. It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds.
+
+## What is the time commitment for running a validator?
+
+The majority of the time commitment for staking is the initial learning and setup. It will probably take a day or two of tinkering to get it all figured out (maybe more, and that's okay!). Once you get going you're looking at updating once a month or so (ten minutes) and responding to outages, which are rare.
+
+## When should I top up my validator’s balance?
+
+The answer to this question very much depends on how much ETH you have at your disposal. You should certainly top up if your balance is close to 16 ETH. This is to ensure you don’t get exited out of the validator set (which automatically happens if your balance falls below 16 ETH). At the other end of the spectrum, if your balance is closer to 31 ETH, it’s probably not worth adding the extra ETH required to get back to 32.
+
+## Why do I need to have funds at stake?
+
+As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly. In other words, to keep you honest, your actions need to have financial consequences.
+
+## Why the 32 ETH maximum?
+
+Each 32 ETH deposit activates one set of validator keys. These keys are used to sign off on the state of the network. The lower the ETH requirement, the more resulting signatures must be saved by the network. 32 ETH was chosen as a balance between enabling as many people as possible to stake without inhibiting decentralization by bloating the size of each block with signatures.
+
+Limiting the maximum stake to 32 ETH per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of ETH that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks.
+
+Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at 32. It is possible to drop below this with poor node performance, but it is not possible to raise above it.
+Do not deposit more than 32 ETH for a single validator. It will not add to your rewards and will be locked until [withdrawals are enabled](faq.md#can-i-withdraw-my-eth-at-any-time).
