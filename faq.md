@@ -61,7 +61,7 @@ Each key-pair associated with a validator requires locking 32 ETH to be activate
 
 Validators that participate in securing the [beacon chain](staking-glossary.md#beacon-chain) and execute "duties" get rewarded for this by new issuance of ETH. In addition, validators receive priority fees paid by users, and optionally MEV, Maximal Extractable Value.
 
-You can view a validator's reward for proposed blocks by looking at the fee recipient address on [etherscan.io](https://etherscan.io) under `Produced Blocks`.
+You can view a validator's reward for proposed blocks by looking at the fee recipient address on [etherscan.io↗](https://etherscan.io) under `Produced Blocks`.
 
 <figure><img src=".gitbook/assets/image (12).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
 
