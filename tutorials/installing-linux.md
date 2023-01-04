@@ -54,7 +54,7 @@ Select the installation type you want to use. For this, select `Ubuntu Server`.
 
 Select a network. If your staking machine uses an ethernet cable for a direct network connection (recommended) then this option should already be populated. If using WiFi, select those details.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="Linux installation network selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="Linux installation network selection"><figcaption></figcaption></figure>
 
 Select a proxy if required. If you are using a standard home network and don't know what this option means, don't worry, just leave it blank.
 
@@ -94,7 +94,7 @@ At this point, the installation will begin using all the configuration settings 
 
 Once the system reboots you'll see startup information similar to the output below. Wait until that completes and you'll be shown a login screen.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="Linux startup screen "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="Linux startup screen "><figcaption></figcaption></figure>
 
 This is the login screen for your validator machine. The name of this machine is `eridian-validator`.
 
