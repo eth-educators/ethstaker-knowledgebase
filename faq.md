@@ -3,6 +3,7 @@
 - [Can I be slashed for being offline?](#can-i-be-slashed-for-being-offline)
 - [Can I stop running my validator for a few days and then start it back up again?](#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
 - [Can I withdraw my ETH at any time?](#can-i-withdraw-my-eth-at-any-time)
+- [How are validators incentivized to stay active and honest?](#how-are-validators-incentivized-to-stay-active-and-honest)
 - [How much ETH do I need to stake to become a validator?](#how-much-eth-do-i-need-to-stake-to-become-a-validator)
 - [I proposed a block! What did I earn?](#i-proposed-a-block-what-did-i-earn)
 - [Is the deposit/source address shown anywhere?](#is-the-depositsource-address-shown-anywhere)
@@ -39,6 +40,18 @@ Withdrawals are not currently enabled on the [beacon chain](staking-glossary.md#
 If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](rewards/chain-rewards.md#priority-fees) and [MEV](rewards/chain-rewards.md#mev) (if you are using an [MEV-Boost](validator-clients/mev-boost.md) relay).
 
 In future, when withdrawals have been enabled, you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](staking-glossary.md#validator-queue).
+
+## How are validators incentivized to stay active and honest?
+
+As a validator you are [rewarded](rewards/chain-rewards.md) for proposing / attesting to blocks that are included in the chain. On the other hand, you can be [penalized for being offline](rewards/chain-rewards.md#validator-penalties) and behaving maliciously—for example attesting to invalid or contradicting blocks.
+
+The key concept is the following:
+
+- Rewards are given for actions that help the network reach consensus.
+- Minor penalties are given for inadvertant actions (or inactions) that hinder consensus.
+- And major penalities (or [slashings](staking-glossary.md#slashable-offenses)) are given for malicious actions.
+
+In other words, you maximize your rewards by providing the greatest benefit to the network as a whole.
 
 ## How much ETH do I need to stake to become a validator?
 
