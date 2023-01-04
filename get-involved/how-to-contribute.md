@@ -1,6 +1,12 @@
 # How to contribute
 
-This is a living documentation site, which means we need help from the community to maintain and update the content. Any contribution, from writing whole sections, translations, to simply correcting spelling and grammar mistakes will be greatly appreciated.
+This is a living documentation site, meaning we need the community's help to maintain and update the content. Any contribution, from writing whole sections and translations to correcting spelling and grammar mistakes will be greatly appreciated.
+
+You can earn GitPOAPs by contributing directly to the EthStaker Knowledge Base (a [contributor↗](https://www.gitpoap.io/gp/881)) and by asking a question that leads to content being created (a [supporter↗](https://www.gitpoap.io/gp/923)).
+
+[![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
+
+To suggest changes or add new content please visit our [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) or if you have any questions please join our [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
 
 Please create a pull request for any changes you want to make and we'll review it as soon as possible.
 
