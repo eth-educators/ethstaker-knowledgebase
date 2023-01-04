@@ -9,7 +9,7 @@ The content is being written and improved with the help of the EthStaker communi
 
 ## Welcome to the EthStaker Knowledge base!
 
-An unbiased, open source collection of useful information and concepts about Ethereum staking. If you're looking to get started staking on Ethereum or simply to learn more about how the network is secured through Proof of Stake (PoS) validators, you've come to the right place!
+An unbiased, open-source collection of useful information and concepts about Ethereum staking. If you're looking to get started staking on Ethereum or simply to learn more about how the network is secured through [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, you've come to the right place!
 
 ## 🔗 Useful Links
 
@@ -54,6 +54,6 @@ Yes! This is a living documentation site, meaning we need the community's help t
 
 You can earn GitPOAPs by contributing directly to the EthStaker Knowledge Base (a [contributor↗](https://www.gitpoap.io/gp/881)) and by asking a question that leads to content being created (a [supporter↗](https://www.gitpoap.io/gp/923)).
 
-[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)[![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)
+[![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
 
 To suggest changes or add new content please visit our [EthStaker Github↗](get-involved/how-to-contribute.md) or if you have any questions please join our [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
