@@ -27,6 +27,8 @@ Please use these notes when writing for this knowledge base to maintain a standa
   * `[Other file anchor link](other_file.md#heading-anchor)` → [Other file link](how-to-contribute.md#documentation-standardization-notes)
 * Show when a link is referencing an external site by adding the ↗ icon at the end of the link.
   * `[External site link ↗](https://example.com)` → [External site link ↗](https://example.com)
+* Create an image that's also a link.
+  * `[![image-text](https://some.site/your-image.jpg)](https://some.site/your-link.html)`
 
 ## Creating/Updating tables of contents
 
