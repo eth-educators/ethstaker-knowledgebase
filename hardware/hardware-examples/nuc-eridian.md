@@ -16,19 +16,19 @@ The machine only needed three parts:
 * [Samsung 970 EVO Plus 2 TB PCIe NVMe M.2 (2280) Internal Solid State Drive (SSD) (MZ-V7S2T0), Black↗](https://www.amazon.co.uk/gp/product/B07MLJD32L)
 * [Corsair Vengeance SODIMM 64GB (2x32GB) DDR4 2666MHz CL18 Memory for Laptop/Notebooks (Intel 6th Generation Intel Core i5 and i7 Processor Support) Black↗](https://www.amazon.co.uk/gp/product/B07YBW84K9)
 
-<figure><img src="../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To open the NUC, simply unscrew the four retaining screws, and detach the ribbon cable.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 The ribbon cable has a small plastic retainer that can be unclipped by hand.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 With the ribbon cable removed, the NUC will look like this:
 
-<figure><img src="../../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 The first component to insert is the SSD. There is a retaining screw that needs to be removed before the SSD is inserted (1).
 
@@ -36,19 +36,19 @@ The SSD is placed in the slot that says "NVMe ONLY" (2). It can only fit one way
 
 Replace the SSD retaining screw (1).
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 The SSD in place should look like this:
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Insert the RAM into the slots. Again, they can only fit one way because of the little notch.
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The finished setup should look like this:
 
-<figure><img src="../../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Replace the NUC base plate and secure the four retaining screws... and that's it!
 

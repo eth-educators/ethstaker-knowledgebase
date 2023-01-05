@@ -24,7 +24,7 @@ Server is a command line only interface. This can feel intimidating at first, bu
 
 There are lots of tools available to flash USB drives with disk images. One that is open source and works across multiple platforms is [https://www.balena.io/etcher↗](https://www.balena.io/etcher/). Simply select the Linux distribution image you downloaded previously, select the USB, then Flash!
 
-<figure><img src="../.gitbook/assets/image (36).png" alt="Balena Etcher Configuration Screen"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt="Balena Etcher Configuration Screen"><figcaption></figcaption></figure>
 
 ### Boot your staking machine from the USB
 
@@ -34,79 +34,79 @@ This step should be as easy as inserting the USB that you flashed with the disk 
 
 Once you have booted from a USB you will be presented with an installation menu. Use the arrow keys (up and down) to move the selection and use the return key (enter) to select the option.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt="Linux installation page"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (2).png" alt="Linux installation page"><figcaption></figcaption></figure>
 
 After selecting `Try or Install Ubuntu Server` you will see a screen like this. You don't need to do anything at this point, the system is just starting up.
 
-<figure><img src="../.gitbook/assets/image (35).png" alt="Linux installation loading screen"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (3).png" alt="Linux installation loading screen"><figcaption></figcaption></figure>
 
 Once the system has started you will be presented with the installation wizard. The first step is to select the language.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt="Linux installation language selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="Linux installation language selection"><figcaption></figcaption></figure>
 
 Select the keyboard layout.
 
-<figure><img src="../.gitbook/assets/image (24).png" alt="Linux installation keyboard selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (23).png" alt="Linux installation keyboard selection"><figcaption></figcaption></figure>
 
 Select the installation type you want to use. For this, select `Ubuntu Server`.
 
-<figure><img src="../.gitbook/assets/image (15).png" alt="Linux installation type selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (28).png" alt="Linux installation type selection"><figcaption></figcaption></figure>
 
 Select a network. If your staking machine uses an ethernet cable for a direct network connection (recommended) then this option should already be populated. If using WiFi, select those details.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="Linux installation network selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25) (1).png" alt="Linux installation network selection"><figcaption></figcaption></figure>
 
 Select a proxy if required. If you are using a standard home network and don't know what this option means, don't worry, just leave it blank.
 
-<figure><img src="../.gitbook/assets/image (10).png" alt="Linux installation proxy selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (1).png" alt="Linux installation proxy selection"><figcaption></figcaption></figure>
 
 Select where you want to download the updates for the operating system from. This location can be selected based on your geographic location so that the downloads are faster. But it's easier to just select the default option that's pre-populated.
 
-<figure><img src="../.gitbook/assets/image (46).png" alt="Linux installation archive mirror selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (1).png" alt="Linux installation archive mirror selection"><figcaption></figcaption></figure>
 
 Select the storage configuration. As your staking machine is most likely a dedicated machine selecting `Use an entire disk` is the best option. Don't worry about encryption as you want your machine to be able to automatically restart, and encrypted disks make that process much more complex.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt="Linux installation storage selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19) (1).png" alt="Linux installation storage selection"><figcaption></figcaption></figure>
 
 You'll be shown a summary screen of the storage configuration. Don't worry about understanding the details, the defaults should all be fine. Simply confirm the settings.
 
-<figure><img src="../.gitbook/assets/image (50).png" alt="Linux installation storage selection summary"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18) (1).png" alt="Linux installation storage selection summary"><figcaption></figcaption></figure>
 
 After confirming the storage settings you will be presented with an additional confirmation screen to make sure that you're ready to completely format and wipe any existing data on the storage disk. That's what we want, so select `Continue`.
 
-<figure><img src="../.gitbook/assets/image (26).png" alt="Linux installation storage confirmation screen"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt="Linux installation storage confirmation screen"><figcaption></figcaption></figure>
 
 Setting up the user profile is important as it's how you will access the machine, both directly and remotely. Select a name for your user and the name for your server that will appear on your local network. Your username is used to login to the machine and the password protects your user account.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt="Linux installation user creation screen"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt="Linux installation user creation screen"><figcaption></figcaption></figure>
 
 At this point it's a good idea to set up the SSH server so you don't have to install it manually later. If you never intend to SSH into your staking machine and only connect to it directly with a keyboard and monitor then you don't need this option.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="Linux installation ssh setup"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21) (1).png" alt="Linux installation ssh setup"><figcaption></figcaption></figure>
 
 This screen might be displayed asking you to select or deselect popular snaps. Don't worry about this page, it might even be empty for you. Simply move on to the next screen.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt="Linux installation server snaps"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (20).png" alt="Linux installation server snaps"><figcaption></figcaption></figure>
 
 At this point, the installation will begin using all the configuration settings you've provided. This can take a few minutes (10 or more) depending on your hardware and configuration. You don't need to do anything, just wait until it completes. At the end of the installation process, you will need to reboot your machine. Select `Reboot Now` and it will ask you to remove the installation device (the USB you used during the installation).
 
-<figure><img src="../.gitbook/assets/image (52).png" alt="Linux installation complete screen"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (26) (1).png" alt="Linux installation complete screen"><figcaption></figcaption></figure>
 
 Once the system reboots you'll see startup information similar to the output below. Wait until that completes and you'll be shown a login screen.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="Linux startup screen "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (15).png" alt="Linux startup screen "><figcaption></figcaption></figure>
 
 This is the login screen for your validator machine. The name of this machine is `eridian-validator`.
 
-<figure><img src="../.gitbook/assets/image (20).png" alt="Linux login screen "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (24) (1).png" alt="Linux login screen "><figcaption></figcaption></figure>
 
 Enter the username you created during the installation. You will then be prompted for your password. As you type your password nothing will be shown on the command line (so it will look like it's not working!) but don't worry, this is for security and the typing is working.&#x20;
 
-<figure><img src="../.gitbook/assets/image (29).png" alt="Linux password input screen "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (1).png" alt="Linux password input screen "><figcaption></figcaption></figure>
 
 And... you're in!
 
-<figure><img src="../.gitbook/assets/image (8).png" alt="Linux successful login screen "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt="Linux successful login screen "><figcaption></figcaption></figure>
 
 Congratulations! You've successfully installed Ubuntu Linux server on your staking machine 🥳
 

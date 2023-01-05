@@ -1,29 +1,29 @@
-# Staking FAQ <!-- omit in toc -->
+# Staking FAQ
 
-- [Can I be slashed for being offline?](#can-i-be-slashed-for-being-offline)
-- [Can I stop running my validator for a few days and then start it back up again?](#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
-- [Can I withdraw my ETH at any time?](#can-i-withdraw-my-eth-at-any-time)
-- [How are validators incentivized to stay active and honest?](#how-are-validators-incentivized-to-stay-active-and-honest)
-- [How much ETH do I need to stake to become a validator?](#how-much-eth-do-i-need-to-stake-to-become-a-validator)
-- [I proposed a block! What did I earn?](#i-proposed-a-block-what-did-i-earn)
-- [Is the deposit/source address shown anywhere?](#is-the-depositsource-address-shown-anywhere)
-- [Is there a penalty for missing a block proposal?](#is-there-a-penalty-for-missing-a-block-proposal)
-- [Is there a penalty for missing an attestation?](#is-there-a-penalty-for-missing-an-attestation)
-- [Is there any advantage to having more than 32 ETH at stake?](#is-there-any-advantage-to-having-more-than-32-eth-at-stake)
-- [Should I set a withdrawal address when setting up my solo staking validator?](#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator)
-- [What exactly is a validator?](#what-exactly-is-a-validator)
-- [What happens if I lose my validator keys?](#what-happens-if-i-lose-my-validator-keys)
-- [What happens if I lose my validator seed phrase / mnemonic?](#what-happens-if-i-lose-my-validator-seed-phrase--mnemonic)
-- [What if I want to stop staking?](#what-if-i-want-to-stop-staking)
-- [What is a node operator?](#what-is-a-node-operator)
-- [What is a validator client?](#what-is-a-validator-client)
-- [What is the deposit contract?](#what-is-the-deposit-contract)
-- [What is the time commitment for running a validator?](#what-is-the-time-commitment-for-running-a-validator)
-- [When should I top up my validator’s balance?](#when-should-i-top-up-my-validators-balance)
-- [Why do I need to have funds at stake?](#why-do-i-need-to-have-funds-at-stake)
-- [Why the 32 ETH maximum?](#why-the-32-eth-maximum)
+* [Can I be slashed for being offline?](faq.md#can-i-be-slashed-for-being-offline)
+* [Can I stop running my validator for a few days and then start it back up again?](faq.md#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
+* [Can I withdraw my ETH at any time?](faq.md#can-i-withdraw-my-eth-at-any-time)
+* [How are validators incentivized to stay active and honest?](faq.md#how-are-validators-incentivized-to-stay-active-and-honest)
+* [How much ETH do I need to stake to become a validator?](faq.md#how-much-eth-do-i-need-to-stake-to-become-a-validator)
+* [I proposed a block! What did I earn?](faq.md#i-proposed-a-block-what-did-i-earn)
+* [Is the deposit/source address shown anywhere?](faq.md#is-the-depositsource-address-shown-anywhere)
+* [Is there a penalty for missing a block proposal?](faq.md#is-there-a-penalty-for-missing-a-block-proposal)
+* [Is there a penalty for missing an attestation?](faq.md#is-there-a-penalty-for-missing-an-attestation)
+* [Is there any advantage to having more than 32 ETH at stake?](faq.md#is-there-any-advantage-to-having-more-than-32-eth-at-stake)
+* [Should I set a withdrawal address when setting up my solo staking validator?](faq.md#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator)
+* [What exactly is a validator?](faq.md#what-exactly-is-a-validator)
+* [What happens if I lose my validator keys?](faq.md#what-happens-if-i-lose-my-validator-keys)
+* [What happens if I lose my validator seed phrase / mnemonic?](faq.md#what-happens-if-i-lose-my-validator-seed-phrase--mnemonic)
+* [What if I want to stop staking?](faq.md#what-if-i-want-to-stop-staking)
+* [What is a node operator?](faq.md#what-is-a-node-operator)
+* [What is a validator client?](faq.md#what-is-a-validator-client)
+* [What is the deposit contract?](faq.md#what-is-the-deposit-contract)
+* [What is the time commitment for running a validator?](faq.md#what-is-the-time-commitment-for-running-a-validator)
+* [When should I top up my validator’s balance?](faq.md#when-should-i-top-up-my-validators-balance)
+* [Why do I need to have funds at stake?](faq.md#why-do-i-need-to-have-funds-at-stake)
+* [Why the 32 ETH maximum?](faq.md#why-the-32-eth-maximum)
 
----
+***
 
 ## Can I be slashed for being offline?
 
@@ -47,9 +47,9 @@ As a validator you are [rewarded](rewards/chain-rewards.md) for proposing / atte
 
 The key concept is the following:
 
-- Rewards are given for actions that help the network reach consensus.
-- Minor penalties are given for inadvertant actions (or inactions) that hinder consensus.
-- And major penalities (or [slashings](staking-glossary.md#slashable-offenses)) are given for malicious actions.
+* Rewards are given for actions that help the network reach consensus.
+* Minor penalties are given for inadvertant actions (or inactions) that hinder consensus.
+* And major penalities (or [slashings](staking-glossary.md#slashable-offenses)) are given for malicious actions.
 
 In other words, you maximize your rewards by providing the greatest benefit to the network as a whole.
 
@@ -63,7 +63,7 @@ Validators that participate in securing the [beacon chain](staking-glossary.md#b
 
 You can view a validator's reward for proposed blocks by looking at the fee recipient address on [etherscan.io↗](https://etherscan.io) under `Produced Blocks`.
 
-<figure><img src=".gitbook/assets/image (12).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
 
 See a detailed explanation here: [How does my validator earn ETH?](rewards/chain-rewards.md)
 
@@ -73,7 +73,7 @@ Yes, the deposit/source address is shown on the validator. It’s not used for a
 
 The deposit/source address can be seen on [beaconcha.in](https://beaconcha.in) under `Deposits` -> `Ethereum Deposits` -> `From Address`.
 
-<figure><img src=".gitbook/assets/image (16).png" alt="Deposit address shown on beaconcha.in"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (3).png" alt="Deposit address shown on beaconcha.in"><figcaption></figcaption></figure>
 
 ## Is there a penalty for missing a block proposal?
 
@@ -99,14 +99,14 @@ And that’s it. Once your validator uses v1 credentials the withdrawal address 
 
 A tool to export the withdrawal key will likely not be created, and it’d also not be very useful. You need the withdrawal key at most twice:
 
-- Once to generate the signing key (only if no withdrawal address was set at that time).
-- Once more to sign a message to set one.
+* Once to generate the signing key (only if no withdrawal address was set at that time).
+* Once more to sign a message to set one.
 
 In both cases the key can be generated inside the CLI tool, be used for its purpose, and then be discarded again without ever being written to disk.
 
 However, there are some cases to be aware of that make it beneficial to **not** set a withdrawal address at the start:
 
-- If you plan to migrate your validator to a pool e.g. (Rocketpool) in the future, then you won't be able to perform this migration if you set a [withdrawal address](staking-glossary.md#withdrawal-address) when you created your validator keys. You would have to wait for withdrawals to be enabled, potentially wait in the withdrawal queue, then re-stake your ETH, potentially waiting in the activation queue as well!
+* If you plan to migrate your validator to a pool e.g. (Rocketpool) in the future, then you won't be able to perform this migration if you set a [withdrawal address](staking-glossary.md#withdrawal-address) when you created your validator keys. You would have to wait for withdrawals to be enabled, potentially wait in the withdrawal queue, then re-stake your ETH, potentially waiting in the activation queue as well!
 
 ## What exactly is a validator?
 
@@ -158,5 +158,4 @@ Each 32 ETH deposit activates one set of validator keys. These keys are used to 
 
 Limiting the maximum stake to 32 ETH per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of ETH that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks.
 
-Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at 32. It is possible to drop below this with poor node performance, but it is not possible to raise above it.
-Do not deposit more than 32 ETH for a single validator. It will not add to your rewards and will be locked until [withdrawals are enabled](faq.md#can-i-withdraw-my-eth-at-any-time).
+Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at 32. It is possible to drop below this with poor node performance, but it is not possible to raise above it. Do not deposit more than 32 ETH for a single validator. It will not add to your rewards and will be locked until [withdrawals are enabled](faq.md#can-i-withdraw-my-eth-at-any-time).
