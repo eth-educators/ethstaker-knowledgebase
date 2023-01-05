@@ -63,7 +63,7 @@ Many centralized exchanges provide staking services if you are not yet comfortab
 
 The trade-off here is that centralized providers consolidate large pools of ETH to run large numbers of validators. This can be dangerous for the network and its users as it creates a large centralized target and point of failure, making the network more vulnerable to attack or bugs.
 
-If you don't feel comfortable holding your own keys, that's okay. These options are here for you. In the meantime, consider checking out our wallets page, where you can get started learning how to take true ownership over your funds. When you're ready, come back and level up your staking game by trying one of the self-custody pooled staking services offered.
+If you don't feel comfortable holding your own keys, that's okay. These options are here for you. In the meantime, consider checking out the [ethereum.org wallets page](https://ethereum.org/wallets/), where you can get started learning how to take true ownership over your funds. When you're ready, come back and level up your staking game by trying one of the self-custody pooled staking services offered.
 
 ---
 
