@@ -5,6 +5,7 @@
 * [Can I withdraw my ETH at any time?](faq.md#can-i-withdraw-my-eth-at-any-time)
 * [How are validators incentivized to stay active and honest?](faq.md#how-are-validators-incentivized-to-stay-active-and-honest)
 * [How much ETH do I need to stake to become a validator?](faq.md#how-much-eth-do-i-need-to-stake-to-become-a-validator)
+* [I am overwhelmed and don't know where to start - what can I do?](faq.md#i-am-overwhelmed-and-dont-know-where-to-start---what-can-i-do)
 * [I proposed a block! What did I earn?](faq.md#i-proposed-a-block-what-did-i-earn)
 * [Is the deposit/source address shown anywhere?](faq.md#is-the-depositsource-address-shown-anywhere)
 * [Is there a penalty for missing a block proposal?](faq.md#is-there-a-penalty-for-missing-a-block-proposal)
@@ -18,6 +19,7 @@
 * [What is a node operator?](faq.md#what-is-a-node-operator)
 * [What is a validator client?](faq.md#what-is-a-validator-client)
 * [What is the deposit contract?](faq.md#what-is-the-deposit-contract)
+* [What is the easiest way to Solo Home Staking?](faq.md#what-is-the-easiest-way-to-solo-home-staking)
 * [What is the time commitment for running a validator?](faq.md#what-is-the-time-commitment-for-running-a-validator)
 * [When should I top up my validator’s balance?](faq.md#when-should-i-top-up-my-validators-balance)
 * [Why do I need to have funds at stake?](faq.md#why-do-i-need-to-have-funds-at-stake)
@@ -56,6 +58,21 @@ In other words, you maximize your rewards by providing the greatest benefit to t
 ## How much ETH do I need to stake to become a validator?
 
 Each key-pair associated with a validator requires locking 32 ETH to be activated, which represents your initial balance as well as your initial and maximum voting power for any validator.
+
+## I am overwhelmed and don't know where to start - what can I do?
+
+Staking on Ethereum gives you many options to participate. This can be overwhelming - no doubt. We all have been there! 
+
+Take it step by step.
+First learn about the [options you have](getting-started/what-is-ethereum-staking.md#how-to-stake-your-eth) and choose what you are most comfortable with.
+There is no need to rush things and risk your precious sleep while doing so.
+
+If you choose "Solo Home Staking" and want to run your own validator, decide between the different [hardware options](hardware/hardware-requirements.md) (f.e. Intel NUC) and follow [a staking guide](tutorials/solo-staking-guides.md) on testnet first. Search for Goerli Testnet Staking Guides. 
+Take notes, find out what happens when you disconnect the power cable of your validator, how to update, etc.  All in all - get confident with your node before staking on Ethereum Mainnet.
+
+And - You don't have to face problems on your own. 
+
+Feel free to ask us any question and join our community on [Discord](https://discord.io/ethstaker).
 
 ## I proposed a block! What did I earn?
 
@@ -139,6 +156,14 @@ A [validator](staking-glossary.md#validator) client is the software that acts on
 ## What is the deposit contract?
 
 You can think of the deposit contract as a transfer of funds from an Ethereum account to a proof-of-stake validator account. It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds.
+
+## What is the easiest way to Solo Home Staking?
+
+Setting up your own validator for "Solo Home Staking" is not difficult.
+
+You can follow step-by-step [staking guides](tutorials/solo-staking-guides.md), which don't take much time at all. See also [time commitment](faq.md#what-is-the-time-commitment-for-running-a-validator).
+
+Nonetheless there are pre-configured hardware options like [Dappnode↗](https://dappnode.com/) or [Avado↗](https://ava.do/) which can make things easier and eliminate the need to interact with the command line interface or Linux in general. You can also install the open source [Dappnode software ↗](https://docs.dappnode.io/user/quick-start/core/installation/) on your own hardware to have a more intuitive staking experience.
 
 ## What is the time commitment for running a validator?
 
