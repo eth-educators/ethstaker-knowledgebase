@@ -4,6 +4,7 @@
 * [Can I stop running my validator for a few days and then start it back up again?](faq.md#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
 * [Can I withdraw my ETH at any time?](faq.md#can-i-withdraw-my-eth-at-any-time)
 * [How are validators incentivized to stay active and honest?](faq.md#how-are-validators-incentivized-to-stay-active-and-honest)
+* [How long do pre-signed exit messages remain valid?](faq.md#how-long-do-pre-signed-exit-messages-remain-valid)
 * [How much ETH do I need to stake to become a validator?](faq.md#how-much-eth-do-i-need-to-stake-to-become-a-validator)
 * [I proposed a block! What did I earn?](faq.md#i-proposed-a-block-what-did-i-earn)
 * [Is the deposit/source address shown anywhere?](faq.md#is-the-depositsource-address-shown-anywhere)
