@@ -53,6 +53,18 @@ The key concept is the following:
 
 In other words, you maximize your rewards by providing the greatest benefit to the network as a whole.
 
+## How long do pre-signed exit messages remain valid?
+
+Pre-signed exit messages only remain valid for two hard forks. After that, you will need to generate new ones.
+
+This comes from [https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#get\_domain](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#get\_domain) and specifically the line:
+
+```
+fork_version = state.fork.previous_version if epoch < state.fork.epoch else state.fork.current_version
+```
+
+An exit message signed at any epoch less than the last hard fork is lumped into a "previous version" bucket and given its fork version. That means that if your operation was signed two fork versions ago the verification function has the wrong fork version, hence the wrong domain, hence the wrong signing root, hence the wrong signature, hence it fails to verify.
+
 ## How much ETH do I need to stake to become a validator?
 
 Each key-pair associated with a validator requires locking 32 ETH to be activated, which represents your initial balance as well as your initial and maximum voting power for any validator.
