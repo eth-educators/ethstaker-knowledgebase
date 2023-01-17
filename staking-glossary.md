@@ -1,69 +1,69 @@
-# Staking glossary <!-- omit in toc -->
+# Staking glossary
 
-- [Attestation](#attestation)
-- [Attestation aggregator](#attestation-aggregator)
-- [Beacon chain](#beacon-chain)
-- [Block](#block)
-- [Block proposer](#block-proposer)
-- [Block status](#block-status)
-  - [Proposed](#proposed)
-  - [Scheduled](#scheduled)
-  - [Missed/skipped](#missedskipped)
-  - [Orphaned](#orphaned)
-- [Canonical chain](#canonical-chain)
-- [Chain head](#chain-head)
-- [Checkpoints](#checkpoints)
-- [Committees](#committees)
-- [Consensus layer](#consensus-layer)
-- [Deposit contract](#deposit-contract)
-- [Effectiveness](#effectiveness)
-- [Epoch](#epoch)
-- [Execution layer](#execution-layer)
-- [Finalization](#finalization)
-  - [Finality issues](#finality-issues)
-- [Fork](#fork)
-- [Genesis block](#genesis-block)
-- [Head vote](#head-vote)
-- [Inactivity leak](#inactivity-leak)
-- [Inclusion distance](#inclusion-distance)
-- [Input data](#input-data)
-- [Justification](#justification)
-- [Light clients](#light-clients)
-- [MEV](#mev)
-- [Mempool](#mempool)
-- [Participation rate](#participation-rate)
-- [Peers](#peers)
-- [Priority fees](#priority-fees)
-- [Private key](#private-key)
-- [Proof of stake (PoS)](#proof-of-stake-pos)
-- [Public key](#public-key)
-- [Signing](#signing)
-- [Slashable offenses](#slashable-offenses)
-  - [Attestation violation](#attestation-violation)
-  - [Proposer violation](#proposer-violation)
-- [Slasher node](#slasher-node)
-- [Slot](#slot)
-- [Source vote](#source-vote)
-- [Staking deposit CLI](#staking-deposit-cli)
-- [Suggested fee recipient](#suggested-fee-recipient)
-- [Sync committee](#sync-committee)
-- [Target vote](#target-vote)
-- [Validator](#validator)
-  - [Eligible for activation \& Estimated activation](#eligible-for-activation--estimated-activation)
-  - [Unique index](#unique-index)
-  - [Current balance \& Effective balance](#current-balance--effective-balance)
-- [Validator lifecycle](#validator-lifecycle)
-    - [1. Deposited](#1-deposited)
-    - [2. Pending](#2-pending)
-    - [3. Active validator](#3-active-validator)
-    - [4. Slashing validator](#4-slashing-validator)
-    - [5. Exiting validator](#5-exiting-validator)
-- [Validator pool](#validator-pool)
-- [Validator queue](#validator-queue)
-- [Validator seed phrase / mnemonic](#validator-seed-phrase--mnemonic)
-- [Withdrawal address](#withdrawal-address)
+* [Attestation](staking-glossary.md#attestation)
+* [Attestation aggregator](staking-glossary.md#attestation-aggregator)
+* [Beacon chain](staking-glossary.md#beacon-chain)
+* [Block](staking-glossary.md#block)
+* [Block proposer](staking-glossary.md#block-proposer)
+* [Block status](staking-glossary.md#block-status)
+  * [Proposed](staking-glossary.md#proposed)
+  * [Scheduled](staking-glossary.md#scheduled)
+  * [Missed/skipped](staking-glossary.md#missedskipped)
+  * [Orphaned](staking-glossary.md#orphaned)
+* [Canonical chain](staking-glossary.md#canonical-chain)
+* [Chain head](staking-glossary.md#chain-head)
+* [Checkpoints](staking-glossary.md#checkpoints)
+* [Committees](staking-glossary.md#committees)
+* [Consensus layer](staking-glossary.md#consensus-layer)
+* [Deposit contract](staking-glossary.md#deposit-contract)
+* [Effectiveness](staking-glossary.md#effectiveness)
+* [Epoch](staking-glossary.md#epoch)
+* [Execution layer](staking-glossary.md#execution-layer)
+* [Finalization](staking-glossary.md#finalization)
+  * [Finality issues](staking-glossary.md#finality-issues)
+* [Fork](staking-glossary.md#fork)
+* [Genesis block](staking-glossary.md#genesis-block)
+* [Head vote](staking-glossary.md#head-vote)
+* [Inactivity leak](staking-glossary.md#inactivity-leak)
+* [Inclusion distance](staking-glossary.md#inclusion-distance)
+* [Input data](staking-glossary.md#input-data)
+* [Justification](staking-glossary.md#justification)
+* [Light clients](staking-glossary.md#light-clients)
+* [MEV](staking-glossary.md#mev)
+* [Mempool](staking-glossary.md#mempool)
+* [Participation rate](staking-glossary.md#participation-rate)
+* [Peers](staking-glossary.md#peers)
+* [Priority fees](staking-glossary.md#priority-fees)
+* [Private key](staking-glossary.md#private-key)
+* [Proof of stake (PoS)](staking-glossary.md#proof-of-stake-pos)
+* [Public key](staking-glossary.md#public-key)
+* [Signing](staking-glossary.md#signing)
+* [Slashable offenses](staking-glossary.md#slashable-offenses)
+  * [Attestation violation](staking-glossary.md#attestation-violation)
+  * [Proposer violation](staking-glossary.md#proposer-violation)
+* [Slasher node](staking-glossary.md#slasher-node)
+* [Slot](staking-glossary.md#slot)
+* [Source vote](staking-glossary.md#source-vote)
+* [Staking deposit CLI](staking-glossary.md#staking-deposit-cli)
+* [Suggested fee recipient](staking-glossary.md#suggested-fee-recipient)
+* [Sync committee](staking-glossary.md#sync-committee)
+* [Target vote](staking-glossary.md#target-vote)
+* [Validator](staking-glossary.md#validator)
+  * [Eligible for activation & Estimated activation](staking-glossary.md#eligible-for-activation--estimated-activation)
+  * [Unique index](staking-glossary.md#unique-index)
+  * [Current balance & Effective balance](staking-glossary.md#current-balance--effective-balance)
+* [Validator lifecycle](staking-glossary.md#validator-lifecycle)
+  * [1. Deposited](staking-glossary.md#1-deposited)
+  * [2. Pending](staking-glossary.md#2-pending)
+  * [3. Active validator](staking-glossary.md#3-active-validator)
+  * [4. Slashing validator](staking-glossary.md#4-slashing-validator)
+  * [5. Exiting validator](staking-glossary.md#5-exiting-validator)
+* [Validator pool](staking-glossary.md#validator-pool)
+* [Validator queue](staking-glossary.md#validator-queue)
+* [Validator seed phrase / mnemonic](staking-glossary.md#validator-seed-phrase--mnemonic)
+* [Withdrawal address](staking-glossary.md#withdrawal-address)
 
----
+***
 
 ## Attestation
 
@@ -83,8 +83,8 @@ Every active validator creates one attestation per [epoch](staking-glossary.md#e
 
 An important component related to effectiveness is the chain head vote. This is a vote the validator makes about what it believes is the latest valid block in the chain at the time of attesting. The structure of a chain head vote consists of the following components:
 
-- Slot - Defines _where_ the validator believes the current chain head to be.
-- Hash - Defines _what_ the validator believes the current chain head to be to be.
+* Slot - Defines _where_ the validator believes the current chain head to be.
+* Hash - Defines _what_ the validator believes the current chain head to be to be.
 
 The combination uniquely defines a point on the blockchain. By combining enough of these chain head votes the Ethereum network reaches consensus about the state of the chain.
 
@@ -111,11 +111,11 @@ A major part of the work of the beacon chain is storing and managing the registr
 
 This registry is used to:
 
-- Assigns validators their duties.
-- Finalizes [checkpoints](staking-glossary.md#checkpoints).
-- Perform a protocol level random number generation (RNG).
-- Progress the beacon chain.
-- Vote on the [head of the chain](staking-glossary.md#chain-head) for the fork choice.
+* Assigns validators their duties.
+* Finalizes [checkpoints](staking-glossary.md#checkpoints).
+* Perform a protocol level random number generation (RNG).
+* Progress the beacon chain.
+* Vote on the [head of the chain](staking-glossary.md#chain-head) for the fork choice.
 
 [_**Source ↗**_](https://notes.ethereum.org/@djrtwo/Bkn3zpwxB#High-level-overview)
 
@@ -169,7 +169,7 @@ A group of at least 128 [validators](staking-glossary.md#validator) assigned to 
 
 ## Consensus layer
 
-TODO
+Ethereum's consensus layer is the network of [consensus clients](validator-clients/consensus-clients.md).
 
 ## Deposit contract
 
@@ -190,7 +190,7 @@ Represents the number of 32 slots (12 seconds) and takes approximately **6.4 min
 
 ## Execution layer
 
-TODO
+Ethereum's execution layer is the network of [execution clients](validator-clients/execution-clients.md).
 
 ## Finalization
 
@@ -258,11 +258,19 @@ Rewards from MEV are paid to the same [suggested fee recipient](staking-glossary
 
 ## Mempool
 
-TODO
+When an Ethereum node receives a transaction, it is not instantly added to a block. The transaction is held in a waiting area or a buffer zone.
+
+The transaction goes from a number of levels of verification such as it checks whether the output is greater than the input, whether the signature is valid or not, etc., and then only it is added to a block. The transaction is not added to a block if it fails any of these validations. The role of a mempool comes while a transaction is going through these checks. It is simply kept in this waiting area or a mempool. As soon as the transaction confirms, it is removed from the mempool and added to a block. Mempool is not a master reference shared universally by all nodes. There’s no “one” mempool. This means each node configures its own rules for the node’s mempool. In fact, a node can be the first to receive a transaction but it is possible that it might not have propagated the transaction to the rest of the network.
+
+****[**Source ↗**](https://www.geeksforgeeks.org/what-is-ethereum-mempool/)****
 
 ## Participation rate
 
-TODO
+The participation rate is the percentage of validators that are online and performing their duties.
+
+If the validator set is 1,000 validators, and 250 validators are offline or rarely making proposals or attestations, then it could be estimated that the participation rate is 75%.
+
+****[**Source ↗**](https://ethereum.stackexchange.com/questions/87503)****
 
 ## Peers
 
@@ -274,7 +282,7 @@ Almost all transaction on Ethereum set a [priority fee ↗](https://ethereum.org
 
 ## Private key
 
-TODO
+A secret number that allows Ethereum users to prove ownership of an account or contracts, by producing a digital signature.
 
 ## Proof of stake (PoS)
 
@@ -282,7 +290,7 @@ A method by which a cryptocurrency blockchain protocol aims to achieve distribut
 
 ## Public key
 
-TODO
+A number, derived via a one-way function from a [private key](staking-glossary.md#private-key), which can be shared publicly and used by anyone to verify a digital signature made with the corresponding private key.
 
 ## Signing
 
@@ -298,12 +306,12 @@ There are three ways a validator can be slashed, all of which amount to the dish
 
 ### Attestation violation
 
-- **Double voting**: Signing two different [attestations](staking-glossary.md#attestation) in one [epoch](staking-glossary.md#epoch).
-- **Surround votes**: Attesting to a block that "surrounds" another one (effectively changing history).
+* **Double voting**: Signing two different [attestations](staking-glossary.md#attestation) in one [epoch](staking-glossary.md#epoch).
+* **Surround votes**: Attesting to a block that "surrounds" another one (effectively changing history).
 
 ### Proposer violation
 
-- **Double block proposal**: [Proposing](staking-glossary.md#block-proposer) and [signing](staking-glossary.md#signing) two different [blocks](staking-glossary.md#block) for the same [slot](staking-glossary.md#slot).
+* **Double block proposal**: [Proposing](staking-glossary.md#block-proposer) and [signing](staking-glossary.md#signing) two different [blocks](staking-glossary.md#block) for the same [slot](staking-glossary.md#slot).
 
 ## Slasher node
 
@@ -320,11 +328,13 @@ The validator has made a timely vote for the correct source [checkpoint](staking
 
 ## Staking deposit CLI
 
-TODO
+A command-line tool used to generate validator keys and deposit data files.
+
+* [https://github.com/ethereum/staking-deposit-cli](https://github.com/ethereum/staking-deposit-cli)
 
 ## Suggested fee recipient
 
-TODO
+The fee recipient is an Ethereum address nominated by a [Beacon Chain](staking-glossary.md#beacon-chain) validator to receive tips from user transactions and [MEV](staking-glossary.md#mev).
 
 ## Sync committee
 
@@ -354,9 +364,9 @@ In order to increase the effective balance, the validator requires “effective 
 
 Here are examples on how the effective balance changes:
 
-- If the Current balance is 32.00 ETH – the Effective balance is 32.00 ETH.
-- If the Current balance dropped from 22 ETH to 21.76 ETH – Effective balance will be **22.00 ETH**.
-- If the Current balance increases to 22.25 **and** the effective balance is 21 ETH, the effective balance will increase to 22 ETH.
+* If the Current balance is 32.00 ETH – the Effective balance is 32.00 ETH.
+* If the Current balance dropped from 22 ETH to 21.76 ETH – Effective balance will be **22.00 ETH**.
+* If the Current balance increases to 22.25 **and** the effective balance is 21 ETH, the effective balance will increase to 22 ETH.
 
 ## Validator lifecycle
 
@@ -376,9 +386,9 @@ Currently attesting and proposing blocks.
 
 The validator will stay active until:
 
-- Its balance drops below 16 ETH (ejected).
-- Voluntary exit.
-- It gets slashed.
+* Its balance drops below 16 ETH (ejected).
+* Voluntary exit.
+* It gets slashed.
 
 #### 4. Slashing validator
 
@@ -389,8 +399,8 @@ The Validator has been malicious and will be slashed and kicked out of the syste
 
 #### 5. Exiting validator
 
-- **Ejected**: The validator balance fell below a threshold and was kicked out by the network.
-- **Exited**: Voluntary exit, the withdrawal key holder has the ability to **withdraw** the current balance of the corresponding validator balance.
+* **Ejected**: The validator balance fell below a threshold and was kicked out by the network.
+* **Exited**: Voluntary exit, the withdrawal key holder has the ability to **withdraw** the current balance of the corresponding validator balance.
 
 ## Validator pool
 
@@ -400,14 +410,14 @@ The number of currently active validators securing the Ethereum network. The cur
 
 The validator queue is a first-in-first-out queue for activating and exiting validators on the [Beacon Chain](staking-glossary.md#beacon-chain).
 
-- Until 327680 active validators in the network, 4 validators can be activated per [epoch](staking-glossary.md#epoch). For every (4 \* 16384) = **65536** active validators, the validator **activation rate** goes up by one.
-- 5 validators per epoch requires 327680 active validators, allowing 1125 validators per day.
-- 6 validators per epoch requires 393216 active validators, allowing 1350 validators per day.
-- 7 validators per epoch requires 458752 active validators, allowing 1575 validators per day.
-- 8 validators per epoch requires 524288 active validators, allowing 1800 validators per day.
-- 9 validators per epoch requires 589824 active validators, allowing 2025 validators per day.
-- 10 validators per epoch requires 655360 active validators, allowing 2200 validators per day.
-- Amount of activations scales with the amount of active validators and the limit is the active validator set divided by 64.
+* Until 327680 active validators in the network, 4 validators can be activated per [epoch](staking-glossary.md#epoch). For every (4 \* 16384) = **65536** active validators, the validator **activation rate** goes up by one.
+* 5 validators per epoch requires 327680 active validators, allowing 1125 validators per day.
+* 6 validators per epoch requires 393216 active validators, allowing 1350 validators per day.
+* 7 validators per epoch requires 458752 active validators, allowing 1575 validators per day.
+* 8 validators per epoch requires 524288 active validators, allowing 1800 validators per day.
+* 9 validators per epoch requires 589824 active validators, allowing 2025 validators per day.
+* 10 validators per epoch requires 655360 active validators, allowing 2200 validators per day.
+* Amount of activations scales with the amount of active validators and the limit is the active validator set divided by 64.
 
 Exiting validators works in the same way, with the amount of validators that can exit the Beacon Chain per day rate limited to preserve the stability of the network.
 

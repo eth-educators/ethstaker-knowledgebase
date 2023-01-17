@@ -29,7 +29,7 @@
 * [Hardware examples](hardware/hardware-examples/README.md)
   * [NUC - Eridian](hardware/hardware-examples/nuc-eridian.md)
 * [Hardware security](hardware/hardware-security.md)
-* [Hardware best practises](hardware/hardware-best-practises.md)
+* [Hardware best practices](hardware/hardware-best-practices.md)
 
 ## ⛓ Validator Clients
 
