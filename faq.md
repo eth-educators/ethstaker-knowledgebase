@@ -40,6 +40,8 @@ Yes, but with small penalties. See [I'm worried about downtime](help/downtime-ex
 
 Withdrawals are not currently enabled on the [beacon chain](staking-glossary.md#beacon-chain). This means that any ETH deposited will be locked in the staking contract until a future time (expected to be in 2023 but this time frame is an estimate) when an upgrade to the network allows withdrawals.
 
+Ethereum Foundation Withdrawals FAQ: [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
+
 If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](rewards/chain-rewards.md#priority-fees) and [MEV](rewards/chain-rewards.md#mev) (if you are using an [MEV-Boost](validator-clients/mev-boost.md) relay).
 
 In future, when withdrawals have been enabled, you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](staking-glossary.md#validator-queue).
@@ -74,16 +76,13 @@ Each key-pair associated with a validator requires locking 32 ETH to be activate
 
 ## I am overwhelmed and don't know where to start - what can I do?
 
-Staking on Ethereum gives you many options to participate. This can be overwhelming - no doubt. We all have been there! 
+Staking on Ethereum gives you many options to participate. This can be overwhelming - no doubt. We all have been there!
 
-Take it step by step.
-First learn about the [options you have](getting-started/what-is-ethereum-staking.md#how-to-stake-your-eth) and choose what you are most comfortable with.
-There is no need to rush things and risk your precious sleep while doing so.
+Take it step by step. First learn about the [options you have](getting-started/what-is-ethereum-staking.md#how-to-stake-your-eth) and choose what you are most comfortable with. There is no need to rush things and risk your precious sleep while doing so.
 
-If you choose "Solo Home Staking" and want to run your own validator, decide between the different [hardware options](hardware/hardware-requirements.md) (f.e. Intel NUC) and follow [a staking guide](tutorials/solo-staking-guides.md) on testnet first. Search for Goerli Testnet Staking Guides. 
-Take notes, find out what happens when you disconnect the power cable of your validator, how to update, etc.  All in all - get confident with your node before staking on Ethereum Mainnet.
+If you choose "Solo Home Staking" and want to run your own validator, decide between the different [hardware options](hardware/hardware-requirements.md) (f.e. Intel NUC) and follow [a staking guide](tutorials/solo-staking-guides.md) on testnet first. Search for Goerli Testnet Staking Guides. Take notes, find out what happens when you disconnect the power cable of your validator, how to update, etc. All in all - get confident with your node before staking on Ethereum Mainnet.
 
-And - You don't have to face problems on your own. 
+And - You don't have to face problems on your own.
 
 Feel free to ask us any question and join our community on [Discord](https://discord.io/ethstaker).
 
