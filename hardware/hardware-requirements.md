@@ -111,7 +111,9 @@ Enterprise servers are jam packed with features, and are specifically designed t
 
 ### [**Avado**](https://ava.do/shop)
 
-A competitor to the DAppNode machines above. Their OS is not open source and they are more expensive than DAppNodes. Perhaps their OS has amazing UX and performance which justifies this price. I am not sure, I have not used it.
+Avado is an easy home-staking solution for people with limited technical knowledge or limited time. The Avado boxes are pre-configured computers with a user-friendly UI that allows you to use and manage the device from anywhere in the world.
+
+Using an AVADO is convenient, secure and true to the spirit of decentralization.
 
 ### [**M1 Mac Mini**](https://www.apple.com/shop/buy-mac/mac-mini)
 
