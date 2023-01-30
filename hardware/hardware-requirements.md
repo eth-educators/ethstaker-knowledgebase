@@ -123,7 +123,7 @@ Using an AVADO is convenient, secure and true to the spirit of decentralization.
 
 **Power Usage:** Slightly less than the NUC, but not enough to make any real difference.
 
-It's not possible to run Linux on the new ARM architecture this uses. It is more expensive that the NUC and also falls short on upgradability, and ease of service, but for the Mac OS fans out there this is a great option that will work very well.
+It's not possible to run Linux on the new ARM architecture this uses. It is more expensive that the NUC and also falls short on upgradeability, and ease of service, but for the Mac OS fans out there this is a great option that will work very well.
 
 ### **Virtual Private Server**
 

@@ -53,8 +53,8 @@ As a validator you are [rewarded](rewards/chain-rewards.md) for proposing / atte
 The key concept is the following:
 
 * Rewards are given for actions that help the network reach consensus.
-* Minor penalties are given for inadvertant actions (or inactions) that hinder consensus.
-* And major penalities (or [slashings](staking-glossary.md#slashable-offenses)) are given for malicious actions.
+* Minor penalties are given for inadvertent actions (or inactions) that hinder consensus.
+* And major penalties (or [slashings](staking-glossary.md#slashable-offenses)) are given for malicious actions.
 
 In other words, you maximize your rewards by providing the greatest benefit to the network as a whole.
 
