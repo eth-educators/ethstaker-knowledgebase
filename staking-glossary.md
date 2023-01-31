@@ -1,5 +1,6 @@
 # Staking glossary
 
+* [Archival node](staking-glossary.md#archival-node)
 * [Attestation](staking-glossary.md#attestation)
 * [Attestation aggregator](staking-glossary.md#attestation-aggregator)
 * [Beacon chain](staking-glossary.md#beacon-chain)
@@ -22,6 +23,7 @@
 * [Finalization](staking-glossary.md#finalization)
   * [Finality issues](staking-glossary.md#finality-issues)
 * [Fork](staking-glossary.md#fork)
+* [Full node](staking-glossary.md#full-node)
 * [Genesis block](staking-glossary.md#genesis-block)
 * [Head vote](staking-glossary.md#head-vote)
 * [Inactivity leak](staking-glossary.md#inactivity-leak)
@@ -64,6 +66,18 @@
 * [Withdrawal address](staking-glossary.md#withdrawal-address)
 
 ***
+
+## Archival node
+
+* Stores everything kept in a [full node](staking-glossary.md#full-node) and builds an archive of historical states.&#x20;
+* Archive nodes are required if you want to query something like an account balance at a particular block.
+* This data represents units of terabytes (more than 20TB for Geth), which makes archive nodes less attractive for most users but can be handy for services like block explorers, wallet vendors, and chain analytics.
+
+Syncing clients in any mode other than archive will result in pruned blockchain data. This means, there is no archive of all historical states but the full node is able to build them on demand.
+
+Archive nodes aren't required to participate in block validation and can theoretically be built from scratch by simply replaying the blocks from genesis.&#x20;
+
+****[**Source ↗**](https://ethereum.org/en/developers/docs/nodes-and-clients/#archive-node)
 
 ## Attestation
 
@@ -207,6 +221,12 @@ During finality issues, the validator [entry queue](staking-glossary.md#validato
 ## Fork
 
 A change in protocol causing the creation of an alternative chain or a temporal divergence into two potential block paths.
+
+## Full node
+
+Stores and maintains the full blockchain data on disk. It serves blockchain data upon request and helps support the network by participating in block validation and by verifying all blocks and states. All states can be derived from a Full node.
+
+****[**Source ↗**](https://www.quicknode.com/guides/infrastructure/ethereum-full-node-vs-archive-node)****
 
 ## Genesis block
 
