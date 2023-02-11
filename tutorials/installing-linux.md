@@ -38,7 +38,7 @@ Once you have booted from a USB you will be presented with an installation menu.
 
 After selecting `Try or Install Ubuntu Server` you will see a screen like this. You don't need to do anything at this point, the system is just starting up.
 
-<figure><img src="../.gitbook/assets/image (7) (3).png" alt="Linux installation loading screen"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27) (1).png" alt="Linux installation loading screen"><figcaption></figcaption></figure>
 
 Once the system has started you will be presented with the installation wizard. The first step is to select the language.
 
@@ -80,7 +80,7 @@ Setting up the user profile is important as it's how you will access the machine
 
 <figure><img src="../.gitbook/assets/image (14).png" alt="Linux installation user creation screen"><figcaption></figcaption></figure>
 
-At this point it's a good idea to set up the SSH server so you don't have to install it manually later. If you never intend to SSH into your staking machine and only connect to it directly with a keyboard and monitor then you don't need this option.
+At this point it's a good idea to set up the SSH server so you don't have to install it manually later. If you never intend to SSH into your staking machine and only connect to it directly with a keyboard and monitor then you don't need this option. For information on SSH connections see the tutorial [Connect with SSH](connect-via-ssh.md).
 
 <figure><img src="../.gitbook/assets/image (21) (1).png" alt="Linux installation ssh setup"><figcaption></figcaption></figure>
 
@@ -102,7 +102,7 @@ This is the login screen for your validator machine. The name of this machine is
 
 Enter the username you created during the installation. You will then be prompted for your password. As you type your password nothing will be shown on the command line (so it will look like it's not working!) but don't worry, this is for security and the typing is working.&#x20;
 
-<figure><img src="../.gitbook/assets/image (22) (1).png" alt="Linux password input screen "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt="Linux password input screen "><figcaption></figcaption></figure>
 
 And... you're in!
 

@@ -100,7 +100,7 @@ Please login, read and accept the EULA and we are ready to go!&#x20;
 
 We need to make a few network changes, for this please navigate to Configuration > Network Settings
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 5.1) - Changing the VPN traffic port
 
@@ -128,7 +128,7 @@ We are going to configure the admin UI and the client UI to run on different por
 
 On the same page "Network Settings", please scroll down to the bottom and find "Client Web Server" and toggle the "Use a different IP address or port" setting.
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
 
 Now we can change which port we want the client web server to run on, you can make this any port of your choosing. I chose 9515.
 
@@ -162,7 +162,7 @@ Please navigate to "User management" > "User Permissions".
 
 From here, you can add a new user. Please type out a username and tick the "Allow Auto-login" box, then select the "More Settings" box.
 
-<figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption><p>"Allow Auto-Login", and then "More Settings"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>"Allow Auto-Login", and then "More Settings"</p></figcaption></figure>
 
 You can now set a password for the account in the new options that appear when you click "More Settings".
 
@@ -174,7 +174,7 @@ Once done, please "Save Settings" and "Update Running Server" again.
 
 If you are one of the lucky ones that had to do [step 5.4](setting-up-home-vpn-access.md#step-5.4-advanced-users-only-adding-a-static-route), then you may also need to add your Ethereum node/validator subnet to the user account too.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 7) Unblock local ports.
 
@@ -209,7 +209,7 @@ This website will show you if your ports have been opened correctly.
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>(IP Address redacted) - My VPN traffic port is open.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>(IP Address redacted) - My client web UI port is open.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>(IP Address redacted) - My client web UI port is open.</p></figcaption></figure>
 
 ### Step 9) - Configure a device for VPN access.
 
