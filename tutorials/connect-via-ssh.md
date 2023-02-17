@@ -136,7 +136,7 @@ Auto Lock is a useful feature to add additional security to your portable device
 
 And that's it! You can now connect to your home staking validator remotely from your iOS device 🗺️
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (3).png>)
 
 ## Generating SSH keys
 

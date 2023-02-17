@@ -100,7 +100,7 @@ Please login, read and accept the EULA and we are ready to go!&#x20;
 
 We need to make a few network changes, for this please navigate to Configuration > Network Settings
 
-<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 5.1) - Changing the VPN traffic port
 

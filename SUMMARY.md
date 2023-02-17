@@ -57,6 +57,7 @@
 * [Safely migrating validator keys](tutorials/validator-key-migration.md)
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
 * [Setting up home VPN access](tutorials/setting-up-home-vpn-access.md)
+* [Methods to minimize downtime](tutorials/methods-to-minimize-downtime.md)
 
 ## ✏️ Get Involved
 

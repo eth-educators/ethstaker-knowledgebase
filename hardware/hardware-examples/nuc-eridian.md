@@ -20,7 +20,7 @@ The machine only needed three parts:
 
 To open the NUC, simply unscrew the four retaining screws, and detach the ribbon cable.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 The ribbon cable has a small plastic retainer that can be unclipped by hand.
 

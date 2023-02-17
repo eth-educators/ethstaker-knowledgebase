@@ -44,7 +44,7 @@ If you are using a hypervisor to host your nodes/validators, then you should set
 
 It is common practice to configure your execution node, consensus node and consensus validators as services and set them to automatically start once the OS has booted. This can be done with systemd.
 
-Somer Esat has written great guides and has a few examples that can be referenced, [one of which can be found here. ](https://someresat.medium.com/guide-to-staking-on-ethereum-2-0-ubuntu-lighthouse-41de20513b12)There are three examples in that guide are "geth.service", "lighthousebeacon.service" and "lighthousevalidator.service"
+Somer Esat has written great guides and has a few examples that can be referenced, [one of which can be found here. ](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03)There are three examples in that guide are "geth.service", "lighthousebeacon.service" and "lighthousevalidator.service"
 
 
 
