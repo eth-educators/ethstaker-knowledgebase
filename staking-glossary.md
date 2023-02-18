@@ -14,6 +14,7 @@
 * [Canonical chain](staking-glossary.md#canonical-chain)
 * [Chain head](staking-glossary.md#chain-head)
 * [Checkpoints](staking-glossary.md#checkpoints)
+* [Client](staking-glossary.md#client)
 * [Committees](staking-glossary.md#committees)
 * [Consensus layer](staking-glossary.md#consensus-layer)
 * [Deposit contract](staking-glossary.md#deposit-contract)
@@ -25,6 +26,7 @@
 * [Fork](staking-glossary.md#fork)
 * [Full node](staking-glossary.md#full-node)
 * [Genesis block](staking-glossary.md#genesis-block)
+* [Hard fork](staking-glossary.md#hard-fork)
 * [Head vote](staking-glossary.md#head-vote)
 * [Inactivity leak](staking-glossary.md#inactivity-leak)
 * [Inclusion distance](staking-glossary.md#inclusion-distance)
@@ -33,6 +35,8 @@
 * [Light clients](staking-glossary.md#light-clients)
 * [MEV](staking-glossary.md#mev)
 * [Mempool](staking-glossary.md#mempool)
+* [Node](staking-glossary.md#node)
+* [Operator](staking-glossary.md#operator)
 * [Participation rate](staking-glossary.md#participation-rate)
 * [Peers](staking-glossary.md#peers)
 * [Priority fees](staking-glossary.md#priority-fees)
@@ -45,7 +49,9 @@
   * [Proposer violation](staking-glossary.md#proposer-violation)
 * [Slasher node](staking-glossary.md#slasher-node)
 * [Slot](staking-glossary.md#slot)
+* [Solo staker](staking-glossary.md#solo-staker)
 * [Source vote](staking-glossary.md#source-vote)
+* [Staker](staking-glossary.md#staker)
 * [Staking deposit CLI](staking-glossary.md#staking-deposit-cli)
 * [Suggested fee recipient](staking-glossary.md#suggested-fee-recipient)
 * [Sync committee](staking-glossary.md#sync-committee)
@@ -177,6 +183,10 @@ The latest block received by a validator. This does not necessarily mean it is t
 
 The [Beacon Chain](staking-glossary.md#beacon-chain) has a tempo divided into [slots](staking-glossary.md#slot) (12 seconds) and [epochs](staking-glossary.md#epoch) (32 slots). The first slot in each epoch is a checkpoint. When a supermajority of validators [attests](staking-glossary.md#attestation) to the link between two checkpoints, they can be [justified](staking-glossary.md#justification) and then when another checkpoint is justified on top, they can be [finalized](staking-glossary.md#finalization).
 
+## Client
+
+An implementation of Ethereum software that verifies transactions in a block. These can be [consensus layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#consensus-clients) or [execution layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients). Each validator needs both an execution layer client and a consensus layer client. 
+
 ## Committees
 
 A group of at least 128 [validators](staking-glossary.md#validator) assigned to validate blocks in each [slot](staking-glossary.md#slot). One of the validators in the committee is the aggregator, responsible for aggregating the signatures of all other validators in the committee that agree on an attestation. Not to be confused with [sync committees](staking-glossary.md#sync-committee).
@@ -220,7 +230,7 @@ During finality issues, the validator [entry queue](staking-glossary.md#validato
 
 ## Fork
 
-A change in protocol causing the creation of an alternative chain or a temporal divergence into two potential block paths.
+A change in protocol causing the creation of an alternative chain or a temporal divergence into two potential block paths. Also see [hard fork](staking-glossary.md#hard-fork)
 
 ## Full node
 
@@ -231,6 +241,10 @@ Stores and maintains the full blockchain data on disk. It serves blockchain data
 ## Genesis block
 
 The first block in a blockchain, used to initialize a particular network and its cryptocurrency.
+
+## Hard fork
+
+A hard fork occurs when an update is being pushed to the Ethereum network and the new version of the software forks from the old version. Usually requires operators to update their validator software to stay on the correct side of the fork. Also see [fork](staking-glossary.md#fork)
 
 ## Head vote
 
@@ -283,6 +297,14 @@ When an Ethereum node receives a transaction, it is not instantly added to a blo
 The transaction goes from a number of levels of verification such as it checks whether the output is greater than the input, whether the signature is valid or not, etc., and then only it is added to a block. The transaction is not added to a block if it fails any of these validations. The role of a mempool comes while a transaction is going through these checks. It is simply kept in this waiting area or a mempool. As soon as the transaction confirms, it is removed from the mempool and added to a block. Mempool is not a master reference shared universally by all nodes. There’s no “one” mempool. This means each node configures its own rules for the node’s mempool. In fact, a node can be the first to receive a transaction but it is possible that it might not have propagated the transaction to the rest of the network.
 
 ****[**Source ↗**](https://www.geeksforgeeks.org/what-is-ethereum-mempool/)****
+
+## Node
+
+Any instance of Ethereum client software that is connected to other computers also running Ethereum software, forming a network. A node doesn’t necessarily need a validator but a validator requires a node. Running a node by itself does not generate any revenue but does contribute to the robustness of the network.
+
+## Operator
+
+A person who maintains a validator
 
 ## Participation rate
 
@@ -342,9 +364,17 @@ The [**slasher**](https://github.com/Buttaa/ethstaker/blob/main/slasher.md) **is
 **32 Slots = 1** [**Epoch**](staking-glossary.md#epoch)\
 A time period of **12 seconds** in which a randomly chosen validator has time to propose a block. The total number of validators is split up in [committees](staking-glossary.md#committees) and one or more individual committees are responsible to attest to each slot. One validator from the committee will be chosen to be the aggregator, while the other 127 validators are attesting. After each Epoch, the validators are mixed and merged to new committees. Each slot may or may not have a block in it as a validatory could miss their proposal (e.g. they may be offline or submit their block too late). There is a minimum of 128 validators per committee.
 
+## Solo staker
+
+An operator who runs a validator on the Ethereum network without a protocol between their validator and the Beaconchain
+
 ## Source vote
 
 The validator has made a timely vote for the correct source [checkpoint](staking-glossary.md#checkpoint).
+
+## Staker
+
+Someone who has deposited ETH into a validator to secure the network. This can be someone who runs a validator (an operator) or someone who deposited their ETH into a pool, where someone else is the operator of the validator.
 
 ## Staking deposit CLI
 
@@ -366,7 +396,8 @@ The validator has made a timely vote for the correct target [checkpoint](staking
 
 ## Validator
 
-A node in a [Proof of Stake (Pos)](staking-glossary.md#proof-of-stake-pos) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To activate validator software, you need to be able to stake 32 ETH. A validators job is to propose blocks and sign attestations. It has to be online for at least 50% of the time in order to have positive returns.
+A node in a [Proof of Stake (Pos)](staking-glossary.md#proof-of-stake-pos) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To activate validator software, you need to be able to stake 32 ETH. A validators job is to propose blocks and sign attestations. It has to be online for at least 50% of the time in order to have positive returns. 
+A validator is run by an operator (a human), on hardware (a computer) and is paired with a node (many thousand validators can run on one node).
 
 ### Eligible for activation & Estimated activation
 
