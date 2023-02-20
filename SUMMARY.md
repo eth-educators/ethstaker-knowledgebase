@@ -31,6 +31,12 @@
 * [Hardware security](hardware/hardware-security.md)
 * [Hardware best practices](hardware/hardware-best-practices.md)
 
+## 🖧 Networking
+
+* [Port forwarding](networking/port-forwarding.md)
+* [Firewalls and subnetting](networking/firewalls-and-subnetting.md)
+* [Setting up home VPN access](networking/setting-up-home-vpn-access.md)
+
 ## ⛓ Validator Clients
 
 * [Validator clients explained](validator-clients/validator-clients-explained.md)
@@ -44,20 +50,19 @@
 
 * [Secure key generation](validator-keys/secure-key-generation.md)
 * [Key management](validator-keys/key-management.md)
+* [SSH Security - 2FA](validator-keys/ssh-security-2fa.md)
 * [Slashing protection](validator-keys/slashing-protection.md)
 
 ## 📕 Tutorials
 
 * [Installing Linux](tutorials/installing-linux.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
-* [SSH Security - 2FA](tutorials/ssh-security-2fa.md)
 * [Solo staking guides](tutorials/solo-staking-guides.md)
 * [Configuring an RPC endpoint](tutorials/rpc-endpoint.md)
 * [How to resync Geth](tutorials/resync-geth.md)
+* [Methods to minimize downtime](tutorials/methods-to-minimize-downtime.md)
 * [Safely migrating validator keys](tutorials/validator-key-migration.md)
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
-* [Setting up home VPN access](tutorials/setting-up-home-vpn-access.md)
-* [Methods to minimize downtime](tutorials/methods-to-minimize-downtime.md)
 
 ## ✏️ Get Involved
 

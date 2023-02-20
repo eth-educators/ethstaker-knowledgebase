@@ -74,7 +74,7 @@ You'll be shown a summary screen of the storage configuration. Don't worry about
 
 After confirming the storage settings you will be presented with an additional confirmation screen to make sure that you're ready to completely format and wipe any existing data on the storage disk. That's what we want, so select `Continue`.
 
-<figure><img src="../.gitbook/assets/image (7) (2).png" alt="Linux installation storage confirmation screen"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt="Linux installation storage confirmation screen"><figcaption></figcaption></figure>
 
 Setting up the user profile is important as it's how you will access the machine, both directly and remotely. Select a name for your user and the name for your server that will appear on your local network. Your username is used to login to the machine and the password protects your user account.
 

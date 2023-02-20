@@ -18,8 +18,8 @@ _Answer_ - A VPN server introduces another layer of security. To connect to your
 * You will need a public static IP address or a DNS for your home network.
 * This tutorial assumes you have Ubuntu Server 22.04 LTS installed and running. If not, no stress! You can follow the below link for a tutorial on how to do that.
 
-{% content-ref url="installing-linux.md" %}
-[installing-linux.md](installing-linux.md)
+{% content-ref url="../tutorials/installing-linux.md" %}
+[installing-linux.md](../tutorials/installing-linux.md)
 {% endcontent-ref %}
 
 ### Recommendations
@@ -106,7 +106,7 @@ We need to make a few network changes, for this please navigate to Configuration
 
 Please find the "Multi-Daemon Mode" section, and edit both ports away from the default ports. This is for security purposes. These ports can be the same number. I picked 9514, but this is an example only, I recommend choosing your own ports.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>"9514" is an example port only.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>"9514" is an example port only.</p></figcaption></figure>
 
 #### **Step 5.2) - Adding in our public IP**
 
@@ -174,7 +174,7 @@ Once done, please "Save Settings" and "Update Running Server" again.
 
 If you are one of the lucky ones that had to do [step 5.4](setting-up-home-vpn-access.md#step-5.4-advanced-users-only-adding-a-static-route), then you may also need to add your Ethereum node/validator subnet to the user account too.
 
-<figure><img src="../.gitbook/assets/image (7) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 7) Unblock local ports.
 
@@ -209,7 +209,7 @@ This website will show you if your ports have been opened correctly.
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption><p>(IP Address redacted) - My VPN traffic port is open.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>(IP Address redacted) - My client web UI port is open.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>(IP Address redacted) - My client web UI port is open.</p></figcaption></figure>
 
 ### Step 9) - Configure a device for VPN access.
 

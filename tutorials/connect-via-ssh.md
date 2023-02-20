@@ -11,7 +11,7 @@ SSH is a command line tool that allows direct access to a remote machine. This t
 5. [Generating SSH keys](connect-via-ssh.md#generating-ssh-keys)
 6. [Changing the default SSH Port](connect-via-ssh.md#changing-the-default-ssh-port)
 
-This tutorial won't cover the networking setup required to get a static IP, hostname and/or [VPN](setting-up-home-vpn-access.md) as those are covered in other tutorials.
+This tutorial won't cover the networking setup required to get a static IP, hostname and/or [VPN](../networking/setting-up-home-vpn-access.md) as those are covered in other tutorials.
 
 While SSH on its own is a great tool, there are some limitations that can be frustrating when connecting over a poor internet connection. For example, if the internet drops even for a second (if you're in a moving car or train) or you change WiFi networks, the SSH connection will be closed.&#x20;
 
@@ -77,7 +77,7 @@ ssh -p <PORT> <USERNAME>@<IP_ADDRESS>
 
 **Benefits of using Mosh:**
 
-* If you have an intermittent internet connection (e.g. a mobile connection or you're in a moving vehicle) a standard SSH connection will fail whenever the connection is lost. The connection must then be manually re-established, which can be annoying if it happens often and you are using additional security steps such as [2FA](ssh-security-2fa.md). Mosh allows connections to be dropped and automatically re-established when the internet signal reconnects.
+* If you have an intermittent internet connection (e.g. a mobile connection or you're in a moving vehicle) a standard SSH connection will fail whenever the connection is lost. The connection must then be manually re-established, which can be annoying if it happens often and you are using additional security steps such as [2FA](../validator-keys/ssh-security-2fa.md). Mosh allows connections to be dropped and automatically re-established when the internet signal reconnects.
 * Mosh uses a predictive interface for typing commands into the console. Standard SSH only shows the typed command once it has returned from the remote server. If you have a slow connection, this can be perceived as a laggy/slow interface. Mosh displays the text as you type commands, giving a much nicer user experience.
 
 **Limitations of using Mosh:**
@@ -120,7 +120,7 @@ On your device (iPhone or iPad) open the Blink Shell app and type:
 config
 ```
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (8).png>)
 
 Keys & Certificates can be added if you are using an SSH key for your connections:
 
