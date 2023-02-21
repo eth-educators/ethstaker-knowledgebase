@@ -66,11 +66,17 @@ Select where you want to download the updates for the operating system from. Thi
 
 Select the storage configuration. As your staking machine is most likely a dedicated machine selecting `Use an entire disk` is the best option. Don't worry about encryption as you want your machine to be able to automatically restart, and encrypted disks make that process much more complex.
 
-<figure><img src="../.gitbook/assets/image (19) (1).png" alt="Linux installation storage selection"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="Linux installation storage selection"><figcaption></figcaption></figure>
 
-You'll be shown a summary screen of the storage configuration. Don't worry about understanding the details, the defaults should all be fine. Simply confirm the settings.
+You'll be shown a summary screen of the storage configuration. Linux by default may not use the entire available disk space. In the screenshot above the local storage size is shown as 1.171 Terabytes, but the confirmation screen below only shows 100GB being used.
 
-<figure><img src="../.gitbook/assets/image (18) (1).png" alt="Linux installation storage selection summary"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt="Linux installation storage confirmation"><figcaption></figcaption></figure>
+
+To use all the available disk space, use the arrow keys to highlight the `ubuntu-lv` row and hit the return/enter key to select `Edit`. Enter the `Max` value shown next to `Size` in the input field, then save the update.
+
+<figure><img src="../.gitbook/assets/image.png" alt="Edit available disk space"><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (9).png" alt="Save available disk space"><figcaption></figcaption></figure>
 
 After confirming the storage settings you will be presented with an additional confirmation screen to make sure that you're ready to completely format and wipe any existing data on the storage disk. That's what we want, so select `Continue`.
 

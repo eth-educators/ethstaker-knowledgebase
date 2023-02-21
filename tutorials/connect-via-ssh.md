@@ -124,7 +124,7 @@ config
 
 Keys & Certificates can be added if you are using an SSH key for your connections:
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (2).png>)
 
 Hosts can be configured so you have an alias command e.g. `ssh validator` that you can use with preconfigured settings
 
