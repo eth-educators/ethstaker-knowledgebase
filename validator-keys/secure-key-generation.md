@@ -8,7 +8,7 @@
 Please make sure that you are downloading from the official Ethereum Foundation GitHub account by verifying the url: **https://github.com/ethereum/staking-deposit-cli/releases/**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (22) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** Generate deposit keys using the Ethereum Foundation deposit tool
 

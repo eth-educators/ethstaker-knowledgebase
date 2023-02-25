@@ -19,7 +19,7 @@ While SSH on its own is a great tool, there are some limitations that can be fru
 
 When you installed Linux on your staking machine the installation options should have asked if you would like to install SSH during the setup process.
 
-<figure><img src="../.gitbook/assets/image (47).png" alt="Linux Ubuntu Installation - Install SSH"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt="Linux Ubuntu Installation - Install SSH"><figcaption></figcaption></figure>
 
 To check if SSH is installed on your staking machine run the command:
 
@@ -120,15 +120,15 @@ On your device (iPhone or iPad) open the Blink Shell app and type:
 config
 ```
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (57).png>)
 
 Keys & Certificates can be added if you are using an SSH key for your connections:
 
-![](<../.gitbook/assets/image (7) (2).png>)
+![](<../.gitbook/assets/image (97).png>)
 
 Hosts can be configured so you have an alias command e.g. `ssh validator` that you can use with preconfigured settings
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (77).png>)
 
 iCloud sync can be turned off if you don't want your SSH keys and passwords to be stored in iCLoud.
 
@@ -136,7 +136,7 @@ Auto Lock is a useful feature to add additional security to your portable device
 
 And that's it! You can now connect to your home staking validator remotely from your iOS device 🗺️
 
-![](<../.gitbook/assets/image (4) (3).png>)
+![](<../.gitbook/assets/image (94).png>)
 
 ## Generating SSH keys
 
