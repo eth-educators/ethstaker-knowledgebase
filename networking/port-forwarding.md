@@ -25,7 +25,7 @@ Below are a list of the default ports that the software(s) are set to listen on.
 
 If your node is running and the port(s) have been forwarded, you can use an online tool [such as this one](https://www.yougetsignal.com/tools/open-ports/) to check whether the ports are forwarded correctly.
 
-For more information on how to actually forward the ports, it's best to up instructions via a google search with your router make and model, as the specific steps taken to forward ports will vary depending on your router.
+For more information on how to actually forward the ports, it is best to search for instructions via google, make sure to include your router make and model as the specific steps taken to forward ports will vary depending on your router.
 
 ### Static IP's
 
