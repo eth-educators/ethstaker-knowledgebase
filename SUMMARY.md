@@ -71,3 +71,7 @@
 ***
 
 * [Privacy Policy](privacy-policy.md)
+
+## 🧪 DVT
+
+* [Obol DVT - Goerli Only](dvt/obol-dvt-goerli-only.md)

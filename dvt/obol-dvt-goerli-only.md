@@ -1,0 +1,127 @@
+# Obol DVT - Goerli Only
+
+{% hint style="warning" %}
+Testnet only!
+{% endhint %}
+
+## Connect existing EC & BN clients
+
+If you are already running an Execution Client (EC) e.g. Geth and a Beacon Node (BN) e.g. Lighthouse you can connect your Obol DVT node to them. This allows you to reuse existing hardware and continue to run your solo staking validator alongside Obol DVT validators.
+
+![](<../.gitbook/assets/image (15).png>)
+
+### Update HTTP flags on existing Beacon Node
+
+On your existing Beacon Node, ensure these flags are added so the Charon client can communicate directly.
+
+{% tabs %}
+{% tab title="Lighthouse Flags" %}
+```
+--http
+--http-address=0.0.0.0
+--http-port=5052
+```
+
+[https://lighthouse-book.sigmaprime.io/api-bn.html#starting-the-server](https://lighthouse-book.sigmaprime.io/api-bn.html#starting-the-server)
+{% endtab %}
+
+{% tab title="Teku Flags" %}
+```
+--rest-api-enabled=true
+--rest-api-interface=0.0.0.0
+--rest-api-host-allowlist=*
+```
+{% endtab %}
+
+{% tab title="Nimbus Flags" %}
+```
+--rest=true
+--rest-port=5052
+--rest-address=0.0.0.0
+--rest-allow-origin=*
+```
+{% endtab %}
+{% endtabs %}
+
+### Clone the ObobNetwork charon-distributed-validator-node repo
+
+```
+# Clone this repo
+git clone https://github.com/ObolNetwork/charon-distributed-validator-node.git
+
+# Change directory
+cd charon-distributed-validator-node
+```
+
+There are three steps needed to change the configuration:
+
+1. [Copy and edit the .env](obol-dvt-goerli-only.md#copy-and-edit-the-.env)
+2. [Copy and edit the example override file](obol-dvt-goerli-only.md#copy-and-edit-the-example-override-file)
+
+#### Copy and edit the .env
+
+Copy the sample `.env` file.
+
+```
+cp .env.sample .env
+```
+
+Uncomment (remove the `#`) the line `CHARON_BEACON_NODE_ENDPOINTS`. Add your existing Beacon Node IP address, for example `"http://192.168.1.8:5052"`. As the Charon Client is running inside a Docker container you can't use `localhost`, even though might be running on the same physical machine, it requires the IP address of the host machine.
+
+{% code title=".env" %}
+```
+...
+
+# Connect to one or more external beacon nodes. Use a comma separated list excluding spaces.
+CHARON_BEACON_NODE_ENDPOINTS="http://<EXISTING_BEACON_NODE_IP_ADDRESS>:5052"
+
+...
+```
+{% endcode %}
+
+#### Copy and edit the example override file
+
+Any uncommented section will automatically override the same section in `docker-compose.yml` when run with `docker-compose up`. This allows you to edit the variables used by Docker without changing the `docker-compose.yml` which could be modified in future updates.
+
+```
+cp docker-compose.override.yml.sample docker-compose.override.yml
+```
+
+Edit the newly copied file `docker-compose.override.yml` and uncomment (remove the `#`) the following lines:
+
+* &#x20;`services:`&#x20;
+  * `geth:`
+    * `profiles: [disable]`
+  * `lighthouse:`
+    * `profiles: [disable]`&#x20;
+
+{% code title="docker-compose.override.yml" %}
+```yaml
+...
+
+services:
+  geth:
+    #Disable geth
+    profiles: [disable]
+    # Bind geth internal ports to host ports
+    #ports:
+      #- 8545:8545 # JSON-RPC
+      #- 8551:8551 # AUTH-RPC
+      #- 6060:6060 # Metrics
+      
+  lighthouse:
+    #Disable lighthouse
+    profiles: [disable]
+    # Bind lighthouse internal ports to host ports
+    #ports:
+      #- 5052:5052 # HTTP
+      #- 5054:5054 # Metrics
+      
+...
+```
+{% endcode %}
+
+You are now ready to start the Obol tutorial for creating an ENR and getting your new DVT validator set up!&#x20;
+
+[https://docs.obol.tech/docs/next/int/quickstart/group/quickstart-group-operator](https://docs.obol.tech/docs/next/int/quickstart/group/quickstart-group-operator)
+
