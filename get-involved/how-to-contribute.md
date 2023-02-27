@@ -98,13 +98,3 @@ Run the script.
 ```
 
 > This was a quick script, so if you have any improvements please update it here!
-
-## Future support for multi-language
-
-* https://www.dampfkraft.com/code/multilingual-markdown.html
-  * Line in English :en
-  * Same line in Spanish :sp
-
-
-
-Test Update
