@@ -13,7 +13,7 @@ SSH is a command line tool that allows direct access to a remote machine. This t
 
 This tutorial won't cover the networking setup required to get a static IP, hostname and/or [VPN](../networking/setting-up-home-vpn-access.md) as those are covered in other tutorials.
 
-While SSH on its own is a great tool, there are some limitations that can be frustrating when connecting over a poor internet connection. For example, if the internet drops even for a second (if you're in a moving car or train) or you change WiFi networks, the SSH connection will be closed.&#x20;
+While SSH on its own is a great tool, there are some limitations that can be frustrating when connecting over a poor internet connection. For example, if the internet drops even for a second (if you're in a moving car or train) or you change WiFi networks, the SSH connection will be closed.
 
 ## Installing SSH on your staking machine
 
@@ -82,7 +82,7 @@ ssh -p <PORT> <USERNAME>@<IP_ADDRESS>
 
 **Limitations of using Mosh:**
 
-* A limitation you will notice when using Mosh is that you can't scroll back up the terminal history. This is due to the way Mosh only renders the current screen, which has some performance advantages but can be frustrating if you miss something and can't scroll back to see it.&#x20;
+* A limitation you will notice when using Mosh is that you can't scroll back up the terminal history. This is due to the way Mosh only renders the current screen, which has some performance advantages but can be frustrating if you miss something and can't scroll back to see it.
 
 The Mosh package should be installed on both sides of the connection. That means both your staking machine and the machine you want to connect from (e.g. your everyday computer) will need [Mosh↗](https://mosh.org/#getting) installed.
 
@@ -124,7 +124,7 @@ config
 
 Keys & Certificates can be added if you are using an SSH key for your connections:
 
-![](<../.gitbook/assets/image (97).png>)
+![](<../.gitbook/assets/image (7) (2).png>)
 
 Hosts can be configured so you have an alias command e.g. `ssh validator` that you can use with preconfigured settings
 
@@ -136,13 +136,13 @@ Auto Lock is a useful feature to add additional security to your portable device
 
 And that's it! You can now connect to your home staking validator remotely from your iOS device 🗺️
 
-![](<../.gitbook/assets/image (94).png>)
+![](<../.gitbook/assets/image (4) (3).png>)
 
 ## Generating SSH keys
 
 For additional security, SSH keys can be used alongside or instead of your username/password authentication when connecting to your staking machine.
 
-Follow the instructions here to generate SSH keys: [https://linuxconfig.org/how-to-generate-and-manage-ssh-keys-on-linux](https://linuxconfig.org/how-to-generate-and-manage-ssh-keys-on-linux)&#x20;
+Follow the instructions here to generate SSH keys: [https://linuxconfig.org/how-to-generate-and-manage-ssh-keys-on-linux](https://linuxconfig.org/how-to-generate-and-manage-ssh-keys-on-linux)
 
 ## Changing the default SSH Port
 
@@ -177,6 +177,3 @@ The default port configured is `22` for SSH connections. If you want to change t
     tcp6       0      0 :::22000                :::*                    LISTEN      1282/sshd: /usr/
     sbi 
     ```
-
-
-

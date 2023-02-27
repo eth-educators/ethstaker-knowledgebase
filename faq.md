@@ -92,7 +92,7 @@ Validators that participate in securing the [beacon chain](staking-glossary.md#b
 
 You can view a validator's reward for proposed blocks by looking at the fee recipient address on [etherscan.io↗](https://etherscan.io) under `Produced Blocks`.
 
-<figure><img src=".gitbook/assets/image (52).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (6) (1).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
 
 See a detailed explanation here: [How does my validator earn ETH?](rewards/chain-rewards.md)
 
@@ -102,7 +102,7 @@ Yes, the deposit/source address is shown on the validator. It’s not used for a
 
 The deposit/source address can be seen on [beaconcha.in](https://beaconcha.in) under `Deposits` -> `Ethereum Deposits` -> `From Address`.
 
-<figure><img src=".gitbook/assets/image (37).png" alt="Deposit address shown on beaconcha.in"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (16) (3).png" alt="Deposit address shown on beaconcha.in"><figcaption></figcaption></figure>
 
 ## Is there a penalty for missing a block proposal?
 

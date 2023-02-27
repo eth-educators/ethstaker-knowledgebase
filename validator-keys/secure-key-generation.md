@@ -8,7 +8,7 @@
 Please make sure that you are downloading from the official Ethereum Foundation GitHub account by verifying the url: **https://github.com/ethereum/staking-deposit-cli/releases/**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22) (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:** Generate deposit keys using the Ethereum Foundation deposit tool
 
@@ -20,9 +20,9 @@ For security, we recommend you disconnect from the internet to complete this ste
 * Use the terminal to move into the directory that contains the deposit executable.
 * Run the following command to launch the app.
 
-`./deposit new-mnemonic --chain mainnet`&#x20;
+`./deposit new-mnemonic --chain mainnet`
 
-Please make sure you have set `--chain mainnet` for Mainnet, otherwise the deposit will be invalid.&#x20;
+Please make sure you have set `--chain mainnet` for Mainnet, otherwise the deposit will be invalid.
 
 Now follow the instructions presented to you in the terminal window to generate your keys.
 {% endtab %}
@@ -35,8 +35,6 @@ TODO
 TODO
 {% endtab %}
 {% endtabs %}
-
-
 
 These tools can be used as an alternative to the [Staking Deposit CLI ↗](https://github.com/ethereum/staking-deposit-cli/) to help with key generation.
 

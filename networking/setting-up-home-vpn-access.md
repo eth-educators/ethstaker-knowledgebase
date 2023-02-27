@@ -96,21 +96,21 @@ Browse to your Admin UI URL. You'll receive a certificate warning, you can safel
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Please login here!</p></figcaption></figure>
 
-Please login, read and accept the EULA and we are ready to go!&#x20;
+Please login, read and accept the EULA and we are ready to go!
 
 We need to make a few network changes, for this please navigate to Configuration > Network Settings
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 5.1) - Changing the VPN traffic port
 
 Please find the "Multi-Daemon Mode" section, and edit both ports away from the default ports. This is for security purposes. These ports can be the same number. I picked 9514, but this is an example only, I recommend choosing your own ports.
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>"9514" is an example port only.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption><p>"9514" is an example port only.</p></figcaption></figure>
 
 #### **Step 5.2) - Adding in our public IP**
 
-Please don't navigate away from the "Network Settings" page for now. But you will need to open the below URL in a new tab.&#x20;
+Please don't navigate away from the "Network Settings" page for now. But you will need to open the below URL in a new tab.
 
 {% embed url="https://www.whatismyip.com/" %}
 This website will show you your public IP address.
@@ -128,7 +128,7 @@ We are going to configure the admin UI and the client UI to run on different por
 
 On the same page "Network Settings", please scroll down to the bottom and find "Client Web Server" and toggle the "Use a different IP address or port" setting.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17) (3).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
 
 Now we can change which port we want the client web server to run on, you can make this any port of your choosing. I chose 9515.
 
@@ -138,13 +138,13 @@ From here, please click "Save Settings" and then "Update Running Server"
 
 <figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption><p>Please hit this button</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption><p>And also this button...</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption><p>And also this button...</p></figcaption></figure>
 
 Once the running server has been updated, you may need to refresh your browser and log back into the admin UI.
 
 #### Step 5.4) Advanced users only - Adding a static route
 
-**If you are an advanced user** - You **** may have setup your OpenVPN server on a _different_ subnet than your Ethereum nodes/validators.
+**If you are an advanced user** - You \*\*\*\* may have setup your OpenVPN server on a _different_ subnet than your Ethereum nodes/validators.
 
 If that is the case, you will need to browse to "Configuration > VPN Settings" and add in a static route for your validator network.
 
@@ -162,7 +162,7 @@ Please navigate to "User management" > "User Permissions".
 
 From here, you can add a new user. Please type out a username and tick the "Allow Auto-login" box, then select the "More Settings" box.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>"Allow Auto-Login", and then "More Settings"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p>"Allow Auto-Login", and then "More Settings"</p></figcaption></figure>
 
 You can now set a password for the account in the new options that appear when you click "More Settings".
 
@@ -174,7 +174,7 @@ Once done, please "Save Settings" and "Update Running Server" again.
 
 If you are one of the lucky ones that had to do [step 5.4](setting-up-home-vpn-access.md#step-5.4-advanced-users-only-adding-a-static-route), then you may also need to add your Ethereum node/validator subnet to the user account too.
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 7) Unblock local ports.
 
@@ -213,9 +213,9 @@ This website will show you if your ports have been opened correctly.
 
 ### Step 9) - Configure a device for VPN access.
 
-If you've made it this far, then congrats! You will be pleased to know that all the hard stuff is out of the way.&#x20;
+If you've made it this far, then congrats! You will be pleased to know that all the hard stuff is out of the way.
 
-Please complete this step on the device you want to set up remote access.&#x20;
+Please complete this step on the device you want to set up remote access.
 
 Open the client web UI - You can use either your public or private IP for this step. In my case, I navigated to [https://192.168.3.111:9515](https://192.168.3.111:9515)
 

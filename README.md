@@ -1,63 +1,64 @@
-# EthStaker knowledge base
+# Base de Conocimientos de EthStaker
 
 {% hint style="info" %}
-The EthStaker Knowledge Base is under active development 🏗️\
-The content is being written and improved with the help of the EthStaker community. If you see any sections marked TODO please feel free to hop on and add content!
+La Base de Conocimientos de EthStaker está en desarrollo activo 🏗️ \
+El contenido está siendo escrito y mejorado con la ayuda de la comunidad EthStaker. Si ves alguna sección marcada como TODO, por favor, ¡no dudes en añadir contenido!
 {% endhint %}
 
-> "Welcoming First, Knowledgeable Second"
+> "Acogedores primero, conocedores después"
 
-## Welcome to the EthStaker Knowledge base!
+## Bienvenido a la Base de Conocimientos de EthStaker!
 
-An unbiased, open-source collection of useful information and concepts about Ethereum staking. If you're looking to get started staking on Ethereum or simply to learn more about how the network is secured through [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, you've come to the right place!
+\
+Una colección imparcial y de código abierto de información y conceptos útiles sobre participar (staking) en Ethereum. Si estás buscando empezar a participar  en Ethereum o simplemente aprender más sobre cómo la red está asegurada a través de validadores [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos), ¡has venido al lugar correcto!
 
-## 🔗 Useful Links
+## 🔗 Links útiles
 
-* [Staking glossary](staking-glossary.md)
-* [Staking FAQ](faq.md)
+* [Staking glossary](staking-glossary.md) (inglés)
+* [Staking FAQ](faq.md) (inglés)
 
-## 🚀 Getting started
+## 🚀 Para empezar
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
+* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md) (inglés)
+* [Running a node without any ETH](getting-started/ethereum-node.md) (inglés)
+* [Deposit process explained](getting-started/deposit-process.md) (inglés)
 
-### **🚨 HELP!**
+### **🚨 ¡AYUDA!**
 
-* [My validator is offline! What do I do?](help/validator-offline.md)
-* [Missed attestations! What can I do?](help/missed-attestations.md)
-* [I'm worried about downtime 😔](help/downtime-explained.md)
-* [I'm worried about slashing 🔪](help/slashing-explained.md)
+* [My validator is offline! What do I do?](help/validator-offline.md) (inglés)
+* [Missed attestations! What can I do?](help/missed-attestations.md) (inglés)
+* [I'm worried about downtime 😔](help/downtime-explained.md) (inglés)
+* [I'm worried about slashing 🔪](help/slashing-explained.md) (inglés)
 
-### 💰 Rewards
+### 💰 Recompensas
 
-* [How does my validator earn ETH?](rewards/chain-rewards.md)
-* [Block proposal frequency](rewards/proposal-frequency.md)
+* [How does my validator earn ETH?](rewards/chain-rewards.md) (inglés)
+* [Block proposal frequency](rewards/proposal-frequency.md) (inglés)
 
 ### 💻 Hardware
 
-* [Hardware requirements](hardware/hardware-requirements.md)
-* [Hardware examples](hardware/hardware-examples/)
+* [Hardware requirements](hardware/hardware-requirements.md) (inglés)
+* [Hardware examples](hardware/hardware-examples/) (inglés)
 
-### ⛓️ Validator Clients
+### ⛓️ Clientes Validadores&#x20;
 
-* [Validator clients explained](validator-clients/validator-clients-explained.md)
-* [Execution clients](validator-clients/execution-clients.md)
-* [Consensus clients](validator-clients/consensus-clients.md)
-* [Checkpoint sync](validator-clients/checkpoint-sync.md)
-* [Validator effectiveness](validator-clients/validator-effectiveness.md)
-* [MEV boost](validator-clients/mev-boost.md)
+* [Validator clients explained](validator-clients/validator-clients-explained.md) (inglés)
+* [Execution clients](validator-clients/execution-clients.md) (inglés)
+* [Consensus clients](validator-clients/consensus-clients.md) (inglés)
+* [Checkpoint sync](validator-clients/checkpoint-sync.md) (inglés)
+* [Validator effectiveness](validator-clients/validator-effectiveness.md) (inglés)
+* [MEV boost](validator-clients/mev-boost.md) (inglés)
 
-## Can I contribute to the EthStaker knowledge base?
+## ¿Puedo contribuir a la base de conocimientos de EthStaker?
 
-Yes! This is a living documentation site, meaning we need the community's help to maintain and update the content. Any contribution, from writing whole sections and translations to correcting spelling and grammar mistakes will be greatly appreciated.
+Sí. Este es un sitio de documentación vivo, lo que significa que necesitamos la ayuda de la comunidad para mantener y actualizar el contenido. Cualquier contribución, desde escribir secciones enteras y traducciones hasta corregir errores ortográficos y gramaticales, será muy apreciada.&#x20;
 
-You can earn GitPOAPs by contributing directly to the EthStaker Knowledge Base (a [contributor↗](https://www.gitpoap.io/gp/881)) and by asking a question that leads to content being created (a [supporter↗](https://www.gitpoap.io/gp/923)).
+Puedes ganar GitPOAPs contribuyendo directamente a la Base de Conocimientos de EthStaker (un [contribuidor↗](https://www.gitpoap.io/gp/881))  y haciendo una pregunta que lleve a la creación de contenido (a [simpatizante](https://www.gitpoap.io/gp/923)[↗](https://www.gitpoap.io/gp/881)).&#x20;
 
 [![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
 
-To suggest changes or add new content please visit our [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) or if you have any questions please join our [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).
+Para sugerir cambios o añadir contenidos nuevos visita nuestro [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase)  o si tienes alguna pregunta únete a nuestro  [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS) en el canal en español.
 
-### ✏️ Get Involved
+### ✏️ Involucrate
 
-* [How to contribute](get-involved/how-to-contribute.md)
+* [How to contribute](get-involved/how-to-contribute.md) (inglés)
