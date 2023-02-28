@@ -1,7 +1,7 @@
 # Base de Conocimientos de EthStaker
 
 {% hint style="info" %}
-La Base de Conocimientos de EthStaker está en desarrollo activo 🏗️ \
+La Base de Conocimientos de EthStaker está en activo desarrollo 🏗️ \
 El contenido está siendo escrito y mejorado con la ayuda de la comunidad EthStaker. Si ves alguna sección marcada como TODO, por favor, ¡no dudes en añadir contenido!
 {% endhint %}
 
@@ -53,7 +53,7 @@ Una colección imparcial y de código abierto de información y conceptos útile
 
 Sí. Este es un sitio de documentación vivo, lo que significa que necesitamos la ayuda de la comunidad para mantener y actualizar el contenido. Cualquier contribución, desde escribir secciones enteras y traducciones hasta corregir errores ortográficos y gramaticales, será muy apreciada.&#x20;
 
-Puedes ganar GitPOAPs contribuyendo directamente a la Base de Conocimientos de EthStaker (un [contribuidor↗](https://www.gitpoap.io/gp/881))  y haciendo una pregunta que lleve a la creación de contenido (a [simpatizante](https://www.gitpoap.io/gp/923)[↗](https://www.gitpoap.io/gp/881)).&#x20;
+Puedes ganar GitPOAPs contribuyendo directamente a la Base de Conocimientos de EthStaker (un [contribuidor↗](https://www.gitpoap.io/gp/881))  y haciendo una pregunta que lleve a la creación de contenido (un [simpatizante](https://www.gitpoap.io/gp/923)[↗](https://www.gitpoap.io/gp/881)).&#x20;
 
 [![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
 
