@@ -73,7 +73,7 @@ Uncomment (remove the `#`) the line `CHARON_BEACON_NODE_ENDPOINTS`. Add your exi
 ...
 
 # Connect to one or more external beacon nodes. Use a comma separated list excluding spaces.
-CHARON_BEACON_NODE_ENDPOINTS="http://<EXISTING_BEACON_NODE_IP_ADDRESS>:5052"
+CHARON_BEACON_NODE_ENDPOINTS="http://<EXISTING_BEACON_NODE_IP_ADDRESS>:<PORT>"
 
 ...
 ```
