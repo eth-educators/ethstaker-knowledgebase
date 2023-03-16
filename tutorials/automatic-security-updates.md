@@ -42,3 +42,5 @@ Restart the machine.
 ```
 shutdown -r now
 ```
+
+Congratulations! You've successfully enabled `unattended-upgrades` on your staking machine 🥳
