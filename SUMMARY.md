@@ -35,7 +35,7 @@
 
 * [Port forwarding](networking/port-forwarding.md)
 * [Firewalls and subnetting](networking/firewalls-and-subnetting.md)
-* [DDoS & Brute-Force Protection](networking/ddos-and-brute-force-protection.md)
+* [DDoS & brute-force protection](networking/ddos-and-brute-force-protection.md)
 * [Setting up home VPN access](networking/setting-up-home-vpn-access.md)
 
 ## ⛓ Validator Clients
@@ -56,10 +56,10 @@
 ## 📕 Tutorials
 
 * [Installing Linux](tutorials/installing-linux.md)
-* [Confirm Available Disk Space](tutorials/confirm-available-disk-space.md)
-* [Automatic Security Updates](tutorials/automatic-security-updates.md)
+* [Confirm available disk space](tutorials/confirm-available-disk-space.md)
+* [Automatic security updates](tutorials/automatic-security-updates.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
-* [SSH Security - 2FA](validator-keys/ssh-security-2fa.md)
+* [SSH security - 2FA](validator-keys/ssh-security-2fa.md)
 * [Solo staking guides](tutorials/solo-staking-guides.md)
 * [Configuring an RPC endpoint](tutorials/rpc-endpoint.md)
 * [How to resync Geth](tutorials/resync-geth.md)

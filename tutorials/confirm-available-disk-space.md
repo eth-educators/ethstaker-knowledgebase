@@ -1,4 +1,4 @@
-# Confirm Available Disk Space
+# Confirm available disk space
 
 Even if you have a large SSD there are cases where Ubuntu is reporting only 200GB free.
 

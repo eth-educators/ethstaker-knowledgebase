@@ -1,4 +1,4 @@
-# DDoS & Brute-Force Protection
+# DDoS & brute-force protection
 
 To protect your server from DDoS attacks and brute-force connection attempts, you can install `fail2ban`.
 

@@ -1,4 +1,4 @@
-# Automatic Security Updates
+# Automatic security updates
 
 Automatic security updates are helpful when you are not able to access your machine but want critical security updates to be applied automatically.
 
