@@ -50,13 +50,13 @@
 
 * [Secure key generation](validator-keys/secure-key-generation.md)
 * [Key management](validator-keys/key-management.md)
-* [SSH Security - 2FA](validator-keys/ssh-security-2fa.md)
 * [Slashing protection](validator-keys/slashing-protection.md)
 
 ## 📕 Tutorials
 
 * [Installing Linux](tutorials/installing-linux.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
+* [SSH Security - 2FA](tutorials/ssh-security-2fa.md)
 * [Solo staking guides](tutorials/solo-staking-guides.md)
 * [Configuring an RPC endpoint](tutorials/rpc-endpoint.md)
 * [How to resync Geth](tutorials/resync-geth.md)
