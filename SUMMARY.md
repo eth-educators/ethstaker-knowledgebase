@@ -56,6 +56,7 @@
 ## 📕 Tutorials
 
 * [Installing Linux](tutorials/installing-linux.md)
+* [Automatic Security Updates](tutorials/automatic-security-updates.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
 * [SSH Security - 2FA](validator-keys/ssh-security-2fa.md)
 * [Solo staking guides](tutorials/solo-staking-guides.md)
