@@ -2,7 +2,7 @@
 
 Automatic security updates are helpful when you are not able to access your machine but want critical security updates to be applied automatically.
 
-```
+```bash
 sudo apt-get update -y
 sudo apt-get install -y unattended-upgrades update-notifier-common
 
@@ -10,7 +10,7 @@ sudo vim /etc/apt/apt.conf.d/20auto-upgrades
 ```
 
 {% code title="/etc/apt/apt.conf.d/20auto-upgrades" %}
-```
+```bash
 APT::Periodic::Update-Package-Lists "1";
 APT::Periodic::Unattended-Upgrade "1";
 APT::Periodic::AutocleanInterval "7";
@@ -24,14 +24,14 @@ Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ```
 {% endcode %}
 
-```
+```bash
 sudo systemctl enable unattended-upgrades
 sudo systemctl restart unattended-upgrades
 ```
 
 Update system packages again.
 
-```
+```bash
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
@@ -39,7 +39,7 @@ sudo apt-get dist-upgrade -y
 
 Restart the machine.
 
-```
+```bash
 shutdown -r now
 ```
 

@@ -10,7 +10,7 @@ The error message is similar to:
 
 To address this issue, assuming you have an SSD that is larger than 200GB, expand the space allocation for the LVM by following these steps:
 
-```
+```bash
 sudo lvdisplay # <-- Check your logical volume size
 
 sudo lvm 

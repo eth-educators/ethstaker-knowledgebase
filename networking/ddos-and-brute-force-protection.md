@@ -4,14 +4,14 @@ To protect your server from DDoS attacks and brute-force connection attempts, yo
 
 This program will monitor incoming connections and block IP addresses that try to log in with faulty credentials repeatedly.
 
-```
+```bash
 sudo apt-get install -y fail2ban
 
 sudo vim /etc/fail2ban/jail.d/ssh.local
 ```
 
 {% code title="/etc/fail2ban/jail.d/ssh.local" %}
-```
+```bash
 [sshd]
 enabled = true
 banaction = ufw
@@ -30,6 +30,6 @@ You can change the `maxretry` setting, which is the number of attempts it will a
 
 Save the file and restart the service.
 
-```
+```bash
 sudo systemctl restart fail2ban
 ```
