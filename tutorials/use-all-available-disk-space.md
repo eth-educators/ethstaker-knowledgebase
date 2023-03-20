@@ -1,4 +1,4 @@
-# Confirm available disk space
+# Use all available disk space
 
 Even if you have a large SSD there are cases where Ubuntu is reporting only 200GB free, causing users to run out of disk space when syncing their node.
 
