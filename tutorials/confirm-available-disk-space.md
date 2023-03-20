@@ -1,8 +1,6 @@
 # Confirm available disk space
 
-Even if you have a large SSD there are cases where Ubuntu is reporting only 200GB free.
-
-There are cases where Ubuntu is provisioning only 200GB of a larger SSD causing users to run out of disk space when syncing their node.
+Even if you have a large SSD there are cases where Ubuntu is reporting only 200GB free, causing users to run out of disk space when syncing their node.
 
 The error message is similar to:
 
@@ -11,13 +9,15 @@ The error message is similar to:
 To address this issue, assuming you have an SSD that is larger than 200GB, expand the space allocation for the LVM by following these steps:
 
 ```bash
-sudo lvdisplay # <-- Check your logical volume size
+sudo lvdisplay # Check your logical volume size
 
-sudo lvm 
+sudo lvm # Attach the lvm console
 lvextend -l +100%FREE /dev/ubuntu-vg/ubuntu-lv
 lvextend -l +100%FREE -r /dev/ubuntu-vg/ubuntu-lv
 exit
 
 sudo resize2fs /dev/ubuntu-vg/ubuntu-lv
-df -h # <-- Check results
+df -h # Check results
 ```
+
+Congratulations! You're now using all available disk space on your staking machine 🥳
