@@ -1,6 +1,6 @@
-# DDoS & brute-force protection
+# Brute-force SSH protection
 
-To protect your server from DDoS attacks and brute-force connection attempts, you can install `fail2ban`.
+To protect your server from brute-force SSH connection attempts, you can install `fail2ban`.
 
 This program will monitor incoming connections and block IP addresses that try to log in with faulty credentials repeatedly.
 
@@ -33,3 +33,5 @@ Save the file and restart the service.
 ```bash
 sudo systemctl restart fail2ban
 ```
+
+Congratulations! You've successfully improved the security of your node 🥳

@@ -35,7 +35,7 @@
 
 * [Port forwarding](networking/port-forwarding.md)
 * [Firewalls and subnetting](networking/firewalls-and-subnetting.md)
-* [DDoS & brute-force protection](networking/ddos-and-brute-force-protection.md)
+* [Brute-force SSH protection](networking/brute-force-ssh-protection.md)
 * [Setting up home VPN access](networking/setting-up-home-vpn-access.md)
 
 ## ⛓ Validator Clients
