@@ -40,7 +40,7 @@ sudo apt-get dist-upgrade -y
 Restart the machine.
 
 ```bash
-shutdown -r now
+sudo shutdown -r now
 ```
 
 Congratulations! You've successfully enabled `unattended-upgrades` on your staking machine 🥳
