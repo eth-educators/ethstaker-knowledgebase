@@ -1,5 +1,9 @@
 # Automatic security updates
 
+{% hint style="info" %}
+If you have multiple machines, make sure to stagger the `Unattended-Upgrade::Automatic-Reboot-Time` so they don't all restart at exactly the same time!
+{% endhint %}
+
 Automatic security updates are helpful when you are not able to access your machine but want critical security updates to be applied automatically.
 
 ```bash
