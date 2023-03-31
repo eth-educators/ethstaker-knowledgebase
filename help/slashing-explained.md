@@ -1,22 +1,23 @@
-# I'm worried about slashing 🔪
+# Estoy preocupado por las deducciones (slashing)🔪
 
-Slashing is a scary word. But what exactly is it, how can it happen and how worried should you be?
+El slashing es una palabra que asusta. Pero, ¿qué es exactamente, cómo puede suceder y cuánto debe preocuparte?
 
 {% hint style="info" %}
-TLDR: Realistically, the only condition that can cause a [slashing event](../staking-glossary.md#slashable-offenses) is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and you won't get slashed.
+TLDR: Realísticamente, la única condición que puede causar un evento de [slashing](../staking-glossary.md#slashable-offenses) es si ejecutas las claves de tu validador en dos nodos al mismo tiempo (como un sistema de conmutación / redundancia, donde tu nodo de respaldo se enciende accidentalmente mientras tu nodo principal todavía está en funcionamiento). No permitas que esto suceda y no serás objeto de un slashing.
 
-**Slashing cannot occur from being offline for maintenance**.
+**El slashing no puede ocurrir por estar desconectado por mantenimiento**.
 {% endhint %}
 
-### What is Slashing?
+### ¿Qué es el Slashing?
 
-Slashing is a term used to describe the response of the Ethereum network to a validator acting against the rules of the network. Validators perform a number of duties (e.g. [attestations](../staking-glossary.md#attestation) and [proposing blocks](../staking-glossary.md#block-proposer)).
+El slashing es un término utilizado para describir la respuesta de la red Ethereum a un validador que actúa en contra de las reglas de la red. Los validadores realizan una serie de tareas (por ejemplo, [atestaciones](../staking-glossary.md#attestation) y [proponer bloques](../staking-glossary.md#block-proposer)).\
 
-If someone wanted to attack the Ethereum network they could propose multiple blocks or attest to multiple conflicting blocks. To disincentivize attacks on the network, in a [Proof of Stake (PoS)](../staking-glossary.md#proof-of-stake-pos) system, validators have something at stake, which is currently 32 ETH per validator. When a validator breaks the rules of the network, two things will happen:
 
-1. The validator has some amount of ETH taken from that initial 32 ETH staked balance.
-2. The validator is force exited and removed from the [validator pool](../staking-glossary.md#validator-pool).
+Si alguien quisiera atacar la red Ethereum, podría proponer múltiples bloques o atestiguar múltiples bloques en conflicto. Para desincentivar los ataques a la red, en un sistema [Proof of Stake (PoS)](../staking-glossary.md#proof-of-stake-pos), los validadores tienen algo en juego, que actualmente son 32 ETH por validador. Cuando un validador infringe las reglas de la red, sucederán dos cosas:
 
-The amount of ETH taken as a penalty varies on the state of the network. If a small number of validators are slashed at the same time, then a rough estimate of the slashing penalty is 1 or 2 ETH. In an incredibly rare Black Swan event, when a large portion of the network is simultaneously offline or breaking the rules (e.g. in a coordinated attack) then the slashing penalty can be up to and including 100% of the stake.
+1. Se toma una cantidad de ETH del saldo inicial de 32 ETH depositados inicialmente al lanzar el validador.
+2. El validador es expulsado forzosamente y eliminado del [pool de validadores](../staking-glossary.md#validator-pool).
 
-Being force exited from the validator queue currently locks your stake, since [withdrawals are not enabled](../faq.md#can-i-withdraw-my-eth-at-any-time). When withdrawals are enabled, you will be able to re-stake your remaining ETH (if you still have the 32 required), after going through both the [exit queue](../staking-glossary.md#validator-queue) and [activation queue](../staking-glossary.md#validator-queue).
+La cantidad de ETH tomada como penalización varía según el estado de la red. Si un pequeño número de validadores son objeto de un slashing al mismo tiempo, entonces una estimación aproximada de la penalización por slashing es de 1 o 2 ETH. En un evento Black Swan increíblemente raro, cuando una gran parte de la red está simultáneamente desconectada o infringiendo las reglas (por ejemplo, en un ataque coordinado), entonces la penalización por slashing puede ser de hasta el 100% de la apuesta.
+
+Ser expulsado forzosamente de la cola de validadores actualmente bloquea tu staking, ya que los [retiros no están habilitados](../faq.md#can-i-withdraw-my-eth-at-any-time). Cuando los retiros estén habilitados, podrás volver a apostar tus ETH restantes (si todavía tienes los 32 requeridos), después de pasar por la [cola de salida](../staking-glossary.md#validator-queue) y la [cola de activación](../staking-glossary.md#validator-queue).

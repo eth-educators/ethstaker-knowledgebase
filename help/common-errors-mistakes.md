@@ -1,5 +1,5 @@
-# Common Errors and Mistakes
+# Errores y problemas comunes
 
-## Geth is throwing errors and not syncing
+## Geth está arrojando errores y no se está sincronizando
 
-- [Resync Geth](../tutorials/resync-geth.md)
+* [Resincronizar Geth](../tutorials/resync-geth.md)
