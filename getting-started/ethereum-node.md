@@ -1,21 +1,21 @@
-# Running an Ethereum Node
+# Corriendo un nodo sin necesidad de ETH
 
 {% hint style="info" %}
-No ETH is required to run a full node! 🥳  
+No se requiere ETH para correr un nodo completo! 🥳
 {% endhint %}
 
-## Why run an Ethereum full node?
+## ¿Por qué ejecutar un nodo completo de Ethereum?
 
-🍎 Contribute to the health of the Ethereum network.
+🍎 Contribuye a la salud de la red de Ethereum.
 
-- Check all transactions on the network are valid for yourself.
-- Don't trust, verify.
+* Verifica todas las transacciones en la red por ti mismo.
+* No confíes, verifica.
 
-📡 Broadcast your transactions [through your own node](../tutorials/rpc-endpoint.md).
+📡 Transmite tus transacciones [a través de tu propio nodo](https://www.notion.so/o/5TLAFycQGS1YA3kIVVOf/s/qceavar0TsKoVat3fJGq/tutorials/rpc-endpoint).
 
-- Remove reliance on 3rd parties and intermediaries such as Infura or Alchemy.
-- Increase censorship resistance through decentralization.
+* Elimina la dependencia de terceros e intermediarios como Infura o Alchemy.
+* Aumenta la resistencia a la censura a través de la descentralización.
 
-Running a full node has very similar hardware requirements to running a validating node. The only difference is that a validating nodes [propose blocks](../staking-glossary.md#block-proposer).
+Ejecutar un nodo completo tiene requisitos de hardware muy similares a los de ejecutar un nodo validador. La única diferencia es que los nodos validadores [proponen bloques](https://www.notion.so/o/5TLAFycQGS1YA3kIVVOf/s/qceavar0TsKoVat3fJGq/staking-glossary#block-proposer).
 
-If you follow any of the [solo staking guides](../tutorials/solo-staking-guides.md) and complete all the steps apart from the deposit process (which requires 32 ETH) then you will be running a full node!
+Si sigues cualquiera de las [guías de staking en solitario](https://www.notion.so/o/5TLAFycQGS1YA3kIVVOf/s/qceavar0TsKoVat3fJGq/tutorials/solo-staking-guides) y completas todos los pasos excepto el proceso de depósito (que requiere 32 ETH), ¡estarás ejecutando un nodo completo!

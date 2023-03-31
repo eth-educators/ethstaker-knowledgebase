@@ -7,7 +7,7 @@
 ## 🚀 Getting Started
 
 * [¿Qué es la participación?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
+* [Corriendo un nodo sin necesidad de ETH](getting-started/ethereum-node.md)
 * [Deposit process explained](getting-started/deposit-process.md)
 
 ## 🚨 Help!
