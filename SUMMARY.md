@@ -13,7 +13,7 @@
 ## 🚨 Help!
 
 * [My validator is offline! What do I do?](help/validator-offline.md)
-* [Missed attestations! What can I do?](help/missed-attestations.md)
+* [¡Atestaciones perdidas! ¿Qué puedo hacer?](help/missed-attestations.md)
 * [Estoy preocupado por el tiempo de inactividad 😔](help/downtime-explained.md)
 * [Estoy preocupado por las deducciones (slashing)🔪](help/slashing-explained.md)
 * [Errores y problemas comunes](help/common-errors-mistakes.md)

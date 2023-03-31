@@ -1,35 +1,34 @@
-# Missed Attestations! What can I do?
+# ¡Atestaciones perdidas! ¿Qué puedo hacer?
 
-## Don't panic!
+## ¡No entres en pánico!
 
-Missing some [attestations](../staking-glossary.md#attestation) is completely normal and extremely low-cost. The penalty for missing an attestation is exactly the same as the reward for a successful one. So, with around 240 attestations per day per validator, missing one or two is still a successful attestation rate of over 99%!
+Perder algunas [atestaciones](../staking-glossary.md#attestation) es completamente normal y extremadamente de bajo costo. La penalización por perder una atestación es exactamente la misma que la recompensa por una exitosa. Entonces, con alrededor de 240 atestaciones por día por validador, ¡perder una o dos sigue siendo una tasa de atestación exitosa de más del 99%!
 
-## Understanding missed attestations, low effectiveness and improving your setup
+## Comprendiendo las atestaciones perdidas, baja efectividad y mejorando tu configuración
 
-> There are two causes of missing an attestation or having a low effectiveness with your validator. Some causes are under your control as a staker and some causes are outside of your control.
+> Hay dos causas de perder una atestación o tener una baja efectividad con tu validador. Algunas causas están bajo tu control como staker y algunas causas están fuera de tu control.
 
-Even with a perfect setup, you might miss some attestations or incorrectly vote during an attestation lowering your [effectiveness](../staking-glossary.md#effectiveness) once in a while. Causes that are outside of your control are often related to network propagation or related to some of your [peers](../staking-glossary.md#peers) being late in performing their own duties.
+Incluso con una configuración perfecta, podrías perder algunas atestaciones o votar incorrectamente durante una atestación disminuyendo tu [efectividad](../staking-glossary.md#effectiveness) de vez en cuando. Las causas que están fuera de tu control a menudo están relacionadas con la propagación de la red o relacionadas con que algunos de tus [peers](../staking-glossary.md#peers) se retrasen en realizar sus propias tareas.
 
-To go on a deep dive and learn everything about the attestation duty, timings, effectiveness and network propagation, check out these great articles.
+Para profundizar y aprender todo sobre la tarea de atestación, los tiempos, la efectividad y la propagación de la red, revisa estos excelentes artículos.
 
-- [Understanding Attestation Misses ↗](https://www.symphonious.net/2022/09/25/understanding-attestation-misses/) by Adrian Sutton
-- [Exploring ETH2: Attestation Inclusion ↗](https://www.symphonious.net/2020/09/08/exploring-eth2-attestation-inclusion/) by Adrian Sutton
-- [Defining Attestation Effectiveness ↗](https://www.attestant.io/posts/defining-attestation-effectiveness/) by Jim McDonald
+[Understanding Attestation Misses ↗](https://www.symphonious.net/2022/09/25/understanding-attestation-misses/) por Adrian Sutton
 
-As a staker, you cannot do much about the causes that are outside of your control. What you can do is work on elements of your setup that are under your control to maximize your rewards. Even if you have a setup that was performing well before the merge, it's possible that with the additional work being introduced, some overlooked part of your setup might be the cause of additional misses or lower effectiveness since the merge happened. That's why you should double check all these items.
+[Exploring ETH2: Attestation Inclusion ↗](https://www.symphonious.net/2020/09/08/exploring-eth2-attestation-inclusion/) por Adrian Sutton
 
-1. Make sure your clients are _up-to-date_. Client updates often include optimizations and improvements that will help perform your duties on time.
+[Defining Attestation Effectiveness ↗](https://www.attestant.io/posts/defining-attestation-effectiveness/) por Jim McDonald
 
-2. Make sure your machine consistently has enough _resources_ (CPU, RAM, disk, etc). Using a dedicated machine can help. If your clients are starved of any of these resources, it will likely be a cause for more misses and lower effectiveness.
+Como staker, no puedes hacer mucho sobre las causas que están fuera de tu control. Lo que puedes hacer es trabajar en los elementos de tu configuración que están bajo tu control para maximizar tus recompensas. Incluso si tienes una configuración que funcionaba bien antes del merge, es posible que con el trabajo adicional que se está introduciendo, alguna parte que tu configuración pasó por alto podría ser la causa de atestaciones adicionales perdidas o una menor efectividad desde que se realizó el merge. Por eso deberías revisar todos estos elementos.
 
-3. Make sure your _time_ is properly in sync. The beacon chain protocol is quite time sensitive. chrony is a good tool to improve your time sync. On Ubuntu or Debian derivatives, installing chrony is often as easy as `sudo apt install chrony`. On Windows, you can use [these instructions ↗](https://www.reddit.com/r/ethstaker/comments/nfca22/an_opiniated_solution_to_improve_time_sync_on/) to improve your time sync.
 
-4. Make sure you have good _internet_ latency, bandwidth and quality. For home validators, it's unrealistic to ask for a dedicated ISP or internet connection for your validator, but make sure your other network uses don't interfere too much with your validator. In case of doubt, see if you can get a better plan from your provider or check if there is an alternative provider in your area that can improve your internet.
 
-5. Make sure you consistently have enough _peers_. Monitoring your clients peers count is not a bad idea if you have the technical ability.
+1. Asegúrate de que tus clientes estén actualizados. Las actualizaciones del cliente a menudo incluyen optimizaciones y mejoras que ayudarán a realizar tus tareas a tiempo.
+2. Asegúrate de que tu máquina tenga consistentemente suficientes recursos (CPU, RAM, disco, etc). Usar una máquina dedicada puede ayudar. Si tus clientes están escasos de alguno de estos recursos, probablemente será una causa de más atestaciones perdidas y menor efectividad.
+3. Asegúrate de que tu hora esté correctamente sincronizada. El protocolo del beacon chain es bastante sensible al tiempo. chrony es una buena herramienta para mejorar la sincronización de tu tiempo. En distribuciones de Ubuntu o Debian, la instalación de chrony a menudo es tan fácil como `sudo apt install chrony`. En Windows, puedes usar [estas instrucciones ↗](https://www.reddit.com/r/ethstaker/comments/nfca22/an\_opiniated\_solution\_to\_improve\_time\_sync\_on/) para mejorar la sincronización de tu tiempo.
+4. Asegúrate de tener buena latencia, ancho de banda y calidad de internet. Para validadores de hogar, es poco realista pedir una ISP o conexión a internet dedicada para tu validador, pero asegúrate de que tus otros usos de la red no interfieran demasiado con tu validador. En caso de duda, verifica si puedes obtener un mejor plan de tu proveedor o verifica si hay un proveedor alternativo en tu área que pueda mejorar tu internet.
+5. Asegúrate de tener consistentemente suficientes pares. Monitorear el recuento de pares de tus clientes no es una mala idea si tienes la capacidad técnica.
+6. Asegúrate de tener puertos abiertos correctamente configurados que permitan conexiones entrantes. No solo puede mejorar la salud de tu configuración de networking y el recuento de tus pares, sino que también mejorará la salud de la red Ethereum en su conjunto. Para probar si tus puertos están abiertos, puedes usar el comprobador de puertos abiertos de StakeHouse. Llamando a `curl` [`https://eth2-client-port-checker.vercel.app/api/checker?ports=30303`](https://eth2-client-port-checker.vercel.app/api/checker?ports=30303)`, 9000` debería devolver un resultado que incluya 30303 y 9000 en el campo open\_ports si esos puertos están abiertos desde Internet. 30303 es el puerto P2P predeterminado para Geth y 9000 es el puerto P2P predeterminado para muchos clientes de consenso. Ajusta estos valores si usas puertos personalizados o si usas clientes que tienen puertos predeterminados diferentes. Consulta la documentación de tu cliente para encontrar más información sobre esto.
 
-6. Make sure you have properly configured _open ports_ that permit incoming connections. Not only can this improve your setup networking health and your peers count, but it will also improve the Ethereum network health as a whole. To test if your ports are opened, you can use the StakeHouse open ports checker. Calling `curl https://eth2-client-port-checker.vercel.app/api/checker?ports=30303,9000` should return a result that includes 30303 and 9000 in the `open_ports` field if those ports are opened from the Internet. 30303 is the default P2P port for Geth and 9000 is the default P2P port for many consensus clients. Adjust these values if you use custom ports or if you use clients which have different default ports. Consult your client documentation to find more about this.
+Una vez que tengas todo eso en su lugar, hay poco más que puedas hacer para ayudar. Puede haber algunos beneficios marginales al conectarse con más peers a costa de un mayor uso de recursos, especialmente de ancho de banda. Bajo circunstancias normales, el recuento predeterminado de pares de tus clientes debería ser bueno. Monitorear la calidad de Internet con herramientas como las de [pingman ↗](https://pingman.com/) puede ayudar a identificar la causa de algunas de estas atestaciones perdidas si están relacionadas con la red, pero probablemente seguirá estando fuera de tu control.
 
-Once you have those in place, there is little more you can do to help. There might be some marginal benefits in connecting with more peers at the cost of higher resources usage, especially bandwidth. Under normal circumstances, the default peers count from your clients should be good. Monitoring internet quality with tools like those from [pingman ↗](https://pingman.com/) can help pinpoint the cause of some of these missed attestations if they are network related, but it will likely still be out of your control.
-
-[Source ↗](https://www.reddit.com/r/ethstaker/comments/xto0dm/understanding_missed_attestations_understanding/)
+[Fuente ↗](https://www.reddit.com/r/ethstaker/comments/xto0dm/understanding\_missed\_attestations\_understanding/)
