@@ -1,17 +1,19 @@
-# My validator is offline! What do I do?
+# ¡Mi validador está desconectado! ¿Qué debo hacer?
 
-## Don't panic!
+## ¡No entre en pánico!
 
-The penalty for missing attestations is exactly the same as the reward for a successful one. Any downtime penalty will be recovered in the same amount of uptime.
+La penalización por faltar a las atestaciones es exactamente la misma que la recompensa por una exitosa. Cualquier penalización por tiempo de inactividad se recuperará en la misma cantidad de tiempo de actividad.
 
-[Proposing a block is rare](../rewards/proposal-frequency.md). Depending on the size of the [validator pool](../staking-glossary.md#validator-pool), a single validator will on average only propose a block every few months. If you are unlucky enough to be offline at the time that your validator is asked to propose a block, that's also ok.
+[Proponer un bloque es raro](../rewards/proposal-frequency.md). Dependiendo del tamaño del [pool de validadores](../staking-glossary.md#validator-pool), un único validador en promedio sólo propondrá un bloque cada pocos meses. Si tienes la mala suerte de estar desconectado en el momento en que se le pide a tu validador que proponga un bloque, también está bien.
 
-The Ethereum network is robust and designed to handle these situations. If you miss your block proposal, the [slot](https://github.com/Buttaa/ethstaker/blob/main/help/staking-glossary.md#slot) that should have contained your block will be empty. Other than the lost [rewards](https://github.com/Buttaa/ethstaker/blob/main/help/rewards/chain-rewards.md) from missing the block proposal, there are **no penalties or slashing** that occurs from a missed block proposal.
+La red Ethereum es robusta y está diseñada para manejar estas situaciones. Si pierdes tu propuesta de bloque, la [ranura](https://github.com/Buttaa/ethstaker/blob/main/help/staking-glossary.md#slot) que debería haber contenido tu bloque estará vacía. Además de las [recompensas](https://github.com/Buttaa/ethstaker/blob/main/help/rewards/chain-rewards.md) perdidas por no proponer el bloque, no hay penalizaciones ni deducciones que ocurran por una propuesta de bloque perdida.
 
-Automated failover and backup systems may seem like a good idea, but they are much _**much**_ more likely to cause a slashing event (e.g. double proposal) than a manual recovery process. Missing out on a few days of rewards may seem bad at the time, but getting slashed and potentially missing _MONTHS_ of rewards is a lot worse!
+Los sistemas automáticos de conmutación por error y de copia de seguridad pueden parecer una buena idea, pero son mucho mucho más propensos a causar un evento de deducción (por ejemplo, doble propuesta) que un proceso de recuperación manual. Perder algunos días de recompensas puede parecer malo en ese momento, ¡pero ser reducido y perder potencialmente MESES de recompensas es mucho peor!
 
-## Getting back online
+
+
+## Volviendo a estar en línea
 
 * TODO
-  * Initial trouble shooting
-  * Resyncing
+  * Resolución de problemas iniciales
+  * Resincronización
