@@ -1,72 +1,74 @@
-# What is Ethereum staking?
+# ¿Qué es la participación?
 
-Staking is the act of depositing 32 ETH to activate validator software. As a validator you’ll be responsible for storing data, processing transactions, and adding new blocks to the blockchain. This will keep Ethereum secure for everyone and earn you new ETH in the process.
+Participación es el acto de depositar 32 ETH para activar el software validador. Como validador serás responsable de almacenar datos, procesar transacciones y añadir nuevos bloques a la cadena de bloques. Esto mantendrá a Ethereum seguro para todos y te hará ganar ETH en el proceso.
 
-## 💰Earn rewards
+## 💰Gane recompensas
 
-Rewards are given for actions that help the network reach consensus. You'll get rewards for running software that properly batches transactions into new blocks and checks the work of other validators because that's what keeps the chain running securely.
+Las recompensas se dan por acciones que ayuden a alcanzar el consenso en la red. Obtendrás recompensas por ejecutar software que agrupe transacciones en nuevos bloques y compruebe el trabajo de otros validadores, porque eso es lo que hace que la cadena funcione de manera segura.
 
-## 🔒 Better security
+## 🔒 Mayor seguridad
 
-The network gets stronger against attacks as more ETH is staked, as it then requires more ETH to control a majority of the network. To become a threat, you would need to hold the majority of validators, which means you'd need to control the majority of ETH in the system–that's a lot!
+La red se fortalece contra ataques a medida que se aumenta la participación en ETH, dado que se requiere más ETH para controlar la mayoría de la red. Para convertirse en una amenaza, se necesitaria tener la mayoría de validadores, lo que significa que necesitaría controlar la mayoría de ETH en el sistema. ¡Y eso es muy difícil!
 
-## 🌿 More sustainable
+## 🌿 Más sostenible
 
-Stakers don't need energy-intensive computers to participate in a Proof of Stake (PoS) system - just a home computer or (in future) a smartphone. This will make Ethereum better for the environment.
+Los participantes no necesitan ordenadores con alto consumo de energía para participar en la «prueba de participación», tan solo un ordenador doméstico o un teléfono móvil. Esto hace que Ethereum sea mejor para el medio ambiente.
 
-## How to stake your ETH
+## ¿Cómo participar con sus ETH?
 
-### 🏡 Solo home staking
+\
+🏡 Participación individual desde casa:
 
-- Most impactful
-- Full control
-- Full rewards
-- Trustless
+* De mayor impacto
+* Completo control
+* Recompensas completas
+* Sin confianza
 
-Solo staking on Ethereum is the **gold standard** for staking. It provides full participation rewards, improves the decentralization of the network, and never requires trusting anyone else with your funds.
+La participación individual en Ethereum es el patrón de oro por apostar. Proporciona recompensas de participación plena, mejora la descentralización de la red y nunca requiere que confíes sus fondos a nadie más.
 
-Those considering solo staking should have at least 32 ETH and a dedicated computer connected to the internet ~24/7. Some technical know-how is helpful, but easy-to-use tools now exist to help simplify this process.
+Quienes estén planteándose participar individualmente deberían tener al menos 32 ETH y un ordenador exclusivamente dedicado, conectado a internet \~24/7. Algunos conocimientos técnicos son útiles, aunque ahora existen herramientas fáciles de usar para simplificar este proceso.
 
-### ☁️ Staking as a service
+### ☁️ Participación como servicio
 
-- Your 32 ETH
-- Your validator keys
-- Entrusted node operation
+* Tus 32 ETH
+* Sus claves de validador
+* Operación de nodo de confianza
 
-If you don't want or don't feel comfortable dealing with hardware but still want to stake your 32 ETH, staking-as-a-service options allow you to delegate the hard part while you earn native block rewards.
+Si no quieres o no te sientes cómodo tratando con hardware, pero quieres usar tus 32 ETH, las opciones de participación como servicio le permiten delegar la parte difícil mientras gana recompensas de bloques.
 
-These options usually walk you through creating a set of validator credentials, uploading your signing keys to them, and depositing your 32 ETH. This allows the service to validate on your behalf.
+Estas opciones generalmente te guiarán a través de la creación de un conjunto de credenciales de validador, subiendo sus claves de firma y depositando sus 32 ETH. Esto permite que el servicio lo valide en tu nombre.
 
-This method of staking requires a certain level of trust in the provider. To limit counter-party risk, the keys to withdrawal your ETH are usually kept in your possession.
+Este método de participación requiere un cierto nivel de confianza en el proveedor. Para limitar el riesgo de la contraparte, las claves para retirar tu ETH normalmente se mantienen en tu posesión.
 
-### 🪺 Pooled staking
+### 🪺 Participación agrupada
 
-- Stake any amount
-- Earn rewards
-- Keep it simple
-- Popular
+* Participa con cualquier cantidad
+* Gana recompensas
+* Simple
+* Popular
 
-Several pooling solutions now exist to assist users who do not have or feel comfortable staking 32 ETH.
+Ahora existen varias soluciones de participación para ayudar a los usuarios que no tienen o no se sienten cómodos apostando sus 32 ETH.
 
-Many of these options include what is known as 'liquid staking' which involves an ERC-20 liquidity token that represents your staked ETH.
+Muchas de estas opciones incluyen lo que se conoce como la «participación líquida», que implica un token de liquidez ERC-20 que representa su ETH apostado.
 
-Liquid staking enables easy and anytime exiting and makes staking as simple as a token swap. This option also allows users to hold custody of their assets in their own Ethereum wallet.
+La participación líquida permite una salida fácil y en cualquier momento, y hace que la participación sea tan simple como un intercambio de tókenes. Esta opción también permite a los usuarios tener la custodia de sus activos en su propia cartera de Ethereum.
 
-Pooled staking is not native to the Ethereum network. Third parties are building these solutions, and they carry their own risks.
+Las apuestas agrupadas no son originarias de la red Ethereum y los terceros están construyendo estas soluciones y tienen sus propios riesgos.
 
-### 🏢 Centralized exchanges
+### 🏢 Intercambios centralizados
 
-- Least impactful
-- Highest trust assumptions
+* De menor impacto
+* Suposiciones de mayor confianza
 
-Many centralized exchanges provide staking services if you are not yet comfortable holding ETH in your own wallet. They can be a fallback to allow you to earn some yield on your ETH holdings with minimal oversight or effort.
+Muchos intercambios centralizados brindan servicios de participación si aún no se siente cómodo con ETH en su propia cartera. Pueden ser una alternativa para permitirle obtener algo de rendimiento de su cartera de ETH con un mínimo de supervisión o esfuerzo.
 
-The trade-off here is that centralized providers consolidate large pools of ETH to run large numbers of validators. This can be dangerous for the network and its users as it creates a large centralized target and point of failure, making the network more vulnerable to attack or bugs.
+La desventaja aquí es que los proveedores centralizados consolidan grandes agrupaciones de ETH para ejecutar un gran número de validadores. Esto puede ser peligroso para la red y sus usuarios, ya que crean un gran blanco central y un punto de fallo, haciendo la red más vulnerable a ataques o errores.
 
-If you don't feel comfortable holding your own keys, that's okay. These options are here for you. In the meantime, consider checking out the [ethereum.org wallets page](https://ethereum.org/wallets/), where you can get started learning how to take true ownership over your funds. When you're ready, come back and level up your staking game by trying one of the self-custody pooled staking services offered.
+Si no se sientes cómodo manteniendo sus propias llaves, no pasa nada. Le ofrecemos las siguientes alternativas. Mientras tanto, consulte nuestra [página de carteras](https://ethereum.org/es/wallets/) , donde aprenderá a tomar la verdadera posesión de sus fondos. Cuando esté listo, regrese y eleve el nivel de su participación probando uno de los servicios de participación agrupada de autocustodia que se ofrecen.
 
----
 
-As you may have noticed, there are many ways to participate in Ethereum staking. These paths target a wide range of users and ultimately are each unique and vary in terms of risks, rewards, and trust assumptions. Some are more decentralized, battle-tested and/or risky than others. We provide some information on popular projects in the space, but always do your own research before sending ETH anywhere.
+
+\
+Como puede haber notado, hay muchas maneras de participar en la «participación» de Ethereum. Estas rutas apuntan a una amplia variedad de usuarios y en última instancia son únicos y varían en términos de riesgos, recompensas y supuestos de confianza. Algunos son más descentralizados, probados en producción y/o arriesgados que otros. Proporcionamos información sobre proyectos populares en el espacio, aunque le aconsejamos que siempre _investigue por su propia cuenta_ antes de enviar ETH a cualquier lugar.
 
 [Source ↗](https://ethereum.org/en/staking/)
