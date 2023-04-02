@@ -80,7 +80,7 @@ Now the fun begins! To install, execute the below command
 apt-get install openvpn-as
 ```
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>You may need to install a fair few packages for this one...</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>You may need to install a fair few packages for this one...</p></figcaption></figure>
 
 Hooray, you've just installed OpenVPN access server! Pay attention to this part of the debug, it contains valuable information.
 
@@ -118,7 +118,7 @@ This website will show you your public IP address.
 
 Copy your IP address from this website and paste it in the "Hostname or IP Address" field located at the top of the "Network Settings" page. This will already be populated with your _private_ IP address, you must overwrite it with your _public_ one.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>If you don't have a static IP, you will need a DNS for your home network.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>If you don't have a static IP, you will need a DNS for your home network.</p></figcaption></figure>
 
 #### Step 5.3) Optional - Configure the admin UI and client UI to run on different ports.
 
@@ -128,7 +128,7 @@ We are going to configure the admin UI and the client UI to run on different por
 
 On the same page "Network Settings", please scroll down to the bottom and find "Client Web Server" and toggle the "Use a different IP address or port" setting.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
 
 Now we can change which port we want the client web server to run on, you can make this any port of your choosing. I chose 9515.
 

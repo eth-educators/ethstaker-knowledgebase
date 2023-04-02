@@ -92,7 +92,7 @@ At this point it's a good idea to set up the SSH server so you don't have to ins
 
 This screen might be displayed asking you to select or deselect popular snaps. Don't worry about this page, it might even be empty for you. Simply move on to the next screen.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt="Linux installation server snaps"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (1).png" alt="Linux installation server snaps"><figcaption></figcaption></figure>
 
 At this point, the installation will begin using all the configuration settings you've provided. This can take a few minutes (10 or more) depending on your hardware and configuration. You don't need to do anything, just wait until it completes. At the end of the installation process, you will need to reboot your machine. Select `Reboot Now` and it will ask you to remove the installation device (the USB you used during the installation).
 
