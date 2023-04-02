@@ -1,6 +1,6 @@
 # Use all available disk space
 
-Even if you have a large SSD there are cases where Ubuntu is reporting only 200GB free, causing users to run out of disk space when syncing their node.
+Even if you have a large SSD installed, there are cases where Ubuntu only reports 200GB of total available space, causing the system to run out of disk space when syncing.
 
 The error message is similar to:
 
