@@ -38,7 +38,7 @@ Yes, but with small penalties. See [I'm worried about downtime](help/downtime-ex
 
 ## Can I withdraw my ETH at any time?
 
-Withdrawals are not currently enabled on the [beacon chain](staking-glossary.md#beacon-chain). This means that any ETH deposited will be locked in the staking contract until a future time (expected to be in 2023 but this time frame is an estimate) when an upgrade to the network allows withdrawals.
+Withdrawals are not currently enabled on the [beacon chain](staking-glossary.md#beacon-chain) but will be enabled on [12th April 2023](https://twitter.com/TimBeiko/status/1640722906744487936?s=20).
 
 Ethereum Foundation Withdrawals FAQ: [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
 
