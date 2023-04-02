@@ -1,45 +1,45 @@
-# How does my validator earn ETH?
+# ¿Cómo gana ETH mi validador?
 
-Validators that participate in securing the [Beacon Chain](../staking-glossary.md#beacon-chain) and execute "duties" get rewarded for this by new issuance of ETH. In addition, validators receive priority fees paid by users, and optionally [MEV](../staking-glossary.md#MEV). Validators are rewarded for executing those duties by new ETH issuance to the "validator balance". The current APY can be seen on the [official launchpad ↗](https://launchpad.ethereum.org/).
+Los validadores que participan en la seguridad del [Beacon Chain](../staking-glossary.md#beacon-chain) y ejecutan "tareas" son recompensados por esto mediante la nueva emisión de ETH. Además, los validadores reciben tarifas prioritarias pagadas por los usuarios y opcionalmente [MEV](../staking-glossary.md#MEV). Los validadores son recompensados por ejecutar esos deberes mediante la nueva emisión de ETH en el "saldo del validador". El APY actual se puede ver en la [plataforma de lanzamiento oficial](https://launchpad.ethereum.org/en/)[↗](https://launchpad.ethereum.org/en/).
 
-| Type                                                    | Layer                                               | Frequency                                                                                  | Amount                                        |
-| ------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------ | --------------------------------------------- |
-| [Attestation](../staking-glossary.md#attestation)       | [Consensus](../staking-glossary.md#consensus-layer) | Once per [Epoch](../staking-glossary.md#epoch) (every 6.4 minutes on average)              | 0.000014 ETH\*                                |
-| [Block Proposal](../staking-glossary.md#block-proposer) | [Consensus](../staking-glossary.md#consensus-layer) | [Every 2 months on average](proposal-frequency.md)                                         | 0.02403 ETH\*                                 |
-| [Sync Committee](../staking-glossary.md#sync-committee) | [Consensus](../staking-glossary.md#consensus-layer) | Every 2 years on average\*\*                                                               | 0.11008 ETH\*                                 |
-| [Slashing Reward](../staking-glossary.md#slasher-node)  | [Consensus](../staking-glossary.md#consensus-layer) | Very rarely included in Block Proposals                                                    | Up to 0.0625 ETH                              |
-| [Priority Fees](../staking-glossary.md#priority-fees)   | [Execution](../staking-glossary.md#execution-layer) | Included in every Block Proposal containing transactions                                   | Typically 0.01 to 0.1 ETH; very rarely 1+ ETH |
-| [MEV Rewards](../staking-glossary.md#mev)               | [Execution](../staking-glossary.md#execution-layer) | Also included in Block Proposals when using [MEV-boost](../validator-clients/mev-boost.md) | Typically 0.01 to 0.1 ETH; very rarely 1+ ETH |
+| Tipo                                                                                                                                        | Capa                                                | Frecuencia                                                                                       | Monto                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------ |
+| [Atestación](../staking-glossary.md#attestation)                                                                                            | [Consenso](../staking-glossary.md#consensus-layer)  | Una vez por [Epoch](../staking-glossary.md#epoch) (cada 6.4 minutos en promedio)                 | 0.000014 ETH\*                                   |
+| [Propuesta de bloque](https://app.gitbook.com/o/5TLAFycQGS1YA3kIVVOf/s/qceavar0TsKoVat3fJGq/\~/changes/18/staking-glossary#block-proposer)  | [Consenso](../staking-glossary.md#consensus-layer)  | [Cada 2 meses en promedio](proposal-frequency.md)                                                | 0.02403 ETH\*                                    |
+| [comité de sincronización](../staking-glossary.md#sync-committee)                                                                           | [Consenso](../staking-glossary.md#consensus-layer)  | Cada 2 años en promedio\*\*                                                                      | 0.11008 ETH\*                                    |
+| [Slashing Reward](../staking-glossary.md#slasher-node)                                                                                      | [Consenso](../staking-glossary.md#consensus-layer)  | Muy raramente incluido en Propuestas de Bloques                                                  | Hasta 0.0625 ETH                                 |
+| [Priority Fees](../staking-glossary.md#priority-fees)                                                                                       | [Ejecución](../staking-glossary.md#execution-layer) | Incluido en cada Propuesta de Bloque que contenga transacciones                                  | Típicamente 0.01 a 0.1 ETH; muy raramente 1+ ETH |
+| [MEV Rewards](../staking-glossary.md#mev)                                                                                                   | [Ejecución](../staking-glossary.md#execution-layer) | También incluido en Propuestas de Bloques al usar [MEV-boost](../validator-clients/mev-boost.md) | Típicamente 0.01 a 0.1 ETH; muy raramente 1+ ETH |
 
-\*_Varies based on the total number of validators in the network. Estimate shown approximated for 435,000 active validators._
+_\*Varía según el número total de validadores en la red. La estimación mostrada es aproximada para 435,000 validadores activos._&#x20;
 
-\*\*_These are subject to randomness; there can be "dry spells" multiple times longer than the average without being given one._
+_\*\*Estos están sujetos a la aleatoriedad; puede haber "rachas secas" varias veces más largas que el promedio sin recibir una._
 
-Rewards provided on the [Consensus](../staking-glossary.md#consensus-layer) are not currently liquid. They are locked on the chain until [withdrawals](../faq.md#can-i-withdraw-my-eth-at-any-time) have been implemented. Rewards provided on the [Execution](../staking-glossary.md#execution-layer), however, are liquid and can be accessed instantly.
+Las recompensas proporcionadas en el [Consenso](../staking-glossary.md#consensus-layer) actualmente no son líquidas. Están bloqueadas en la cadena hasta que se implementen los [retiros](../faq.md#can-i-withdraw-my-eth-at-any-time). Las recompensas proporcionadas en la [Ejecución](../staking-glossary.md#execution-layer), sin embargo, son líquidas y se pueden acceder instantáneamente.R
 
-[Source ↗](https://docs.rocketpool.net/guides/node/responsibilities.html#how-ethereum-staking-works)
+[Fuente↗](https://docs.rocketpool.net/guides/node/responsibilities.html#how-ethereum-staking-works)
 
-## Validator penalties
+## Penalizaciones de validador
 
-If the validator is offline and not executing its duties, it will be penalized at a rate slightly lower than the rewards for the same period of time.
+Si el validador está fuera de línea y no está ejecutando sus deberes, será penalizado a una tasa ligeramente menor que las recompensas por el mismo período de tiempo.
 
-Validators are penalized for small amounts of ETH if they are offline and fail to perform their assigned duties. This is called [**leaking**](../staking-glossary.md#inactivity-leak). If a validator violates one of the core rules of the Beacon chain and appears to be attacking the network, it may get **[slashed](../staking-glossary.md#slashable-offenses)**. Slashing is a forceful exit of your validator without your permission, accompanied by a relatively large fine that removes some of your validator's ETH balance.
+Los validadores son penalizados por pequeñas cantidades de ETH si están desconectados y no realizan sus deberes asignados. Esto se llama [**leaking**](../staking-glossary.md#inactivity-leak). Si un validador viola una de las reglas principales de la cadena Beacon y parece estar atacando la red, puede ser [**slashed**](../staking-glossary.md#slashable-offenses). Slash es una salida forzosa de su validador sin su permiso, acompañada de una multa relativamente grande que elimina parte del saldo de ETH de su validador.
 
-Realistically, the only condition that can cause a slashing is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and **you won't get slashed**. Slashing _cannot occur_ from being offline for maintenance.
+Realísticamente, la única condición que puede causar un slashing es si ejecuta las claves de su validador en dos nodos al mismo tiempo (como una configuración de conmutación por error / redundancia, donde su nodo de respaldo se enciende accidentalmente mientras su nodo principal todavía se está ejecutando). No deje que esto suceda y **no tendrá slashing**. El slashing no puede ocurrir por estar fuera de línea para mantenimiento.
 
-Below is a table that shows the penalties that can happen to a validator:
+A continuación, se muestra una tabla que muestra las penalizaciones que pueden ocurrirle a un validador:
 
-| Type                                                           | Layer                                               | Amount                                                                            |
-| -------------------------------------------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------- |
-| Missed [Attestation](../staking-glossary.md#attestation)       | [Consensus](../staking-glossary.md#consensus-layer) | -0.000011 ETH\* per attestation (-9/10 the value of a normal attestation reward)  |
-| Missed [Block Proposal](../staking-glossary.md#block-proposer) | [Consensus](../staking-glossary.md#consensus-layer) | 0                                                                                 |
-| Missed [Sync Committee](../staking-glossary.md#sync-committee) | [Consensus](../staking-glossary.md#consensus-layer) | -0.00047 ETH\* per epoch (-0.1 ETH total if offline for the whole sync committee) |
-| [Slashing](../staking-glossary.md#slashable-offenses)          | [Consensus](../staking-glossary.md#consensus-layer) | At least 1/32 of your balance, up to your entire balance in extreme circumstances |
+| Tipo                                                                                                                                               | Capa                                               | Monto                                                                                                       |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Atestación](../staking-glossary.md#attestation) perdida                                                                                           | [Consenso](../staking-glossary.md#consensus-layer) | 0.000011 ETH\* por atestación (-9/10 del valor de una recompensa de atestación normal)                      |
+| [Propuesta de bloque](https://app.gitbook.com/o/5TLAFycQGS1YA3kIVVOf/s/qceavar0TsKoVat3fJGq/\~/changes/18/staking-glossary#block-proposer) perdida | [Consenso](../staking-glossary.md#consensus-layer) | 0                                                                                                           |
+| Perdida de [comité de sincronización](../staking-glossary.md#sync-committee)                                                                       | [Consenso](../staking-glossary.md#consensus-layer) | 0.00047 ETH\* por epoch (-0.1 ETH en total si está fuera de línea durante todo el comité de sincronización) |
+| [Slashing](../staking-glossary.md#slashable-offenses)                                                                                              | [Consenso](../staking-glossary.md#consensus-layer) | Al menos 1/32 de su saldo, hasta todo su saldo en circunstancias extremas                                   |
 
-\*_Varies based on the total number of validators in the network. Estimate shown approximated for 435,000 active validators._
+_\*Varía según el número total de validadores en la red. La estimación mostrada es aproximada para 435,000 validadores activos._
 
 {% hint style="info" %}
-As a rule of thumb, if you're offline for X hours (and you aren't in a [sync committee](../staking-glossary.md#sync-committee)), then you'll make all of your leaked ETH back after X hours once you're back online and attesting.
+Como regla general, si está desconectado durante X horas (y no está en un [comité de sincronización](../staking-glossary.md#sync-committee)), recuperará todo su ETH perdido después de X horas una vez que vuelva a estar en línea y atestando.
 {% endhint %}
 
 [Source ↗](https://docs.rocketpool.net/guides/node/responsibilities.html#penalties)

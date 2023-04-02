@@ -20,7 +20,7 @@
 
 ## 💰 Rewards
 
-* [How does my validator earn ETH?](rewards/chain-rewards.md)
+* [¿Cómo gana ETH mi validador?](rewards/chain-rewards.md)
 * [Block proposal frequency](rewards/proposal-frequency.md)
 
 ## 💻 Hardware
