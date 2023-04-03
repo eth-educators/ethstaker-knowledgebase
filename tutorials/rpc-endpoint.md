@@ -23,8 +23,8 @@ _Please note, configuring your --http-corsdomain as per the above example will a
 #### Optional Flags
 
 ```
---http.addr 8545
---http.port 0.0.0.0
+--http.addr 0.0.0.0
+--http.port 8545
 ```
 
 [Link to docs](https://geth.ethereum.org/docs/interacting-with-geth/rpc)
