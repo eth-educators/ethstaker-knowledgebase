@@ -4,7 +4,7 @@
 This is a reminder that you should never have your validator keys configured across multiple machines at the same time, because if the same validator key is active twice across the network _it will get_ [_slashed_](../staking-glossary.md#slashable-offenses). They should _only_ ever be configured to run in one place at one time!
 {% endhint %}
 
-With that out of the way, let's get into it. There are a few things that you can do to minimize your potential downtime.&#x20;
+With that out of the way, let's get into it. There are a few things that you can do to minimize your potential downtime.
 
 There will always be situations where you will have downtime, it is inevitable when running a validator so please don't chase a perfect attestation record. There are however some things you can do to _minimize_ downtime.
 
@@ -30,11 +30,9 @@ It can be useful to have a spare SSD ready to be swapped out in case of hardware
 
 If you travel around a lot, you could even have it plugged into your machine on standby ready to go meaning your node could be recovered remotely, unless of course, the drive that fails is your OS drive.
 
-
-
 There will be times when you are offline and are missing attestations, do not stress or panic when this happens and focus on getting yourself back online. If for example, you are offline for 4 hours, it will take 4 hours of being online to be back where you started in terms of validator balance.
 
-For more information about downtime see our helper posts:&#x20;
+For more information about downtime see our helper posts:
 
-* [I'm worried about downtime 😔](../help/downtime-explained.md)
-* [I'm worried about slashing 🔪](../help/slashing-explained.md)
+* [I'm worried about downtime 😔](../ayuda/downtime-explained.md)
+* [I'm worried about slashing 🔪](../ayuda/slashing-explained.md)

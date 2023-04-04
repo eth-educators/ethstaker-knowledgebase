@@ -32,7 +32,7 @@ No. Realmente la única condición que puede causar una [sanción](staking-gloss
 
 ## ¿Puedo dejar de correr mi validador durante unos días y luego volver a iniciarlo?
 
-Sí, pero con penalizaciones pequeñas. Consulta [Estoy preocupado por el tiempo de inactividad](help/downtime-explained.md).
+Sí, pero con penalizaciones pequeñas. Consulta [Estoy preocupado por el tiempo de inactividad](ayuda/downtime-explained.md).
 
 ## ¿Puedo retirar mi ETH en cualquier momento?
 

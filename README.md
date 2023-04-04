@@ -25,10 +25,10 @@ Una colección imparcial y de código abierto de información y conceptos útile
 
 ### **🚨 ¡AYUDA!**
 
-* [My validator is offline! What do I do?](help/validator-offline.md) (inglés)
-* [Missed attestations! What can I do?](help/missed-attestations.md) (inglés)
-* [I'm worried about downtime 😔](help/downtime-explained.md) (inglés)
-* [I'm worried about slashing 🔪](help/slashing-explained.md) (inglés)
+* [My validator is offline! What do I do?](ayuda/validator-offline.md) (inglés)
+* [Missed attestations! What can I do?](ayuda/missed-attestations.md) (inglés)
+* [I'm worried about downtime 😔](ayuda/downtime-explained.md) (inglés)
+* [I'm worried about slashing 🔪](ayuda/slashing-explained.md) (inglés)
 
 ### 💰 Recompensas
 

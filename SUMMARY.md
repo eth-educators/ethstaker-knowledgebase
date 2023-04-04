@@ -8,15 +8,15 @@
 
 * [¿Qué es la participación?](getting-started/what-is-ethereum-staking.md)
 * [Corriendo un nodo sin necesidad de ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
+* [El proceso de depósito explicado](getting-started/deposit-process.md)
 
-## 🚨 Help!
+## 🚨 Ayuda!
 
-* [¡Mi validador está desconectado! ¿Qué debo hacer?](help/validator-offline.md)
-* [¡Atestaciones perdidas! ¿Qué puedo hacer?](help/missed-attestations.md)
-* [Estoy preocupado por el tiempo de inactividad 😔](help/downtime-explained.md)
-* [Estoy preocupado por las deducciones (slashing)🔪](help/slashing-explained.md)
-* [Errores y problemas comunes](help/common-errors-mistakes.md)
+* [¡Mi validador está desconectado! ¿Qué debo hacer?](ayuda/validator-offline.md)
+* [¡Atestaciones perdidas! ¿Qué puedo hacer?](ayuda/missed-attestations.md)
+* [Estoy preocupado por el tiempo de inactividad 😔](ayuda/downtime-explained.md)
+* [Estoy preocupado por las deducciones (slashing)🔪](ayuda/slashing-explained.md)
+* [Errores y problemas comunes](ayuda/common-errors-mistakes.md)
 
 ## 💰 Rewards
 
