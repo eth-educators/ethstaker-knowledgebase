@@ -199,7 +199,7 @@ Ethereum's consensus layer is the network of [consensus clients](validator-clien
 
 The Deposit contract is the **gateway** to Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) and is managed **through a smart contract** on Ethereum. The smart contract accepts any transaction with a minimum amount of 1 ETH and a valid [input data](staking-glossary.md#input-data). Ethereum beacon-nodes listen to the deposit contract and use the input data to credit each validator.
 
-[_More info on the deposit contract_](getting-started/deposit-process.md)
+[_More info on the deposit contract_](para-empezar/deposit-process.md)
 
 ## Effectiveness
 
@@ -266,9 +266,9 @@ To reflect the relative value of an attestation, the reward given to a validator
 
 ## Input data
 
-The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the validator public key and the withdrawal public key, which were signed with by the validator [private key](staking-glossary.md#private-key). The input data needs to be added to the transaction to the [deposit contract](getting-started/deposit-process.md) in order to get identified by the [beacon-chain](staking-glossary.md#beacon-chain).
+The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the validator public key and the withdrawal public key, which were signed with by the validator [private key](staking-glossary.md#private-key). The input data needs to be added to the transaction to the [deposit contract](para-empezar/deposit-process.md) in order to get identified by the [beacon-chain](staking-glossary.md#beacon-chain).
 
-[_More info about the deposit process_](getting-started/deposit-process.md)
+[_More info about the deposit process_](para-empezar/deposit-process.md)
 
 ## Justification
 
@@ -342,7 +342,7 @@ Demonstrating cryptographically that a message or transaction was approved by th
 
 If your validator commits a slashable offense it will be force exited from the validator pool and will have ETH deducted depending on the circumstances of the event. Typically, this will be 1-2 ETH but could be [significantly more ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/#slashing).
 
-This is not something to be overly worried about, there are [simple steps](ayuda/slashing-explained.md) you can take to make sure that you don't invoke a slashing event.
+This is not something to be overly worried about, there are [simple steps](help/slashing-explained.md) you can take to make sure that you don't invoke a slashing event.
 
 There are three ways a validator can be slashed, all of which amount to the dishonest proposal or attestation of blocks.
 

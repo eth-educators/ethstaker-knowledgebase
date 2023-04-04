@@ -5,7 +5,7 @@
 * [¿Puedo retirar mi ETH en cualquier momento?](faq.md#puedo-retirar-mi-eth-en-cualquier-momento)
 * [¿Cómo se incentiva a los validadores a permanecer activos y honestos?](faq.md#como-se-incentiva-a-los-validadores-a-permanecer-activos-y-honestos)
 * [¿Por cuanto tiempo son válidos los mensajes de salida pre firmados?](faq.md#por-cuanto-tiempo-son-validos-los-mensajes-de-salida-pre-firmados)
-* [¿Cuánto ETH necesito para hacer stake y convertirme en validador?](faq.md#cuanto-eth-necesito-para-hacer-stake-y-convertirme-en-validador)
+* [¿Cuánto ETH necesito para hacer staking y convertirme en validador?](faq.md#cuanto-eth-necesito-para-hacer-stake-y-convertirme-en-validador)
 * [Estoy abrumado y no sé por donde empezar, ¿qué puedo hacer?](faq.md#estoy-abrumado-y-no-se-por-donde-empezar-que-puedo-hacer)
 * [¡Propuse un bloque! ¿Qué gané?](faq.md#propuse-un-bloque-que-gane)
 * [¿Se muestra la dirección de depósito u origen en algún lugar?](faq.md#se-muestra-la-direccion-de-deposito-u-origen-en-algun-lugar)
@@ -32,11 +32,11 @@ No. Realmente la única condición que puede causar una [sanción](staking-gloss
 
 ## ¿Puedo dejar de correr mi validador durante unos días y luego volver a iniciarlo?
 
-Sí, pero con penalizaciones pequeñas. Consulta [Estoy preocupado por el tiempo de inactividad](ayuda/downtime-explained.md).
+Sí, pero con penalizaciones pequeñas. Consulta [Estoy preocupado por el tiempo de inactividad](help/downtime-explained.md).
 
 ## ¿Puedo retirar mi ETH en cualquier momento?
 
-Los retiros no están actualmente habilitados en la [cadena de baliza](staking-glossary.md#beacon-chain). Esto significa que todo el ETH depositado quedará bloqueado en el contrato de staking hasta un momento futuro (se espera que en 2023, pero esto es solo una estimación) en el que se permitirán los retiros tras una actualización de la red.
+Los retiros no están actualmente habilitados en la [Beacon chain](staking-glossary.md#beacon-chain). Esto significa que todo el ETH depositado quedará bloqueado en el contrato de staking hasta un momento futuro (abril 2023) en el que se permitirán los retiros tras una actualización de la red.
 
 Puedes ver más información en la página de preguntas frecuentes de la Ethereum Foundation (en inglés) [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
 
@@ -52,7 +52,7 @@ El concepto clave es el siguiente:
 
 * Las recompensas se otorgan por acciones que ayuden a la red a llegar a un consenso.
 * Hay pequeñas penalizaciones por acciones involuntarias que obstaculizan el consenso.
-* Grandes [penalizaciones](staking-glossary.md#slashable-offenses) (o 'slashings') por acciones maliciosas.
+* Grandes [penalizaciones](faq.md#hay-una-penalizacion-por-perder-una-certificacion) (o 'slashings') por acciones maliciosas.
 
 En otras palabras, maximizas tus recompensas al proporcionar el mayor beneficio a la red.
 
@@ -68,7 +68,7 @@ fork_version = state.fork.previous_version if epoch < state.fork.epoch else stat
 
 Un mensaje de salida firmado en cualquier época anterior al último hard fork se agrupa en una "versión anterior" y se le asigna su versión del fork. Esto significa que si tu operación fue firmada hace dos forks, la función de verificación tiene la versión del fork incorrecta, y por lo tanto el dominio equivocado, la raíz equivocada y fallará al verificar.
 
-## ¿Cuánto ETH necesito para hacer stake y convertirme en validador?
+## ¿Cuánto ETH necesito para hacer staking y convertirme en validador?
 
 Cada par de llaves asociado con un validador requiere bloquear 32 ETH para activarse, lo cual representa tu balance inicial, además de tu poder de voto inicial y máximo para cualquier validador.
 
@@ -76,7 +76,7 @@ Cada par de llaves asociado con un validador requiere bloquear 32 ETH para activ
 
 Hay muchas opciones para participar haciendo staking en Ethereum, esto sin duda puede ser abrumador.
 
-Tómalo con calma. Primero aprende sobre las [opciones que tienes](getting-started/what-is-ethereum-staking.md#como-participar-con-sus-eth) y escoge la que más te convenga. No hay necesidad de apurarse y perder el sueño.
+Tómalo con calma. Primero aprende sobre las [opciones que tienes](para-empezar/what-is-ethereum-staking.md#como-participar-con-sus-eth) y escoge la que más te convenga. No hay necesidad de apurarse y perder el sueño.
 
 Si escoges "staking individual en casa" y quieres correr tu propio validador, decide entre las diferentes [opciones de hardware](hardware/hardware-requirements.md) (e.j. Intel NUC) y sigue una [guía de staking](tutorials/solo-staking-guides.md) en una red de prueba primero. Busca guías de staking para la red de pruebas Goerli. Toma notas, averigua que sucede cuando desconectas el cable de alimentación del validador, como actualizar, etc. En resumen, obtén experiencia con tu nodo antes de hacer staking en la red principal de Ethereum.
 
@@ -86,7 +86,7 @@ No dudes en hacernos cualquier pregunta y únete a nuestra comunidad de [Discord
 
 ## ¡Propuse un bloque! ¿Qué gané?
 
-Los validadores que participan en asegurar la [red de baliza](staking-glossary.md#beacon-chain) y realizan sus "deberes" son recompensados por ello mediante la emisión de ETH nuevo. Además, los validadores reciben fees de prioridad pagados por los usuarios, y MEV (Maximal Extractable Value) opcionalmente.
+Los validadores que participan en asegurar la [Beacon chain](staking-glossary.md#beacon-chain) y realizan sus "deberes" son recompensados por ello mediante la emisión de ETH nuevo. Además, los validadores reciben fees de prioridad pagados por los usuarios, y MEV (Maximal Extractable Value) opcionalmente.
 
 Puedes ver las recompensas por bloques propuestos de un validador mirando la dirección del receptor de los fees en [etherscan.io↗](https://etherscan.io) bajo `Produced Blocks`.
 
@@ -137,7 +137,7 @@ Sin embargo, hay algunos casos a tomar en cuanta donde es preferible **no** esta
 
 ## ¿Qué es un validador exactamente?
 
-Un validador es una entidad virutal que vive en la [cadena de baliza](staking-glossary.md#beacon-chain), representado por un balance, [llave pública](staking-glossary.md#public-key) y otras propiedades. También participa en el [consenso](staking-glossary.md#consensus-layer) de la red de Ethereum.
+Un validador es una entidad virutal que vive en la [Beacon chain](staking-glossary.md#beacon-chain), representado por un balance, [llave pública](staking-glossary.md#public-key) y otras propiedades. También participa en el [consenso](staking-glossary.md#consensus-layer) de la red de Ethereum.
 
 ## ¿Qué pasa si pierdo las llaves de mi validador?
 

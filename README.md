@@ -10,25 +10,25 @@ El contenido está siendo escrito y mejorado con la ayuda de la comunidad EthSta
 ## Bienvenido a la Base de Conocimientos de EthStaker!
 
 \
-Una colección imparcial y de código abierto de información y conceptos útiles sobre participar (staking) en Ethereum. Si estás buscando empezar a participar en Ethereum o simplemente aprender más sobre cómo la red está asegurada a través de validadores [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos), ¡has venido al lugar correcto!
+Una colección imparcial y de código abierto de información y conceptos útiles sobre cómo hacer staking en Ethereum. Si estás buscando empezar a hacer staking en Ethereum o simplemente aprender más sobre cómo la red está asegurada a través de validadores [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos), ¡has venido al lugar correcto!
 
 ## 🔗 Links útiles
 
-* [Staking glossary](staking-glossary.md) (inglés)
+* [Para Empezar](./#para-empezar)
 * [Preguntas Frecuentes de Staking](faq.md)
 
 ## 🚀 Para empezar
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md) (inglés)
-* [Running a node without any ETH](getting-started/ethereum-node.md) (inglés)
-* [Deposit process explained](getting-started/deposit-process.md) (inglés)
+* [What is Ethereum staking?](para-empezar/what-is-ethereum-staking.md) (inglés)
+* [Running a node without any ETH](para-empezar/ethereum-node.md) (inglés)
+* [Deposit process explained](para-empezar/deposit-process.md) (inglés)
 
 ### **🚨 ¡AYUDA!**
 
-* [My validator is offline! What do I do?](ayuda/validator-offline.md) (inglés)
-* [Missed attestations! What can I do?](ayuda/missed-attestations.md) (inglés)
-* [I'm worried about downtime 😔](ayuda/downtime-explained.md) (inglés)
-* [I'm worried about slashing 🔪](ayuda/slashing-explained.md) (inglés)
+* [My validator is offline! What do I do?](help/validator-offline.md) (inglés)
+* [Missed attestations! What can I do?](help/missed-attestations.md) (inglés)
+* [I'm worried about downtime 😔](help/downtime-explained.md) (inglés)
+* [I'm worried about slashing 🔪](help/slashing-explained.md) (inglés)
 
 ### 💰 Recompensas
 
