@@ -6,7 +6,7 @@
 
 ## 🚀 Para Empezar
 
-* [¿Qué es la participación?](para-empezar/what-is-ethereum-staking.md)
+* [¿Qué es hacer Staking?](para-empezar/what-is-ethereum-staking.md)
 * [Corriendo un nodo sin necesidad de ETH](para-empezar/ethereum-node.md)
 * [El proceso de depósito explicado](para-empezar/deposit-process.md)
 

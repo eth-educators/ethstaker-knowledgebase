@@ -1,14 +1,14 @@
 # El proceso de depósito explicado
 
 {% hint style="warning" %}
-Nunca confíe ciegamente en ningún enlace al depositar ETH en el contrato de participación.
+Nunca confíe ciegamente en ningún enlace al depositar ETH en el contrato de staking.
 
 **Siempre verifique la dirección del contrato de depósito desde MÚLTIPLES fuentes:**
 
 [https://ethereum.org/en/staking/deposit-contract](https://ethereum.org/en/staking/deposit-contract)[ ↗](https://ethereum.org/en/staking/deposit-contract/)
 {% endhint %}
 
-Una vez que tenga configurada su nodo validador y esté ejecutando tanto un [cliente de capa de ejecución](#user-content-fn-1)[^1] como un [cliente de capa de consens](#user-content-fn-2)[^2]o, está listo para comenzar el proceso de depósito.
+Una vez que tenga configurada su nodo validador y esté ejecutando tanto un [cliente de capa de ejecución](../validator-clients/execution-clients.md) como un [cliente de capa de consenso](../validator-clients/consensus-clients.md), está listo para comenzar el proceso de depósito.
 
 Los depósitos de participación se procesan a través de la plataforma de lanzamiento de [ethereum.org](http://ethereum.org/):
 
@@ -57,7 +57,3 @@ Selecciona esta opción
 * Descargar la aplicación CLI
 * Descargar la aplicación GUI de generación de claves
 * Construir desde el código fuente
-
-[^1]: Agregar link [Jaf](http://localhost:5000/u/jM0jO75XE5V134abEUZ7BjppEb93 "mention")
-
-[^2]: Agregar link [Jaf](http://localhost:5000/u/jM0jO75XE5V134abEUZ7BjppEb93 "mention")
