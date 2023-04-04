@@ -1,198 +1,196 @@
-# Staking FAQ
+# Preguntas Frequentes de Staking
 
-* [Can I be slashed for being offline?](faq.md#can-i-be-slashed-for-being-offline)
-* [Can I stop running my validator for a few days and then start it back up again?](faq.md#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
-* [Can I withdraw my ETH at any time?](faq.md#can-i-withdraw-my-eth-at-any-time)
-* [How are validators incentivized to stay active and honest?](faq.md#how-are-validators-incentivized-to-stay-active-and-honest)
-* [How long do pre-signed exit messages remain valid?](faq.md#how-long-do-pre-signed-exit-messages-remain-valid)
-* [How much ETH do I need to stake to become a validator?](faq.md#how-much-eth-do-i-need-to-stake-to-become-a-validator)
-* [I am overwhelmed and don't know where to start - what can I do?](faq.md#i-am-overwhelmed-and-dont-know-where-to-start---what-can-i-do)
-* [I proposed a block! What did I earn?](faq.md#i-proposed-a-block-what-did-i-earn)
-* [Is the deposit/source address shown anywhere?](faq.md#is-the-depositsource-address-shown-anywhere)
-* [Is there a penalty for missing a block proposal?](faq.md#is-there-a-penalty-for-missing-a-block-proposal)
-* [Is there a penalty for missing an attestation?](faq.md#is-there-a-penalty-for-missing-an-attestation)
-* [Is there any advantage to having more than 32 ETH at stake?](faq.md#is-there-any-advantage-to-having-more-than-32-eth-at-stake)
-* [Should I set a withdrawal address when setting up my solo staking validator?](faq.md#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator)
-* [What exactly is a validator?](faq.md#what-exactly-is-a-validator)
-* [What happens if I lose my validator keys?](faq.md#what-happens-if-i-lose-my-validator-keys)
-* [What happens if I lose my validator seed phrase / mnemonic?](faq.md#what-happens-if-i-lose-my-validator-seed-phrase--mnemonic)
-* [What if I want to stop staking?](faq.md#what-if-i-want-to-stop-staking)
-* [What is a node operator?](faq.md#what-is-a-node-operator)
-* [What is a validator client?](faq.md#what-is-a-validator-client)
-* [What is the deposit contract?](faq.md#what-is-the-deposit-contract)
-* [What is the easiest way to Solo Home Staking?](faq.md#what-is-the-easiest-way-to-solo-home-staking)
-* [What is the time commitment for running a validator?](faq.md#what-is-the-time-commitment-for-running-a-validator)
-* [When should I top up my validator’s balance?](faq.md#when-should-i-top-up-my-validators-balance)
-* [Why do I need to have funds at stake?](faq.md#why-do-i-need-to-have-funds-at-stake)
-* [Why the 32 ETH maximum?](faq.md#why-the-32-eth-maximum)
+* [¿Puedo ser sancionado por estar desconectado?](faq.md#puedo-ser-sancionado-por-estar-desconectado)
+* [¿Puedo dejar de correr mi validador durante unos días y luego volver a iniciarlo?](faq.md#puedo-dejar-de-correr-mi-validador-durante-unos-dias-y-luego-volver-a-iniciarlo)
+* [¿Puedo retirar mi ETH en cualquier momento?](faq.md#puedo-retirar-mi-eth-en-cualquier-momento)
+* [¿Cómo se incentiva a los validadores a permanecer activos y honestos?](faq.md#como-se-incentiva-a-los-validadores-a-permanecer-activos-y-honestos)
+* [¿Por cuanto tiempo son válidos los mensajes de salida pre firmados?](faq.md#por-cuanto-tiempo-son-validos-los-mensajes-de-salida-pre-firmados)
+* [¿Cuánto ETH necesito para hacer stake y convertirme en validador?](faq.md#cuanto-eth-necesito-para-hacer-stake-y-convertirme-en-validador)
+* [Estoy abrumado y no sé por donde empezar, ¿qué puedo hacer?](faq.md#estoy-abrumado-y-no-se-por-donde-empezar-que-puedo-hacer)
+* [¡Propuse un bloque! ¿Qué gané?](faq.md#propuse-un-bloque-que-gane)
+* [¿Se muestra la dirección de depósito u origen en algún lugar?](faq.md#se-muestra-la-direccion-de-deposito-u-origen-en-algun-lugar)
+* [¿Hay una penalización por perder una propuesta de bloque?](faq.md#hay-una-penalizacion-por-perder-una-propuesta-de-bloque)
+* [¿Hay una penalización por perder una certificación?](faq.md#hay-una-penalizacion-por-perder-una-certificacion)
+* [¿Hay alguna ventaja en tener más de 32 ETH en participación?](faq.md#hay-alguna-ventaja-en-tener-mas-de-32-eth-en-participacion)
+* [¿Debería establecer una dirección de retiro al configurar mi validador?](faq.md#deberia-establecer-una-direccion-de-retiro-al-configurar-mi-validador)
+* [¿Qué es un validador exactamente?](faq.md#que-es-un-validador-exactamente)
+* [¿Qué pasa si pierdo las llaves de mi validador?](faq.md#que-pasa-si-pierdo-las-llaves-de-mi-validador)
+* [¿Qué pasa si pierdo la frase semilla o mnemónica de mi validador?](faq.md#que-pasa-si-pierdo-la-frase-semilla-o-mnemonica-de-mi-validador)
+* [¿Y si quiero dejar de participar?](faq.md#y-si-quiero-dejar-de-participar)
+* [¿Qué es un operador de nodos?](faq.md#que-es-un-operador-de-nodos)
+* [¿Qué es un cliente del validador?](faq.md#que-es-un-cliente-del-validador)
+* [¿Qué es el contrato de depósito?](faq.md#que-es-el-contrato-de-deposito)
+* [¿Cuál es la forma más fácil de participar individualmente desde casa?](faq.md#cual-es-la-forma-mas-facil-de-participar-individualmente-desde-casa)
+* [¿Cuál es el compromiso de tiempo de correr un validador?](faq.md#cual-es-el-compromiso-de-tiempo-de-correr-un-validador)
+* [¿Cuándo debería recargar el balance de mi validador?](faq.md#cuando-deberia-recargar-el-balance-de-mi-validador)
+* [¿Por qué tengo que tener fondos en participación?](faq.md#por-que-tengo-que-tener-fondos-en-participacion)
+* [¿Por qué el máximo de 32 ETH?](faq.md#por-que-el-maximo-de-32-eth)
 
-***
+## ¿Puedo ser sancionado por estar desconectado?
 
-## Can I be slashed for being offline?
+No. Realmente la única condición que puede causar una [sanción](staking-glossary.md#slashable-offenses) es si usas las llaves de tu validador en dos nodos al mismo tiempo (como una conmutación por error / configuración de redundancia, donde tu nodo de respaldo se enciende accidentalmente mientras el principal sigue en funcionamiento). No permitas que esto suceda y no serás sancionado. **No se puede ser sancionado por estar desconectado por mantenimiento**.
 
-No. Realistically, the only condition that can cause a [slashing event](staking-glossary.md#slashable-offenses) is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and you won't get slashed. **Slashing cannot occur from being offline for maintenance**.
+## ¿Puedo dejar de correr mi validador durante unos días y luego volver a iniciarlo?
 
-## Can I stop running my validator for a few days and then start it back up again?
+Sí, pero con penalizaciones pequeñas. Consulta [Estoy preocupado por el tiempo de inactividad](help/downtime-explained.md).
 
-Yes, but with small penalties. See [I'm worried about downtime](help/downtime-explained.md).
+## ¿Puedo retirar mi ETH en cualquier momento?
 
-## Can I withdraw my ETH at any time?
+Los retiros no están actualmente habilitados en la [cadena de baliza](staking-glossary.md#beacon-chain). Esto significa que todo el ETH depositado quedará bloqueado en el contrato de staking hasta un momento futuro (se espera que en 2023, pero esto es solo una estimación) en el que se permitirán los retiros tras una actualización de la red.
 
-Withdrawals are not currently enabled on the [beacon chain](staking-glossary.md#beacon-chain). This means that any ETH deposited will be locked in the staking contract until a future time (expected to be in 2023 but this time frame is an estimate) when an upgrade to the network allows withdrawals.
+Puedes ver más información en la página de preguntas frecuentes de la Ethereum Foundation (en inglés) [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
 
-Ethereum Foundation Withdrawals FAQ: [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
+Si tu validador propone un bloque, parte de las recompensas estarán disponibles de forma inmediata en forma de [fees de prioridad](rewards/chain-rewards.md) y [MEV](rewards/chain-rewards.md) (si estás usando un relay con [MEV-Boost](validator-clients/mev-boost.md)).
 
-If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](rewards/chain-rewards.md#priority-fees) and [MEV](rewards/chain-rewards.md#mev) (if you are using an [MEV-Boost](validator-clients/mev-boost.md) relay).
+En el futuro, cuando los retiros estén habilitados, podrás retirar tu ETH al salir del validador y esperar en la [cola de retiro](staking-glossary.md#validator-queue).
 
-In future, when withdrawals have been enabled, you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](staking-glossary.md#validator-queue).
+## ¿Cómo se incentiva a los validadores a permanecer activos y honestos?
 
-## How are validators incentivized to stay active and honest?
+Como validador, eres [recompensado](rewards/chain-rewards.md) por proponer / atestiguar bloques que se incluyan en la cadena. Por otro lado, puedes ser [penalizado por estar desconectado](rewards/chain-rewards.md#penalizaciones-de-validador) y comportarte de manera maliciosa, por ejemplo, atestiguando bloques inválidos o contradictorios.
 
-As a validator you are [rewarded](rewards/chain-rewards.md) for proposing / attesting to blocks that are included in the chain. On the other hand, you can be [penalized for being offline](rewards/chain-rewards.md#validator-penalties) and behaving maliciously—for example attesting to invalid or contradicting blocks.
+El concepto clave es el siguiente:
 
-The key concept is the following:
+* Las recompensas se otorgan por acciones que ayuden a la red a llegar a un consenso.
+* Hay pequeñas penalizaciones por acciones involuntarias que obstaculizan el consenso.
+* Grandes [penalizaciones](staking-glossary.md#slashable-offenses) (o 'slashings') por acciones maliciosas.
 
-* Rewards are given for actions that help the network reach consensus.
-* Minor penalties are given for inadvertent actions (or inactions) that hinder consensus.
-* And major penalties (or [slashings](staking-glossary.md#slashable-offenses)) are given for malicious actions.
+En otras palabras, maximizas tus recompensas al proporcionar el mayor beneficio a la red.
 
-In other words, you maximize your rewards by providing the greatest benefit to the network as a whole.
+## ¿Por cuanto tiempo son válidos los mensajes de salida pre firmados?
 
-## How long do pre-signed exit messages remain valid?
+Los mensajes de salida pre firmados sólo se mantienen válidos para dos hard forks. Tras estos deberás generar nuevos.
 
-Pre-signed exit messages only remain valid for two hard forks. After that, you will need to generate new ones.
-
-This comes from [https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#get\_domain](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#get\_domain) and specifically the line:
+Esto se debe a [https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#get\_domain](https://github.com/ethereum/consensus-specs/blob/dev/specs/phase0/beacon-chain.md#get\_domain), específicamente la línea:
 
 ```
 fork_version = state.fork.previous_version if epoch < state.fork.epoch else state.fork.current_version
 ```
 
-An exit message signed at any epoch less than the last hard fork is lumped into a "previous version" bucket and given its fork version. That means that if your operation was signed two fork versions ago the verification function has the wrong fork version, hence the wrong domain, hence the wrong signing root, hence the wrong signature, hence it fails to verify.
+Un mensaje de salida firmado en cualquier época anterior al último hard fork se agrupa en una "versión anterior" y se le asigna su versión del fork. Esto significa que si tu operación fue firmada hace dos forks, la función de verificación tiene la versión del fork incorrecta, y por lo tanto el dominio equivocado, la raíz equivocada y fallará al verificar.
 
-## How much ETH do I need to stake to become a validator?
+## ¿Cuánto ETH necesito para hacer stake y convertirme en validador?
 
-Each key-pair associated with a validator requires locking 32 ETH to be activated, which represents your initial balance as well as your initial and maximum voting power for any validator.
+Cada par de llaves asociado con un validador requiere bloquear 32 ETH para activarse, lo cual representa tu balance inicial, además de tu poder de voto inicial y máximo para cualquier validador.
 
-## I am overwhelmed and don't know where to start - what can I do?
+## Estoy abrumado y no sé por donde empezar, ¿qué puedo hacer?
 
-Staking on Ethereum gives you many options to participate. This can be overwhelming - no doubt. We all have been there!
+Hay muchas opciones para participar haciendo staking en Ethereum, esto sin duda puede ser abrumador.
 
-Take it step by step. First learn about the [options you have](getting-started/what-is-ethereum-staking.md#how-to-stake-your-eth) and choose what you are most comfortable with. There is no need to rush things and risk your precious sleep while doing so.
+Tómalo con calma. Primero aprende sobre las [opciones que tienes](getting-started/what-is-ethereum-staking.md#como-participar-con-sus-eth) y escoge la que más te convenga. No hay necesidad de apurarse y perder el sueño.
 
-If you choose "Solo Home Staking" and want to run your own validator, decide between the different [hardware options](hardware/hardware-requirements.md) (f.e. Intel NUC) and follow [a staking guide](tutorials/solo-staking-guides.md) on testnet first. Search for Goerli Testnet Staking Guides. Take notes, find out what happens when you disconnect the power cable of your validator, how to update, etc. All in all - get confident with your node before staking on Ethereum Mainnet.
+Si escoges "staking individual en casa" y quieres correr tu propio validador, decide entre las diferentes [opciones de hardware](hardware/hardware-requirements.md) (e.j. Intel NUC) y sigue una [guía de staking](tutorials/solo-staking-guides.md) en una red de prueba primero. Busca guías de staking para la red de pruebas Goerli. Toma notas, averigua que sucede cuando desconectas el cable de alimentación del validador, como actualizar, etc. En resumen, obtén experiencia con tu nodo antes de hacer staking en la red principal de Ethereum.
 
-And - You don't have to face problems on your own.
+Igualmente, no tienes que enfrentar los problemas tu solo.
 
-Feel free to ask us any question and join our community on [Discord](https://discord.io/ethstaker).
+No dudes en hacernos cualquier pregunta y únete a nuestra comunidad de [Discord](https://discord.io/ethstaker).
 
-## I proposed a block! What did I earn?
+## ¡Propuse un bloque! ¿Qué gané?
 
-Validators that participate in securing the [beacon chain](staking-glossary.md#beacon-chain) and execute "duties" get rewarded for this by new issuance of ETH. In addition, validators receive priority fees paid by users, and optionally MEV, Maximal Extractable Value.
+Los validadores que participan en asegurar la [red de baliza](staking-glossary.md#beacon-chain) y realizan sus "deberes" son recompensados por ello mediante la emisión de ETH nuevo. Además, los validadores reciben fees de prioridad pagados por los usuarios, y MEV (Maximal Extractable Value) opcionalmente.
 
-You can view a validator's reward for proposed blocks by looking at the fee recipient address on [etherscan.io↗](https://etherscan.io) under `Produced Blocks`.
+Puedes ver las recompensas por bloques propuestos de un validador mirando la dirección del receptor de los fees en [etherscan.io↗](https://etherscan.io) bajo `Produced Blocks`.
 
 <figure><img src=".gitbook/assets/image (6) (1).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
 
-See a detailed explanation here: [How does my validator earn ETH?](rewards/chain-rewards.md)
+Puedes ver una explicación detallada aquí: [¿Cómo gana ETH mi validador?](rewards/chain-rewards.md)
 
-## Is the deposit/source address shown anywhere?
+## ¿Se muestra la dirección de depósito u origen en algún lugar?
 
-Yes, the deposit/source address is shown on the validator. It’s not used for anything in the protocol though. The [consensus layer](staking-glossary.md#consensus-layer) actually has no record of which address a validator's deposit was made from but it is in the history of the [execution layer](staking-glossary.md#execution-layer) as all transactions are.
+Si, la dirección de depósito u origen se muestra en el validador. Sin embargo, no se usa para nada en el protocolo. La [capa de consenso](staking-glossary.md#consensus-layer) no tiene registro de desde qué dirección se realizó el depósito de un validador, pero queda registrado en el historial de la [capa de ejecución](staking-glossary.md#execution-layer) al igual que todas las demás transacciones.
 
-The deposit/source address can be seen on [beaconcha.in](https://beaconcha.in) under `Deposits` -> `Ethereum Deposits` -> `From Address`.
+La dirección de depósito u origen se puede ver en [beaconcha.in](https://beaconcha.in) bajo `Deposits` -> `Ethereum Deposits` -> `From Address`.
 
 <figure><img src=".gitbook/assets/image (16) (3).png" alt="Deposit address shown on beaconcha.in"><figcaption></figcaption></figure>
 
-## Is there a penalty for missing a block proposal?
+## ¿Hay una penalización por perder una propuesta de bloque?
 
-No. If you miss your block proposal, the [slot](staking-glossary.md#slot) that should have contained your block will be empty. Other than the lost [rewards](rewards/chain-rewards.md) from missing the block proposal, there are **no penalties or slashing** that occurs from a missed block proposal.
+No. Si pierdes una propuesta de bloque, la [ranura](staking-glossary.md#slot) que debería contener tu bloque estará vacía. A parte de las [recompensas](rewards/chain-rewards.md) perdidas por perder la propuesta del bloque, **no hay ninguna penalidad o sanción** que ocurra por una propuesta de bloque perdida.
 
-## Is there a penalty for missing an attestation?
+## ¿Hay una penalización por perder una certificación?
 
-Missing some [attestations](staking-glossary.md#attestation) is completely normal and extremely low-cost. The penalty for missing an attestation is exactly the same as the reward for a successful one. So, with around 240 attestations per day per validator, missing one or two is still a successful attestation rate of over 99%!
+Perder algunas certificaciones es completamente normal y extremadamente económico. La penalidad por perder una [certificación](staking-glossary.md#attestation) es exactamente la misma que la recompensa por una exitosa. Por lo tanto, con alrededor de 240 certificaciones al día por validador, perder uno o dos sigue siendo una tasa exitosa de más del 99%.
 
-## Is there any advantage to having more than 32 ETH at stake?
+## ¿Hay alguna ventaja en tener más de 32 ETH en participación?
 
-No. There is no advantage to having more than 32 ETH staked.
+No. No hay ninguna ventaja en tener más de 32 ETH en participación.
 
-Depositing more than 32 ETH to a single set of keys does not increase rewards potential, nor does accumulating rewards above 32 ETH, as each [validator](staking-glossary.md#validator) is limited to an effective balance of 32. This means that staking is done in 32 ETH increments, each with its own set of keys and balance.
+Depositar más de 32 ETH en el mismo set de llaves no incrementa el potencial de recompensas, o acumula recompensas por encima de 32 ETH ya que cada [validador](staking-glossary.md#validator) está limitado a un balance de 32. Esto significa que se participa en incrementos de 32 ETH, cada uno con su único set de llaves y balance.
 
-## Should I set a withdrawal address when setting up my solo staking validator?
+## ¿Debería establecer una dirección de retiro al configurar mi validador?
 
-Setting a [withdrawal address](staking-glossary.md#withdrawal-address) when creating your validator keys can be useful as you won't need to set it again when withdrawals are enabled.
+Establecer una [dirección de retiro](staking-glossary.md#withdrawal-address) cuando creas las llaves de tu validador puede ser útil ya que no tendrás que configurarla de nuevo cuando se habiliten los retiros.
 
-The [Staking Deposit CLI](staking-glossary.md#staking-deposit-cli) can set a withdrawal address during deposit json creation. If a user opts not to do this - usually simply by omission - then it sets the hash of the withdrawal pub key instead. Sometime in the future - possibly with Shanghai/Capella hard fork - there will be a tool that takes the mnemonic and signs a message to effect a one-time change from v0 credentials - withdrawal key - to v1 credentials: Withdrawal address.
+La [interfaz de línea de comando de depósito de participación](staking-glossary.md#staking-deposit-cli) puede establecer una dirección de retiro cuando se crea el json de depósito. Si un usuario decide no hacerlo, normalmente por omisión, entonces establece el hash de la llave pública de retiro en su lugar. En algún momento futuro, posiblemente con la actualización Shangai/Capella, habrá una herramienta que tome la mnemónica y firme un mensaje para efectuar un cambio único de credenciales v0, llave de retiro, a credenciales v1, dirección de retiro.
 
-And that’s it. Once your validator uses v1 credentials the withdrawal address is fixed and can’t be changed. In the current design, skimming is automatic, and so are full withdrawals: Full withdrawal just happens after exit is completed.
+Y eso es todo. Una vez tu validador usa credenciales v1, la dirección de retiro no puede ser cambiada. Bajo el diseño actual, las barridas son automáticas, igual que los retiros completos: Los retiros completos ocurren solo cuando se completa la salida del validador.
 
-A tool to export the withdrawal key will likely not be created, and it’d also not be very useful. You need the withdrawal key at most twice:
+Es poco probable que se cree una herramienta para exportar la llave de retiro, tampoco sería muy útil. Necesitas la llave de retiro como mucho dos veces:
 
-* Once to generate the signing key (only if no withdrawal address was set at that time).
-* Once more to sign a message to set one.
+* Una vez para generar la llave de firma (solo si no estableciste una dirección de retiro en ese momento).
+* Una vez más para firmar un mensaje para establecer una.
 
-In both cases the key can be generated inside the CLI tool, be used for its purpose, and then be discarded again without ever being written to disk.
+En ambos casos la llave puede ser generada dentro del CLI, ser usada para su propósito, y después descartarse sin haber sido escrita en el disco.
 
-However, there are some cases to be aware of that make it beneficial to **not** set a withdrawal address at the start:
+Sin embargo, hay algunos casos a tomar en cuanta donde es preferible **no** establecer una dirección de depósito al principio:
 
-* If you plan to migrate your validator to a pool e.g. (Rocketpool) in the future, then you won't be able to perform this migration if you set a [withdrawal address](staking-glossary.md#withdrawal-address) when you created your validator keys. You would have to wait for withdrawals to be enabled, potentially wait in the withdrawal queue, then re-stake your ETH, potentially waiting in the activation queue as well!
+* Si planeas migrar tu validador a una piscina en el futuro (e.j. RocketPool), no podrás hacer esta migración si configuras una [dirección de retiro](staking-glossary.md#withdrawal-address) cuando creas las llaves de tu validador. Necesitarías esperar a que se habiliten los retiros, esperar en la fila de retiros y después volver a entrar a un validador, potencialmente teniendo que esperar una fila de activación también.
 
-## What exactly is a validator?
+## ¿Qué es un validador exactamente?
 
-A validator is a virtual entity that lives on the [Beacon Chain](staking-glossary.md#beacon-chain), represented by a balance, [public key](staking-glossary.md#public-key), and other properties, and participates in [consensus](staking-glossary.md#consensus-layer) of the Ethereum network.
+Un validador es una entidad virutal que vive en la [cadena de baliza](staking-glossary.md#beacon-chain), representado por un balance, [llave pública](staking-glossary.md#public-key) y otras propiedades. También participa en el [consenso](staking-glossary.md#consensus-layer) de la red de Ethereum.
 
-## What happens if I lose my validator keys?
+## ¿Qué pasa si pierdo las llaves de mi validador?
 
-If there's a catastrophic failure of your validator and you lose your validator keys, don't panic! These can be easily recovered as long as you still have your [validator seed phrase / mnemonic](staking-glossary.md#validator-seed-phrase). Simply follow the same steps you used when you first generated your validator keys, and install them on a new validator machine.
+Si hay una falla catastrófica de tu validador y pierdes sus llaves no te preocupes. Estas pueden ser fácilmente recuperadas siempre y cuando tengas la [frase semilla o mnemónica de tu validador](staking-glossary.md#validator-seed-phrase-mnemonic). Simplemente sigue las mismas instrucciones que cuando generaste por primera vez las llaves de tu validador, e instálalas en una nueva máquina validadora.
 
-> Be 100% certain that any previous machines will not come back online as this will lead to a [slashing event](staking-glossary.md#slashable-offenses).
+> Tienes que estar 100% seguro de que las máquinas anteriores no volverán a estar en línea, ya que esto resultará en un [evento de penalización](staking-glossary.md#slashable-offenses).
 
-## What happens if I lose my validator seed phrase / mnemonic?
+## ¿Qué pasa si pierdo la frase semilla o mnemónica de mi validador?
 
-If you lose your seed phrase, the one used to generate the validator keys, then unfortunately your staked ETH is most likely unrecoverable.
+Si pierdes la frase semilla usada para generar las llaves de tu validador, entonces es probable que el ETH en participación no se pueda recuperar.
 
-However, if you had set a withdrawal address, then the validator keys are enough to sign a voluntary-exit, which causes a withdrawal to that address. There is also a special case if you have a pre-signed voluntary-exit message, but that's likely only used by staking services and only noted here for completeness.
+De todas formas, si tienes una dirección de retiro, las llaves del validador son suficientes para firmar una salida voluntaria, lo que resultaría en un retiro a esa dirección. También está el caso especial si tienes un mensaje de salida voluntario previamente firmado, pero estos normalmente solo son usados por servicios de staking y los ponemos en esta guía para mantenerla completa.
 
-## What if I want to stop staking?
+## ¿Y si quiero dejar de participar?
 
-In the event that you can't recover your validator or you decide you want to stop staking, you have the option to exit your validator. Even though withdrawals are not currently enabled, you can still exit your validator from the network. This means that, while you won't be able to get your validator balance back right away (until withdrawals are enabled), you won't receive any penalties for being offline once the validator exits the [withdrawal queue](staking-glossary.md#validator-queue). Exiting a validator is currently a one way process. For details on how to exit your validator, [check out our guide](tutorials/how-to-exit-a-validator.md).
+Si no puedes recuperar tu validador o decides que quieres dejar de participar, tienes la opción de salir de tu validador. Aunque los retiros no están habilitados, puedes hacer que tu validador salga de la red. Esto significa que, aunque no vas a poder tener el balance de tu validador de inmediato (hasta que se activen los retiros), no vas a ser penalizado por estar fuera de línea una vez el validador sale de la [fila de retiro](staking-glossary.md#validator-queue). Salir de un validador es un proceso de una vía ahora mismo. Para más detalles sobre como salir de tu validador, [revisa nuestra guía](tutorials/how-to-exit-a-validator.md).
 
-## What is a node operator?
+## ¿Qué es un operador de nodos?
 
-A node operator is the human being who makes sure the client software is running appropriately, maintaining hardware as needed.
+Un operador de nodos es un humano que se asegura de que el software del cliente esta corriendo de forma apropiada, manteniendo el hardware según sea necesario.
 
-## What is a validator client?
+## ¿Qué es un cliente del validador?
 
-A [validator](staking-glossary.md#validator) client is the software that acts on behalf of the validator by holding and using its [private key](staking-glossary.md#private-key) to make [attestations](staking-glossary.md#attestation) about the state of the chain. A single validator client can hold many key pairs, controlling many validators.
+Un cliente del [validador](staking-glossary.md#validator) es el software que actúa a nombre del validador al sostener y usar sus llaves privadas para hacer certificaciones acerca del estado de la cadena. Un único cliente validador puede tener multiples pares de llaves, controlando varios validadores.
 
-## What is the deposit contract?
+## ¿Qué es el contrato de depósito?
 
-You can think of the deposit contract as a transfer of funds from an Ethereum account to a proof-of-stake validator account. It specifies who is staking, who is validating, how much is being staked, and who can withdraw the funds.
+Puedes pensar en el contrato de depósito como una transferencia de fondos desde una cuenta de Ethereum hasta una cuenta de un validador de prueba de participación. Especifica quién está participando, quién está validando, cuánto ETH hay participando, y quién puede retirar los fondos.
 
-## What is the easiest way to Solo Home Staking?
+## ¿Cuál es la forma más fácil de participar individualmente desde casa?
 
-Setting up your own validator for "Solo Home Staking" is not difficult.
+Configurar tu propio validador para participar individualmente desde casa no es complicado.
 
-You can follow step-by-step [staking guides](tutorials/solo-staking-guides.md), which don't take much time at all. See also [time commitment](faq.md#what-is-the-time-commitment-for-running-a-validator).
+Puedes seguir estas [guías de participación](tutorials/solo-staking-guides.md) paso a paso, lo que no te tomará mucho tiempo. Puedes revisar también el [compromiso de tiempo](faq.md#what-is-the-time-commitment-for-running-a-validator).
 
-Nonetheless there are pre-configured hardware options like [Dappnode↗](https://dappnode.com/) or [Avado↗](https://ava.do/) which can make things easier and eliminate the need to interact with the command line interface or Linux in general. You can also install the open source [Dappnode software ↗](https://docs.dappnode.io/user/quick-start/core/installation/) on your own hardware to have a more intuitive staking experience.
+De todas formas, hay opciones de hardware pre-configuradas como [Dappnode↗](https://dappnode.com/) o [Avado↗](https://ava.do/), que pueden hacer todo más fácil y eliminar la necesidad de interactuar con la interfaz de línea de comando o Linux en general. También puedes instalar el software de código abierto de [Dappnode ↗](https://docs.dappnode.io/user/quick-start/core/installation/) en tu propio hardware para tener una experiencia de participación más intuitiva.
 
-## What is the time commitment for running a validator?
+## ¿Cuál es el compromiso de tiempo de correr un validador?
 
-The majority of the time commitment for staking is the initial learning and setup. It will probably take a day or two of tinkering to get it all figured out (maybe more, and that's okay!). Once you get going you're looking at updating once a month or so (ten minutes) and responding to outages, which are rare.
+La mayoría del compromiso de tiempo por participar es el aprendizaje y configuración inicial. Te tomará probablemente un día o dos de prueba y error para tener todo listo (quizás más, y eso también está bien). Una vez tengas todo listo solo vas a tener que actualizar una vez al mes más o menos (toma diez minutos) y arreglar apagones u otros problemas, los cuales no son frecuentes.
 
-## When should I top up my validator’s balance?
+## ¿Cuándo debería recargar el balance de mi validador?
 
-The answer to this question very much depends on how much ETH you have at your disposal. You should certainly top up if your balance is close to 16 ETH. This is to ensure you don’t get exited out of the validator set (which automatically happens if your balance falls below 16 ETH). At the other end of the spectrum, if your balance is closer to 31 ETH, it’s probably not worth adding the extra ETH required to get back to 32.
+La respuesta a esta pregunta depende bastante de cuanto ETH tengas a tu disposición. Ciertamente deberías recargar si tu balance está cerca de 16 ETH. Esto es para asegurarte de que no salgas del conjunto de validadores (lo cual pasa automáticamente si tu balance cae por debajo de 16 ETH). En el otro lado del espectro, si tu balance está por los 31 ETH, probablemente no merezca la pena añadir el ETH restante para llegar a 32.
 
-## Why do I need to have funds at stake?
+## ¿Por qué tengo que tener fondos en participación?
 
-As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly. In other words, to keep you honest, your actions need to have financial consequences.
+Como un validador, tienes que tener fondos en participación para que puedas ser penalizado por comportarte de forma deshonesta. En otras palabras, para mantenerte honesto, tus acciones tienen que tener consecuencias financieras.
 
-## Why the 32 ETH maximum?
+## ¿Por qué el máximo de 32 ETH?
 
-Each 32 ETH deposit activates one set of validator keys. These keys are used to sign off on the state of the network. The lower the ETH requirement, the more resulting signatures must be saved by the network. 32 ETH was chosen as a balance between enabling as many people as possible to stake without inhibiting decentralization by bloating the size of each block with signatures.
+Cada 32 ETH se activa un conjunto de llaves de validador. Estas llaves se usan para firmar el estado de la red. Mientras más bajo sea la cantidad de ETH requerido, más firmas deberán ser guardadas por la red. 32 ETH fue escogido como un balance entre permitir que participen la mayor cantidad de personas posibles sin inhibir la descentralización de la red al llenar el espacio de cada bloque con firmas.
 
-Limiting the maximum stake to 32 ETH per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of ETH that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks.
+Limitar la cantidad máxima a 32 ETH por validador fomenta la descentralización del poder, ya que evita que un solo validador tenga un voto excesivamente grande sobre el estado de la cadena. También limita la cantidad de ETH que puede salir de participación en un momento dado, ya que la cantidad de validadores que pueden salir en cada periodo es limitado. Esto ayuda a proteger la red contra ciertos ataques.
 
-Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at 32. It is possible to drop below this with poor node performance, but it is not possible to raise above it. Do not deposit more than 32 ETH for a single validator. It will not add to your rewards and will be locked until [withdrawals are enabled](faq.md#can-i-withdraw-my-eth-at-any-time).
+Aunque el voto de un validador se pondera por la cantidad que tiene en participación, el peso de voto comienza y tiene un límite en 32. Es posible caer por debajo de esto con un rendimiento deficiente del nodo, pero no es posible elevarlo. No deposites más de 32 ETH para un solo validador. No crecerán las recompensas y estarán bloqueados hasta que se [habiliten los retiros](faq.md#puedo-retirar-mi-eth-en-cualquier-momento).

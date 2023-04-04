@@ -2,7 +2,7 @@
 
 * [Base de Conocimientos de EthStaker](README.md)
 * [Staking glossary](staking-glossary.md)
-* [Staking FAQ](faq.md)
+* [Preguntas Frequentes de Staking](faq.md)
 
 ## 🚀 Getting Started
 

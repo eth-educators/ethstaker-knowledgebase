@@ -10,12 +10,12 @@ El contenido está siendo escrito y mejorado con la ayuda de la comunidad EthSta
 ## Bienvenido a la Base de Conocimientos de EthStaker!
 
 \
-Una colección imparcial y de código abierto de información y conceptos útiles sobre participar (staking) en Ethereum. Si estás buscando empezar a participar  en Ethereum o simplemente aprender más sobre cómo la red está asegurada a través de validadores [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos), ¡has venido al lugar correcto!
+Una colección imparcial y de código abierto de información y conceptos útiles sobre participar (staking) en Ethereum. Si estás buscando empezar a participar en Ethereum o simplemente aprender más sobre cómo la red está asegurada a través de validadores [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos), ¡has venido al lugar correcto!
 
 ## 🔗 Links útiles
 
 * [Staking glossary](staking-glossary.md) (inglés)
-* [Staking FAQ](faq.md) (inglés)
+* [Preguntas Frecuentes de Staking](faq.md)
 
 ## 🚀 Para empezar
 
