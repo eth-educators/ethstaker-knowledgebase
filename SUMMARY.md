@@ -10,7 +10,7 @@
 * [Corriendo un nodo sin necesidad de ETH](para-empezar/ethereum-node.md)
 * [El proceso de depósito explicado](para-empezar/deposit-process.md)
 
-## 🚨 Ayuda!
+## 🚨 ¡Ayuda!
 
 * [¡Mi validador está desconectado! ¿Qué debo hacer?](help/validator-offline.md)
 * [¡Atestaciones perdidas! ¿Qué puedo hacer?](help/missed-attestations.md)
