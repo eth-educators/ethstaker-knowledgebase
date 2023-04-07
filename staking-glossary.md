@@ -115,7 +115,7 @@ The combination uniquely defines a point on the blockchain. By combining enough 
 
 Although the data in each [attestation](staking-glossary.md#attestation) is relatively small, it mounts up quickly with tens of thousands of [validators](staking-glossary.md#validator). As this data will be stored forever on the blockchain, minimizing it is important, and this is done through a process known as attestation aggregation.
 
-Aggregation takes multiple attestations that have all chosen to vote with the same committee, chain head vote, and finality vote, and merges them together in to a single aggregate attestation.
+Aggregation takes multiple attestations that have all chosen to vote with the same committee, chain head vote, and finality vote, and merges them together into a single aggregate attestation.
 
 An aggregate attestation differs in two ways from a simple attestation. First, there are multiple validators listed. Second, the signature is an aggregate signature made from the signatures of the matching simple attestations. Aggregate attestations are very efficient to store, but introduce additional communications and computational burdens.
 
@@ -357,7 +357,7 @@ There are three ways a validator can be slashed, all of which amount to the dish
 
 ## Slasher node
 
-The [**slasher**](https://github.com/Buttaa/ethstaker/blob/main/slasher.md) **is its own entity** but requires a beacon-node to receive [attestations](https://kb.beaconcha.in/glossary#attestation). To find malicious activity by validators, the slashers iterates through all received attestations until a **slashable offense** has been found. Found slashings are broadcasted to the network and the next [block proposer](staking-glossary.md#block-proposer) adds the proof to the block. The block proposer receives a reward for slashing the malicious validator. However, the whistleblower (Slasher) does not receive a reward.
+The [**slasher**](https://github.com/Buttaa/ethstaker/blob/main/slasher.md) **is its own entity** but requires a beacon-node to receive [attestations](https://kb.beaconcha.in/glossary#attestation). To find malicious activity by validators, the slashers iterate through all received attestations until a **slashable offense** has been found. Found slashings are broadcasted to the network and the next [block proposer](staking-glossary.md#block-proposer) adds the proof to the block. The block proposer receives a reward for slashing the malicious validator. However, the whistleblower (Slasher) does not receive a reward.
 
 ## Slot
 
@@ -396,7 +396,7 @@ The validator has made a timely vote for the correct target [checkpoint](staking
 
 ## Validator
 
-A node in a [Proof of Stake (Pos)](staking-glossary.md#proof-of-stake-pos) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To activate validator software, you need to be able to stake 32 ETH. A validators job is to propose blocks and sign attestations. It has to be online for at least 50% of the time in order to have positive returns. 
+A node in a [Proof of Stake (Pos)](staking-glossary.md#proof-of-stake-pos) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To activate validator software, you need to be able to stake 32 ETH. A validator's job is to propose blocks and sign attestations. It has to be online for at least 50% of the time in order to have positive returns. 
 A validator is run by an operator (a human), on hardware (a computer) and is paired with a node (many thousand validators can run on one node).
 
 ### Eligible for activation & Estimated activation
@@ -413,7 +413,7 @@ The current balance is the amount of ETH held by the validator as of now. The **
 
 In order to increase the effective balance, the validator requires “effective balance + 1.25 ETH”. In other words, if the effective balance is 20 ETH, a current balance of 21.25 ETH is required in order to have an effective balance of 21 ETH. The effective balance will adjust once it drops by 0.25 below the threshold as seen in the examples above.
 
-Here are examples on how the effective balance changes:
+Here are examples of how the effective balance changes:
 
 * If the Current balance is 32.00 ETH – the Effective balance is 32.00 ETH.
 * If the Current balance dropped from 22 ETH to 21.76 ETH – Effective balance will be **22.00 ETH**.
