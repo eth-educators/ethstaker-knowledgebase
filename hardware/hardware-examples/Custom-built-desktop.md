@@ -1,3 +1,5 @@
+# Custom Built Desktop - snoopmx
+
 This is a Create Custom-built-desktop that I put together for stake solo validator.
 I decided on high quality components, good price and forget it that they will be obsolete quickly
 
