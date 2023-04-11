@@ -48,4 +48,3 @@ They are quality components without a doubt, you can save more by buying other m
 TOTAL: $1015 USD (September 2022)
 
 Greatings #StakeFromHome #Mexico
-
