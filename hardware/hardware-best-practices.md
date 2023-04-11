@@ -34,7 +34,7 @@ If you cannot find the setting, you may need to check your motherboards user gui
 
 NOTE - To enter your BIOS, you will need to press a specific button after switching on the machine (and before the OS loads). The most common keys are "DEL", "F1", "F2", "F10".
 
-This does vary between motherboards, and if you are unsure what yours is, check your POST information once the PC starts as it may show it on the screen. Or you can check your motherboards user guide. _Or ****_ you can do what I do, which is to spread your hands out on the keyboard and press the before mentioned keys all at once and hope one of them works.&#x20;
+This does vary between motherboards, and if you are unsure what yours is, check your POST information once the PC starts as it may show it on the screen. Or you can check your motherboards user guide. _Or_ you can do what I do, which is to spread your hands out on the keyboard and press the before mentioned keys all at once and hope one of them works.&#x20;
 
 #### If running a VM, setting servers to start
 

@@ -108,7 +108,7 @@ This is the login screen for your validator machine. The name of this machine is
 
 Enter the username you created during the installation. You will then be prompted for your password. As you type your password nothing will be shown on the command line (so it will look like it's not working!) but don't worry, this is for security and the typing is working.&#x20;
 
-<figure><img src="../.gitbook/assets/image (90).png" alt="Linux password input screen "><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt="Linux password input screen "><figcaption></figcaption></figure>
 
 And... you're in!
 

@@ -128,7 +128,7 @@ We are going to configure the admin UI and the client UI to run on different por
 
 On the same page "Network Settings", please scroll down to the bottom and find "Client Web Server" and toggle the "Use a different IP address or port" setting.
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
 
 Now we can change which port we want the client web server to run on, you can make this any port of your choosing. I chose 9515.
 
@@ -144,7 +144,7 @@ Once the running server has been updated, you may need to refresh your browser a
 
 #### Step 5.4) Advanced users only - Adding a static route
 
-**If you are an advanced user** - You **** may have setup your OpenVPN server on a _different_ subnet than your Ethereum nodes/validators.
+**If you are an advanced user** - You may have setup your OpenVPN server on a _different_ subnet than your Ethereum nodes/validators.
 
 If that is the case, you will need to browse to "Configuration > VPN Settings" and add in a static route for your validator network.
 
