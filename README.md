@@ -1,11 +1,17 @@
+---
+description: '"Welcoming First, Knowledgeable Second"'
+---
+
 # EthStaker knowledge base
 
 {% hint style="info" %}
-The EthStaker Knowledge Base is under active development 🏗️\
-The content is being written and improved with the help of the EthStaker community. If you see any sections marked TODO please feel free to hop on and add content!
-{% endhint %}
+Withdrawals are almost here!! :owl::owl::owl:
 
-> "Welcoming First, Knowledgeable Second"
+Follow the countdown to Shapella:&#x20;
+
+* [https://beaconcha.in](https://beaconcha.in/)
+* [https://www.youtube.com/watch?v=BVq1pz3FrDo](https://www.youtube.com/watch?v=BVq1pz3FrDo)
+{% endhint %}
 
 ## Welcome to the EthStaker Knowledge base!
 

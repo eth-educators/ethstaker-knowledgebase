@@ -38,13 +38,19 @@ Yes, but with small penalties. See [I'm worried about downtime](help/downtime-ex
 
 ## Can I withdraw my ETH at any time?
 
-Withdrawals are not currently enabled on the [beacon chain](staking-glossary.md#beacon-chain) but will be enabled on [12th April 2023](https://twitter.com/TimBeiko/status/1640722906744487936?s=20).
-
-Ethereum Foundation Withdrawals FAQ: [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
+Yes! Withdrawals are now enabled on Ethereum :owl:
 
 If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](rewards/chain-rewards.md#priority-fees) and [MEV](rewards/chain-rewards.md#mev) (if you are using an [MEV-Boost](validator-clients/mev-boost.md) relay).
 
-In future, when withdrawals have been enabled, you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](staking-glossary.md#validator-queue).
+To withdraw your full validator amount (not just the skimmed amount) you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](staking-glossary.md#validator-queue). This process is different for each client, details for each can be found here: [How to exit a validator](tutorials/how-to-exit-a-validator.md).
+
+Ethereum Foundation Withdrawals FAQ: [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
+
+## Does my validator need to be online to withdraw my ETH?
+
+No. You can generate your [exit message](tutorials/how-to-exit-a-validator.md) and submit it using someone elses Beacon Chain client.
+
+Beaconcha.in has built a resource exactly for this: [https://beaconcha.in/tools/broadcast](https://beaconcha.in/tools/broadcast)
 
 ## How are validators incentivized to stay active and honest?
 
@@ -120,9 +126,9 @@ Depositing more than 32 ETH to a single set of keys does not increase rewards po
 
 ## Should I set a withdrawal address when setting up my solo staking validator?
 
-Setting a [withdrawal address](staking-glossary.md#withdrawal-address) when creating your validator keys can be useful as you won't need to set it again when withdrawals are enabled.
+Setting a [withdrawal address](staking-glossary.md#withdrawal-address) when creating your validator keys is an important step when setting up your validator. Until a withdrawal address is set, you will not be able to claim your beacon chain rewards or withdraw your ETH.
 
-The [Staking Deposit CLI](staking-glossary.md#staking-deposit-cli) can set a withdrawal address during deposit json creation. If a user opts not to do this - usually simply by omission - then it sets the hash of the withdrawal pub key instead. Sometime in the future - possibly with Shanghai/Capella hard fork - there will be a tool that takes the mnemonic and signs a message to effect a one-time change from v0 credentials - withdrawal key - to v1 credentials: Withdrawal address.
+The [Staking Deposit CLI](staking-glossary.md#staking-deposit-cli) can set a withdrawal address during deposit `JSON` creation (an 0x01 address). If a user opts not to do this - usually simply by omission - then it sets the hash of the withdrawal pub key instead (an 0x00 address)
 
 And that’s it. Once your validator uses v1 credentials the withdrawal address is fixed and can’t be changed. In the current design, skimming is automatic, and so are full withdrawals: Full withdrawal just happens after exit is completed.
 
@@ -132,10 +138,6 @@ A tool to export the withdrawal key will likely not be created, and it’d also 
 * Once more to sign a message to set one.
 
 In both cases the key can be generated inside the CLI tool, be used for its purpose, and then be discarded again without ever being written to disk.
-
-However, there are some cases to be aware of that make it beneficial to **not** set a withdrawal address at the start:
-
-* If you plan to migrate your validator to a pool e.g. (Rocketpool) in the future, then you won't be able to perform this migration if you set a [withdrawal address](staking-glossary.md#withdrawal-address) when you created your validator keys. You would have to wait for withdrawals to be enabled, potentially wait in the withdrawal queue, then re-stake your ETH, potentially waiting in the activation queue as well!
 
 ## What exactly is a validator?
 
