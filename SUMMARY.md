@@ -70,6 +70,7 @@
 
 ## ✏️ Get Involved
 
+* [Code of Conduct](get-involved/code-of-conduct.md)
 * [How to contribute](get-involved/how-to-contribute.md)
 
 ***
