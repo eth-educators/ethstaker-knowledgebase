@@ -52,7 +52,6 @@
 ## 🔑 Validator Keys
 
 * [Secure key generation](validator-keys/secure-key-generation.md)
-* [Key management](validator-keys/key-management.md)
 * [Slashing protection](validator-keys/slashing-protection.md)
 
 ## 📕 Tutorials
