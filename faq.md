@@ -68,9 +68,9 @@ In other words, you maximize your rewards by providing the greatest benefit to t
 
 ## How does MEV Boost min-bid work?
 
-Beacon Nodes always pick the highest reward (local or remote) if it is above the `min-bid` value.
+Beacon Nodes pick the highest reward (local or remote) if it is above the `min-bid` value.
 
-If the highest reward (local or remote) is below the `min-bid` value then the local block will always be selected.
+If the highest reward (local or remote) is below the `min-bid` value then the local block will be selected.
 
 ## How long do pre-signed exit messages remain valid?
 
