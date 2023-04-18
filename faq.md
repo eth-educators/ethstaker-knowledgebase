@@ -6,7 +6,9 @@
 * [How are validators incentivized to stay active and honest?](faq.md#how-are-validators-incentivized-to-stay-active-and-honest)
 * [How does MEV Boost min-bid work?](faq.md#how-does-mev-boost-min-bid-work)
 * [How long do pre-signed exit messages remain valid?](faq.md#how-long-do-pre-signed-exit-messages-remain-valid)
+* [How important are disk IOPS?](faq.md#how-important-are-disk-iops)
 * [How much ETH do I need to stake to become a validator?](faq.md#how-much-eth-do-i-need-to-stake-to-become-a-validator)
+* [How should I deal with a compromised or stolen machine?](faq.md#how-should-i-deal-with-a-compromised-or-stolen-machine)
 * [I am overwhelmed and don't know where to start - what can I do?](faq.md#i-am-overwhelmed-and-dont-know-where-to-start---what-can-i-do)
 * [I proposed a block! What did I earn?](faq.md#i-proposed-a-block-what-did-i-earn)
 * [Is the deposit/source address shown anywhere?](faq.md#is-the-depositsource-address-shown-anywhere)
@@ -14,6 +16,7 @@
 * [Is there a penalty for missing an attestation?](faq.md#is-there-a-penalty-for-missing-an-attestation)
 * [Is there any advantage to having more than 32 ETH at stake?](faq.md#is-there-any-advantage-to-having-more-than-32-eth-at-stake)
 * [Should I set a withdrawal address when setting up my solo staking validator?](faq.md#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator)
+* [Taxes!! How can I stay on top of them?](faq.md#taxes-how-can-i-stay-on-top-of-them)
 * [What exactly is a validator?](faq.md#what-exactly-is-a-validator)
 * [What happens if I lose my validator keys?](faq.md#what-happens-if-i-lose-my-validator-keys)
 * [What happens if I lose my validator seed phrase / mnemonic?](faq.md#what-happens-if-i-lose-my-validator-seed-phrase--mnemonic)
@@ -23,9 +26,13 @@
 * [What is the deposit contract?](faq.md#what-is-the-deposit-contract)
 * [What is the easiest way to Solo Home Staking?](faq.md#what-is-the-easiest-way-to-solo-home-staking)
 * [What is the time commitment for running a validator?](faq.md#what-is-the-time-commitment-for-running-a-validator)
-* [Where are my MEV rewards?](faq.md#where-are-my-mev-rewards)
+* [What should I do if I am getting lots of client errors post Shanghai?](faq.md#what-should-i-do-if-i-am-getting-lots-of-client-errors-post-shanghai)
 * [When should I top up my validator’s balance?](faq.md#when-should-i-top-up-my-validators-balance)
+* [Where are some good places to view various staking metrics?](faq.md#where-are-some-good-places-to-view-various-staking-metrics)
+* [Why can't I see my withdrawn ETH?](faq.md#why-cant-i-see-my-withdrawn-eth)
+* [Why did my smart plug turn off my machine?](faq.md#why-did-my-smart-plug-turn-off-my-machine)
 * [Why do I need to have funds at stake?](faq.md#why-do-i-need-to-have-funds-at-stake)
+* [Why is all my RAM being used?](faq.md#why-is-all-my-ram-being-used)
 * [Why the 32 ETH maximum?](faq.md#why-the-32-eth-maximum)
 
 ***
@@ -66,6 +73,14 @@ The key concept is the following:
 
 In other words, you maximize your rewards by providing the greatest benefit to the network as a whole.
 
+## How important are disk IOPS?
+
+Disk IOPS are very important if you want your node to operate to its true potential.
+
+Low disk IOPS can cause many different issues such as missed attestations, missed block proposals, failure to get in sync with the network as well as failure to keep up with the network if already in sync.
+
+If you are using Ubuntu, [IOPS can be measured using this software.](https://linuxreviews.org/HOWTO\_Test\_Disk\_I/O\_Performance) Before running tests, make sure your node services are stopped otherwise it will interfere with the results.
+
 ## How does MEV Boost min-bid work?
 
 Beacon Nodes pick the highest reward (local or remote) if it is above the `min-bid` value.
@@ -89,6 +104,14 @@ An exit message signed at any epoch less than the last hard fork is lumped into 
 ## How much ETH do I need to stake to become a validator?
 
 Each key-pair associated with a validator requires locking 32 ETH to be activated, which represents your initial balance as well as your initial and maximum voting power for any validator.
+
+## How should I deal with a compromised or stolen machine?
+
+The best thing to do is to exit your validator as soon as it is practical to do so. Even in the case of an encrypted machine that is physically stolen where you can safely assume the thief won't ever be able to gain access, it is simply not worth the thought or the risk of being slashed at some point in the future.
+
+If your validator keys are ever compromised or you even suspect them of being compromised, exiting the validator and spinning up new ones are the best course of action you can take to protect yourself.
+
+Once your ETH is secured, further investigations and actions can be taken to prevent or mitigate this from occurring again.
 
 ## I am overwhelmed and don't know where to start - what can I do?
 
@@ -149,6 +172,14 @@ A tool to export the withdrawal key will likely not be created, and it’d also 
 
 In both cases the key can be generated inside the CLI tool, be used for its purpose, and then be discarded again without ever being written to disk.
 
+## Taxes!! How can I stay on top of them?
+
+Calculating staking taxes can be both difficult and tiresome but it is an important thing to do. Luckily an amazing tool exists to simply this process.
+
+{% embed url="https://ethstaker.tax/" %}
+
+This will give you a rundown of the rewards your validators have accrued. Always double check with a local tax agent before filing to ensure they have been calculated in an appropriate manner for the jurisdiction that you are a tax resident of.
+
 ## What exactly is a validator?
 
 A validator is a virtual entity that lives on the [Beacon Chain](staking-glossary.md#beacon-chain), represented by a balance, [public key](staking-glossary.md#public-key), and other properties, and participates in [consensus](staking-glossary.md#consensus-layer) of the Ethereum network.
@@ -193,19 +224,74 @@ There are pre-configured hardware options like [Dappnode↗](https://dappnode.co
 
 The majority of the time commitment for staking is the initial learning and setup. It will probably take a day or two of tinkering to get it all figured out (maybe more, and that's okay!). Once you get going you're looking at updating once a month or so (ten minutes) and responding to outages, which are rare.
 
-## Where are my MEV rewards?
+## What should I do if I am getting lots of client errors post Shanghai?
 
-MEV rewards can be paid by a mix of standard transactions, internal transactions, and also priority fees (normal block reward).
+The most common cause of this issue is when node operators have failed to upgrade their node software prior to the network upgrade taking place. This can cause database corruption where a resync is required to get the node operating again.
 
-Always check all tabs of the used explorer (Tx, internal tx, "produced blocks"). There is not always an incoming transaction visible.
+Ensure that you are running a client version that is supported post network upgrade. The below versions should be the versions you are running _at a minimum._
+
+| Execution  | Version |
+| ---------- | ------- |
+| Geth       | v1.11.5 |
+| Nethermind | v1.17.3 |
+| Besu       | v23.1.2 |
+| Erigon     | v2.42.0 |
+
+|            |         |
+| ---------- | ------- |
+| Prysm      | v4.0.0  |
+| Lighthouse | v4.0.1  |
+| Nimbus     | v23.3.2 |
+| Teku       | v23.3.1 |
+| Lodestar   | v1.7.0  |
+
+If you were running an older version post network upgrade, most likely your local database will need to be deleted and resynced as it has most likely corrupted. This is more commonly true for execution clients than it is for consensus clients.
+
+If you download the beaconchai.in app or sign up to an account you can configure email alerts when new client releases are published so you won't run into this issue.&#x20;
+
+Two other methods are to follow the projects on Github so you can be emailed when a new release is published, or to join the client team Discord servers where new software releases are announced.
 
 ## When should I top up my validator’s balance?
 
 The answer to this question very much depends on how much ETH you have at your disposal. You should certainly top up if your balance is close to 16 ETH. This is to ensure you don’t get exited out of the validator set (which automatically happens if your balance falls below 16 ETH). At the other end of the spectrum, if your balance is closer to 31 ETH, it’s probably not worth adding the extra ETH required to get back to 32.
 
+## Where are some good places to view various staking metrics?
+
+There are many great resources out there to help you monitor your setup, a few are linked below.
+
+{% embed url="https://beaconcha.in/" %}
+A mobile app version is also available for real time alerts.
+{% endembed %}
+
+{% embed url="https://beaconscan.com/" %}
+
+{% embed url="https://www.rated.network/" %}
+
+All of these services will help you see things such as attestation performance, block proposals and total ETH accrued from staking.
+
+## Why can't I see my withdrawn ETH?
+
+You may notice that your block proposals and ETH withdrawals are not appearing in your wallet transactions. Do not panic, this is both expected and normal. They will not appear there as both of these are not transactions.
+
+If you enter in your wallet address into a website such as [https://etherscan.io/](https://etherscan.io/) you will see a "Produced Blocks" tab and a "Withdraws" tab, further detailed information can be found here. Please note that these buttons will only appear if that wallet has had a block proposal occur or a validator withdrawal occur.
+
+Whichever wallet you use will show your up to date ETH balance even if the transaction list is empty.&#x20;
+
+## Why did my smart plug turn off my machine?
+
+A not so frequently asked question but it has come up a few times! Some smart plugs only switch themselves back on after power failure when internet access has been restored.&#x20;
+
+However, in the case where your router or other critical network equipment are plugged into a smart plug with this "feature", they will not power back on unless the internet connection is restored, but the internet won't restore unless it has turned back on.&#x20;
+
+If you use a smart plug, it may be worthwhile to run a few tests to see if yours does this, otherwise you may find this out the hard way while attending Devcon on the other side of the world where it can only be fixed with manual action on-site...
+
 ## Why do I need to have funds at stake?
 
 As a validator, you'll need to have funds at stake so you can be penalized for behaving dishonestly. In other words, to keep you honest, your actions need to have financial consequences.
+
+## Why is all my RAM being used?
+
+This question is commonly asked by Linux users - [a detailed answer can be found here.](https://www.linuxatemyram.com/)
 
 ## Why the 32 ETH maximum?
 
