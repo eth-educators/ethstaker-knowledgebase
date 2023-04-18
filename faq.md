@@ -4,6 +4,7 @@
 * [Can I stop running my validator for a few days and then start it back up again?](faq.md#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
 * [Can I withdraw my ETH at any time?](faq.md#can-i-withdraw-my-eth-at-any-time)
 * [How are validators incentivized to stay active and honest?](faq.md#how-are-validators-incentivized-to-stay-active-and-honest)
+* [How does MEV Boost min-bid work?](faq.md#how-does-mev-boost-min-bid-work)
 * [How long do pre-signed exit messages remain valid?](faq.md#how-long-do-pre-signed-exit-messages-remain-valid)
 * [How much ETH do I need to stake to become a validator?](faq.md#how-much-eth-do-i-need-to-stake-to-become-a-validator)
 * [I am overwhelmed and don't know where to start - what can I do?](faq.md#i-am-overwhelmed-and-dont-know-where-to-start---what-can-i-do)
@@ -22,6 +23,7 @@
 * [What is the deposit contract?](faq.md#what-is-the-deposit-contract)
 * [What is the easiest way to Solo Home Staking?](faq.md#what-is-the-easiest-way-to-solo-home-staking)
 * [What is the time commitment for running a validator?](faq.md#what-is-the-time-commitment-for-running-a-validator)
+* [Where are my MEV rewards?](faq.md#where-are-my-mev-rewards)
 * [When should I top up my validator’s balance?](faq.md#when-should-i-top-up-my-validators-balance)
 * [Why do I need to have funds at stake?](faq.md#why-do-i-need-to-have-funds-at-stake)
 * [Why the 32 ETH maximum?](faq.md#why-the-32-eth-maximum)
@@ -63,6 +65,12 @@ The key concept is the following:
 * And major penalties (or [slashings](staking-glossary.md#slashable-offenses)) are given for malicious actions.
 
 In other words, you maximize your rewards by providing the greatest benefit to the network as a whole.
+
+## How does MEV Boost min-bid work?
+
+Beacon Nodes always pick the highest reward (local or remote) if it is above the `min-bid` value.
+
+If the highest reward (local or remote) is below the `min-bid` value then the local block will always be selected.
 
 ## How long do pre-signed exit messages remain valid?
 
@@ -177,11 +185,17 @@ Setting up your own validator for "Solo Home Staking" is not difficult.
 
 You can follow step-by-step [staking guides](tutorials/solo-staking-guides.md), which don't take much time at all. See also [time commitment](faq.md#what-is-the-time-commitment-for-running-a-validator).
 
-Nonetheless there are pre-configured hardware options like [Dappnode↗](https://dappnode.com/) or [Avado↗](https://ava.do/) which can make things easier and eliminate the need to interact with the command line interface or Linux in general. You can also install the open source [Dappnode software ↗](https://docs.dappnode.io/user/quick-start/core/installation/) on your own hardware to have a more intuitive staking experience.
+There are pre-configured hardware options like [Dappnode↗](https://dappnode.com/) or [Avado↗](https://ava.do/) which can make things easier and eliminate the need to interact with the command line interface or Linux in general. You can also install the open-source [Dappnode software ↗](https://docs.dappnode.io/user/quick-start/core/installation/) on your own hardware to have a more intuitive staking experience.
 
 ## What is the time commitment for running a validator?
 
 The majority of the time commitment for staking is the initial learning and setup. It will probably take a day or two of tinkering to get it all figured out (maybe more, and that's okay!). Once you get going you're looking at updating once a month or so (ten minutes) and responding to outages, which are rare.
+
+## Where are my MEV rewards?
+
+MEV rewards can be paid by a mix of standard transactions, internal transactions, and also priority fees (normal block reward).
+
+Always check all tabs of the used explorer (Tx, internal tx, "produced blocks"). There is not always an incoming transaction visible.
 
 ## When should I top up my validator’s balance?
 
