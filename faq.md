@@ -72,6 +72,8 @@ Beacon Nodes pick the highest reward (local or remote) if it is above the `min-b
 
 If the highest reward (local or remote) is below the `min-bid` value then the local block will be selected.
 
+There are circuit breakers in beacon nodes that select a local payload when certain network conditions are met such as there being many missed slots recently.
+
 ## How long do pre-signed exit messages remain valid?
 
 Pre-signed exit messages only remain valid for two hard forks. After that, you will need to generate new ones.
