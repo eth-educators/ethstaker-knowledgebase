@@ -75,15 +75,15 @@
 
 ## Archival node
 
-* Stores everything kept in a [full node](staking-glossary.md#full-node) and builds an archive of historical states.&#x20;
+* Stores everything kept in a [full node](staking-glossary.md#full-node) and builds an archive of historical states.
 * Archive nodes are required if you want to query something like an account balance at a particular block.
 * This data represents units of terabytes (more than 20TB for Geth), which makes archive nodes less attractive for most users but can be handy for services like block explorers, wallet vendors, and chain analytics.
 
 Syncing clients in any mode other than archive will result in pruned blockchain data. This means, there is no archive of all historical states but the full node is able to build them on demand.
 
-Archive nodes aren't required to participate in block validation and can theoretically be built from scratch by simply replaying the blocks from genesis.&#x20;
+Archive nodes aren't required to participate in block validation and can theoretically be built from scratch by simply replaying the blocks from genesis.
 
-****[**Source ↗**](https://ethereum.org/en/developers/docs/nodes-and-clients/#archive-node)
+[**Source ↗**](https://ethereum.org/en/developers/docs/nodes-and-clients/#archive-node)
 
 ## Attestation
 
@@ -185,11 +185,11 @@ The [Beacon Chain](staking-glossary.md#beacon-chain) has a tempo divided into [s
 
 ## Client
 
-An implementation of Ethereum software that verifies transactions in a block. These can be [consensus layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#consensus-clients) or [execution layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients). Each validator needs both an execution layer client and a consensus layer client. 
+An implementation of Ethereum software that verifies transactions in a block. These can be [consensus layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#consensus-clients) or [execution layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients). Each validator needs both an execution layer client and a consensus layer client.
 
 ## Committees
 
-A group of at least 128 [validators](staking-glossary.md#validator) assigned to validate blocks in each [slot](staking-glossary.md#slot). One of the validators in the committee is the aggregator, responsible for aggregating the signatures of all other validators in the committee that agree on an attestation. Not to be confused with [sync committees](staking-glossary.md#sync-committee).
+A group of at least 128 [validators](staking-glossary.md#validator) is assigned to validate blocks in each [slot](staking-glossary.md#slot). One of the validators in the committee is the aggregator, responsible for aggregating the signatures of all other validators in the committee that agree on an attestation. Not to be confused with [sync committees](staking-glossary.md#sync-committee).
 
 ## Consensus layer
 
@@ -197,7 +197,7 @@ Ethereum's consensus layer is the network of [consensus clients](validator-clien
 
 ## Deposit contract
 
-The Deposit contract is the **gateway** to Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) and is managed **through a smart contract** on Ethereum. The smart contract accepts any transaction with a minimum amount of 1 ETH and a valid [input data](staking-glossary.md#input-data). Ethereum beacon-nodes listen to the deposit contract and use the input data to credit each validator.
+The Deposit contract is the **gateway** to Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) and is managed **through a smart contract** on Ethereum. The smart contract accepts any transaction with a minimum amount of 1 ETH and valid [input data](staking-glossary.md#input-data). Ethereum beacon nodes listen to the deposit contract and use the input data to credit each validator.
 
 [_More info on the deposit contract_](getting-started/deposit-process.md)
 
@@ -218,7 +218,7 @@ Ethereum's execution layer is the network of [execution clients](validator-clien
 
 ## Finalization
 
-In Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) at least two third of the validators have to be honest, therefore if there are two competing [epochs](staking-glossary.md#epoch) and one third of the [validators](staking-glossary.md#validator) decide to be malicious, they will receive a penalty. Honest validators will be rewarded.
+one-thirdIn Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) at least two third of the validators have to be honest, therefore if there are two competing [epochs](staking-glossary.md#epoch) and one third of the [validators](staking-glossary.md#validator) decide to be malicious, they will receive a penalty. Honest validators will be rewarded.
 
 In order to determine if an epoch has been finalized, validators have to agree on the latest two epochs in a row, then all previous Epochs can be considered as finalized.
 
@@ -236,7 +236,7 @@ A change in protocol causing the creation of an alternative chain or a temporal 
 
 Stores and maintains the full blockchain data on disk. It serves blockchain data upon request and helps support the network by participating in block validation and by verifying all blocks and states. All states can be derived from a Full node.
 
-****[**Source ↗**](https://www.quicknode.com/guides/infrastructure/ethereum-full-node-vs-archive-node)****
+[**Source ↗**](https://www.quicknode.com/guides/infrastructure/ethereum-full-node-vs-archive-node)
 
 ## Genesis block
 
@@ -296,7 +296,7 @@ When an Ethereum node receives a transaction, it is not instantly added to a blo
 
 The transaction goes from a number of levels of verification such as it checks whether the output is greater than the input, whether the signature is valid or not, etc., and then only it is added to a block. The transaction is not added to a block if it fails any of these validations. The role of a mempool comes while a transaction is going through these checks. It is simply kept in this waiting area or a mempool. As soon as the transaction confirms, it is removed from the mempool and added to a block. Mempool is not a master reference shared universally by all nodes. There’s no “one” mempool. This means each node configures its own rules for the node’s mempool. In fact, a node can be the first to receive a transaction but it is possible that it might not have propagated the transaction to the rest of the network.
 
-****[**Source ↗**](https://www.geeksforgeeks.org/what-is-ethereum-mempool/)****
+[**Source ↗**](https://www.geeksforgeeks.org/what-is-ethereum-mempool/)
 
 ## Node
 
@@ -312,7 +312,7 @@ The participation rate is the percentage of validators that are online and perfo
 
 If the validator set is 1,000 validators, and 250 validators are offline or rarely making proposals or attestations, then it could be estimated that the participation rate is 75%.
 
-****[**Source ↗**](https://ethereum.stackexchange.com/questions/87503)****
+[**Source ↗**](https://ethereum.stackexchange.com/questions/87503)
 
 ## Peers
 
@@ -396,8 +396,7 @@ The validator has made a timely vote for the correct target [checkpoint](staking
 
 ## Validator
 
-A node in a [Proof of Stake (Pos)](staking-glossary.md#proof-of-stake-pos) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To activate validator software, you need to be able to stake 32 ETH. A validator's job is to propose blocks and sign attestations. It has to be online for at least 50% of the time in order to have positive returns. 
-A validator is run by an operator (a human), on hardware (a computer) and is paired with a node (many thousand validators can run on one node).
+A node in a [Proof of Stake (Pos)](staking-glossary.md#proof-of-stake-pos) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To activate validator software, you need to be able to stake 32 ETH. A validator's job is to propose blocks and sign attestations. It has to be online for at least 50% of the time in order to have positive returns. A validator is run by an operator (a human), on hardware (a computer) and is paired with a node (many thousand validators can run on one node).
 
 ### Eligible for activation & Estimated activation
 
