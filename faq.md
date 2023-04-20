@@ -29,7 +29,7 @@
 * [What should I do if I am getting lots of client errors post Shanghai?](faq.md#what-should-i-do-if-i-am-getting-lots-of-client-errors-post-shanghai)
 * [When should I top up my validator’s balance?](faq.md#when-should-i-top-up-my-validators-balance)
 * [Where are some good places to view various staking metrics?](faq.md#where-are-some-good-places-to-view-various-staking-metrics)
-* Where should I set my withdraw address to?
+* [Where should I set my withdraw address to?](faq.md#where-should-i-set-my-withdraw-address-to)
 * [Why can't I see my withdrawn ETH?](faq.md#why-cant-i-see-my-withdrawn-eth)
 * [Why did my smart plug turn off my machine?](faq.md#why-did-my-smart-plug-turn-off-my-machine)
 * [Why do I need to have funds at stake?](faq.md#why-do-i-need-to-have-funds-at-stake)
