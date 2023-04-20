@@ -29,6 +29,7 @@
 * [What should I do if I am getting lots of client errors post Shanghai?](faq.md#what-should-i-do-if-i-am-getting-lots-of-client-errors-post-shanghai)
 * [When should I top up my validator’s balance?](faq.md#when-should-i-top-up-my-validators-balance)
 * [Where are some good places to view various staking metrics?](faq.md#where-are-some-good-places-to-view-various-staking-metrics)
+* Where should I set my withdraw address to?
 * [Why can't I see my withdrawn ETH?](faq.md#why-cant-i-see-my-withdrawn-eth)
 * [Why did my smart plug turn off my machine?](faq.md#why-did-my-smart-plug-turn-off-my-machine)
 * [Why do I need to have funds at stake?](faq.md#why-do-i-need-to-have-funds-at-stake)
@@ -174,7 +175,7 @@ In both cases the key can be generated inside the CLI tool, be used for its purp
 
 ## Taxes!! How can I stay on top of them?
 
-Calculating staking taxes can be both difficult and tiresome but it is an important thing to do. Luckily an amazing tool exists to simply this process.
+Calculating staking taxes can be both difficult and tiresome but it is an important thing to do. Luckily an amazing tool exists to simplify this process.
 
 {% embed url="https://ethstaker.tax/" %}
 
@@ -268,6 +269,18 @@ A mobile app version is also available for real time alerts.
 {% embed url="https://www.rated.network/" %}
 
 All of these services will help you see things such as attestation performance, block proposals and total ETH accrued from staking.
+
+## Where should I set my withdraw address to?
+
+It is critical that you set your validator withdraw address to an address that you have created yourself and have full control over.
+
+This is typically defined as: A wallet address where you have the private keys and the ability to both send and receive transactions.
+
+If you do not have the private key for the wallet (For example, an address on an exchange) then _**do not**_ set that as your validator withdraw address as there is no guarantee that the 3rd party will give you your rewards or even exist in the near future to continue giving you your rewards.
+
+Always remember: **Not your keys, not your coins.**
+
+Advanced setups such as setting the withdraw address to a multisig is also supported but it is only recommended for advanced users.
 
 ## Why can't I see my withdrawn ETH?
 
