@@ -34,7 +34,7 @@
 ## 🖧 Networking
 
 * [Port forwarding](networking/port-forwarding.md)
-* [Firewalls and subnetting](networking/firewalls-and-subnetting.md)
+* [Firewalls y subredes](networking/firewalls-and-subnetting.md)
 * [Setting up home VPN access](networking/setting-up-home-vpn-access.md)
 
 ## ⛓ Validator Clients

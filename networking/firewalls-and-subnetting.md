@@ -1,22 +1,18 @@
-# Firewalls and subnetting
+# Firewalls y subredes
 
-A firewall is a security mechanism that monitors both incoming and outgoing network connections and can either accept or reject traffic based on a set of configurable rules. It is heavily recommended to have one configured to improve the security of your node/validator setup.
+Un firewall es un mecanismo de seguridad que supervisa las conexiones de red entrantes y salientes y puede aceptar o rechazar el tráfico basándose en un conjunto de reglas configurables. Se recomienda fuertemente tener uno configurado para mejorar la seguridad de la configuración de su nodo validador.&#x20;
 
-There are two kinds of firewalls:
+Existen dos tipos de firewalls:
 
 ### Software firewalls
 
-Software firewalls are run on the individual machine and protect it from other devices within the local network that it sits on.&#x20;
+Los software firewalls se ejecutan en la máquina individual y la protegen de otros dispositivos dentro de la red local en la que se encuentra.&#x20;
 
-It is recommended to have all traffic dropped by default and to set up individual rules allowing it where required, that way traffic can only enter the machine where it is _explicitly_ allowed.
+Se recomienda descartar todo el tráfico por defecto y establecer reglas individuales que lo permitan cuando sea necesario, de forma que el tráfico sólo pueda entrar en la máquina en la que está _explícitamente_ permitido.
 
-For example, if you run your execution node and consensus node on different machines, you can set up a firewall rule on your execution node to _only_ allow traffic on port 8551 from the IP address of your consensus node.
+Por ejemplo, si ejecutas tu cliente de ejecución y cliente de consenso en máquinas diferentes, puedes configurar una regla de firewall en tu nodo de ejecución para que sólo permita el tráfico en el puerto 8551 desde la dirección IP de tu nodo de consenso. Si estás ejecutando Ubuntu Server, un firewall ya estará instalado por defecto bajo [el paquete ufw](https://manpages.ubuntu.com/manpages/trusty/man8/ufw.8.html) (inglés), sólo tendrás que configurarlo y habilitarlo. Si estás ejecutando Geth y Prysm y tienes el software funcionando en diferentes máquinas, podrías establecer la siguiente configuración.
 
-If you are running Ubuntu Server, a firewall will already be installed by default under [the ufw package](https://manpages.ubuntu.com/manpages/trusty/man8/ufw.8.html), you will just have to configure it and enable it.
-
-If you are running Geth and Prysm and have the software running on different machines, you could set the below config.
-
-**Execution (Assuming Geth with IP 192.168.1.50)**
+**Ejecución (Asumiendo Geth con IP 192.168.1.50)**
 
 <pre><code><strong>sudo ufw default deny incoming
 </strong>sudo ufw default allow outgoing
@@ -25,7 +21,7 @@ sudo ufw allow 30303
 <strong>sudo ufw enable
 </strong></code></pre>
 
-**Consensus (Assuming Prysm with IP 192.168.1.51)**
+**Consenso (Asumiendo Prysm con IP 192.168.1.51)**
 
 ```
 sudo ufw default deny incoming
@@ -35,9 +31,9 @@ sudo ufw allow 13000/tcp
 sudo ufw enable
 ```
 
-Very secure! No traffic in or out unless it is strictly Ethereum related. A full list of external ports by execution and consensus client [can be found here.](port-forwarding.md)
+Esta muy seguro! No hay tráfico de entrada o salida a menos que esté estrictamente relacionado con Ethereum. Una lista completa de puertos externos por ejecución y cliente de consenso se puede encontrar [aquí](port-forwarding.md).&#x20;
 
-From here additional ports can be unblocked such as SSH, the consensus HTTP API (If you are also running your validator on another machine) or the execution RPC API (If you wish to interact with the Ethereum network using your own node).
+Desde aquí se pueden desbloquear puertos adicionales como SSH, la API HTTP de consenso (si también está ejecutando su validador en otra máquina) o la API RPC de ejecución (si desea interactuar con la red Ethereum utilizando su propio nodo).
 
 ### Hardware firewalls
 
@@ -45,4 +41,11 @@ Hardware firewalls are run on dedicated devices (Usually your router) and can ma
 
 One way to really fortify your setup is to configure a dedicated subnet on your router solely for your nodes/validators and have the firewall drop traffic from any other subnet from reaching this subnet (Also known as blocking all RFC 1918 traffic)
 
-Should your regular everyday computer (Or any other device on your network) become compromised, the infiltrator won't even know about your nodes as they are sitting on another subnet that is completely blocked off.&#x20;
+Should your regular everyday computer (Or any other device on your network) become compromised, the infiltrator won't even know about your nodes as they are sitting on another subnet that is completely blocked off.\
+
+
+Los hardware firewalls se ejecutan en dispositivos dedicados (normalmente el router) y pueden gestionar el tráfico tanto dentro de las redes como entre ellas.&#x20;
+
+Una forma de fortalecer su configuración es configurar una subred dedicada en su router únicamente para sus nodos/validadores y hacer que el cortafuegos impida que el tráfico de cualquier otra subred llegue a esta subred (también conocido como bloqueo de todo el tráfico RFC 1918).&#x20;
+
+Si su ordenador (o cualquier otro dispositivo de su red) se ve comprometido, el infiltrado ni siquiera sabrá de la existencia de sus nodos, ya que éstos se encuentran en otra subred que está completamente bloqueada.
