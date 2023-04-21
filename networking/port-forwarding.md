@@ -27,8 +27,6 @@ Para más información sobre cómo redirigir los puertos, lo mejor es buscar ins
 
 ### IP estáticas
 
-It is also recommended to configure your node with a static IP. This can be hardcoded on the machine itself or set as a reservation on your DHCP server (which is usually your router).
-
 También se recomienda configurar el nodo con una IP estática. Esta puede estar codificada en la propia máquina o configurada como una reserva en tu servidor DHCP (que normalmente es tu router).&#x20;
 
 Si a tu nodo se le asigna una dirección IP dinámica, siempre existe la posibilidad de que a tu máquina se le asigne una dirección IP diferente y el reenvío de puertos deje de funcionar, ya que apuntarán a la IP antigua.&#x20;
