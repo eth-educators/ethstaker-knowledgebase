@@ -38,7 +38,7 @@ Now execute the below command to ensure the OS and packages are up to date. Plea
 
 `apt-get update && apt-get upgrade`
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Your output will look like this if there are no upgrades needed.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Your output will look like this if there are no upgrades needed.</p></figcaption></figure>
 
 ### **Step 2 ) Install OpenVPN dependencies.**
 
@@ -108,7 +108,7 @@ Please find the "Multi-Daemon Mode" section, and edit both ports away from the d
 
 <figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>"9514" is an example port only.</p></figcaption></figure>
 
-#### **Step 5.2) - Adding in our public IP**
+#### **Step 5.2) - Adding in your public IP**
 
 Please don't navigate away from the "Network Settings" page for now. But you will need to open the below URL in a new tab.&#x20;
 
@@ -120,9 +120,9 @@ Copy your IP address from this website and paste it in the "Hostname or IP Addre
 
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>If you don't have a static IP, you will need a DNS for your home network.</p></figcaption></figure>
 
-#### Step 5.3) Optional - Configure the admin UI and client UI to run on different ports.
+#### Step 5.3) Configure the admin UI and client UI to run on different ports.
 
-This step is optional, but for security purposes I _heavily_ recommend it.
+This step is optional but for security purposes I _**heavily**_ recommend it.
 
 We are going to configure the admin UI and the client UI to run on different ports because we only need to publicly access the client UI.
 
@@ -142,7 +142,23 @@ From here, please click "Save Settings" and then "Update Running Server"
 
 Once the running server has been updated, you may need to refresh your browser and log back into the admin UI.
 
-#### Step 5.4) Advanced users only - Adding a static route
+#### Step 5.4) Enforce MFA on all user accounts
+
+This step is also optional, but for security purposes I also _**heavily**_ recommend it.
+
+We are going to require that all user accounts setup and use 2FA so in the worst case scenario where someone did get your otherwise guess your user credentials, they won't be able to gain access.
+
+Please navigate to Authentication > Settings
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+Please find the "TOTP Multi-Factor Authentication" setting and toggle it
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Once the setting has been changed, you must again click "Save Settings" down the bottom and then "Update running server" as shown in the bottom of the last example (Step 5.3).
+
+#### Step 5.5) Advanced users only - Adding a static route
 
 **If you are an advanced user** - You may have setup your OpenVPN server on a _different_ subnet than your Ethereum nodes/validators.
 
@@ -219,7 +235,9 @@ Please complete this step on the device you want to set up remote access.&#x20;
 
 Open the client web UI - You can use either your public or private IP for this step. In my case, I navigated to [https://192.168.3.111:9515](https://192.168.3.111:9515)
 
-Once in, log in using the user account you created in [step 6](setting-up-home-vpn-access.md#step-6-adding-user-accounts.). If successful, you will see the screen in the below step.
+Once in, login using the user account you created in [step 6](setting-up-home-vpn-access.md#step-6-adding-user-accounts.). If successful, you will see the screen in the below step.
+
+_**NOTE:**_ If you enabled MFA as per step 5.4, then after logging in you will be prompted to setup a 2FA credential. You can use something like Google Authenticator or Authy. I heavily recommend enabling this as the extra security is definitely worth it.
 
 #### Step 9.1 ) - Install OpenVPN client
 
@@ -259,4 +277,14 @@ If you can connect to your home network but are unable to SSH into your servers,
 
 ## FAQ
 
-FAQ to be added later!
+#### Can I connect to this VPN while also using a different VPN provider?
+
+No. At least not easily. To get this to work you will need to write your own IP tables. &#x20;
+
+#### Does the client UI _need_ to be exposed to the internet?
+
+No. If you can access the server within your local network and download and setup your user profile, then you won't need to access the client UI externally.
+
+However if you aren't within your local network and you need to redownload a user profile (For example if you are travelling and your phone/laptop dies and you get a new one) then you won't be able to login to the portal and download a new user profile.
+
+So leaving the client UI exposed to the internet with MFA switched on ([As per step 5.4](setting-up-home-vpn-access.md#step-5.4-enforce-mfa-on-all-user-accounts)) means the security is top notch.

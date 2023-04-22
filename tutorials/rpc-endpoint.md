@@ -102,7 +102,7 @@ _Please note, configuring your --http.vhosts as per the above example will allow
 
 This will indicate your Erigon node is ready for RPC connections
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
