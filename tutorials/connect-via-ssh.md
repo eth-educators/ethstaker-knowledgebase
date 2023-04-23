@@ -19,7 +19,7 @@ While SSH on its own is a great tool, there are some limitations that can be fru
 
 When you installed Linux on your staking machine the installation options should have asked if you would like to install SSH during the setup process.
 
-<figure><img src="../.gitbook/assets/image (25).png" alt="Linux Ubuntu Installation - Install SSH"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (102).png" alt="Linux Ubuntu Installation - Install SSH"><figcaption></figcaption></figure>
 
 To check if SSH is installed on your staking machine run the command:
 
@@ -77,7 +77,7 @@ ssh -p <PORT> <USERNAME>@<IP_ADDRESS>
 
 **Benefits of using Mosh:**
 
-* If you have an intermittent internet connection (e.g. a mobile connection or you're in a moving vehicle) a standard SSH connection will fail whenever the connection is lost. The connection must then be manually re-established, which can be annoying if it happens often and you are using additional security steps such as [2FA](../validator-keys/ssh-security-2fa.md). Mosh allows connections to be dropped and automatically re-established when the internet signal reconnects.
+* If you have an intermittent internet connection (e.g. a mobile connection or you're in a moving vehicle) a standard SSH connection will fail whenever the connection is lost. The connection must then be manually re-established, which can be annoying if it happens often and you are using additional security steps such as [2FA](ssh-security-2fa.md). Mosh allows connections to be dropped and automatically re-established when the internet signal reconnects.
 * Mosh uses a predictive interface for typing commands into the console. Standard SSH only shows the typed command once it has returned from the remote server. If you have a slow connection, this can be perceived as a laggy/slow interface. Mosh displays the text as you type commands, giving a much nicer user experience.
 
 **Limitations of using Mosh:**
@@ -120,15 +120,15 @@ On your device (iPhone or iPad) open the Blink Shell app and type:
 config
 ```
 
-![](<../.gitbook/assets/image (57).png>)
+![](<../.gitbook/assets/image (71).png>)
 
 Keys & Certificates can be added if you are using an SSH key for your connections:
 
-![](<../.gitbook/assets/image (97).png>)
+![](<../.gitbook/assets/image (39).png>)
 
 Hosts can be configured so you have an alias command e.g. `ssh validator` that you can use with preconfigured settings
 
-![](<../.gitbook/assets/image (77).png>)
+![](<../.gitbook/assets/image (10).png>)
 
 iCloud sync can be turned off if you don't want your SSH keys and passwords to be stored in iCLoud.
 
@@ -136,7 +136,7 @@ Auto Lock is a useful feature to add additional security to your portable device
 
 And that's it! You can now connect to your home staking validator remotely from your iOS device 🗺️
 
-![](<../.gitbook/assets/image (94).png>)
+![](<../.gitbook/assets/image (99).png>)
 
 ## Generating SSH keys
 
