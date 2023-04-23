@@ -8,7 +8,7 @@ Testnet only!
 
 If you are already running an Execution Client (EC) e.g. Geth and a Beacon Node (BN) e.g. Lighthouse you can connect your Obol DVT node to them. This allows you to reuse existing hardware and continue to run your solo staking validator alongside Obol DVT validators.
 
-![](<../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ### Update HTTP flags on existing Beacon Node
 

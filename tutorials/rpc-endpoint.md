@@ -102,7 +102,7 @@ _Please note, configuring your --http.vhosts as per the above example will allow
 
 This will indicate your Erigon node is ready for RPC connections
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -114,26 +114,26 @@ The below example will show you how to use your RPC endpoint with Metamask as it
 
 #### 2.1) Open Metamask, click the menu icon at the top right, and select "Add Network"
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.2) Scroll down the bottom and select "Add a network manually"
 
-<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 #### 2.3) Fill in your node details
 
 The specific details will vary depending on your local setup. As I am running Geth on the same machine as my Metamask installation, so I am using 127.0.0.1 as the IP address.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 If your RPC is unavailable or otherwise inaccessible, it may show an error when you enter the Chain ID and won't allow you to save the network.
 
 #### 2.4) Look out for the confirmation message
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.5) Swap to your new network if Metamask hasn't done so already
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
 Success! Now you can use Metamask as you normally would with the added benefit of accessing the Ethereum network through your own node 🥳
