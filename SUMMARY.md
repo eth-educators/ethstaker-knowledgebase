@@ -61,7 +61,7 @@
 * [Use all available disk space](tutorials/confirm-available-disk-space.md)
 * [Automatic security updates](tutorials/automatic-security-updates.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
-* [SSH security - 2FA](validator-keys/ssh-security-2fa.md)
+* [SSH security - 2FA](tutorials/ssh-security-2fa.md)
 * [Configuring an RPC endpoint](tutorials/rpc-endpoint.md)
 * [How to resync Geth](tutorials/resync-geth.md)
 * [Methods to minimize downtime](tutorials/methods-to-minimize-downtime.md)
