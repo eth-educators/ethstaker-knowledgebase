@@ -38,7 +38,7 @@ Now execute the below command to ensure the OS and packages are up to date. Plea
 
 `apt-get update && apt-get upgrade`
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Your output will look like this if there are no upgrades needed.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (110).png" alt=""><figcaption><p>Your output will look like this if there are no upgrades needed.</p></figcaption></figure>
 
 ### **Step 2 ) Install OpenVPN dependencies.**
 
@@ -46,7 +46,7 @@ Please execute the below command.
 
 `apt-get install ca-certificates wget net-tools gnupg`
 
-<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption><p>With all those installed, we are ready to prepare the machine for the VPN server.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption><p>With all those installed, we are ready to prepare the machine for the VPN server.</p></figcaption></figure>
 
 ### **Step 3) Import OpenVPN GPG key and add the official repository.**
 
@@ -70,7 +70,7 @@ echo "deb http://as-repository.openvpn.net/as/debian jammy main">/etc/apt/source
 apt-get update
 ```
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption><p>You'll now notice a new line for the OpenVPN access server repository after running "apt-get update".</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>You'll now notice a new line for the OpenVPN access server repository after running "apt-get update".</p></figcaption></figure>
 
 ### **Step 4) Install OpenVPN access server.**
 
@@ -80,11 +80,11 @@ Now the fun begins! To install, execute the below command
 apt-get install openvpn-as
 ```
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>You may need to install a fair few packages for this one...</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption><p>You may need to install a fair few packages for this one...</p></figcaption></figure>
 
 Hooray, you've just installed OpenVPN access server! Pay attention to this part of the debug, it contains valuable information.
 
-<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>Note the URL, the username and the password. Very important!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption><p>Note the URL, the username and the password. Very important!</p></figcaption></figure>
 
 The Admin UI is for making changes to the server config and adding users.
 
@@ -94,19 +94,19 @@ The Client UI is for your devices, you'll be able to download user profiles/cert
 
 Browse to your Admin UI URL. You'll receive a certificate warning, you can safely ignore this and continue. Once completed, you'll see the below UI.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Please login here!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (57).png" alt=""><figcaption><p>Please login here!</p></figcaption></figure>
 
 Please login, read and accept the EULA and we are ready to go!&#x20;
 
 We need to make a few network changes, for this please navigate to Configuration > Network Settings
 
-<figure><img src="../.gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
 
 #### Step 5.1) - Changing the VPN traffic port
 
 Please find the "Multi-Daemon Mode" section, and edit both ports away from the default ports. This is for security purposes. These ports can be the same number. I picked 9514, but this is an example only, I recommend choosing your own ports.
 
-<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>"9514" is an example port only.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption><p>"9514" is an example port only.</p></figcaption></figure>
 
 #### **Step 5.2) - Adding in your public IP**
 
@@ -118,7 +118,7 @@ This website will show you your public IP address.
 
 Copy your IP address from this website and paste it in the "Hostname or IP Address" field located at the top of the "Network Settings" page. This will already be populated with your _private_ IP address, you must overwrite it with your _public_ one.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>If you don't have a static IP, you will need a DNS for your home network.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption><p>If you don't have a static IP, you will need a DNS for your home network.</p></figcaption></figure>
 
 #### Step 5.3) Configure the admin UI and client UI to run on different ports.
 
@@ -128,17 +128,17 @@ We are going to configure the admin UI and the client UI to run on different por
 
 On the same page "Network Settings", please scroll down to the bottom and find "Client Web Server" and toggle the "Use a different IP address or port" setting.
 
-<figure><img src="../.gitbook/assets/image (62) (1).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
 
 Now we can change which port we want the client web server to run on, you can make this any port of your choosing. I chose 9515.
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption><p>"9515" is an example port only.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (46).png" alt=""><figcaption><p>"9515" is an example port only.</p></figcaption></figure>
 
 From here, please click "Save Settings" and then "Update Running Server"
 
-<figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption><p>Please hit this button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption><p>Please hit this button</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption><p>And also this button...</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>And also this button...</p></figcaption></figure>
 
 Once the running server has been updated, you may need to refresh your browser and log back into the admin UI.
 
@@ -150,11 +150,11 @@ We are going to require that all user accounts setup and use 2FA so in the worst
 
 Please navigate to Authentication > Settings
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 Please find the "TOTP Multi-Factor Authentication" setting and toggle it
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
 
 Once the setting has been changed, you must again click "Save Settings" down the bottom and then "Update running server" as shown in the bottom of the last example (Step 5.3).
 
@@ -166,9 +166,9 @@ If that is the case, you will need to browse to "Configuration > VPN Settings" a
 
 If they are not on separate subnets, please continue onto step 6.
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption><p>Advanced users only.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption><p>Advanced users only.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption><p>Advanced users only - Toggle "Yes, using Routing" and add in the subnet your Ethereum nodes/validators are on.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (44).png" alt=""><figcaption><p>Advanced users only - Toggle "Yes, using Routing" and add in the subnet your Ethereum nodes/validators are on.</p></figcaption></figure>
 
 ### Step 6) Adding user accounts.
 
@@ -178,11 +178,11 @@ Please navigate to "User management" > "User Permissions".
 
 From here, you can add a new user. Please type out a username and tick the "Allow Auto-login" box, then select the "More Settings" box.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>"Allow Auto-Login", and then "More Settings"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>"Allow Auto-Login", and then "More Settings"</p></figcaption></figure>
 
 You can now set a password for the account in the new options that appear when you click "More Settings".
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption><p>Make sure its a complex one!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption><p>Make sure its a complex one!</p></figcaption></figure>
 
 Once done, please "Save Settings" and "Update Running Server" again.
 
@@ -190,7 +190,7 @@ Once done, please "Save Settings" and "Update Running Server" again.
 
 If you are one of the lucky ones that had to do [step 5.4](setting-up-home-vpn-access.md#step-5.4-advanced-users-only-adding-a-static-route), then you may also need to add your Ethereum node/validator subnet to the user account too.
 
-<figure><img src="../.gitbook/assets/image (58).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 7) Unblock local ports.
 
@@ -223,9 +223,9 @@ Once completed, please browse to the below website and enter in your ports to ch
 This website will show you if your ports have been opened correctly.
 {% endembed %}
 
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption><p>(IP Address redacted) - My VPN traffic port is open.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (25).png" alt=""><figcaption><p>(IP Address redacted) - My VPN traffic port is open.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption><p>(IP Address redacted) - My client web UI port is open.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption><p>(IP Address redacted) - My client web UI port is open.</p></figcaption></figure>
 
 ### Step 9) - Configure a device for VPN access.
 
@@ -243,7 +243,7 @@ _**NOTE:**_ If you enabled MFA as per step 5.4, then after logging in you will b
 
 Please select the OS you are using.
 
-<figure><img src="../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 From here you can select a client for your device.
 
@@ -254,7 +254,7 @@ From here you can select a client for your device.
 
 Please download the "autologin profile".
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
 Once done, you will have to import the profile into the OpenVPN software. The software itself (Windows or Mac) or external pages (Linux, Android or iOS) will show you how to do this.
 
