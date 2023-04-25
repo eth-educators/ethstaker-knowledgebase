@@ -71,12 +71,13 @@
 
 ## ✏️ Get Involved
 
-* [Code of Conduct](get-involved/code-of-conduct.md)
+* [Content ideas](get-involved/content-ideas.md)
+* [Code of conduct](get-involved/code-of-conduct.md)
 * [How to contribute](get-involved/how-to-contribute.md)
 
 ***
 
-* [Privacy Policy](privacy-policy.md)
+* [Privacy policy](privacy-policy.md)
 
 ## 🧪 DVT
 
