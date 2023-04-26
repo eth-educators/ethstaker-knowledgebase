@@ -118,7 +118,7 @@ Once your ETH is secured, further investigations and actions can be taken to pre
 
 Staking on Ethereum gives you many options to participate. This can be overwhelming - no doubt. We all have been there!
 
-Take it step by step. First learn about the [options you have](getting-started/what-is-ethereum-staking.md#how-to-stake-your-eth) and choose what you are most comfortable with. There is no need to rush things and risk your precious sleep while doing so.
+Take it step by step. First learn about the [options you have](pour-debuter/what-is-ethereum-staking.md#how-to-stake-your-eth) and choose what you are most comfortable with. There is no need to rush things and risk your precious sleep while doing so.
 
 If you choose "Solo Home Staking" and want to run your own validator, decide between the different [hardware options](hardware/hardware-requirements.md) (f.e. Intel NUC) and follow [a staking guide](tutorials/solo-staking-guides.md) on testnet first. Search for Goerli Testnet Staking Guides. Take notes, find out what happens when you disconnect the power cable of your validator, how to update, etc. All in all - get confident with your node before staking on Ethereum Mainnet.
 

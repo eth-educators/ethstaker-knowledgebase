@@ -15,9 +15,9 @@ An unbiased, open-source collection of useful information and concepts about Eth
 
 ## 🚀 Getting started
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
+* [What is Ethereum staking?](pour-debuter/what-is-ethereum-staking.md)
+* [Running a node without any ETH](pour-debuter/ethereum-node.md)
+* [Deposit process explained](pour-debuter/deposit-process.md)
 
 ### **🚨 HELP!**
 

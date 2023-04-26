@@ -4,12 +4,12 @@
 * [Staking glossary](staking-glossary.md)
 * [Staking FAQ](faq.md)
 
-## 🚀 Getting Started
+## 🚀 Pour Débuter
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
-* [Withdrawal process explained](getting-started/withdrawal-process-explained.md)
+* [Qu'est-ce que le staking sur Ethereum ?](pour-debuter/what-is-ethereum-staking.md)
+* [Faire fonctionner un nœud sans aucun ETH](pour-debuter/ethereum-node.md)
+* [Deposit process explained](pour-debuter/deposit-process.md)
+* [Withdrawal process explained](pour-debuter/withdrawal-process-explained.md)
 
 ## 🚨 Help!
 
