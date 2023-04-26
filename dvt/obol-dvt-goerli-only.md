@@ -8,7 +8,7 @@ Testnet only!
 
 If you are already running an Execution Client (EC) e.g. Geth and a Beacon Node (BN) e.g. Lighthouse you can connect your Obol DVT node to them. This allows you to reuse existing hardware and continue to run your solo staking validator alongside Obol DVT validators.
 
-![](<../.gitbook/assets/image (15).png>)
+<table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th align="center"></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td align="center"><p></p><p><img src="../.gitbook/assets/image (15).png" alt="" data-size="original"></p></td><td></td><td></td></tr></tbody></table>
 
 ### Update HTTP flags on existing Beacon Node
 
@@ -89,11 +89,11 @@ cp docker-compose.override.yml.sample docker-compose.override.yml
 
 Edit the newly copied file `docker-compose.override.yml` and uncomment (remove the `#`) the following lines:
 
-* &#x20;`services:`&#x20;
+* `services:`
   * `geth:`
     * `profiles: [disable]`
   * `lighthouse:`
-    * `profiles: [disable]`&#x20;
+    * `profiles: [disable]`
 
 {% code title="docker-compose.override.yml" %}
 ```yaml
@@ -121,7 +121,6 @@ services:
 ```
 {% endcode %}
 
-You are now ready to start the Obol tutorial for creating an ENR and getting your new DVT validator set up!&#x20;
+You are now ready to start the Obol tutorial for creating an ENR and getting your new DVT validator set up!
 
 [https://docs.obol.tech/docs/next/int/quickstart/group/quickstart-group-operator](https://docs.obol.tech/docs/next/int/quickstart/group/quickstart-group-operator)
-

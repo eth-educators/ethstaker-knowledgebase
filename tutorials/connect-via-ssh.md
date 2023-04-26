@@ -124,7 +124,7 @@ config
 
 Keys & Certificates can be added if you are using an SSH key for your connections:
 
-![](<../.gitbook/assets/image (97).png>)
+![](<../.gitbook/assets/image (7) (2).png>)
 
 Hosts can be configured so you have an alias command e.g. `ssh validator` that you can use with preconfigured settings
 
@@ -136,7 +136,7 @@ Auto Lock is a useful feature to add additional security to your portable device
 
 And that's it! You can now connect to your home staking validator remotely from your iOS device 🗺️
 
-![](<../.gitbook/assets/image (94).png>)
+![](<../.gitbook/assets/image (4) (3).png>)
 
 ## Generating SSH keys
 
