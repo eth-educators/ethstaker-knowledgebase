@@ -43,7 +43,7 @@ On your existing Beacon Node, ensure these flags are added so the Charon client 
 {% endtab %}
 {% endtabs %}
 
-### Clone the ObobNetwork charon-distributed-validator-node repo
+### Clone the ObolNetwork/charon-distributed-validator-node repo
 
 ```
 # Clone this repo
