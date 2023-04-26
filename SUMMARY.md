@@ -6,7 +6,7 @@
 
 ## 🚀 Pour Débuter
 
-* [Qu'est-ce que le staking sur Ethereum ?](pour-debuter/what-is-ethereum-staking.md)
+* [Qu'est-ce que le staking sur Ethereum?](pour-debuter/what-is-ethereum-staking.md)
 * [Faire fonctionner un nœud sans aucun ETH](pour-debuter/ethereum-node.md)
 * [Deposit process explained](pour-debuter/deposit-process.md)
 * [Withdrawal process explained](pour-debuter/withdrawal-process-explained.md)
