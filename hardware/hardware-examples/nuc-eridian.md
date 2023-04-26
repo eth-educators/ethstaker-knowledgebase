@@ -20,7 +20,7 @@ The machine only needed three parts:
 
 To open the NUC, simply unscrew the four retaining screws, and detach the ribbon cable.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 The ribbon cable has a small plastic retainer that can be unclipped by hand.
 
@@ -36,15 +36,15 @@ The SSD is placed in the slot that says "NVMe ONLY" (2). It can only fit one way
 
 Replace the SSD retaining screw (1).
 
-<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
 
 The SSD in place should look like this:
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 Insert the RAM into the slots. Again, they can only fit one way because of the little notch.
 
-<figure><img src="../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
 
 The finished setup should look like this:
 

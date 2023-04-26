@@ -1,5 +1,21 @@
-# Common Errors and Mistakes
+# Common errors and mistakes
 
-## Geth is throwing errors and not syncing
+<details>
 
-- [Resync Geth](../tutorials/resync-geth.md)
+<summary>My Geth is throwing errors and not syncing</summary>
+
+A common cause of Geth's errors is an improper shutdown, for instance, due to power outage, or not enough time for a graceful process exit as geth writes data to disk. As a permanent fix for the latter case, you'll want to increase your systemd service's `TimeoutStopSec` value to at least `300`.
+
+To fix, you can [resync Geth](https://app.gitbook.com/o/5TLAFycQGS1YA3kIVVOf/s/KnJhWg57YoZq2MPfatKE/\~/changes/57/tutorials/resync-geth).&#x20;
+
+</details>
+
+<details>
+
+<summary>Running network-wide Pihole? My node is experiencing DNS issues. </summary>
+
+By Pihole's default settings, DNS rate limiting blocks any clients with >1000 queries per 60 seconds.
+
+To fix, either increase the queries limit value or exclude your node from Pihole's DNS.
+
+</details>
