@@ -1,6 +1,6 @@
 # My validator is offline! What do I do?
 
-## Panic! (Edited for a demo, it should say "Don't Panic!" 😉)
+## Don't Panic!
 
 The penalty for missing attestations is exactly the same as the reward for a successful one. Any downtime penalty will be recovered in the same amount of uptime.
 
