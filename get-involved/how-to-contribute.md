@@ -2,7 +2,7 @@
 
 This is a living documentation site, meaning we need the community's help to maintain and update the content. Any contribution, from writing whole sections and translations to correcting spelling and grammar mistakes will be greatly appreciated.
 
-Use this GitBook invite link to suggest edits and new content directly:
+Use this GitBook invite link to suggest edits and new content directly on GitBook:
 
 {% embed url="https://app.gitbook.com/invite/5TLAFycQGS1YA3kIVVOf/WIAQnld5Py2wJBhKcshO" %}
 
