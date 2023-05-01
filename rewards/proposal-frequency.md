@@ -1,15 +1,15 @@
-# Block Proposal Frequency
+# Frecuencia de propuesta de bloques
 
-## It's random
+## Aleatorio
 
-How often a validator receives block proposals, and is selected to be part of a [sync committee](../staking-glossary.md#sync-committee), is entirely random. As long as you do not see missed proposals, there is absolutely nothing you can do to increase the frequency.
+Con qué frecuencia un validador recibe propuestas de bloque y es seleccionado para formar parte de un comité de sincronización es completamente aleatorio. Mientras no vea propuestas perdidas, no hay absolutamente nada que pueda hacer para aumentar la frecuencia.
 
-True randomness can feel quite odd. A validator not getting a proposal for 9 months is perfectly normal. A validator getting two proposals in a week is entirely normal. Over a large enough set, this evens out, but for a handful of validators, randomness can indeed feel unsettling.
+La verdadera aleatoriedad puede parecer bastante extraña. Que un validador no reciba una propuesta durante nueve meses es perfectamente normal. Que un validador reciba dos propuestas en una semana es completamente normal. Con un bloque grande, esto se equilibra, pero para un grupo de validadores, la aleatoriedad puede sentirse inquietante.
 
-To see the latests statistics on block proposal frequency take a look at [Lucky Staker ↗](https://luckystaker.com/home).
+Para ver las estadísticas de la frecuencia de una propuesta de bloques, puedes ver  [Lucky Staker ↗](https://luckystaker.com/home).
 
-The tool [ethdo ↗](https://github.com/wealdtech/ethdo) by [attestant.io ↗](https://www.attestant.io) can be used to query the current average frequency of proposals and sync committees. As of late 2022, it is roughly one proposal every 2 months and sync committee participation every 2.5 years.
+La herramienta  [ethdo ↗](https://github.com/wealdtech/ethdo) de [attestant.io ↗](https://www.attestant.io) can be used to query the current average frequency of proposals and sync committees. A finales de 2022, es aproximadamente una propuesta cada 2 meses y la participación en el comité de sincronización cada 2,5 años.
 
-## Is there really nothing I can do?!?
+## ¿Realmente no hay nada que pueda hacer?
 
-We like to joke that burning some [Vitalik prayer candles ↗](https://www.etsy.com/listing/993553315/vitalik-buterin-prayer-candle-ethereum) may increase your chances. But no, seriously, it's random. There is nothing you can do to increase your chances at proposals, short of running more validators.
+Nos gusta bromear con que las posibilidades pueden incrementar, prendiendo unas [velas de oración de Vitalik](https://www.etsy.com/es/listing/993553315/vitalik-buterin-vela-de-oracion-ethereum). Pero no, realmente es aleatorio. No hay nada que puedas hacer para aumentar tus posibilidades de recibir propuestas, aparte de ejecutar más validadores.
