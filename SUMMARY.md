@@ -21,11 +21,11 @@
 ## 💰 Rewards
 
 * [¿Cómo gana ETH mi validador?](rewards/chain-rewards.md)
-* [Frecuencia de propuesta de bloques](rewards/proposal-frequency.md)
+* [Frecuencia de propuestas de bloque](rewards/proposal-frequency.md)
 
 ## 💻 Hardware
 
-* [Hardware requirements](hardware/hardware-requirements.md)
+* [Requerimentos de hardware](hardware/hardware-requirements.md)
 * [Hardware examples](hardware/hardware-examples/README.md)
   * [NUC - Eridian](hardware/hardware-examples/nuc-eridian.md)
 * [Hardware security](hardware/hardware-security.md)

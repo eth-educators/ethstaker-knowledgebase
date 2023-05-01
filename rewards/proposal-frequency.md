@@ -1,15 +1,18 @@
-# Frecuencia de propuesta de bloques
+# Frecuencia de propuestas de bloque
 
-## Aleatorio
+## Es aleatoria!
 
-Con qué frecuencia un validador recibe propuestas de bloque y es seleccionado para formar parte de un comité de sincronización es completamente aleatorio. Mientras no vea propuestas perdidas, no hay absolutamente nada que pueda hacer para aumentar la frecuencia.
+Con qué frecuencia un validador recibe propuestas de bloque y es seleccionado para formar parte de un comité de sincronización es completamente aleatorio. Mientras no vea propuestas perdidas, no hay absolutamente nada que pueda hacer para aumentar la frecuencia
 
-La verdadera aleatoriedad puede parecer bastante extraña. Que un validador no reciba una propuesta durante nueve meses es perfectamente normal. Que un validador reciba dos propuestas en una semana es completamente normal. Con un bloque grande, esto se equilibra, pero para un grupo de validadores, la aleatoriedad puede sentirse inquietante.
+Que sea totalmente aletorio puede resultar un poco confuso, sin embargo, es completamente normal que un validador no reciba una propuesta durante 9 meses, o que también que reciba dos propuestas en una semana. Con un conjunto lo suficientemente grande, esto se equilibra, pero para un grupo pequeño de validadores, la aleatoriedad puede sentirse no un poco inquietante.
 
-Para ver las estadísticas de la frecuencia de una propuesta de bloques, puedes ver  [Lucky Staker ↗](https://luckystaker.com/home).
+Puedes consultar las últimas estadísticas sobre la frecuencia de propuestas de bloque en [Lucky Staker ↗](https://luckystaker.com/home).
 
-La herramienta  [ethdo ↗](https://github.com/wealdtech/ethdo) de [attestant.io ↗](https://www.attestant.io) can be used to query the current average frequency of proposals and sync committees. A finales de 2022, es aproximadamente una propuesta cada 2 meses y la participación en el comité de sincronización cada 2,5 años.
+Puedes usar la herramienta de [ethdo ↗](https://github.com/wealdtech/ethdo) de [attestant.io ↗](https://www.attestant.io)para consultar la frecuencia promedio actual de propuestas y comités de sincronización. Desde finales de 2022, hay aproximadamente una propuesta cada 2 meses y la participación en comités de sincronización es cada 2,5 años.
 
-## ¿Realmente no hay nada que pueda hacer?
+## **Realmente no hay nada que pueda hacer?**
 
-Nos gusta bromear con que las posibilidades pueden incrementar, prendiendo unas [velas de oración de Vitalik](https://www.etsy.com/es/listing/993553315/vitalik-buterin-vela-de-oracion-ethereum). Pero no, realmente es aleatorio. No hay nada que puedas hacer para aumentar tus posibilidades de recibir propuestas, aparte de ejecutar más validadores.
+Dentro de la comunidad nos gusta bromear con que tal vez encendiendo algunas [Vitalik prayer candles ↗](https://www.etsy.com/listing/993553315/vitalik-buterin-prayer-candle-ethereum) puedan aumentar las probabilidades, pero realmente no, no existe forma en que se pueda aumentar las probabilidades de las propuestas ya que es totalmente aleatoria.&#x20;
+
+
+

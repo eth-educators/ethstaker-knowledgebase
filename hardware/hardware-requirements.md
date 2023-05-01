@@ -1,47 +1,49 @@
-# Hardware requirements
+# Requerimentos de hardware
 
-A **full node** is one that runs both an [Execution Client](../validator-clients/execution-clients.md) and a [Consensus Client](../validator-clients/consensus-clients.md).
 
-Here is a simple breakdown of what is required to run a full Ethereum node:
 
-* A **stable Internet connection**. The longer you stay online, the better your rewards. A spotty Internet connection will hurt your returns.
-* At least **10Mbps of bandwidth both up and down**. A full node usually takes around 8Mbps to 10Mbps up & down of network traffic, depending on your configuration.
-* **No data cap** is imposed by your ISP. Running a full node will take a lot of data - as much as over 2 TB per month of on-chain data alone. This can be mitigated somewhat with a few settings tweaks to the ETH clients, but as a rule of thumb, don't run a full node if your Internet plan comes with a monthly data cap.
-* **Stable electricity**. For the same reason as needing a stable Internet connection, you also want to have reliable power. This can be mitigated with a large UPS (backup battery) to deal with short blackouts.
-* A **computer** with sufficient specs. This is pretty flexible because it _really_ depends on what Execution and Consensus client you use, and what settings you configure them with. The computer can be a local machine, or it can be a Virtual Private Server (VPS) hosted in the cloud. Read below for some more information on those two options, and how to decide which is best for you.
+Un **full node** es uno que se ejecute tanto en el  [Execution Client](../validator-clients/execution-clients.md) como en el [Consensus Client](../validator-clients/consensus-clients.md).
 
-The following are considered _**minimum**_ requirements to run a full node:
+Aquí puedes ver de forma sencilla que es lo que se requiere para ejecutar un full node en la red de Ethereum:&#x20;
 
-* Linux or macOS Operating System
-* Quad-core CPU (or dual-core hyperthreaded); both `x64` and `arm64` are supported
-* 16 GB of RAM (preferably DDR4)
-* 2 TB of free **SSD Disk Space**
-  * A spinning platter hard drive _is not fast enough_ to handle the constant random reads and writes that blockchain activity requires. You **MUST** use a solid-state drive.
+* Una **conexión a Internet estable**. Cuanto más tiempo permanezca en línea, mejores serán sus recompensas. Una conexión a Internet irregular llega a perjudicar sus ganancias.
+* Al menos **10 Mbps de ancho de banda** tanto de subida como de bajada. Un **full node** suele requerir alrededor de 8 Mbps a 10 Mbps de tráfico de red, dependiendo de su configuración.
+* Que **no haya un límite de datos por parte de su proveedor de internet**. Ejecutar un nodo completo consumirá muchos datos, hasta más de 2 TB por mes de solo datos de cadena! Esto se puede mitigar en cierta forma con algunos ajustes de configuración en los clientes ETH, pero como regla general, no es recomendable ejecutar un nodo completo si su plan de Internet tiene un límite de datos mensual.
+* **Servicio de electricidad estable**. Por la misma razón que se necesita una conexión a Internet estable, también es necesario tener energía confiable. Esto se puede mitigar con una gran UPS (batería de respaldo) para manejar cortes de energía breves.
+* **Una computadora que cumpla con los requerimentos suficientes**. Esto es bastante flexible porque realmente depende del cliente de ejecución y consenso que use y de las configuraciones que configure. La computadora puede ser una máquina local o puede ser un Servidor Privado Virtual (VPS) alojado en la nube. A continuación podrá encontrar información al respecto:
+
+Algunos de los requísitos que son considerados como **mínimos** para ejecutar un full node son:&#x20;
+
+* Sistema operativo Linux o macOS
+* CPU de cuatro núcleos (o doble núcleo hiperprocesado); se admiten tanto x64 como arm64&#x20;
+* 16 GB de RAM (preferiblemente DDR4)&#x20;
+* 2 TB de espacio libre en disco SSD.&#x20;
+  * Un disco duro de plato giratorio no es lo _suficientemente rápido_ para manejar las constantes lecturas y escrituras aleatorias que requiere la actividad de la cadena de bloques. Es **obligatorio el uso** de una unidad de estado sólido.
 
 {% hint style="info" %}
-Typical configurations tend to use 16GB or 32GB of RAM for future-proofing.
+Generalmente las configuraciones tienden a usar entre 16GB y 32GB de RAM para lograr retornos a largo plazo.&#x20;
 {% endhint %}
 
-* The ideal setup, and best practice is to have a dedicated computer for staking. Try to limit additional processes running on your staking box. Especially if it is something that is connecting to the outside world. Every extra process and every file being downloaded is another opportunity for an exploit.
-* Your ETH will be locked into the [Beacon Chain](../staking-glossary.md#beacon-chain) until at the earliest mid-2023, [possibly later](../faq.md#can-i-withdraw-my-eth-at-any-time). It makes sense to buy some good hardware. This isn’t like mining with razor-thin margins, it will pay for itself quickly.
-* Use Linux, it's easy! For the foreseeable future, Linux will receive better support from both the client teams and the community at large. If you choose Linux you will have access to more guides and more technical support from the community at large. Linux is lightweight, stable, secure, and it doesn't force you to restart for updates every other day.
-* Use a [minority client](../validator-clients/validator-clients-explained.md)! It is both good for the health of Ethereum and good for the health of your money.
-* A battery backup (UPS) is **strongly** recommended! Plug your modem and router into it also. Many ISPs have generators to support emergency services communications, meaning the internet continues to work during a power outage as long as your equipment is powered. Your ISP may be the same. Aside from blackouts, not having your computer shut down on every momentary power flicker is a nice quality-of-life improvement when staking from home.
-* Everything here applies to both solo staking and being a 16 ETH minipool node operator with [Rocket Pool ↗](https://rocketpool.net/).
+* La configuración ideal y lo más práctico es tener una computadora dedicada para el staking. Intenta limitar los procesos adicionales que se ejecutan en tu equipo de staking, especialmente si se trata de algo que se conecta con el mundo exterior. Cada proceso adicional y cada archivo descargado es otra oportunidad.
+* Tus ETH estarán bloqueados en la [Beacon Chain](../staking-glossary.md#beacon-chain) hasta mediados de 2023, [posiblemente más](../faq.md#can-i-withdraw-my-eth-at-any-time). Por lo que tiene sentido comprar hardware de buena calidad. Pero no te alarmes, esto no es como la minería que tiene márgenes ajustados, aquí la inversión se recuperará rápidamente.
+* ¡Usa Linux, es fácil! En un futuro previsible, Linux recibirá un mejor soporte tanto de los equipos de clientes como de la comunidad en general. Si eliges Linux, tendrás acceso a más guías y más soporte técnico de la comunidad en general. Linux es ligero, estable, seguro y no te obliga a reiniciar para las actualizaciones frecuentemente.
+* ¡Usa un [cliente minoritario](../validator-clients/validator-clients-explained.md)! Es bueno tanto para la salud de Ethereum como para la salud de tu bolsillo.
+* ¡Se recomienda fuertemente un respaldo con una UPS! En el deben de estar conectados tanto el módem como el router. Muchos proveedores de servicios de internet tienen generadores para respaldar las comunicaciones de servicios de emergencia, lo que significa que el Internet sigue funcionando durante un corte de energía siempre que tu equipo esté alimentado. Tu proveedor de servicios de Internet puede ser el mismo. Aparte de los cortes de energía, no tener que apagar tu computadora cada vez que la alimentación eléctrica falle es algo que se agradece bastante cuando haces staking desde casa.&#x20;
+* Todo lo que se mencionó aquí aplica tanto para los que hacen staking solos y también para los que son operadores de nodos de una minipool de 16 ETH. con [Rocket Pool ↗](https://rocketpool.net/).
 
-## Hardware examples
+## Ejemplos de hardware
 
-Take a look at the [hardware examples](hardware-examples/) page for detailed explanations of real solo home staking setups.
+Aquí puedes echar un vistazo a algunos [ejemplos de equipo](hardware-examples/)  y sus explicaciones detalladas con las que se puede staking desde la casa
 
-## Hardware options
+## Opciones de Hardware
 
 * [**Raspberry Pi**](hardware-requirements.md#raspberry-pi)
-* [**Old laptop/desktop**](hardware-requirements.md#old-laptopdesktop)
-* [**New laptop**](hardware-requirements.md#new-laptop)
-* [**New pre-built desktop**](hardware-requirements.md#new-pre-built-desktop)
-* [**Custom built desktop**](hardware-requirements.md#custom-built-desktop)
+* [**Laptop vieja/ escritorio**](hardware-requirements.md#old-laptopdesktop)
+* [**Laptop nueva**](hardware-requirements.md#new-laptop)
+* [**De escritorio pre-fabricado** ](hardware-requirements.md#new-pre-built-desktop)
+* [**De escritorio personalidad**](hardware-requirements.md#custom-built-desktop)
 * [**Intel NUC**](hardware-requirements.md#intel-nuc)
-* [**Server**](hardware-requirements.md#server)
+* [**Servidor**](hardware-requirements.md#server)
 * [**DAppNode**](hardware-requirements.md#dappnode)
 * [**Avado**](hardware-requirements.md#avado)
 * [**M1 Mac Mini**](hardware-requirements.md#m1-mac-mini)
@@ -49,86 +51,97 @@ Take a look at the [hardware examples](hardware-examples/) page for detailed exp
 
 ### **Raspberry Pi**
 
-**Price:** Lower cost.
+**Precio:** Bajo costo.
 
-**Performance:** Running an execution and consensus node on a Raspberry Pi is possible. Specifically, Nimbus which was designed to run on devices like a Raspberry Pi. Being able to run Ethereum nodes on low-powered hardware is great for decentralization and an honorable goal. However, running a validator is different. I maintain that the Pi’s lack of processing power and memory is a risk in some situations such as a period with no finalization. The reward of saving a few hundred dollars vs more powerful hardware does not even come close to outweighing the risk of extended downtime due to a lack of processing power or memory.
+**Rendimiento:** Es posible ejecutar un nodo de ejecución y consenso en una Raspberry Pi, específicamente, **Nimbus**, que fue diseñado para ejecutarse en dispositivos como una Raspberry Pi. Poder ejecutar nodos de Ethereum en hardware de baja potencia es excelente para la descentralización y un objetivo honorable, sin embargo, ejecutar un validador es diferente.
 
-**Power Usage:** Approximately 8 watts.
+Es importante considerar, que la falta de potencia de procesamiento y memoria del Pi es un riesgo en algunas situaciones, como un período sin finalización. La recompensa de ahorrar unos pocos cientos de dólares en comparación con hardware más potente no se acerca siquiera a compensar el riesgo de un tiempo de inactividad prolongado debido a la falta de potencia de procesamiento o memoria.
 
-### **Old laptop/desktop**
+**Consumo energético:** aproximadamente 8 watts.
 
-**Price:** Lower cost.
+### **Computadora portátil o de escritorio vieja**
 
-**CPU:** For staking on Mainnet, a CPU that scores at least 6000 or better on Passmark is strongly recommended. For initial sync times, single-thread performance is better than having many cores.
+**Precio:** Bajo costo.
 
-**Memory:** Unless you go with an extremely bare-bones OS, 16GB is the minimum amount of RAM recommended for Mainnet.
+**CPU**: Para hacer stake en la red principal, se recomienda fuertemente una CPU que obtenga una puntuación de al menos 6000 o mejor en Passmark. Para los tiempos de sincronización inicial, el rendimiento de un solo hilo es mejor que tener muchos núcleos.&#x20;
 
-**Storage:** An SSD is required. You do not need to worry about SATA vs NVMe, either will be fast enough. Buying one with a high terabytes written spec will help with longevity. The Ethereum execution and consensus layer are approaching 1TB in size so a 2TB or bigger drive is recommended.
+**Memoria**: A menos de que utilice un sistema operativo extremadamente básico, se recomienda un mínimo de 16 GB de RAM para la red principal.&#x20;
 
-**Caveats:** Stability and uptime are essential to maximize your profits. If you are using an older desktop consider replacing the PSU and the fans. Buying a titanium or platinum-rated PSU will help save on the monthly power bill as well.
+**Almacenamiento**: Se requiere un SSD. No es necesario preocuparse por SATA vs NVMe, ambos serán lo suficientemente rápidos. Comprar uno con una especificación alta de terabytes escritos ayudará con la longevidad. La capa de ejecución y consenso de Ethereum se acerca a 1 TB de tamaño, por lo que se recomienda un disco de 2 TB o más.&#x20;
 
-If you are planning on staking with an older laptop, consider that they have reduced capacity to deal with heat due to their form factor, and in rare cases, running while plugged in 24/7 can cause issues with the battery. If you do choose to stake with a laptop, try using one that far exceeds the CPU requirements as running a laptop at nearly full load 24/7 is not advisable. You will probably be fine, but generally speaking, laptops are not designed with that in mind.
+**Advertencias**: La estabilidad y el tiempo de actividad son esenciales para maximizar las ganancias. Si utiliza una computadora de escritorio antigua, considere reemplazar la PSU y los ventiladores. Comprar una PSU de clasificación titanio o platino también ayudará a ahorrar en la factura mensual de electricidad. Si planea hacer stake con una computadora portátil antigua, tenga en cuenta que tienen una capacidad reducida para manejar el calor debido a su factor de forma, y en casos poco frecuentes, ejecutarse mientras está enchufada las 24 horas del día, los 7 días de la semana, puede causar problemas con la batería.
 
-### **New laptop**
+### **Laptop nueva**
 
-If you are buying brand new, there is not much value in paying the price premium for a portable form factor, screen, keyboard, and trackpad. Once you get your staking machine set up, you do not need any of these features. You can just remote into the staking machine from your normal computer. The low profile form factor will actually be a downside when taking thermal performance into account. Laptops typically do not include an ethernet port now, which means you will be relying on WiFi. WiFi is very reliable now, but you can't beat the simplicity and reliability of a cable.
+Si piensas en adquirir una computadora portátil nueva no es necesario que inviertas en una de muy alta gama, ya que aspectos como la pantalla, el teclado o el trackpad no son necesario una vez que tengas configurada tu máquina de staking. Simplemente puedes conectarte a la máquina de staking de forma remota desde tu ordenador normal. La configuración de perfil bajo en realidad sería una desventaja al tener en cuenta el rendimiento térmico. Por otro lado, los portátiles típicamente no incluyen un puerto ethernet lo que significa que estarás confiando en el WiFi. Esto no debería de representar algún problema, ya que el WiFi es muy confiable ahora, pero no hay nada como la simplicidad y confiabilidad de una conexión directa.
 
-### **New pre-built desktop**
+### **Computadora de escritorio prefabricada.**
 
-This is likely the simplest option and it will be easy to upgrade and service in the future\*\*.\*\*
+Esta es probablemente la opción más simple y tiene la ventaja de que se puede ir mejorando en el futuro.
 
-**Price:** Medium price.
+**Precio:** Mediano costo.
 
-**Power Usage:** Probably around 30 watts.
+**Consumo energético:** alrededor de 30 watts.
 
-### **Custom built desktop**
+### **Computadora de escritorio personalizada**
 
-This is essentially the same as using a prebuilt desktop. However, building your own gives you the option of choosing a case you like the look of, and buying higher-quality parts. For those of you who have never built a computer, it is easier than Lego because they only go together one way. Also, you won’t get any weird proprietary parts that will be difficult to replace should they ever fail. Unfortunately with prebuilt computers, concessions are sometimes made with components like the PSU to assuage the accountants and boost margins. Style points for adding a RAID card!
+Esto es básicamente lo mismo que usar una preconstruida. Sin embargo, construir su propia computadora de escritorio le da la opción de elegir aspectos aún más personalizables, como un case que le guste y comprar componentes de mayor calidad. Para aquellos de ustedes que nunca han construido una computadora, es más fácil que Lego, porque solo se pueden ensamblar de una manera. Además, no obtendrá piezas extrañas que serán difíciles de reemplazar en caso de que alguna vez fallen. Desafortunadamente, en las computadoras preconstruidas, a veces se hacen concesiones con componentes como la fuente de alimentación para calmar a los contadores y aumentar los márgenes. ¡Puntos de estilo por agregar una tarjeta RAID!
 
 ### **Intel NUC**
 
-**Price:** Medium price.
+**Precio:** Mediano costo.
 
-**Power usage:** 20-25ish watts.
+**Consumo energético:** 20-25 watts.
 
 NUCs are super cute, and their small form factor gives them a very high significant-other approval factor. Unfortunately that does come with a bit of a price premium and slightly less performance than the larger desktop option. However, these are minor drawbacks. This is probably the best option for most people.
 
-### **Server**
+Los NUC son bastante adorables y su pequeño factor de forma les da un alto coeficiente de aprobación para su pareja. Desafortunadamente, esto viene con un poco más de precio y un rendimiento ligeramente inferior que la opción de escritorio más grande. Sin embargo, estas son desventajas menores. Esta es probablemente la mejor opción para la mayoría de las personas.
 
-**Price:** Higher price.
+### **Servidor**
 
-**Power Usage:** It's bad. A modern server runs around 100 watts. If you get an older one, expect to be up around 150 watts.
+**Precio :** Alto costo.
 
-Enterprise servers are jam packed with features, and are specifically designed to do exactly what a validator is trying to do. Run 24/7/365. They have redundant power supplies in case one breaks, they mostly have 2 CPUs, so in the unlikely event of one going bad, you can pop it out and restart with just one. They have built in RAID cards so you can have redundant storage. They have hot swappable drive trays, so if one of your drives goes bad, you don't even need to shut down. All of the components are high quality and built to last. You also get monitoring and maintenance tools that are not included in consumer gear like iDRAC and iLo. I would definitely caution that while servers are great for staking, you probably want to be the type of person who is willing to go into the weeds a bit and geek out. There is some research required to know what you are looking for before you go out and buy a server and there is a possibility you run into a weird technical issue that you will have to troubleshoot.
+**Consumo energético:** Es bastante considerable, un servidor moderno consume alrededor de 100 watts, uno más antiguo, puede estar alrededor de 150 watts.
+
+Los servidores empresariales están repletos de características y están diseñados específicamente para hacer exactamente lo que un validador intenta hacer: funcionar las 24 horas del día, los 7 días de la semana, los 365 días del año. Tienen fuentes de alimentación redundantes en caso de que una se rompa, en su mayoría tienen 2 CPUs, por lo que en el improbable caso de que una falle, puedes sacarla y reiniciar con solo una.
+
+Por otro lado, tienen tarjetas RAID incorporadas para que puedas tener almacenamiento redundante. Tienen bandejas de unidades intercambiables en caliente, por lo que si una de tus unidades falla, ni siquiera necesitas apagarlo. Todos los componentes son de alta calidad y están diseñados para durar. También obtienes herramientas de monitoreo y mantenimiento que no se incluyen en el equipo de consumo como iDRAC e iLo.
+
+Definitivamente, señalaría que, si bien los servidores son excelentes para el staking, es mejor que optes por adentrarte adentrarse un poco en el tema y geek out. Se requiere cierta investigación para saber lo que estás buscando antes de salir a comprar un servidor y existe la posibilidad de que te encuentres con un problema técnico extraño que tendrás que solucionar.
 
 ### [**DAppNode**](https://dappnode.io/)
 
-**Price:** Medium price
+**Precio:** Mediano costo
 
-**Performance:** The DAppNodeXtreme is a good option if you are looking for a custom built OS with an easy UX. A DAppNode box is just a NUC pre-configured with their software. If you are confident enough to install an OS by yourself, you can save a bit of money by purchasing a normal NUC and installing DAppNode yourself. You can also install the DAppNode OS on any computer. If you don’t want to mess around with installing operating systems and want an easy UX, buying a DAppNode box is a convenient and simple way to get started.
+**Rendimiento:** El DAppNodeXtreme es una buena opción si buscas un sistema operativo personalizado con una UX fácil. Un DAppNode box es solo un NUC preconfigurado con su software. Si tienes suficiente confianza para instalar un sistema operativo por ti mismo, puedes ahorrar un poco de dinero comprando un NUC normal e instalando DAppNode tú mismo. También puedes instalar el sistema operativo DAppNode en cualquier computadora. Si no quieres lidiar con la instalación de sistemas operativos y buscas una UX fácil, comprar un DAppNode box es una forma conveniente y simple de comenzar.
 
-**Power Usage:** 20-25ish watts.
+**Consumo energético:** 20-25watts.
 
 ### [**Avado**](https://ava.do/shop)
 
-Avado is an easy home-staking solution for people with limited technical knowledge or limited time. The Avado boxes are pre-configured computers with a user-friendly UI that allows you to use and manage the device from anywhere in the world.
+Avado es una solución fácil para realizar staking desde casa para personas con conocimientos técnicos limitados o poco tiempo. Los dispositivos Avado vienen preconfigurados con una interfaz de usuario amigable que permite usar y administrar el dispositivo desde cualquier parte del mundo.&#x20;
 
-Using an AVADO is convenient, secure and true to the spirit of decentralization.
+Usar un Avado es conveniente, seguro y **fiel al espíritu de la descentralización**.
+
+
 
 ### [**M1 Mac Mini**](https://www.apple.com/shop/buy-mac/mac-mini)
 
-**Price:** Medium price.
+**Precio:** Mediano costo.
 
-**Performance:** Definitely upgrade to 16GB of memory. The CPU will be more than fast enough with a 15,108 passmark score. Make sure you have a plan to get up to 2TB or more of storage, the internal memory and storage is integrated into the motherboard and requires soldering and advanced technical knowledge to upgrade.
+**Rendimiento:** Definitivamente actualiza a 16GB de memoria. La CPU será más que suficientemente rápida con una puntuación de 15.108 en PassMark. Asegúrate de obtener 2TB o más de almacenamiento, ya que la memoria y el almacenamiento interno están integrados en la placa base y requieren soldadura y conocimientos técnicos avanzados para actualizarlos.
 
-**Power Usage:** Slightly less than the NUC, but not enough to make any real difference.
+Definitely upgrade to 16GB of memory. The CPU will be more than fast enough with a 15,108 passmark score. Make sure you have a plan to get up to 2TB or more of storage, the internal memory and storage is integrated into the motherboard and requires soldering and advanced technical knowledge to upgrade.
 
-It's not possible to run Linux on the new ARM architecture this uses. It is more expensive that the NUC and also falls short on upgradeability, and ease of service, but for the Mac OS fans out there this is a great option that will work very well.
+**Power Usage:** Ligeramente menor que el  NUC, pero no lo suficiente para marca alguna diferencia real.
 
-### **Virtual Private Server**
+Importante! No es posible ejecutar Linux en la nueva arquitectura ARM que utiliza. Es más caro que el NUC y también carece de actualizabilidad y facilidad de servicio, pero para los fanáticos de Mac OS, esta es una gran opción que funcionará muy bien.
 
-**Price:** Anywhere from $20 - $50 per month.
+### **Servidor virtual privado (VPS)**&#x20;
 
-**Performance:** You can buy as much as you can afford.
+**Precio:** Alrededor de entre $20 - $50 por mes.
 
-If you live somewhere that is prone to natural disaster or has an unstable power grid or internet connection but still want to solo stake, this is a good option. If you do have stable power and internet, running your own hardware will be a cheaper/more profitable solution long term. You need to evaluate the pros/cons of this for your own situation. Remember that if one of the VPS providers goes down, it will mean all of the people using that VPS service to host will also go down, and the inactivity penalties will be much larger than if you have uncorrelated downtime yourself.
+**Rendimiento:** Es directamente proporcional a la cantidad que puedas permitirte adquirir.&#x20;
+
+Si vives en algún lugar propenso a desastres naturales o tienes una red eléctrica o conexión a internet inestable pero aún quieres hacer solo staking, esta es una buena opción. Si tienes un servicio electricidad e internet estables, ejecutar tu propio hardware sería una solución más barata y rentable a largo plazo. Debes evaluar los pros y los contras de esto para tu propia situación. Recuerda que si uno de los proveedores de VPS falla, significará que todas las personas que usan ese servicio de VPS también se verán afectadas, y las penalizaciones por inactividad serán mucho mayores que si tienes tiempos de inactividad no correlacionados por ti mismo.
+
