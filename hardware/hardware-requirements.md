@@ -93,9 +93,9 @@ Esto es básicamente lo mismo que usar una preconstruida. Sin embargo, construir
 
 **Consumo energético:** 20-25 watts.
 
-NUCs are super cute, and their small form factor gives them a very high significant-other approval factor. Unfortunately that does come with a bit of a price premium and slightly less performance than the larger desktop option. However, these are minor drawbacks. This is probably the best option for most people.
 
-Los NUC son bastante adorables y su pequeño factor de forma les da un alto coeficiente de aprobación para su pareja. Desafortunadamente, esto viene con un poco más de precio y un rendimiento ligeramente inferior que la opción de escritorio más grande. Sin embargo, estas son desventajas menores. Esta es probablemente la mejor opción para la mayoría de las personas.
+
+Los NUC son muy lindos, y su pequeño factor de forma les da un factor de aprobación significativamente alto. Desafortunadamente, esto viene con un precio un poco más alto y un rendimiento ligeramente inferior que la opción de escritorio más grande. Sin embargo, estas son pequeñas desventajas. Probablemente esta es la mejor opción para la mayoría de las personas.
 
 ### **Servidor**
 
@@ -131,9 +131,9 @@ Usar un Avado es conveniente, seguro y **fiel al espíritu de la descentralizaci
 
 **Rendimiento:** Definitivamente actualiza a 16GB de memoria. La CPU será más que suficientemente rápida con una puntuación de 15.108 en PassMark. Asegúrate de obtener 2TB o más de almacenamiento, ya que la memoria y el almacenamiento interno están integrados en la placa base y requieren soldadura y conocimientos técnicos avanzados para actualizarlos.
 
-Definitely upgrade to 16GB of memory. The CPU will be more than fast enough with a 15,108 passmark score. Make sure you have a plan to get up to 2TB or more of storage, the internal memory and storage is integrated into the motherboard and requires soldering and advanced technical knowledge to upgrade.
+Definitivamente actualice a 16GB de memoria. La CPU será lo suficientemente rápida con una puntuación de aprobación de 15,108. Asegúrese de tener un plan para obtener al menos 2TB o más de almacenamiento, la memoria interna y el almacenamiento están integrados en la placa base y requieren soldadura y avanzados conocimientos técnicos para actualizarlos.
 
-**Power Usage:** Ligeramente menor que el  NUC, pero no lo suficiente para marca alguna diferencia real.
+**Consumo energético:** Ligeramente menor que el  NUC, pero no lo suficiente para marca alguna diferencia real.
 
 Importante! No es posible ejecutar Linux en la nueva arquitectura ARM que utiliza. Es más caro que el NUC y también carece de actualizabilidad y facilidad de servicio, pero para los fanáticos de Mac OS, esta es una gran opción que funcionará muy bien.
 

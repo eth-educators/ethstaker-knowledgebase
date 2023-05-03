@@ -15,7 +15,7 @@ _\*Varía según el número total de validadores en la red. La estimación mostr
 
 _\*\*Estos están sujetos a la aleatoriedad; puede haber "rachas secas" varias veces más largas que el promedio sin recibir una._
 
-Las recompensas proporcionadas en el [Consenso](../staking-glossary.md#consensus-layer) actualmente no son líquidas. Están bloqueadas en la cadena hasta que se implementen los [retiros](../faq.md#can-i-withdraw-my-eth-at-any-time). Las recompensas proporcionadas en la [Ejecución](../staking-glossary.md#execution-layer), sin embargo, son líquidas y se pueden acceder instantáneamente.R
+Las recompensas proporcionadas en el [Consenso](../staking-glossary.md#consensus-layer) actualmente no son líquidas. Están bloqueadas en la cadena hasta que se implementen los [retiros](../faq.md#can-i-withdraw-my-eth-at-any-time). Las recompensas proporcionadas en la [Ejecución](../staking-glossary.md#execution-layer), sin embargo, son líquidas y se pueden acceder instantáneamente.
 
 [Fuente↗](https://docs.rocketpool.net/guides/node/responsibilities.html#how-ethereum-staking-works)
 
@@ -42,4 +42,4 @@ _\*Varía según el número total de validadores en la red. La estimación mostr
 Como regla general, si está desconectado durante X horas (y no está en un [comité de sincronización](../staking-glossary.md#sync-committee)), recuperará todo su ETH perdido después de X horas una vez que vuelva a estar en línea y atestando.
 {% endhint %}
 
-[Source ↗](https://docs.rocketpool.net/guides/node/responsibilities.html#penalties)
+[Fuente ↗](https://docs.rocketpool.net/guides/node/responsibilities.html#penalties)
