@@ -28,6 +28,7 @@
 * [Requerimentos de hardware](hardware/hardware-requirements.md)
 * [Ejemplos de Hardware](hardware/hardware-examples/README.md)
   * [NUC - Eridian](hardware/hardware-examples/nuc-eridian.md)
+  * [Desktop personalizado - snoopmx](hardware/hardware-examples/desktop-personalizado-snoopmx.md)
 * [Hardware Seguridad](hardware/hardware-security.md)
 * [Hardware Buenas Prácticas](hardware/hardware-best-practices.md)
 
