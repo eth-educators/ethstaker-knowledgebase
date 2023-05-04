@@ -26,15 +26,15 @@
 ## 💻 Hardware
 
 * [Requerimentos de hardware](hardware/hardware-requirements.md)
-* [Hardware examples](hardware/hardware-examples/README.md)
+* [Ejemplos de Hardware](hardware/hardware-examples/README.md)
   * [NUC - Eridian](hardware/hardware-examples/nuc-eridian.md)
-* [Hardware security](hardware/hardware-security.md)
-* [Hardware best practices](hardware/hardware-best-practices.md)
+* [Hardware Seguridad](hardware/hardware-security.md)
+* [Hardware Buenas Prácticas](hardware/hardware-best-practices.md)
 
 ## 🖧 Networking
 
 * [Port forwarding](networking/port-forwarding.md)
-* [Firewalls y subredes](networking/firewalls-and-subnetting.md)
+* [Firewalls y Subredes](networking/firewalls-and-subnetting.md)
 * [Setting up home VPN access](networking/setting-up-home-vpn-access.md)
 
 ## ⛓ Validator Clients
