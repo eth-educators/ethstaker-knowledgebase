@@ -70,4 +70,4 @@
 
 ***
 
-* [Privacy Policy](privacy-policy.md)
+* [Política de Privacidad](privacy-policy.md)
