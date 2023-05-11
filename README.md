@@ -4,6 +4,8 @@ description: '"Welcoming First, Knowledgeable Second"'
 
 # EthStaker knowledge base
 
+![](.gitbook/assets/image.png)
+
 ## Welcome to the EthStaker Knowledge base!
 
 An unbiased, open-source collection of useful information and concepts about Ethereum staking. If you're looking to get started staking on Ethereum or simply to learn more about how the network is secured through [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, you've come to the right place!

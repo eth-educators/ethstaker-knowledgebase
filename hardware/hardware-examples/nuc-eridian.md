@@ -36,7 +36,7 @@ The SSD is placed in the slot that says "NVMe ONLY" (2). It can only fit one way
 
 Replace the SSD retaining screw (1).
 
-<figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
 The SSD in place should look like this:
 

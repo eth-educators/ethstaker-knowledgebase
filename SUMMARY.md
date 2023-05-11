@@ -54,6 +54,12 @@
 * [Secure key generation](validator-keys/secure-key-generation.md)
 * [Slashing protection](validator-keys/slashing-protection.md)
 
+## 🎛 Scaled Node Operators
+
+* [Node health checks](scaled-node-operators/node-health-checks.md)
+* [Node maintenance](scaled-node-operators/node-maintenance.md)
+* [Alerting at scale](scaled-node-operators/alerting-at-scale.md)
+
 ## 📕 Tutorials
 
 * [Solo staking guides](tutorials/solo-staking-guides.md)

@@ -38,7 +38,7 @@ Now execute the below command to ensure the OS and packages are up to date. Plea
 
 `apt-get update && apt-get upgrade`
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Your output will look like this if there are no upgrades needed.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1) (1).png" alt=""><figcaption><p>Your output will look like this if there are no upgrades needed.</p></figcaption></figure>
 
 ### **Step 2 ) Install OpenVPN dependencies.**
 
@@ -118,7 +118,7 @@ This website will show you your public IP address.
 
 Copy your IP address from this website and paste it in the "Hostname or IP Address" field located at the top of the "Network Settings" page. This will already be populated with your _private_ IP address, you must overwrite it with your _public_ one.
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>If you don't have a static IP, you will need a DNS for your home network.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption><p>If you don't have a static IP, you will need a DNS for your home network.</p></figcaption></figure>
 
 #### Step 5.3) Configure the admin UI and client UI to run on different ports.
 
@@ -128,7 +128,7 @@ We are going to configure the admin UI and the client UI to run on different por
 
 On the same page "Network Settings", please scroll down to the bottom and find "Client Web Server" and toggle the "Use a different IP address or port" setting.
 
-<figure><img src="../.gitbook/assets/image (62) (1).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Please press "No" and turn it into "Yes".</p></figcaption></figure>
 
 Now we can change which port we want the client web server to run on, you can make this any port of your choosing. I chose 9515.
 
@@ -150,11 +150,11 @@ We are going to require that all user accounts setup and use 2FA so in the worst
 
 Please navigate to Authentication > Settings
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Please find the "TOTP Multi-Factor Authentication" setting and toggle it
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Once the setting has been changed, you must again click "Save Settings" down the bottom and then "Update running server" as shown in the bottom of the last example (Step 5.3).
 
@@ -178,7 +178,7 @@ Please navigate to "User management" > "User Permissions".
 
 From here, you can add a new user. Please type out a username and tick the "Allow Auto-login" box, then select the "More Settings" box.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>"Allow Auto-Login", and then "More Settings"</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (55).png" alt=""><figcaption><p>"Allow Auto-Login", and then "More Settings"</p></figcaption></figure>
 
 You can now set a password for the account in the new options that appear when you click "More Settings".
 

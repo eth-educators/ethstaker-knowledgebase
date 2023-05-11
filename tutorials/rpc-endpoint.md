@@ -102,7 +102,7 @@ _Please note, configuring your --http.vhosts as per the above example will allow
 
 This will indicate your Erigon node is ready for RPC connections
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -114,7 +114,7 @@ The below example will show you how to use your RPC endpoint with Metamask as it
 
 #### 2.1) Open Metamask, click the menu icon at the top right, and select "Add Network"
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.2) Scroll down the bottom and select "Add a network manually"
 
@@ -134,6 +134,6 @@ If your RPC is unavailable or otherwise inaccessible, it may show an error when 
 
 #### 2.5) Swap to your new network if Metamask hasn't done so already
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Success! Now you can use Metamask as you normally would with the added benefit of accessing the Ethereum network through your own node 🥳
