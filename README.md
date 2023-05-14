@@ -47,9 +47,9 @@ Uma coleção imparcial e de código aberto de informações e conceitos úteis 
 
 ## Posso contribuir para a base de conhecimentos de EthStaker?
 
-Sim! This is a living documentation site, meaning we need the community's help to maintain and update the content. Any contribution, from writing whole sections and translations to correcting spelling and grammar mistakes will be greatly appreciated.
+Sim! Este é um site de documentação vivo, o que significa que precisamos da ajuda de toda a comunidade para manter e atualizar seu conteúdo. Qualquer contribuição, desde escrever seções inteiras, traduções, ou até mesmo corrigir erros de ortografia e gramática, serão muito bem-vindas.
 
-You can earn GitPOAPs by contributing directly to the EthStaker Knowledge Base (a [contributor↗](https://www.gitpoap.io/gp/881)) and by asking a question that leads to content being created (a [supporter↗](https://www.gitpoap.io/gp/923)).
+Você pode ganhar GitPOAPs contribuindo diretamente para a Base de Conhecimento de EthStaker (como[ contribuidor↗](https://www.gitpoap.io/gp/881)) ou fazendo perguntas que levem à criação de conteúdo (como [apoiador](https://www.gitpoap.io/gp/923)[↗](https://www.gitpoap.io/gp/923)).
 
 [![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
 
@@ -59,4 +59,4 @@ Para sugerir alterações ou adicionar novos conteúdos, visite nosso [EthStaker
 
 * [How to contribute](get-involved/how-to-contribute.md)
 
-**Supported by a GitBook Community License ♥️**
+**Suportado por uma Licença Comunitária do GitBook ♥️**

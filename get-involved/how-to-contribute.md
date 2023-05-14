@@ -1,21 +1,20 @@
-# How to contribute
+# Como contribuir
 
-This is a living documentation site, meaning we need the community's help to maintain and update the content. Any contribution, from writing whole sections and translations to correcting spelling and grammar mistakes will be greatly appreciated.
+Este é um site de documentação vivo, o que significa que precisamos da ajuda de toda a comunidade para manter e atualizar seu conteúdo. Qualquer contribuição, desde escrever seções inteiras, traduções, ou até mesmo corrigir erros de ortografia e gramática, serão muito bem-vindas.
 
-You can earn GitPOAPs by contributing directly to the EthStaker Knowledge Base (a [contributor↗](https://www.gitpoap.io/gp/881)) and by asking a question that leads to content being created (a [supporter↗](https://www.gitpoap.io/gp/923)).
+Você pode ganhar GitPOAPs contribuindo diretamente para a Base de Conhecimento de EthStaker (como[ contribuidor↗](https://www.gitpoap.io/gp/881)) ou fazendo perguntas que levem à criação de conteúdo (como [apoiador](https://www.gitpoap.io/gp/923)[↗](https://www.gitpoap.io/gp/923)).
 
 [![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
 
-To suggest changes or add new content please visit our [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) or if you have any questions please join our [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
+Para sugerir alterações ou adicionar novos conteúdos, visite nosso [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) ou, se tiver alguma dúvida, entre em nosso [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
 
-Please create a pull request for any changes you want to make and we'll review it as soon as possible.
+Por favor, crie uma solicitação de pull para qualquer alteração que você queira fazer e nós a analisaremos o mais rápido possível.
 
-* [Documentation standardization notes](how-to-contribute.md#documentation-standardization-notes)
-* [Creating/Updating tables of contents](how-to-contribute.md#creatingupdating-tables-of-contents)
-* [Glossary and FAQ heading ordering](how-to-contribute.md#glossary-and-faq-heading-ordering)
-* [Future support for multi-language](how-to-contribute.md#future-support-for-multi-language)
+* [Notas sobre a padronização da documentação](how-to-contribute.md#notas-sobre-a-padronizacao-da-documentacao)
+* [Criação ou atualização de tabelas de conteúdo](how-to-contribute.md#criacao-ou-atualizacao-de-tabelas-de-conteudo)
+* [Classificar glossário e perguntas frequentes em ordem alfabética](how-to-contribute.md#classificar-glossario-e-perguntas-frequentes-em-ordem-alfabetica)
 
-## Documentation standardization notes
+## Notas sobre a padronização da documentação
 
 Please use these notes when writing for this knowledge base to maintain a standardized format.
 
@@ -30,7 +29,7 @@ Please use these notes when writing for this knowledge base to maintain a standa
 * Create an image that's also a link.
   * `[![image-text](https://some.site/your-image.jpg)](https://some.site/your-link.html)`
 
-## Creating/Updating tables of contents
+## Criação ou atualização de tabelas de conteúdo
 
 The tables of contents are created using a VSCode extension [Markdown All in One ↗](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) using the command `Create Table of Contents` (in the [VS Code Command Palette ↗](https://code.visualstudio.com/docs/getstarted/userinterface#\_command-palette)) to insert a new table of contents. It should then automatically be updated when a file is saved.
 
@@ -40,9 +39,9 @@ Add the tag `<!-- omit in toc -->` to any headings you do not want to be include
 # HEADING <!-- omit in toc -->
 ```
 
-## Glossary and FAQ heading ordering
+## Classificar glossário e perguntas frequentes em ordem alfabética
 
-When adding items to the Glossary and FAQ it's important that they remain in alphabetical order so it's easier to navigate. As there is no native way to achieve this in Markdown, you can use this bash script to reorder the headings.
+Ao adicionar itens ao Glossário e às Perguntas frequentes, é importante que eles permaneçam em ordem alfabética para facilitar a navegação. Como não há uma maneira nativa de fazer isso com Markdown, você pode usar este script bash para reordenar os cabeçalhos.
 
 > The file name `alphabetical-ordering.sh` has been added to the .gitignore file.
 
@@ -51,7 +50,7 @@ touch alphabetical-ordering.sh
 chmod 700 alphabetical-ordering.sh
 ```
 
-Edit the new file with your preferred text editor.
+Edite o novo arquivo com seu editor de texto preferido.
 
 ```
 #!/bin/bash
@@ -91,10 +90,10 @@ rm faq-temp-1.md
 rm faq-temp-2.md
 ```
 
-Run the script.
+Executar o script.
 
 ```
 ./alphabetical-ordering.sh
 ```
 
-> This was a quick script, so if you have any improvements please update it here!
+> Este script foi feito rapidinho, sendo assim, se você tiver alguma melhoria, atualize-o aqui!
