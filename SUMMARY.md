@@ -1,8 +1,8 @@
 # Table of contents
 
-* [EthStaker knowledge base](README.md)
-* [Staking glossary](staking-glossary.md)
-* [Staking FAQ](faq.md)
+* [Base de conhecimentos de EthStaker](README.md)
+* [Glossário sobre participação](staking-glossary.md)
+* [Perguntas frequentes sobre participação](faq.md)
 
 ## 🚀 Getting Started
 

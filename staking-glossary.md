@@ -1,4 +1,4 @@
-# Staking glossary
+# Glossário sobre participação
 
 * [Archival node](staking-glossary.md#archival-node)
 * [Attestation](staking-glossary.md#attestation)
@@ -41,7 +41,7 @@
 * [Peers](staking-glossary.md#peers)
 * [Priority fees](staking-glossary.md#priority-fees)
 * [Private key](staking-glossary.md#private-key)
-* [Proof of stake (PoS)](staking-glossary.md#proof-of-stake-pos)
+* [Prova de participação (PoS)](staking-glossary.md#prova-de-participacao-pos)
 * [Public key](staking-glossary.md#public-key)
 * [Signing](staking-glossary.md#signing)
 * [Slashable offenses](staking-glossary.md#slashable-offenses)
@@ -326,7 +326,7 @@ Almost all transaction on Ethereum set a [priority fee ↗](https://ethereum.org
 
 A secret number that allows Ethereum users to prove ownership of an account or contracts, by producing a digital signature.
 
-## Proof of stake (PoS)
+## Prova de participação (PoS) <a href="#prova-de-participacao-pos" id="prova-de-participacao-pos"></a>
 
 A method by which a cryptocurrency blockchain protocol aims to achieve distributed consensus. PoS asks users to prove ownership of a certain amount of cryptocurrency (their "stake" in the network) in order to be able to participate in the validation of transactions.
 
