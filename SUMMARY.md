@@ -6,7 +6,7 @@
 
 ## 🚀 Getting Started
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md)
+* [O que é staking de Ethereum?](getting-started/what-is-ethereum-staking.md)
 * [Running a node without any ETH](getting-started/ethereum-node.md)
 * [Deposit process explained](getting-started/deposit-process.md)
 * [Withdrawal process explained](getting-started/withdrawal-process-explained.md)
