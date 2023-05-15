@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Base de conhecimentos de EthStaker](README.md)
-* [Glossário sobre participação](staking-glossary.md)
-* [Perguntas frequentes sobre participação](faq.md)
+* [Glossário sobre staking](staking-glossary.md)
+* [Perguntas frequentes sobre staking](faq.md)
 
 ## 🚀 Getting Started
 
@@ -26,8 +26,8 @@
 
 ## 💻 Hardware
 
-* [Hardware requirements](hardware/hardware-requirements.md)
-* [Hardware examples](hardware/hardware-examples/README.md)
+* [Requisitos de hardware](hardware/hardware-requirements.md)
+* [Exemplos de hardware](hardware/hardware-examples/README.md)
   * [NUC - Eridian](hardware/hardware-examples/nuc-eridian.md)
   * [Custom Built Desktop - snoopmx](hardware/hardware-examples/custom-built-desktop.md)
 * [Hardware security](hardware/hardware-security.md)

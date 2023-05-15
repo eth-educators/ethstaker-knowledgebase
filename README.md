@@ -10,8 +10,8 @@ Uma coleção imparcial e de código aberto de informações e conceitos úteis 
 
 ## 🔗 Links Úteis
 
-* [Glossário sobre participação](staking-glossary.md)
-* [Perguntas frequentes sobre participação](faq.md)
+* [Glossário sobre staking](staking-glossary.md)
+* [Perguntas frequentes sobre staking](faq.md)
 
 ## 🚀 Primeiros passos
 
@@ -33,8 +33,10 @@ Uma coleção imparcial e de código aberto de informações e conceitos úteis 
 
 ### 💻 Hardware
 
-* [Hardware requirements](hardware/hardware-requirements.md)
-* [Hardware examples](hardware/hardware-examples/)
+* [Requisitos de Hardware](hardware/hardware-requirements.md)
+* [Exemplos de Hardware](hardware/hardware-examples/)
+* [Hardware security](hardware/hardware-security.md)
+* [Hardware best practices](hardware/hardware-best-practices.md)
 
 ### ⛓️ Clientes validadores
 

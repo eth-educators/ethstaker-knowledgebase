@@ -1,5 +1,6 @@
-# Hardware examples
+# Exemplos de hardware
 
-Here is a list of example home-staking setups created by the EthStaker community:
+Aqui está uma lista de exemplos de configurações de staking de casa criados pela comunidade EthStaker:
 
 * [NUC - Eridian](nuc-eridian.md)
+* [Custom Built Desktop - snoopmx](custom-built-desktop.md)
