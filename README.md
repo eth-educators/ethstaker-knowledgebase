@@ -57,6 +57,6 @@ Para sugerir alterações ou adicionar novos conteúdos, visite nosso [EthStaker
 
 ### ✏️ Envolva-se
 
-* [How to contribute](get-involved/how-to-contribute.md)
+* [Como contribuir](get-involved/how-to-contribute.md)
 
 **Suportado por uma Licença Comunitária do GitBook ♥️**
