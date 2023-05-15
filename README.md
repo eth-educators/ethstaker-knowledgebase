@@ -37,6 +37,8 @@ An unbiased, open-source collection of useful information and concepts about Eth
 
 * [Hardware requirements](hardware/hardware-requirements.md)
 * [Hardware examples](hardware/hardware-examples/)
+* [Hardware security](hardware/hardware-security.md)
+* [Hardware best practices](hardware/hardware-best-practices.md)
 
 ### ⛓️ Validator Clients
 
