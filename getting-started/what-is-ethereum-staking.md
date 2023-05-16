@@ -16,57 +16,57 @@ Os stakers não precisam de computadores com uso intensivo de energia para parti
 
 ## Como stakear seu ETH
 
-### 🏡 Solo home staking
+### 🏡 Staking individual de casa
 
-* Most impactful
-* Full control
-* Full rewards
-* Trustless
+* Mais impactante
+* Controle total
+* Recompensas integrais
+* Sem-dependência-de-confiança
 
-Solo staking on Ethereum is the **gold standard** for staking. It provides full participation rewards, improves the decentralization of the network, and never requires trusting anyone else with your funds.
+Staking individual no Ethereum é o padrão de ouro para staking. Ela oferece recompensas de participação completa, melhora a descentralização da rede e nunca exige que seus fundos sejam confiados a outra pessoa.
 
-Those considering solo staking should have at least 32 ETH and a dedicated computer connected to the internet \~24/7. Some technical know-how is helpful, but easy-to-use tools now exist to help simplify this process.
+Quem estiver pensando em fazer staking solo deve ter pelo menos 32 ETH, um computador e dedicado conectado à Internet 24 horas por dia, 7 dias por semana. Algum conhecimento técnico é útil, mas já existem ferramentas fáceis de usar que ajudam a simplificar esse processo.
 
-### ☁️ Staking as a service
+### ☁️ Staking como um serviço
 
-* Your 32 ETH
-* Your validator keys
-* Entrusted node operation
+* Seus 32 ETH
+* Suas chaves de validação
+* Operação de nó confiado a terceiros
 
-If you don't want or don't feel comfortable dealing with hardware but still want to stake your 32 ETH, staking-as-a-service options allow you to delegate the hard part while you earn native block rewards.
+Se você não quiser ou não se sentir à vontade em lidar com hardware, mas ainda assim quiser stakear seus 32 ETH, as opções de staking como serviço permitem que você delegue a parte mais difícil enquanto você ganha recompensas por blocos nativos.
 
-These options usually walk you through creating a set of validator credentials, uploading your signing keys to them, and depositing your 32 ETH. This allows the service to validate on your behalf.
+Essas opções geralmente o orientam na criação de um conjunto de credenciais de validação, no upload de suas chaves de assinatura e no depósito de seus 32 ETH. Isto permite que o serviço faça a validado em seu lugar.
 
-This method of staking requires a certain level of trust in the provider. To limit counter-party risk, the keys to withdrawal your ETH are usually kept in your possession.
+Esse método de staking requer um certo nível de confiança no provedor. Para limitar o risco da contraparte, as chaves para sacar seu ETH geralmente são mantidas em seu poder.
 
-### 🪺 Pooled staking
+### 🪺 Staking em pool
 
-* Stake any amount
-* Earn rewards
-* Keep it simple
+* Stake qualquer quantia
+* Ganhe recompensas
+* Mantenha a simplicidade
 * Popular
 
-Several pooling solutions now exist to assist users who do not have or feel comfortable staking 32 ETH.
+Atualmente existem várias soluções de pooling (staking coletivo) para ajudar os usuários que não têm ou não se sentem à vontade para fazer staking de 32 ETH.
 
-Many of these options include what is known as 'liquid staking' which involves an ERC-20 liquidity token that represents your staked ETH.
+Muitas dessas opções incluem o que é conhecido como "staking líquido", que envolve um token de liquidez ERC-20 que representa sua ETH stakeado.
 
-Liquid staking enables easy and anytime exiting and makes staking as simple as a token swap. This option also allows users to hold custody of their assets in their own Ethereum wallet.
+O staking líquido permite a saída fácil e a qualquer momento, tornado o staking tão simples quanto uma troca de tokens. Essa opção também permite que os usuários mantenham a custódia de seus ativos em sua própria carteira Ethereum.
 
-Pooled staking is not native to the Ethereum network. Third parties are building these solutions, and they carry their own risks.
+O staking em pool não é nativo a rede Ethereum. Terceiros estão construindo essas soluções, e elas apresentam seus próprios riscos.
 
-### 🏢 Centralized exchanges
+### 🏢 Corretoras centralizadas
 
-* Least impactful
-* Highest trust assumptions
+* Menos impactante
+* Suposições de maior confiança
 
-Many centralized exchanges provide staking services if you are not yet comfortable holding ETH in your own wallet. They can be a fallback to allow you to earn some yield on your ETH holdings with minimal oversight or effort.
+Muitas corretoras centralizadas oferecem serviços de staking se você ainda não se sentir confortável em manter ETH em sua própria carteira. Elas podem ser uma alternativa para permitir que você obtenha algum rendimento em seus ativos de ETH com o mínimo de supervisão ou esforço.
 
-The trade-off here is that centralized providers consolidate large pools of ETH to run large numbers of validators. This can be dangerous for the network and its users as it creates a large centralized target and point of failure, making the network more vulnerable to attack or bugs.
+O trade-off é que os provedores centralizados consolidam grandes pools de ETH para operar um grande número de validadores. Isso pode ser perigoso para a rede e seus usuários, pois cria um grande e único ponto de falha em um alvo centralizado, tornando a rede mais vulnerável a ataques ou bugs.
 
-If you don't feel comfortable holding your own keys, that's okay. These options are here for you. In the meantime, consider checking out the [ethereum.org wallets page](https://ethereum.org/wallets/), where you can get started learning how to take true ownership over your funds. When you're ready, come back and level up your staking game by trying one of the self-custody pooled staking services offered.
+Se você não se sentir confortável em guardar suas próprias chaves, não tem problema. Essas opções estão aqui para você. Enquanto isso, confira a página de [carteiras na ethereum.org↗](https://ethereum.org/en/wallets/), onde você pode começar a aprender como assumir a verdadeira propriedade sobre seus fundos. Quando estiver pronto, volte e de um level up nos seus conhecimentos de staking experimentando um dos serviços de staking em pool com autocustódia.
 
 ***
 
-As you may have noticed, there are many ways to participate in Ethereum staking. These paths target a wide range of users and ultimately are each unique and vary in terms of risks, rewards, and trust assumptions. Some are more decentralized, battle-tested and/or risky than others. We provide some information on popular projects in the space, but always do your own research before sending ETH anywhere.
+Como você deve ter notado, há muitas maneiras de participar do staking de Ethereum. Esses caminhos têm como alvo uma ampla gama de usuários e, em última análise, cada um deles é único e varia em termos de riscos, recompensas e suposições de confiança. Alguns são mais descentralizados, mais testados na prática e/ou mais arriscados do que outros. Fornecemos algumas informações sobre projetos populares no espaço, mas sempre faça sua própria pesquisa antes de enviar ETH para qualquer lugar.
 
-[Source ↗](https://ethereum.org/en/staking/)
+[Fonte↗](https://ethereum.org/en/staking/)
