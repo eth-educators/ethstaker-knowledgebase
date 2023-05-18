@@ -47,12 +47,12 @@
 * [Validator effectiveness](validator-clients/validator-effectiveness.md)
 * [MEV boost](validator-clients/mev-boost.md)
 
-## 🔑 Validator Keys
+## 🔑 Claves del validador
 
-* [Secure key generation](validator-keys/secure-key-generation.md)
-* [Key management](validator-keys/key-management.md)
-* [SSH Security - 2FA](validator-keys/ssh-security-2fa.md)
-* [Slashing protection](validator-keys/slashing-protection.md)
+* [Generación segura de claves](claves-del-validador/secure-key-generation.md)
+* [Gestión de claves](claves-del-validador/key-management.md)
+* [Seguridad SSH - 2FA](claves-del-validador/ssh-security-2fa.md)
+* [(Slashing protection) Protección de cortes](claves-del-validador/slashing-protection.md)
 
 ## 📕 Tutorials
 
