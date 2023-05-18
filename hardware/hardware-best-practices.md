@@ -1,59 +1,54 @@
-# Hardware best practices
+# Hardware Buenas Prácticas
 
-## The importance of using a UPS
-
-It is strongly recommended that you connect your node/validator to a UPS. Doing so will ensure that it does not abruptly switch off should there be a sudden loss of power.&#x20;
-
-There are many potential issues that an abrupt shutdown can cause, such as:&#x20;
-
-* Database corruption
-  * This will require you to (depending on the severity of the corruption) delete the stored DB and resync it from scratch. Depending on the speed of your SSD, this could put you offline for a while.
-* OS corruption
-  * This will require an OS reinstallation. You will then need to reconfigure the machine, install an execution and consensus client, set up your validators, _then_ get both clients in sync.&#x20;
-*   Hardware failure
-
-    * If your hard drive fails, you will need to source and install a new one, _then_ complete the above steps (Install an OS and sync the clients).
+## La importancia de usar una UPS
 
 
 
-If a power outage doesn't damage any physical components, you might still be unsafe. When power is restored you could experience a power surge that could overload and fry components, meaning more downtime while you investigate which components are damaged and then have them replaced.&#x20;
+Es altamente recomendado el el uso de un UPS (Sistema de Alimentación Ininterrumpida) para tu nodo o validador. Al conectarlo, te aseguras de que no se apague repentinamente en caso de una pérdida de energía eléctrica inesperada.&#x20;
 
-Depending on the UPS model and the OS you are using, you can configure your UPS to gracefully shutdown the connected computer(s) once the battery level falls below a certain point. Incredibly powerful in protecting your data and computer.
+Una desconexión repentina puede causar varios problemas considerables, como:
 
-My UPS (1600VA/960W) cost me roughly $200 USD and provides around an hour of power to all the connected devices. I have both my node and router connected, so in the event that there is a power outage, the node will still be online working away. I've had a few short power outages since becoming a validator so it has definitely come in handy!
+* Corrupción de la base de datos
+  * Esto requerirá que (dependiendo de la gravedad de la corrupción) elimines la base de datos almacenada y la vuelvas a sincronizar desde cero. Dependiendo de la velocidad de tu SSD, esto podría dejarte sin conexión por un tiempo.
+* Corrupción del sistema operativo
+  * Esto requerirá una reinstalación del sistema operativo. Luego, tendrás que volver a configurar la máquina, instalar un cliente de ejecución y consenso, configurar tus validadores y luego sincronizar ambos clientes.
+* Fallas en el hardware
+  * Si falla tu disco duro, deberás conseguir e instalar uno nuevo, luego volver a completar los pasos anteriores (instalar un sistema operativo y sincronizar los clientes).
 
-## Configuring auto start
+Si ocurre un corte de energía y no se daña ningún componente físico, todavía podría hay una posibilidad de estar en peligro. Cuando se restablece la energía, es posible experimentar un aumento repentino de la misma que puede sobrecargar y quemar componentes, lo que significaría más tiempo fuera de línea mientras investiga qué componentes están dañados y luego los reemplaza.
 
-If things switch off while you are sleeping or not at home, the below steps are very useful in having things start back up automatically.&#x20;
+Dependiendo del modelo de UPS y el sistema operativo que esté utilizando, puede configurar su UPS para que apague los computadores conectados de manera segura una vez que el nivel de la batería caiga por debajo de cierto punto. Esto es increíblemente poderoso para proteger sus datos y su computadora.
 
-#### Computer set to switch on automatically after loss of power
+Mi UPS (1600VA/960W) me costó aproximadamente $200 USD y proporciona alrededor de una hora de energía a todos los dispositivos conectados. Tengo tanto mi nodo como mi router conectados, por lo que en caso de un corte de energía, el nodo seguirá en línea trabajando. ¡He tenido algunos cortes de energía breves desde que me convertí en validador, por lo que me ha sido de gran ayuda!
 
-In your BIOS there will most likely be a power setting, in there you should be able to find an option to have your computer switch back on once power is restored.
+## Configurando el auto start
 
-If you cannot find the setting, you may need to check your motherboards user guide.&#x20;
+Si las cosas se apagan mientras duermes o no estás en casa, los siguientes pasos son muy útiles para hacer que las cosas se inicien automáticamente.
 
-NOTE - To enter your BIOS, you will need to press a specific button after switching on the machine (and before the OS loads). The most common keys are "DEL", "F1", "F2", "F10".
+#### Como configurar tu computadora para que se encienda automáticamente después de una desconexión.&#x20;
 
-This does vary between motherboards, and if you are unsure what yours is, check your POST information once the PC starts as it may show it on the screen. Or you can check your motherboards user guide. _Or ****_ you can do what I do, which is to spread your hands out on the keyboard and press the before mentioned keys all at once and hope one of them works.&#x20;
+En tu BIOS, es muy probable que haya una configuración de energía, allí deberías poder encontrar una opción para que tu computadora se encienda automáticamente una vez que se restablezca la energía.
 
-#### If running a VM, setting servers to start
+Si no puedes encontrar la configuración, es posible que debas consultar la guía del usuario de tu placa madre.
 
-If you are using a hypervisor to host your nodes/validators, then you should set the VM's to automatically switch on once the computer has booted. It also saves you from manually starting them up should you manually restart the host computer.
+NOTA - Para ingresar a tu BIOS, deberás presionar un botón específico después de encender la máquina (y antes de que se cargue el sistema operativo). Las teclas más comunes son "DEL", "F1", "F2", "F10".
 
-#### Using services and configuring auto start
+Esto varía según las placas madre, y si no estás seguro de cuál es la tuya, verifica la información POST una vez que la PC se inicie, ya que puede mostrarla en la pantalla. O puedes consultar la guía del usuario de tu placa madre. O puedes hacer lo que yo hago, que es extender tus manos sobre el teclado y presionar las teclas mencionadas anteriormente todas a la vez y esperar a que una de ellas funcione.
 
-It is common practice to configure your execution node, consensus node and consensus validators as services and set them to automatically start once the OS has booted. This can be done with systemd.
+#### Si estás en una máquina virtual, configura los servidores para iniciar&#x20;
 
-Somer Esat has written great guides and has a few examples that can be referenced, [one of which can be found here. ](https://someresat.medium.com/guide-to-staking-on-ethereum-ubuntu-lighthouse-773f5d982e03)There are three examples in that guide are "geth.service", "lighthousebeacon.service" and "lighthousevalidator.service"
+Si estás usando un hipervisor para alojar tus nodos/validadores, entonces debes configurar las máquinas virtuales para que se enciendan automáticamente una vez que la computadora haya iniciado. Esto también te ahorrará tener que iniciarlos manualmente si reinicias la computadora principal.
 
+#### Using services and configuring auto start (No sé como traducir esto))
 
+Es una práctica común configurar tu nodo de ejecución, nodo de consenso y validadores de consenso como servicios y establecer su inicio automático una vez que el sistema operativo se haya iniciado. Esto se puede hacer con systemd.
 
-Doing the above three steps will help to minimise downtime.
+Somer Esat ha escrito excelentes guías y tiene algunos ejemplos que se pueden consultar, uno de los cuales se puede encontrar aquí. En esa guía, hay tres ejemplos: "geth.service", "lighthousebeacon.service" y "lighthousevalidator.service".
 
-## Very loud fan on a NUC
+Al seguir estos tres pasos, podrás minimizar el tiempo de inactividad de tu sistema.
 
-If you are using a NUC, you may notice that the fan is quite loud and can be uncomfortable on the ears. This is due to a setting called turbo boost which is enabled by default.
+## Abanico del NUC ruidoso&#x20;
 
-To switch this option off, [please go into your BIOS and find the option to toggle this to disabled.](https://www.intel.com.au/content/www/au/en/support/articles/000032427/processors/intel-core-processors.html)
+Si estás utilizando un NUC, es posible que notes que el ventilador es bastante ruidoso y puede resultar molesto para los oídos. Esto se debe a una configuración llamada turbo boost que está habilitada de forma predeterminada.&#x20;
 
-Now, this isn't a best practice, so please don't take it as such. Instead, this should be viewed as a quality-of-life option if your NUC fan is very loud and is disturbing the peace.
+Para desactivar esta opción [ingresa al BIOS y desactivala](https://www.intel.com.au/content/www/au/en/support/articles/000032427/processors/intel-core-processors.html). Sin embargo, esto no es una buena práctica, entonces no es muy recomendable. En cambio, esto debería considerarse como una opción de calidad de vida si el ventilador del NUC es muy ruidoso y crees que es mejor pararlo.&#x20;
