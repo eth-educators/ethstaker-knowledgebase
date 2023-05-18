@@ -2,7 +2,7 @@
 
 This is a living documentation site, meaning we need the community's help to maintain and update the content. Any contribution, from writing whole sections and translations to correcting spelling and grammar mistakes will be greatly appreciated.
 
-{% embed url="https://twitter.com/EridianAlpha/status/1651666798847094792" %}
+{% embed url="https://twitter.com/EridianAlpha/status/1651666798847094792" fullWidth="false" %}
 
 Use this GitBook invite link to suggest edits and new content directly on GitBook:
 
@@ -19,7 +19,6 @@ Please create a pull request for any changes you want to make and we'll review i
 * [Documentation standardization notes](how-to-contribute.md#documentation-standardization-notes)
 * [Creating/Updating tables of contents](how-to-contribute.md#creatingupdating-tables-of-contents)
 * [Glossary and FAQ heading ordering](how-to-contribute.md#glossary-and-faq-heading-ordering)
-* [Future support for multi-language](how-to-contribute.md#future-support-for-multi-language)
 
 ## Documentation standardization notes
 
