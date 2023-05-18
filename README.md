@@ -61,4 +61,4 @@ Para sugerir cambios o añadir contenidos nuevos visita nuestro [EthStaker Githu
 
 ### ✏️ Involucrate
 
-* [How to contribute](get-involved/how-to-contribute.md) (inglés)
+* [How to contribute](involucrese/how-to-contribute.md) (inglés)

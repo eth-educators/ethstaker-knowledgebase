@@ -65,9 +65,9 @@
 * [Safely migrating validator keys](tutorials/validator-key-migration.md)
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
 
-## ✏️ Get Involved
+## ✏️ Involúcrese
 
-* [How to contribute](get-involved/how-to-contribute.md)
+* [Como contribuir](involucrese/how-to-contribute.md)
 
 ***
 
