@@ -36,7 +36,7 @@
 
 * [Port forwarding](networking/port-forwarding.md)
 * [Firewalls y Subredes](networking/firewalls-and-subnetting.md)
-* [Setting up home VPN access](networking/setting-up-home-vpn-access.md)
+* [Configurando el acceso VPN en casa](networking/setting-up-home-vpn-access.md)
 
 ## ⛓ Validator Clients
 
