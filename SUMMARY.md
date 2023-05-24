@@ -73,7 +73,7 @@
 * [Methods to minimize downtime](tutorials/methods-to-minimize-downtime.md)
 * [Safely migrating validator keys](tutorials/validator-key-migration.md)
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
-* [Updating Withdrawal Credentials](tutorials/updating-withdrawal-credentials.md)
+* [Updating withdrawal credentials](tutorials/updating-withdrawal-credentials.md)
 
 ## ✏️ Get Involved
 
