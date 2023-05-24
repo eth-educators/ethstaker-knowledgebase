@@ -1,38 +1,37 @@
 # Execution clients
 
 {% hint style="info" %}
-For more info about Execution clients and Validator clients start here: \
-[Validator clients explained](validator-clients-explained.md) 👀
+Puedes consultar más información sobre los clientes de ejecución y los clientes de validación aqui: \
+[Qué son los clientes de validacióón?](validator-clients-explained.md)👀
 {% endhint %}
 
-The Ethereum community maintains multiple open-source execution clients (previously known as 'Eth1 clients', or just 'Ethereum clients'), developed by different teams using different programming languages. This makes the network stronger and more diverse. The ideal goal is to achieve diversity without any client dominating to reduce any single points of failure.
+La comunidad de Ethereum mantiene varios clientes de ejecución de código abierto (anteriormente conocidos como 'clientes Eth1' o simplemente 'clientes de Ethereum'), desarrollados por diferentes equipos, utilizando diferentes lenguajes de programación. Esto hace que la red sea más fuerte y diversa. El objetivo ideal es lograr diversidad sin que ningún cliente domine, para reducir cualquier punto único de falla.
 
-| Client         | Documentation                                          | GitHub                                                | Discord                                                                                                      |
-| -------------- | ------------------------------------------------------ | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Geth**       | [Link ↗](https://geth.ethereum.org/docs/)              | [Link ↗](https://github.com/ethereum/go-ethereum)     | [Link ↗](https://discord.com/invite/nthXNEv)                                                                 |
-| **Besu**       | [Link ↗](https://besu.hyperledger.org/)                | [Link ↗](https://github.com/hyperledger/besu)         | [Link ↗](https://discord.com/invite/hyperledger)                                                             |
-| **Nethermind** | [Link ↗](https://docs.nethermind.io/nethermind/)       | [Link ↗](https://github.com/NethermindEth/nethermind) | [Link ↗](https://discord.com/invite/PaCMRFdvWT)                                                              |
-| **Erigon**     | [Link ↗](https://github.com/ledgerwatch/erigon#erigon) | [Link ↗](https://github.com/ledgerwatch/erigon)       | <p><a href="https://github.com/ledgerwatch/erigon#erigon-discord-server">Link ↗ </a><br>(Request access)</p> |
+| Cliente        | Documentación                                          | GitHub                                                | Discord                                                                                                     |
+| -------------- | ------------------------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Geth**       | [Link ↗](https://geth.ethereum.org/docs/)              | [Link ↗](https://github.com/ethereum/go-ethereum)     | [Link ↗](https://discord.com/invite/nthXNEv)                                                                |
+| **Besu**       | [Link ↗](https://besu.hyperledger.org/)                | [Link ↗](https://github.com/hyperledger/besu)         | [Link ↗](https://discord.com/invite/hyperledger)                                                            |
+| **Nethermind** | [Link ↗](https://docs.nethermind.io/nethermind/)       | [Link ↗](https://github.com/NethermindEth/nethermind) | [Link ↗](https://discord.com/invite/PaCMRFdvWT)                                                             |
+| **Erigon**     | [Link ↗](https://github.com/ledgerwatch/erigon#erigon) | [Link ↗](https://github.com/ledgerwatch/erigon)       | <p><a href="https://github.com/ledgerwatch/erigon#erigon-discord-server">Link ↗</a><br>(Request access)</p> |
 
 ### Geth
 
-Go Ethereum (Geth for short) is one of the original implementations of the Ethereum protocol. Currently, it is the most widespread client with the biggest user base and variety of tooling for users and developers. It is written in Go, fully open source and licensed under the GNU LGPL v3.
+Go Ethereum (Geth, abreviado) es una de las implementaciones originales del protocolo de Ethereum. Actualmente, es el cliente más extendido, con la mayor base de usuarios y variedad de herramientas tanto para usuarios como para desarrolladores. Está escrito en Go, es completamente código abierto y tiene licencia bajo GNU LGPL v3.
 
 ### Besu
 
-Hyperledger Besu is an enterprise-grade Ethereum client for public and permissioned networks. It runs all of the Ethereum Mainnet features, from tracing to GraphQL, has extensive monitoring and is supported by ConsenSys, both in open community channels and through commercial SLAs for enterprises. It is written in Java and is Apache 2.0 licensed.
+Besu Hyperledger Besu es un cliente de Ethereum de nivel empresarial para redes públicas y con permisos. Ejecuta todas las características de Ethereum Mainnet, desde el seguimiento hasta GraphQL, tiene un amplio monitoreo y cuenta con el respaldo de ConsenSys, tanto en canales comunitarios abiertos como a través de SLAs comerciales para empresas. Está escrito en Java y tiene licencia Apache 2.0.&#x20;
 
-Besu's extensive documentation will guide you through all details on its features and setups.
+Besu tiene una extensa documentación que te puede servir de guía a través de todos los detalles sobre sus características y configuraciones.
 
 ### Nethermind
 
-Nethermind is an Ethereum implementation created with the C# .NET tech stack, licensed with LGPL-3.0, running on all major platforms including ARM. It offers great performance with:
+Nethermind Nethermind es una implementación de Ethereum creada con el stack tecnológico de C# .NET, con licencia LGPL-3.0, que se ejecuta en todas las principales plataformas, incluyendo ARM. Ofrece un excelente rendimiento con:
 
-* An optimized virtual machine.
-* State access.
-* Networking and rich features like Prometheus/Grafana dashboards, seq enterprise logging support, JSON RPC tracing, and analytics plugins.
+* Una máquina virtual optimizada.
+* Acceso al estado.
+* Redes y características avanzadas como paneles de control Prometheus/Grafana, soporte de registro empresarial seq, trazado de JSON RPC y complementos de análisis.
 
 ### Erigon
 
-Erigon, formerly known as Turbo‐Geth, started as a fork of Go Ethereum oriented toward speed and disk‐space efficiency. Erigon is a completely re-architected implementation of Ethereum, currently written in Go but with implementations in other languages under development. Erigon's goal is to provide a faster, more modular, and more optimized implementation of Ethereum. It can perform a full archive node sync using around 2TB of disk space, in under 3 days.
-
+Erigon, anteriormente conocido como Turbo-Geth, comenzó como una bifurcación de Go Ethereum orientada a la velocidad y eficiencia del espacio en disco. Erigon es una implementación completamente reestructurada de Ethereum, escrita actualmente en Go pero con implementaciones en otros lenguajes en desarrollo. El objetivo de Erigon es proporcionar una implementación de Ethereum más rápida, modular y optimizada. Puede realizar una sincronización completa de nodo de archivo utilizando alrededor de 2TB de espacio en disco en menos de 3 días.

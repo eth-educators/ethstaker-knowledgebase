@@ -1,11 +1,11 @@
-# Validator clients explained
+# Qué son los clientes de validación?
 
-Ethereum is a peer-to-peer network with thousands of nodes that must be able to communicate with one another using standardized protocols. The "networking layer" is the stack of protocols that allow those nodes to find each other and exchange information. This includes "gossiping" information (one-to-many communication) over the network as well as swapping requests and responses between specific nodes (one-to-one communication). Each node must adhere to specific networking rules to ensure they are sending and receiving the correct information.
+Ethereum es una red peer-to-peer (P2P) con miles de nodos que deben ser capaces de comunicarse entre sí utilizando protocolos estandarizados. La "capa de red" es el conjunto de protocolos que permiten que esos nodos se encuentren y intercambien información. Esto incluye la difusión de información ("gossiping") de uno a muchos a través de la red, así como el intercambio de solicitudes y respuestas entre nodos específicos de uno a uno. Cada nodo debe cumplir con reglas de red específicas para asegurarse de que está enviando y recibiendo la información correcta.
 
-There are two parts to the client software (execution clients and consensus clients), each with its own distinct networking stack. As well as communicating with other Ethereum nodes, the execution and consensus clients have to communicate with each other. This page gives an introductory explanation of the protocols that enable this communication.
+El software del cliente se divide en dos partes (clientes de ejecución y clientes de consenso), cada una con su propio conjunto de protocolos de red distintos. Además de comunicarse con otros nodos de Ethereum, los clientes de ejecución y de consenso deben comunicarse entre sí. Esta página brinda una explicación introductoria de los protocolos que permiten esta comunicación.
 
-[Execution clients](execution-clients.md) gossip transactions over the execution-layer peer-to-peer network. This requires encrypted communication between authenticated peers. When a validator is selected to propose a block, transactions from the node's local transaction pool will be passed to consensus clients via a local RPC connection, which will be packaged into Beacon blocks.&#x20;
+Los [clientes de ejecución](execution-clients.md) difunden transacciones a través de la red peer-to-peer de la capa de ejecución. Esto requiere comunicación encriptada entre pares autenticados. Cuando se selecciona a un validador para proponer un bloque, las transacciones registradas localmente en el nodo se envian a los clientes de consenso a través de una conexión RPC local, que se empaquetarán en bloques Beacon.
 
-[Consensus clients](consensus-clients.md) will then gossip Beacon blocks across their p2p network. This requires two separate p2p networks: one connecting execution clients for transaction gossip and one connecting consensus clients for block gossip.
+Posteriormente, los [clientes de consenso](consensus-clients.md) difunden los bloques Beacon a través de su red p2p. Esto requiere dos redes p2p separadas: una que conecta clientes de ejecución para la difusión de transacciones y otra que conecta clientes de consenso para la difusión de bloques.
 
-__[_Source ↗_](https://ethereum.org/en/developers/docs/networking-layer)__
+[_**Fuente ↗**_](https://ethereum.org/en/developers/docs/networking-layer)
