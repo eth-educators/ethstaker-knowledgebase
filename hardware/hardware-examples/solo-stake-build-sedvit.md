@@ -6,7 +6,7 @@ description: >-
 
 # solo-stake-build #SedVit
 
-<figure><img src="../../.gitbook/assets/1.png" alt="" width="303"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 I use an [hdmi](https://www.bestbuy.com/site/insignia-10-displayport-to-hdmi-cable-black/6471860.p?skuId=6471860) and [samsungTV](https://www.bestbuy.com/site/samsung-50-class-q60c-qled-4k-smart-tizen-tv/6537419.p?skuId=6537419) for interface.&#x20;
 

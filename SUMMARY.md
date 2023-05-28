@@ -28,9 +28,9 @@
 
 * [Hardware requirements](hardware/hardware-requirements.md)
 * [Hardware examples](hardware/hardware-examples/README.md)
-  * [solo-stake-build #SedVit](hardware/hardware-examples/solo-stake-build-sedvit.md)
   * [NUC - Eridian](hardware/hardware-examples/nuc-eridian.md)
   * [Custom Built Desktop - snoopmx](hardware/hardware-examples/custom-built-desktop.md)
+  * [solo-stake-build #SedVit](hardware/hardware-examples/solo-stake-build-sedvit.md)
 * [Hardware security](hardware/hardware-security.md)
 * [Hardware best practices](hardware/hardware-best-practices.md)
 
