@@ -40,9 +40,9 @@
 
 ## ⛓ Validator Clients
 
-* [Qué son los clientes de validación?](validator-clients/validator-clients-explained.md)
-* [Execution clients](validator-clients/execution-clients.md)
-* [Consensus clients](validator-clients/consensus-clients.md)
+* [¿Qué son los clientes de validación?](validator-clients/validator-clients-explained.md)
+* [Clientes de Ejecución](validator-clients/execution-clients.md)
+* [Clientes de consenso](validator-clients/consensus-clients.md)
 * [Checkpoint sync](validator-clients/checkpoint-sync.md)
 * [Validator effectiveness](validator-clients/validator-effectiveness.md)
 * [MEV boost](validator-clients/mev-boost.md)
