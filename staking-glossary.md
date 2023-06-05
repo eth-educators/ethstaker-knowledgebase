@@ -473,7 +473,7 @@ Exiting validators works in the same way, with the amount of validators that can
 
 ## Validator seed phrase / mnemonic
 
-The Seed Phrase or Mnemonic is a set of words (usually 12, 18 or 24 words long) used to generate your validator keys. Your mnemonic is the backup for your validator keys and will be the ONLY way to withdraw your ETH when the time comes and no one can help you recover your mnemonic if you lose it.
+The Seed Phrase or Mnemonic is a set of words (usually 12, 18 or 24 words long) used to generate your validator keys. Your mnemonic is the backup for your validator keys and is the ONLY way to withdraw your ETH, and no one can help you recover your mnemonic if you lose it.
 
 ## Withdrawal address
 

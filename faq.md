@@ -199,7 +199,7 @@ However, if you had set a withdrawal address, then the validator keys are enough
 
 ## What if I want to stop staking?
 
-In the event that you can't recover your validator or you decide you want to stop staking, you have the option to exit your validator. Even though withdrawals are not currently enabled, you can still exit your validator from the network. This means that, while you won't be able to get your validator balance back right away (until withdrawals are enabled), you won't receive any penalties for being offline once the validator exits the [withdrawal queue](staking-glossary.md#validator-queue). Exiting a validator is currently a one way process. For details on how to exit your validator, [check out our guide](tutorials/how-to-exit-a-validator.md).
+In the event that you can't recover your validator or you decide you want to stop staking, you have the option to exit your validator. Exiting a validator is a one way process. For details on how to exit your validator, [check out our guide](tutorials/how-to-exit-a-validator.md).
 
 ## What is a node operator?
 
@@ -312,4 +312,4 @@ Each 32 ETH deposit activates one set of validator keys. These keys are used to 
 
 Limiting the maximum stake to 32 ETH per validator encourages decentralization of power as it prevents any single validator from having an excessively large vote on the state of the chain. It also limits the amount of ETH that can be exited from staking at any given time, as the number of validator that can exit in a given time period is limited. This helps protect the network against certain attacks.
 
-Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at 32. It is possible to drop below this with poor node performance, but it is not possible to raise above it. Do not deposit more than 32 ETH for a single validator. It will not add to your rewards and will be locked until [withdrawals are enabled](faq.md#can-i-withdraw-my-eth-at-any-time).
+Although a validator's vote is weighted by the amount it has at stake, each validators voting weight starts at, and is capped at 32. It is possible to drop below this with poor node performance, but it is not possible to raise above it. If you add more than 32 ETH for a single validator it will just get withdrawn back down to 32 ETH to your rewards address.

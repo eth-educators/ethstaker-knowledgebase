@@ -15,7 +15,9 @@ Validators that participate in securing the [Beacon Chain](../staking-glossary.m
 
 \*\*_These are subject to randomness; there can be "dry spells" multiple times longer than the average without being given one._
 
-Rewards provided on the [Consensus](../staking-glossary.md#consensus-layer) are not currently liquid. They are locked on the chain until [withdrawals](../faq.md#can-i-withdraw-my-eth-at-any-time) have been implemented. Rewards provided on the [Execution](../staking-glossary.md#execution-layer), however, are liquid and can be accessed instantly.
+ETH on the [Consensus](../staking-glossary.md#consensus-layer) layer is not liquid as it is being staked. Balances above 32 ETH will be automatically skimmed if a withdraw credential has been set, but to access the principal 32 ETH you will need to exit the validator.
+
+Rewards provided on the [Execution](../staking-glossary.md#execution-layer) layer are liquid and can be accessed instantly.
 
 [Source ↗](https://docs.rocketpool.net/guides/node/responsibilities.html#how-ethereum-staking-works)
 
@@ -23,7 +25,7 @@ Rewards provided on the [Consensus](../staking-glossary.md#consensus-layer) are 
 
 If the validator is offline and not executing its duties, it will be penalized at a rate slightly lower than the rewards for the same period of time.
 
-Validators are penalized for small amounts of ETH if they are offline and fail to perform their assigned duties. This is called [**leaking**](../staking-glossary.md#inactivity-leak). If a validator violates one of the core rules of the Beacon chain and appears to be attacking the network, it may get **[slashed](../staking-glossary.md#slashable-offenses)**. Slashing is a forceful exit of your validator without your permission, accompanied by a relatively large fine that removes some of your validator's ETH balance.
+Validators are penalized for small amounts of ETH if they are offline and fail to perform their assigned duties. This is called [**leaking**](../staking-glossary.md#inactivity-leak). If a validator violates one of the core rules of the Beacon chain and appears to be attacking the network, it may get [**slashed**](../staking-glossary.md#slashable-offenses). Slashing is a forceful exit of your validator without your permission, accompanied by a relatively large fine that removes some of your validator's ETH balance.
 
 Realistically, the only condition that can cause a slashing is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and **you won't get slashed**. Slashing _cannot occur_ from being offline for maintenance.
 

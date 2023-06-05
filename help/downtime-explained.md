@@ -36,7 +36,7 @@ No. Realistically, the only condition that can cause a [slashing event](https://
 
 ## What if I can't recover my validator and/or I want to stop staking?
 
-If you can't recover your validator or decide you want to stop staking, you have the option to exit your validator from the network. This means that, while you won't be able to get your validator balance back right away, you won't receive any penalties for being offline once the validator exits the [withdrawal queue](../staking-glossary.md#validator-queue). Exiting a validator is currently a one-way process. For details on how to exit your validator, [check out our guide](../tutorials/how-to-exit-a-validator.md).
+If you can't recover your validator or decide you want to stop staking, you have the option to exit your validator from the network. Exiting a validator is a one-way process. For details on how to exit your validator, [check out our guide](../tutorials/how-to-exit-a-validator.md).
 
 ## Conclusion
 
