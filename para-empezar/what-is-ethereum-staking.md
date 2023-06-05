@@ -16,8 +16,7 @@ Los participantes no necesitan ordenadores con alto consumo de energía para par
 
 ## ¿Cómo hacer staking con sus ETH?
 
-\
-🏡 Staking individual desde casa:
+### 🏡 Solo Staking (staking individual)
 
 * De mayor impacto
 * Completo control

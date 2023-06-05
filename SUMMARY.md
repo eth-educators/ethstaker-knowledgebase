@@ -9,6 +9,7 @@
 * [¿Qué es hacer Staking?](para-empezar/what-is-ethereum-staking.md)
 * [Corriendo un nodo sin necesidad de ETH](para-empezar/ethereum-node.md)
 * [El proceso de depósito explicado](para-empezar/deposit-process.md)
+* [Withdrawal process explained](para-empezar/withdrawal-process-explained.md)
 
 ## 🚨 ¡Ayuda!
 
@@ -36,6 +37,7 @@
 
 * [Port forwarding](networking/port-forwarding.md)
 * [Firewalls y Subredes](networking/firewalls-and-subnetting.md)
+* [Brute-force SSH protection](networking/brute-force-ssh-protection.md)
 * [Configurando el acceso VPN en casa](networking/setting-up-home-vpn-access.md)
 
 ## ⛓ Validator Clients
@@ -51,24 +53,33 @@
 
 * [Generación segura de claves](claves-del-validador/secure-key-generation.md)
 * [Gestión de claves](claves-del-validador/key-management.md)
-* [Seguridad SSH - 2FA](claves-del-validador/ssh-security-2fa.md)
 * [(Slashing protection) Protección de cortes](claves-del-validador/slashing-protection.md)
 
 ## 📕 Tutorials
 
+* [Guias de solo staking](tutorials/solo-staking-guides.md)
 * [Installing Linux](tutorials/installing-linux.md)
+* [Use all available disk space](tutorials/use-all-available-disk-space.md)
+* [Automatic security updates](tutorials/automatic-security-updates.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
-* [Solo staking guides](tutorials/solo-staking-guides.md)
+* [Seguridad SSH - 2FA](tutorials/ssh-security-2fa.md)
 * [Configuring an RPC endpoint](tutorials/rpc-endpoint.md)
 * [How to resync Geth](tutorials/resync-geth.md)
 * [Methods to minimize downtime](tutorials/methods-to-minimize-downtime.md)
 * [Safely migrating validator keys](tutorials/validator-key-migration.md)
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
+* [Updating withdrawal credentials](tutorials/updating-withdrawal-credentials.md)
 
 ## ✏️ Involúcrese
 
+* [Content ideas](involucrese/content-ideas.md)
+* [Code of conduct](involucrese/code-of-conduct.md)
 * [Como contribuir](involucrese/how-to-contribute.md)
 
 ***
 
 * [Política de Privacidad](privacy-policy.md)
+
+## 🧪 DVT
+
+* [Obol DVT - Goerli Only](dvt/obol-dvt-goerli-only.md)
