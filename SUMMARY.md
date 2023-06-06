@@ -65,7 +65,7 @@
 * [Seguridad SSH - 2FA](tutorials/ssh-security-2fa.md)
 * [Configuring an RPC endpoint](tutorials/rpc-endpoint.md)
 * [Como resincronizar Geth](tutorials/resync-geth.md)
-* [Methods to minimize downtime](tutorials/methods-to-minimize-downtime.md)
+* [Métodos para minimizar el tiempo de inactividad](tutorials/methods-to-minimize-downtime.md)
 * [Safely migrating validator keys](tutorials/validator-key-migration.md)
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
 * [Updating withdrawal credentials](tutorials/updating-withdrawal-credentials.md)

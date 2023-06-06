@@ -1,38 +1,38 @@
-# Methods to minimize downtime
+# Métodos para minimizar el tiempo de inactividad
 
 {% hint style="info" %}
-This is a reminder that you should never have your validator keys configured across multiple machines at the same time, because if the same validator key is active twice across the network _it will get_ [_slashed_](../staking-glossary.md#slashable-offenses). They should _only_ ever be configured to run in one place at one time!
+Recuerda que nunca se deben configurar las claves del validador en múltiples máquinas al mismo tiempo, ya que si la misma clave del validador está activa dos veces en la red, se producirá una [_deducción (slashing)_](../staking-glossary.md#slashable-offenses). Las claves solo deben configurarse para un validador al mismo tiempo.
 {% endhint %}
 
-With that out of the way, let's get into it. There are a few things that you can do to minimize your potential downtime.
+Habiendo dicho eso, vamos a entrar en detalle. A continuación mostraremos algunas cosas que puedes hacer para minimizar el tiempo de inactividad.
 
-There will always be situations where you will have downtime, it is inevitable when running a validator so please don't chase a perfect attestation record. There are however some things you can do to _minimize_ downtime.
+Siempre habrán situaciones en las que tendrás tiempo de inactividad, esto es inevitable al ejecutar un validador, por lo tanto no esperes un registro de atestaciones perfecto. Sin embargo, hay algunas cosas que puedes hacer para _minimizar_ el tiempo de inactividad.
 
-The below ideas may or may not be feasible depending on how many validators you are running. Please weigh up the pros and cons yourself and decide if it is appropriate for you to do in your circumstances.
+Las siguientes ideas pueden o no ser factibles dependiendo de la cantidad de validadores que estés ejecutando. Te pedimos evaluar por ti mismo los pros y cons, y decide si es apropiado implementarlas según tus circunstancias.
 
-### Connecting your node and router to a UPS
+### Conectar tu nodo y router a un UPS
 
-This will ensure abrupt shutdowns don't occur potentially saving your hardware from breaking, or your DB/OS from corrupting saving you a resync/reinstall. More information can be found about this on the [hardware best practices page.](../hardware/hardware-best-practices.md)
+Esto asegurará que tu equipo no se apague abruptamente, lo que potencialmente salvará tu hardware de daños, así como evitará la corrupción de tu base de datos/sistema operativo, ahorrándote la necesidad de resincronizar o reinstalar. Puedes encontrar más información al respecto en la página de [prácticas de hardware recomendadas](../hardware/hardware-best-practices.md).
 
-### **Running multiple Consensus-Execution client pairs.**
+### Ejecutar múltiples pares de clientes de Consenso-Ejecución
 
-Either on the same machine but on a different SSD or an entirely separate machine and running different consensus/execution client software. A separate machine is more important _if_ you are running a sizeable number of validators, otherwise, it may be overkill.
+Siempre es buena práctica correr múltiples pares de clientes ya sea en diferentes SSDs o en máquinas separadas. Una máquina separada es importante _siempre y cuando_ estés corriendo un número considerable de validadores, de lo contrario mantener diferentes SSDs será suficiente.
 
-It is perfectly safe to run multiple nodes for redundancy, just not multiple validators. [Lighthouse for example supports this natively.](https://lighthouse-book.sigmaprime.io/redundancy.html)
+Es seguro ejecutar múltiples nodos para redundancia, pero no múltiples validadores. Por ejemplo, [Lighthouse admite esto de forma nativa](https://lighthouse-book.sigmaprime.io/redundancy.html).
 
-The benefit of doing this is you won't have any downtime should one of the client pairs go offline, or corrupt, or if the SSD where it is sitting breaks and it requires manual maintenance to bring back online. You'll be able to fix the broken node in your own time while the validator will happily use the other configured beacon node and continue performing its duties.
+El beneficio de hacer esto es que no tendrás ningún tiempo de inactividad en caso de que uno de los pares de clientes se desconecte, se corrompa o si el SSD deje de funcionar y requiera mantenimiento manual para volver a estar en línea. Podrás solucionar el nodo dañado cuando se te sea posible y mientras tanto el validador seguirá activo sin inconvenientes utilizando el otro nodo beacon previamente configurado.
 
-You can even take it a step further and have your validator client on a separate SSD (For example, with your OS) and have it point to your beacon nodes, both of which would _also_ be on separate SSDs, with less points of failure all around.
+Incluso puedes llevarlo un paso más allá y tener tu cliente validador en un SSD separado (por ejemplo, junto con tu sistema operativo) y hacer que apunte a tus nodos beacon, ambos también en SSDs separados, reduciendo así los puntos de fallo en general.
 
-### **Having spare hardware ready to go.**
+### Contar con hardware de repuesto listo para usar
 
-It can be useful to have a spare SSD ready to be swapped out in case of hardware failure. You will be able to immediately start the process to recover your nodes/validators and when that is done you can then buy a replacement drive at your own leisure.
+Puede ser útil tener un SSD de repuesto listo para ser reemplazado en caso de fallo de hardware. Podrás iniciar inmediatamente el proceso de recuperación de tus nodos/validadores y, una vez completado, podrás comprar un disco de reemplazo en tu propio tiempo.
 
-If you travel around a lot, you could even have it plugged into your machine on standby ready to go meaning your node could be recovered remotely, unless of course, the drive that fails is your OS drive.
+Si viajas con frecuencia, incluso podrías tenerlo conectado a tu máquina, manteniéndolo listo para su uso. Esto significa que tu nodo podría ser recuperado de forma remota, a menos que, por supuesto, el disco que falle sea tu disco del sistema operativo.
 
-There will be times when you are offline and are missing attestations, do not stress or panic when this happens and focus on getting yourself back online. If for example, you are offline for 4 hours, it will take 4 hours of being online to be back where you started in terms of validator balance.
+Habrá momentos en los que estés desconectado y falten atestaciones, no te estreses ni entres en pánico cuando esto suceda y concéntrate en volver a estar en línea. Por ejemplo, si estás desconectado durante 4 horas, te tomará 4 horas en línea para actualizar el balance de tu validador de vuelta.
 
-For more information about downtime see our helper posts:
+Para obtener más información sobre el tiempo de inactividad, consulta nuestras publicaciones de ayuda:
 
-* [I'm worried about downtime 😔](../help/downtime-explained.md)
-* [I'm worried about slashing 🔪](../help/slashing-explained.md)
+* [Estoy preocupado por el tiempo de inactividad 😔](../help/downtime-explained.md)
+* [Estoy preocupado por las deducciones (slashing) 🔪](../help/slashing-explained.md)
