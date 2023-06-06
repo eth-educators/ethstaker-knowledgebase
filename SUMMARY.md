@@ -58,7 +58,7 @@
 ## 📕 Tutorials
 
 * [Guias de solo staking](tutorials/solo-staking-guides.md)
-* [Installing Linux](tutorials/installing-linux.md)
+* [Instalando Linux](tutorials/installing-linux.md)
 * [Use all available disk space](tutorials/use-all-available-disk-space.md)
 * [Automatic security updates](tutorials/automatic-security-updates.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)

@@ -1,119 +1,119 @@
-# Installing Linux
+# Instalando Linux
 
-To install Linux on a physical machine here are the steps to follow:
+Para instalar Linux en una máquina física, aquí están los pasos a seguir:&#x20;
 
-1. Download a Linux distribution image onto your everyday computer.
-2. Flash a USB with the distribution image.
-3. Boot your staking machine from the USB.
-4. Select the right options for your installation.
+1. Descarga una imagen de distribución de Linux en tu computadora de uso diario.&#x20;
+2. Crea un USB con la imagen de distribución.&#x20;
+3. Arranca tu máquina de staking desde el USB.&#x20;
+4. Selecciona las opciones correctas para tu instalación.
 
-### Download a Linux distribution image
+### Descargar una imagen de distribución de Linux
 
-There are lots of Linux distributions available. If you are an experienced Linux user then you will already know which distribution you want to use based on your skills and ability. However, if you are a new Linux user or just want to keep things simple, then the recommended Linux distribution is Ubuntu Linux.
+Hay muchas distribuciones de Linux disponibles. Si eres un usuario experimentado de Linux, probablemente ya sepas qué distribución quieres usar según tus habilidades y conocimientos. Sin embargo, si eres un usuario nuevo de Linux o simplemente quieres algo sencillo de instalar y usar, la distribución de Linux recomendada es Ubuntu Linux.
 
-There are two types of distribution that you can choose:
+Hay dos tipos de distribuciones entre las que puedes elegir:
 
 * Desktop: [https://ubuntu.com/download/desktop↗](https://ubuntu.com/download/desktop)
 * Server: [https://ubuntu.com/download/server↗](https://ubuntu.com/download/server)
 
-Desktop comes with a graphical interface that is similar to Windows or macOS desktops. For staking machines, the desktop version isn't ideal as it comes with additional overhead that isn't required, but it can be easier for new users who feel more comfortable with a graphical interface.
+La versión de escritorio (Desktop) viene con una interfaz gráfica similar a Windows o macOS. Para las máquinas de staking, la versión de escritorio no es ideal ya que tiene un sobrecargo adicional que no es necesario, pero puede ser más fácil para los nuevos usuarios que se sienten más cómodos con una interfaz gráfica.
 
-Server is a command line only interface. This can feel intimidating at first, but when following [solo staking guides](solo-staking-guides.md) you will simply be copying and pasting commands, so it's not too difficult. You can remotely connect to your staking machine securely using protocols like SSH, but the easiest way to get started is to directly connect a keyboard and monitor. [SSH can always be used later](connect-via-ssh.md).
+La versión de servidor (Server) es meramente una interfaz de línea de comandos. Esto puede parecer intimidante al principio, pero al seguir las [guías de solo staking](solo-staking-guides.md), simplemente copiarás y pegarás comandos, por lo que no es demasiado difícil. Puedes conectarte de forma remota a tu máquina de staking de manera segura utilizando protocolos como SSH, pero la forma más fácil de comenzar es conectar directamente un teclado y un monitor. [Siempre se puede utilizar SSH más adelante](connect-via-ssh.md).
 
-### Flash a USB with the distribution image
+### Crea un USB con la imagen de distribución
 
-There are lots of tools available to flash USB drives with disk images. One that is open source and works across multiple platforms is [https://www.balena.io/etcher↗](https://www.balena.io/etcher/). Simply select the Linux distribution image you downloaded previously, select the USB, then Flash!
+Hay muchas herramientas disponibles para grabar imágenes de disco en unidades USB. Una que es de código abierto y que funciona en múltiples plataformas es [https://www.balena.io/etcher↗](https://etcher.balena.io/). Simplemente selecciona la imagen de distribución de Linux que descargaste anteriormente, selecciona el USB y ¡a flashear!
 
 <figure><img src="../.gitbook/assets/image (1) (2).png" alt="Balena Etcher Configuration Screen"><figcaption></figcaption></figure>
 
-### Boot your staking machine from the USB
+### Arranca tu máquina de staking desde el USB
 
-This step should be as easy as inserting the USB that you flashed with the disk image in the previous step and then turning on your staking machine. In some cases, you may need to force the machine to boot from the USB rather than any currently installed OS. This can be done by editing the BIOS boot order and allowing booting from USB. Google is the best place to find information about booting from a USB if you do encounter any problems at this stage.
+Este paso debería ser tan fácil como insertar el USB que has grabado con la imagen de disco en el paso anterior y luego encender tu máquina de staking. En algunos casos, es posible que debas forzar la máquina a arrancar desde el USB en lugar de cualquier sistema operativo actualmente instalado. Esto se puede hacer editando el orden de arranque en el BIOS y permitiendo el arranque desde USB. Google es el mejor lugar para encontrar información sobre cómo arrancar desde un USB si encuentras algún problema en esta etapa.
 
-### Select the right options for your installation
+### Selecciona las opciones correctas para tu instalación
 
-Once you have booted from a USB you will be presented with an installation menu. Use the arrow keys (up and down) to move the selection and use the return key (enter) to select the option.
+Una vez que hayas arrancado desde el USB, se te presentará un menú de instalación. Utiliza las teclas de flecha (arriba y abajo) para mover la selección y utiliza la tecla de retorno (enter) para seleccionar la opción.
 
 <figure><img src="../.gitbook/assets/image (6) (2).png" alt="Linux installation page"><figcaption></figcaption></figure>
 
-After selecting `Try or Install Ubuntu Server` you will see a screen like this. You don't need to do anything at this point, the system is just starting up.
+Después de seleccionar `Try or Install Ubuntu Server`, verás una pantalla como esta. No necesitas hacer nada en este punto, el sistema simplemente se está iniciando.
 
 <figure><img src="../.gitbook/assets/image (11).png" alt="Linux installation loading screen"><figcaption></figcaption></figure>
 
-Once the system has started you will be presented with the installation wizard. The first step is to select the language.
+Una vez que el sistema se haya iniciado, se te presentará el asistente de instalación. El primer paso es seleccionar el idioma.
 
 <figure><img src="../.gitbook/assets/image (2) (1).png" alt="Linux installation language selection"><figcaption></figcaption></figure>
 
-Select the keyboard layout.
+Selecciona el idioma (diseño) del teclado.
 
 <figure><img src="../.gitbook/assets/image (85).png" alt="Linux installation keyboard selection"><figcaption></figcaption></figure>
 
-Select the installation type you want to use. For this, select `Ubuntu Server`.
+Selecciona el tipo de instalación que deseas utilizar. Para este caso, selecciona `Ubuntu Server`.
 
 <figure><img src="../.gitbook/assets/image (93).png" alt="Linux installation type selection"><figcaption></figcaption></figure>
 
-Select a network. If your staking machine uses an ethernet cable for a direct network connection (recommended) then this option should already be populated. If using WiFi, select those details.
+Selecciona una red. Si tu máquina de apuestas utiliza un cable Ethernet para una conexión directa a la red (recomendado), esta opción debería estar preseleccionada. Si utilizas WiFi, selecciona los detalles correspondientes.
 
 <figure><img src="../.gitbook/assets/image (25) (1).png" alt="Linux installation network selection"><figcaption></figcaption></figure>
 
-Select a proxy if required. If you are using a standard home network and don't know what this option means, don't worry, just leave it blank.
+Selecciona un proxy si es necesario. Si estás utilizando una red doméstica estándar y no sabes qué significa esta opción, no te preocupes, déjala en blanco.
 
 <figure><img src="../.gitbook/assets/image (16) (1).png" alt="Linux installation proxy selection"><figcaption></figcaption></figure>
 
-Select where you want to download the updates for the operating system from. This location can be selected based on your geographic location so that the downloads are faster. But it's easier to just select the default option that's pre-populated.
+Selecciona desde dónde deseas descargar las actualizaciones del sistema operativo. Esta ubicación puede seleccionarse en función de tu ubicación geográfica para que las descargas sean más rápidas. Sin embargo, es más fácil seleccionar la opción predeterminada que ya está preseleccionada.
 
 <figure><img src="../.gitbook/assets/image (17) (1).png" alt="Linux installation archive mirror selection"><figcaption></figcaption></figure>
 
-Select the storage configuration. As your staking machine is most likely a dedicated machine selecting `Use an entire disk` is the best option. Don't worry about encryption as you want your machine to be able to automatically restart, and encrypted disks make that process much more complex.
+Selecciona la configuración de almacenamiento. Dado que tu máquina de staking es probablemente una máquina dedicada, la mejor opción es `Use an entire disk` (usar un disco completo). No te preocupes por el cifrado, ya que deseas que tu máquina pueda reiniciarse automáticamente y los discos cifrados hacen que ese proceso sea mucho más complejo.
 
 <figure><img src="../.gitbook/assets/image (72).png" alt="Linux installation storage selection"><figcaption></figcaption></figure>
 
-You'll be shown a summary screen of the storage configuration. Linux by default may not use the entire available disk space. In the screenshot above the local storage size is shown as 1.171 Terabytes, but the confirmation screen below only shows 100GB being used.
+Se te mostrará una pantalla de resumen de la configuración de almacenamiento. Por defecto, Linux puede que no utilice todo el espacio en disco disponible. En la captura de pantalla anterior, se muestra el tamaño del almacenamiento local como 1,171 terabytes, pero la pantalla de confirmación a continuación muestra solo 100 GB en uso.
 
 <figure><img src="../.gitbook/assets/image (29).png" alt="Linux installation storage confirmation"><figcaption></figcaption></figure>
 
-To use all the available disk space, use the arrow keys to highlight the `ubuntu-lv` row and hit the return/enter key to select `Edit`. Enter the `Max` value shown next to `Size` in the input field, then save the update.
+Para utilizar todo el espacio en disco disponible, utiliza las teclas de flecha para moverte a la fila `ubuntu-lv` y presiona la tecla de retorno/enter para seleccionar `Edit`. Ingresa el valor `Max` mostrado junto a `Size` en el campo de entrada y luego `Save`.
 
 <figure><img src="../.gitbook/assets/image (66).png" alt="Edit available disk space"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (43).png" alt="Save available disk space"><figcaption></figcaption></figure>
 
-After confirming the storage settings you will be presented with an additional confirmation screen to make sure that you're ready to completely format and wipe any existing data on the storage disk. That's what we want, so select `Continue`.
+Después de confirmar la configuración de almacenamiento, se te presentará una pantalla adicional de confirmación para asegurarte de que estás listo para formatear y eliminar por completo cualquier dato existente en el disco de almacenamiento. Eso es lo que queremos, así que selecciona `Continue`.
 
 <figure><img src="../.gitbook/assets/image (7) (2) (1).png" alt="Linux installation storage confirmation screen"><figcaption></figcaption></figure>
 
-Setting up the user profile is important as it's how you will access the machine, both directly and remotely. Select a name for your user and the name for your server that will appear on your local network. Your username is used to login to the machine and the password protects your user account.
+Configurar el perfil de usuario es importante, ya que es la forma en que accederás a la máquina, tanto de forma directa como remota. Selecciona un nombre para tu usuario y el nombre para tu servidor que aparecerá en tu red local. Tu nombre de usuario se utiliza para iniciar sesión en la máquina y la contraseña protege tu cuenta de usuario.
 
 <figure><img src="../.gitbook/assets/image (31).png" alt="Linux installation user creation screen"><figcaption></figcaption></figure>
 
-At this point it's a good idea to set up the SSH server so you don't have to install it manually later. If you never intend to SSH into your staking machine and only connect to it directly with a keyboard and monitor then you don't need this option. For information on SSH connections see the tutorial [Connect with SSH](connect-via-ssh.md).
+En este punto, es una buena idea configurar el servidor SSH para no tener que instalarlo manualmente más adelante. Si no tienes la intención de conectarte por SSH a tu máquina de staking y solo te conectarás directamente con un teclado y un monitor, no necesitas esta opción. Para obtener información sobre conexiones SSH, consulta el tutorial [Conectar con SSH](connect-via-ssh.md).
 
 <figure><img src="../.gitbook/assets/image (21) (1).png" alt="Linux installation ssh setup"><figcaption></figcaption></figure>
 
-This screen might be displayed asking you to select or deselect popular snaps. Don't worry about this page, it might even be empty for you. Simply move on to the next screen.
+Esta pantalla podría mostrarse pidiéndote seleccionar o deseleccionar snaps populares. No te preocupes por esta página, incluso podría estar vacía para ti. Simplemente continúa con la siguiente pantalla.
 
 <figure><img src="../.gitbook/assets/image (12).png" alt="Linux installation server snaps"><figcaption></figcaption></figure>
 
-At this point, the installation will begin using all the configuration settings you've provided. This can take a few minutes (10 or more) depending on your hardware and configuration. You don't need to do anything, just wait until it completes. At the end of the installation process, you will need to reboot your machine. Select `Reboot Now` and it will ask you to remove the installation device (the USB you used during the installation).
+En este punto, la instalación comenzará utilizando todas las configuraciones que has proporcionado. Esto puede llevar algunos minutos (10 o más) según tu hardware y configuración. No necesitas hacer nada, simplemente espera hasta que se complete. Al finalizar el proceso de instalación, deberás reiniciar tu máquina. Selecciona `Reboot Now` y se te pedirá que retires el dispositivo de instalación (el USB que utilizaste durante la instalación).
 
 <figure><img src="../.gitbook/assets/image (26) (1).png" alt="Linux installation complete screen"><figcaption></figcaption></figure>
 
-Once the system reboots you'll see startup information similar to the output below. Wait until that completes and you'll be shown a login screen.
+Una vez que el sistema se reinicie, verás información de inicio similar al resultado que se muestra a continuación. Espera hasta que se complete y se te mostrará una pantalla de inicio de sesión.
 
 <figure><img src="../.gitbook/assets/image (19).png" alt="Linux startup screen"><figcaption></figcaption></figure>
 
-This is the login screen for your validator machine. The name of this machine is `eridian-validator`.
+Esta es la pantalla de inicio de sesión de tu máquina validadora. El nombre de esta máquina es `eridian-validator`.
 
 <figure><img src="../.gitbook/assets/image (24) (1).png" alt="Linux login screen"><figcaption></figcaption></figure>
 
-Enter the username you created during the installation. You will then be prompted for your password. As you type your password nothing will be shown on the command line (so it will look like it's not working!) but don't worry, this is for security and the typing is working.
+Ingresa el nombre de usuario que creaste durante la instalación. Luego se te solicitará la contraseña. A medida que escribas tu contraseña, no se mostrará nada en la línea de comandos (¡parecerá que no está funcionando!), pero no te preocupes, esto es por seguridad y la escritura está funcionando correctamente.
 
 <figure><img src="../.gitbook/assets/image (22) (1).png" alt="Linux password input screen"><figcaption></figcaption></figure>
 
-And... you're in!
+¡Y... has ingresado correctamente!
 
 <figure><img src="../.gitbook/assets/image (13) (1).png" alt="Linux successful login screen"><figcaption></figcaption></figure>
 
-Congratulations! You've successfully installed Ubuntu Linux server on your staking machine 🥳
+¡Felicitaciones! Has instalado correctamente Ubuntu Linux Server en tu máquina de staking.  🥳
 
-At this point, you are now "on the command line" and can start to work through many of the [solo staking guides](solo-staking-guides.md).
+En este punto, te encuentras en la línea de comandos y puedes comenzar a trabajar con muchas de las [guías de solo staking.](solo-staking-guides.md)
