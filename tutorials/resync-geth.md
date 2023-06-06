@@ -1,73 +1,73 @@
-# How to resync Geth
+# Como resincronizar Geth
 
-A common reason for Geth to fail can be an unexpected shutdown of a validator machine. Geth uses RAM for temporary memory and during a graceful shutdown some important information will be written to disk. However, during an unexpected shutdown, there isn't time to write to disk (e.g. due to a sudden loss of power) so important data is lost. This loss of data leads to a corruption of the `chaindata` folder, requiring a resync.
+Una razón común para que Geth falle puede ser el paro inesperado de una máquina validadora. Geth utiliza RAM para memoria temporal y durante un cierre ordenado alguna información importante será escrita en el disco; sin embargo, durante un cierre ordenado, no hay tiempo suficiente para escribir en el disco (por ejemplo: durante la perdida de energía electrica, así que se pierden datos importantes.) Esta perdida de datos lleva a una corrupción de la carpeta `chaindata`, el cual requiere de una resincronización.&#x20;
 
-* [File Locations](resync-geth.md#file-locations)
-* [Steps (If the ancient folder exists)](resync-geth.md#steps-if-the-ancient-folder-exists)
-* [Steps (If the ancient folder does not exist)](resync-geth.md#steps-if-the-ancient-folder-does-not-exist)
+* [Ubicación de Archivos](resync-geth.md#ubicacion-de-archivos)
+* [Pasos (Si existe la carpeta antigua)](resync-geth.md#pasos-si-existe-la-carpeta-antigua)
+* [Pasos (Si la carpeta antigua no existe)](resync-geth.md#pasos-si-la-carpeta-antigua-no-existe)
 
-## File Locations
+## Ubicación de Archivos
 
-*   Standard location of the `chaindata` folder.
+*   Ubicación estándar de la carpeta `chaindata`.
 
     ```bash
     /var/lib/goethereum/geth/chaindata/
     ```
-*   Standard location of the `ancient` folder.
+*   Ubicación estándar de la carpeta `ancient`.
 
     ```bash
     /var/lib/goethereum/geth/chaindata/ancient
     ```
 
-## Steps (If the ancient folder exists)
+## Pasos (Si existe la carpeta antigua)
 
-Good news! The required resync can be made much faster than a full resync simply by keeping the `ancient` folder. The ancient folder contains files that are not corrupted during an unexpected shutdown.
+¡Buenas noticias! La resincronización requerida se puede hacer mucho más rápido que una resincronización completa simplemente manteniendo la carpeta `ancient`. La carpeta antigua contiene archivos que no se dañan durante un apagado inesperado.
 
-1. Stop Geth.
-2.  Move the `ancient` folder.
+1. Detiene Geth.
+2.  Mueve la carpeta `ancient`.
 
     ```bash
     sudo mv /var/lib/goethereum/geth/chaindata/ancient /var/lib/goethereum/geth/
     ```
-3.  Delete the `chaindata` directory and recreate it.
+3.  Borra el directorio `chaindata` y vuelve a crearlo.
 
     ```bash
     sudo rm -rf /var/lib/goethereum/geth/chaindata
     sudo mkdir /var/lib/goethereum/geth/chaindata
     ```
-4.  Move the ancient folder back to the now empty chaindata directory.
+4.  Mueve la carpeta antigua de regreso al directorio `chaindata` que ahora está vacío.
 
     ```bash
     sudo mv /var/lib/goethereum/geth/ancient /var/lib/goethereum/geth/chaindata
     ```
-5.  Change the ownership of the `chaindata` directory to the Geth user.
+5.  Cambia el propietario del directorio `chaindata` al usuario Geth.
 
     ```bash
     sudo chown -R goeth:goeth /var/lib/goethereum/geth/chaindata
     sudo chmod 755 /var/lib/goethereum/geth/chaindata
     sudo chmod 755 /var/lib/goethereum/geth/chaindata/ancient
     ```
-6. Start Geth.
+6. Inicia Geth.
 
-Congratulations! You've successfully started a Geth resync 🥳
+¡Felicidades! Has iniciado éxitosamente una resincronización de Geth  🥳
 
-## Steps (If the ancient folder does not exist)
+## Pasos  (Si la carpeta antigua no existe)
 
-If the ancient folder does not exist, that's not a problem. It just means you will need to resync Geth from scratch, which will take a bit longer.
+Si la carpeta antigua no exista, no es un problema. Solo significa que necesitarás resincronizar Geth desde cero, el cual tomará más tiempo.
 
-1. Stop Geth.
-2.  Delete the `chaindata` directory and recreate it.
+1. Detiene Geth.
+2.  Elimina el directorio `chaindata` y lo vuelves a crear.
 
     ```bash
     sudo rm -rf /var/lib/goethereum/geth/chaindata
     sudo mkdir /var/lib/goethereum/geth/chaindata
     ```
-3.  Confirm the ownership and permissions for the `chaindata` directory are set to the Geth user.
+3.  Confirma el propietario y los permisos para la carpeta  `chaindata` están configurados al usuario Geth.
 
     ```bash
     sudo chown -R goeth:goeth /var/lib/goethereum/geth/chaindata
     sudo chmod 755 /var/lib/goethereum/geth/chaindata
     ```
-4. Start Geth.
+4. Inicia Geth.
 
-Congratulations! You've successfully started a Geth resync 🥳
+¡Felicidades! Has iniciado una resincronización de Geth exitosa. 🥳
