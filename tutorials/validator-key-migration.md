@@ -1,33 +1,33 @@
-# Safely migrating validator keys
+# Migrando de forma segura las llaves de validadores
 
-> When migrating validator keys, take your time, do not rush!
+> Cuando migres llaves de validadores, tomate tu tiempo ¡Sin prisas!
 
-There are many scenarios where you need to move the validator keys from one machine to another, here are some examples:
+Hay una variedad de escenarios donde necesitas mudar las llaves de validadores de una máquina a otra, aquí algunos ejemplos:
 
-* ⬆️ Upgrading hardware.
-* 🔧 Recovering from a hardware failure.
-* ☁️ Migrating from a cloud hosting service to a home staking machine.
+* ⬆️ Actualizando hardware.
+* 🔧 Recuperándose de una falla de hardware.
+* ☁️ Migrando de un servicio de hosting en la nube a una máquina casera de staking
 
-In any of these cases, the procedure should be the same. The most important thing to remember is that the penalty for being offline is **very low**, so do not optimize for minimum downtime. A slashing event caused by incorrect key migration will incur a penalty equivalent to **MONTHS** of simply being offline.
+En cualquiera de estos casos, el procedimiento debe ser el mismo. La cosa más importante a recordar es que la penalidad por estar offline es **muy baja**, así que no es urgencia optimizar el tiempo de inactividad. Un evento de slashing causado por una migración incorrecta de llaves incurrirá una penalidad equivalente a **MESES** de simplemente estar offline.
 
-🚨 _Do not rush_ 🚨
+🚨 _No vayas con prisa_ 🚨
 
-## Definitions
+## Definiciones
 
-**Source**: Where the keys are coming from.\
-**Target**: Where the keys are being migrated to.
+**Origen**: De donde vienen las llaves.\
+**Destino**: Hacia donde las llaves serán migradas
 
-## Steps
+## Pasos
 
-1. Stop the validator client on the source machine.
-2. Stop the validator client on the target machine.
-3. Wait a **MINIMUM** of 2 finalized [epochs](../staking-glossary.md#epoch) before continuing.
-4. Copy the validator keys to the target machine either through intermediate storage (e.g. a USB) or directly from source to target machine (e.g. `scp`, `rsync`, etc.). If the validator keys have been lost due to a hardware failure, [generate them again](../claves-del-validador/secure-key-generation.md).
-5. Delete the keys from the source machine. This ensures that even if the source machine restarts unexpectedly, the validator signing keys won't exist so cannot be used by the validator client.
-6. If available, export any [slashing protection](../claves-del-validador/slashing-protection.md) from the source machine and import on the target machine.
-7. Turn off the source machine and be 100% sure it cannot be restarted.
-8. Start the validator client on the target machine.
-9. Import the validator keys.
-10. Check the validator client logs to confirm everything is working correctly.
+1. Detén cliente de validación en la máquina origen.
+2. Detén cliente de validación en la máquina destino.
+3. Espera un **MÍNIMO** de dos [epochs](../staking-glossary.md#epoch) finalizados antes de continuar.
+4. Copia las llaves de los validadores a la máquina destino por medio de almacenamiento (Por ejemplo USB) o directamente de la máquina origen a la destino (Por ejemplo `scp`, `rsync`, etc...) Sí las llaves de los validadores se pierden durante un fallo de hardware [genéralas de vuelta](../claves-del-validador/secure-key-generation.md).
+5. Borra las llaves de la máquina origen. Esto asegura que incluso sí la máquina origen reinicia inesperadamente, las llaves para firmar de los validadores no existirán y no podrán ser usadas por el cliente validador
+6. De estar disponible, exporta cualquier [protección contra slashing](../claves-del-validador/slashing-protection.md) de la máquina origen e importala en la máquina destino.
+7. Apaga la máquina origen y asegúrate al 100% que no se pueda reiniciar.
+8. Arranca el cliente validador en la máquina destino.
+9. Importa las llaves de validación.
+10. Check the validator client logs to confirm everything is working correctly. Verifica los logs del cliente validador para confirmar que todo está funcionando correctamente.
 
-Congratulations! You've successfully migrated your validator keys between two machines 🥳
+¡Felicitaciones! Has migrado con éxito tus llaves de validación entre dos máquinas 🥳
