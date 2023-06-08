@@ -1,6 +1,6 @@
 # How to exit a validator
 
-Exiting a validator requires a signed message to be sent from your validator client. The exit process details are different for each client. These links are for each specific client:
+Exiting a validator requires a signed message to be sent from your validator client. The withdrawal process is different for each client. These links are for each specific client:
 
 * [Exiting a Prysm validator ↗](https://docs.prylabs.network/docs/wallet/exiting-a-validator)
 * [Exiting a Lighthouse validator ↗](https://lighthouse-book.sigmaprime.io/voluntary-exit.html)
