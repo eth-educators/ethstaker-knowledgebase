@@ -60,7 +60,7 @@
 * [Guias de solo staking](tutorials/solo-staking-guides.md)
 * [Instalando Linux](tutorials/installing-linux.md)
 * [Use all available disk space](tutorials/use-all-available-disk-space.md)
-* [Automatic security updates](tutorials/automatic-security-updates.md)
+* [Actualizaciones de seguridad automáticas](tutorials/actualizaciones-de-seguridad-automaticas.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
 * [Seguridad SSH - 2FA](tutorials/ssh-security-2fa.md)
 * [Configuring an RPC endpoint](tutorials/rpc-endpoint.md)

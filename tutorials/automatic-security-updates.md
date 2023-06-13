@@ -1,3 +1,0 @@
-# Automatic security updates
-
-TODO
