@@ -68,7 +68,7 @@
 * [Métodos para minimizar el tiempo de inactividad](tutorials/methods-to-minimize-downtime.md)
 * [Migrando de forma segura las llaves de validadores](tutorials/validator-key-migration.md)
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
-* [Updating withdrawal credentials](tutorials/updating-withdrawal-credentials.md)
+* [Actualizar credenciales de depósito](tutorials/actualizar-credenciales-de-deposito.md)
 
 ## ✏️ Involúcrese
 
