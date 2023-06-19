@@ -45,7 +45,7 @@
 * [¿Qué son los clientes de validación?](validator-clients/validator-clients-explained.md)
 * [Clientes de Ejecución](validator-clients/execution-clients.md)
 * [Clientes de consenso](validator-clients/consensus-clients.md)
-* [Checkpoint sync](validator-clients/checkpoint-sync.md)
+* [Sincronización de puntos de control](validator-clients/checkpoint-sync.md)
 * [Validator effectiveness](validator-clients/validator-effectiveness.md)
 * [MEV boost](validator-clients/mev-boost.md)
 

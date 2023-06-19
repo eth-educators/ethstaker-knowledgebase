@@ -1,44 +1,50 @@
-# Checkpoint sync
+# Sincronización de puntos de control
+
+
 
 {% hint style="info" %}
-A community maintained list of checkpoint sync endpoints can be found here: [Ethereum Beacon Chain checkpoint sync endpoints ↗](https://eth-clients.github.io/checkpoint-sync-endpoints/)
+Se puede encontrar una lista mantenida por la comunidad de puntos finales de sincronización de checkpoints aquí: [Ethereum Beacon Chain checkpoint sync endpoints ↗](https://eth-clients.github.io/checkpoint-sync-endpoints/)&#x20;
 {% endhint %}
 
-Checkpoint sync, also known as weak subjectivity sync, creates a superior user experience for syncing Beacon Node. It's based on assumptions of [weak subjectivity↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/weak-subjectivity) which enables syncing Beacon Chain from a recent weak subjectivity checkpoint instead of genesis. Checkpoint sync makes the initial sync time significantly faster with similar trust assumptions as syncing from [genesis](../staking-glossary.md#genesis-block).
+La sincronización de checkpoints, también conocida como sincronización de subjetividad débil, ofrece una experiencia de usuario superior para sincronizar el Beacon Node. Se basa en suposiciones de  [subjetividad débil↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/weak-subjectivity), lo cual permite sincronizar la Beacon Chain desde un punto de control  reciente en lugar de hacerlo desde el génesis. La sincronización de puntos de control acelera significativamente el tiempo de sincronización inicial con suposiciones de confianza similares a las de la sincronización desde el [génesis](../staking-glossary.md#genesis-block).
 
-In practice, this means your node connects to a remote service to download recent finalized states and continues verifying data from that point. The third-party providing the data needs to be trusted to provide the correct information about the finalized state and should be picked carefully.
+En la práctica, esto significa que tu nodo se conecta a un servicio remoto para descargar estados finalizados recientes y continúa verificando los datos a partir de ese punto. Para esto es importante confiar en que los terceros proporcionen los datos correctos sobre la información correcta sobre los estados que fueron finalizados, por lo que es necesario tener cuidado con la elección del proveedor.
 
-### Validate against a known trusted source
+### Validar con una fuente confiable conocida&#x20;
 
-You must verify the `slot` and `state_root` against a known trusted source. This can be a friend, someone from the community that you know or any other source that you trust. There is a maintained list of publicly hosted checkpoint sync endpoints [here↗](https://eth-clients.github.io/checkpoint-sync-endpoints/), but it is recommended to use your own trusted source first if possible.
+Debes validar el slot y el state\_root contra una fuente conocida y confiable. Esto puede ser un amigo, alguien de la comunidad que conozcas o cualquier otra fuente en la que confíes. Existe una lista mantenida de puntos finales de sincronización de checkpoints alojados públicamente  [aquí↗](https://eth-clients.github.io/checkpoint-sync-endpoints/),  pero se recomienda usar tu propia fuente confiable en primer lugar, si es posible.&#x20;
 
-You will need to know the IP & Port of your beacon node.
+Es importante que conozcas la dirección IP y el puerto de tu nodo beacon.
 
-#### Obtaining slot and state root
 
-Option A:
 
-1. Check your consensus client logs
-2. Find the slot number.
-3. Find the state\_root value.
+#### Obtener el número de slot y el valor de state&#x20;
 
-Option B:
+Opción A:
 
-1. Open `http://YOUR_NODE_IP:YOUR_NODE_PORT/eth/v1/beacon/headers/finalized` in your browser.
-2. Find the slot number.
-3. Find the state\_root value.
+1. Verifica los registros de tu cliente de consenso.
+2. Encuentra el número de slot.
+3. &#x20;Encuentra el valor de state root.
 
-Option C:
+Opción B:
 
-1. Install curl and jq.
-2.  In a new terminal window run:
+1. Ingresa `http://YOUR_NODE_IP:YOUR_NODE_PORT/eth/v1/beacon/headers/finalized` en tu buscador
+2. Encuentra el número de slot.
+3. &#x20;Encuentra el valor de state root.
+
+Opción C:
+
+1. Instala curl y jq.
+2.  En una ventana de terminal nueva, ejecuta:
 
     ```bash
     curl -s http://YOUR_NODE_IP:YOUR_NODE_PORT/eth/v1/beacon/headers/finalized | jq .'data.header.message'
     ```
 
-If the `slot` and `state_root` from your validator matches the `slot` and `state_root` from (multiple) other sources, then it's a match, congratulations 🎉. If it's not a match you should start from scratch by wiping your beacon node and starting from the top.
+Si el número de `slot`y el valor de `state_root` de tu validador coinciden con el número de slot y el valor de state\_root de múltiples fuentes confiables, entonces es una coincidencia exitosa. ¡Felicitaciones! 🎉
 
-[Technical notes on checkpoint sync ↗](https://notes.ethereum.org/@djrtwo/ws-sync-in-practice)
+Sin embargo, si los valores de slot y state\_root no coinciden, se recomienda comenzar desde cero borrando tu nodo de la Beacon Chain y reiniciando el proceso de sincronización desde el principio.&#x20;
 
-[Weak Subjectivity ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/weak-subjectivity)
+[Detalles técnicos sobre la sincronización de los puntos de control↗](https://notes.ethereum.org/@djrtwo/ws-sync-in-practice)
+
+[Debilidades subjetivas↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/weak-subjectivity)
