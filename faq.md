@@ -7,6 +7,7 @@
 * [How does MEV Boost min-bid work?](faq.md#how-does-mev-boost-min-bid-work)
 * [How long do pre-signed exit messages remain valid?](faq.md#how-long-do-pre-signed-exit-messages-remain-valid)
 * [How important are disk IOPS?](faq.md#how-important-are-disk-iops)
+* [How many validators can I run on my machine?](faq.md#how-many-validators-can-i-run-on-my-machine-do-i-need-multiple-consensus-or-execution-clients)
 * [How much ETH do I need to stake to become a validator?](faq.md#how-much-eth-do-i-need-to-stake-to-become-a-validator)
 * [How should I deal with a compromised or stolen machine?](faq.md#how-should-i-deal-with-a-compromised-or-stolen-machine)
 * [I am overwhelmed and don't know where to start - what can I do?](faq.md#i-am-overwhelmed-and-dont-know-where-to-start---what-can-i-do)
@@ -81,6 +82,14 @@ Disk IOPS are very important if you want your node to operate to its true potent
 Low disk IOPS can cause many different issues such as missed attestations, missed block proposals, failure to get in sync with the network as well as failure to keep up with the network if already in sync.
 
 If you are using Ubuntu, [IOPS can be measured using this software.](https://linuxreviews.org/HOWTO\_Test\_Disk\_I/O\_Performance) Before running tests, make sure your node services are stopped otherwise it will interfere with the results.
+
+## How many validators can I run on my machine? Do I need multiple consensus or execution clients?
+
+1\) Quite a lot! A former Teku developer wrote an article [in which they ran 5,000 validators on the one machine](https://www.symphonious.net/2022/04/06/exploring-eth2-cost-of-adding-validators/). There are a few other factors you will need to take into account, such as CPU, RAM and bandwidth considerations.
+
+If you already have a validator client, a consensus client and an execution client, then it is as easy as importing the new keys into the validator client. It will pick up and start performing the validator duties for the new validator(s) right away.
+
+2\) No, you do not need multiple consensus clients running to run multiple validators. A single consensus client can run multiple validators.
 
 ## How does MEV Boost min-bid work?
 
