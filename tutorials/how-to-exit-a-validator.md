@@ -1,6 +1,6 @@
-# How to exit a validator
+# ¿Cómo salir de un validador?
 
-Exiting a validator requires a signed message to be sent from your validator client. The exit process details are different for each client. These links are for each specific client:
+Salir de un validador requiere que se envíe un mensaje firmado desde su cliente de validación. Los detalles del proceso de salida son diferentes para cada cliente. Estos enlaces son para cada cliente específico:
 
 * [Exiting a Prysm validator ↗](https://docs.prylabs.network/docs/wallet/exiting-a-validator)
 * [Exiting a Lighthouse validator ↗](https://lighthouse-book.sigmaprime.io/voluntary-exit.html)
