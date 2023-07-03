@@ -59,7 +59,7 @@
 
 * [Guias de solo staking](tutorials/solo-staking-guides.md)
 * [Instalando Linux](tutorials/installing-linux.md)
-* [Use all available disk space](tutorials/use-all-available-disk-space.md)
+* [Usa Todo el Espacio de Disco Disponible](tutorials/usa-todo-el-espacio-de-disco-disponible.md)
 * [Actualizaciones de seguridad automáticas](tutorials/actualizaciones-de-seguridad-automaticas.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
 * [Seguridad SSH - 2FA](tutorials/ssh-security-2fa.md)
