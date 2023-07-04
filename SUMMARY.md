@@ -72,7 +72,7 @@
 
 ## ✏️ Involúcrese
 
-* [Content ideas](involucrese/content-ideas.md)
+* [Ideas de contenido](involucrese/ideas-de-contenido.md)
 * [Código de conducta](involucrese/codigo-de-conducta.md)
 * [Como contribuir](involucrese/how-to-contribute.md)
 
