@@ -46,7 +46,7 @@ Las siguientes capturas de pantalla muestran el proceso de depósito (Inglés).
 
 ### Genere los pares de llaves
 
-<figure><img src="../.gitbook/assets/image (12) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (12) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **¿Cuál es tu sistema operativo actual?**
 

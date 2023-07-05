@@ -82,7 +82,7 @@ apt-get update
 apt-get install openvpn-as
 ```
 
-<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>Es posible que necesites instalar varios paquetes para este paso...</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (3).png" alt=""><figcaption><p>Es posible que necesites instalar varios paquetes para este paso...</p></figcaption></figure>
 
 ¡Hurra! Acabas de instalar el servidor de acceso OpenVPN. Presta atención a esta parte de la depuración, ya que contiene información valiosa.
 
@@ -120,7 +120,7 @@ En esta página podrás consultar tu IP pública.&#x20;
 
 Copia tu dirección IP de este sitio web y pégala en el campo "Hostname or IP Address" ubicado en la parte superior de la página de "Network Settings". Este campo ya estará completado con tu dirección IP privada, debes sobrescribirla con tu dirección _IP pública_.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption><p>Si no tienes una dirección IP estática, necesitarás un DNS para tu red doméstica.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Si no tienes una dirección IP estática, necesitarás un DNS para tu red doméstica.</p></figcaption></figure>
 
 #### Paso 5.3) Opcional - Configurar la interfaz de administración y la interfaz de cliente para que se ejecuten en puertos diferentes.&#x20;
 

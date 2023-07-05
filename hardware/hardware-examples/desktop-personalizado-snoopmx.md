@@ -15,27 +15,27 @@ Este es un equipo ensamblado que armé para validar en solitario. Decidí compon
 
 Me decidí por una placa base mini ITX Z690l que es de factor pequeño, la tarjeta es moderna para albergar microprocesadores Intel de 12.ª generación que durarán muchos años de arduo trabajo.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (3).png>)
 
 Un microprocesador Intel Corei5-12400 con gráficos integrados, la relación con o sin gráficos integrados es muy poca la diferencia en el costo, además te ahorras en la compra de una tarjeta gráfica.
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../../.gitbook/assets/image (4) (1).png>)
 
 Una memoria RAM DDR5 de 16 GB con RGB le queda genial a tu equipo ensamblado, además de los 6000 MHz que alcanza.&#x20;
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 Un disco duro SSD 2TB PCI Express 3.0 NV1 M.2 NVMe.
 
-![](../../.gitbook/assets/image.png)
+![](<../../.gitbook/assets/image (2).png>)
 
 La fuente de alimentacion EVGA Supernova 750 GM es muy importante para el montaje, me decidí por una EVGA para la mini ITX que no hace ruido, que es modular, te ahorras cables que no necesitas y el ventilador solo se activa cuando es necesario, la forma SFX es más pequeña que la habitual.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (1) (1).png>)
 
 Finalmente, el Gabinete Cooler Master NR200P SFF - Mini-ITX, extraíble y con gran acceso para modificar los componentes de hardware, incluidos los ventiladores.
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (3).png>)
 
 Sin duda, es una sabia decisión construir tu propio nodo validador. Son componentes de calidad, puedes ahorrar más comprando otras placas base u otro tipo de RAM.&#x20;
 

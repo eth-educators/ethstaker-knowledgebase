@@ -63,7 +63,7 @@
 * [Actualizaciones de seguridad automáticas](tutorials/actualizaciones-de-seguridad-automaticas.md)
 * [Connect with SSH](tutorials/connect-via-ssh.md)
 * [Seguridad SSH - 2FA](tutorials/ssh-security-2fa.md)
-* [Configuring an RPC endpoint](tutorials/rpc-endpoint.md)
+* [Configurando un endpoint RPC](tutorials/rpc-endpoint.md)
 * [Como resincronizar Geth](tutorials/resync-geth.md)
 * [Métodos para minimizar el tiempo de inactividad](tutorials/methods-to-minimize-downtime.md)
 * [Migrando de forma segura las llaves de validadores](tutorials/validator-key-migration.md)

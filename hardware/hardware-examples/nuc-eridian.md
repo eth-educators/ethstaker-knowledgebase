@@ -16,7 +16,7 @@ The machine only needed three parts:
 * [Samsung 970 EVO Plus 2 TB PCIe NVMe M.2 (2280) Internal Solid State Drive (SSD) (MZ-V7S2T0), Black↗](https://www.amazon.co.uk/gp/product/B07MLJD32L)
 * [Corsair Vengeance SODIMM 64GB (2x32GB) DDR4 2666MHz CL18 Memory for Laptop/Notebooks (Intel 6th Generation Intel Core i5 and i7 Processor Support) Black↗](https://www.amazon.co.uk/gp/product/B07YBW84K9)
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 To open the NUC, simply unscrew the four retaining screws, and detach the ribbon cable.
 
