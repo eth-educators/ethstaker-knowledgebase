@@ -82,4 +82,4 @@
 
 ## 🧪 DVT
 
-* [Obol DVT - Goerli Only](dvt/obol-dvt-goerli-only.md)
+* [Obol DVT - Solo Goerli](dvt/obol-dvt-solo-goerli.md)
