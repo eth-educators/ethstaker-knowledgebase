@@ -37,7 +37,7 @@
 
 * [Port forwarding](networking/port-forwarding.md)
 * [Firewalls y Subredes](networking/firewalls-and-subnetting.md)
-* [Brute-force SSH protection](networking/brute-force-ssh-protection.md)
+* [Protección Brute-force SSH](networking/proteccion-brute-force-ssh.md)
 * [Configurando el acceso VPN en casa](networking/setting-up-home-vpn-access.md)
 
 ## ⛓ Validator Clients
