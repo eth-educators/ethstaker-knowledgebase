@@ -9,7 +9,7 @@
 * [¿Qué es hacer Staking?](para-empezar/what-is-ethereum-staking.md)
 * [Corriendo un nodo sin necesidad de ETH](para-empezar/ethereum-node.md)
 * [El proceso de depósito explicado](para-empezar/deposit-process.md)
-* [Withdrawal process explained](para-empezar/withdrawal-process-explained.md)
+* [Withdrawal: proceso explicado](para-empezar/withdrawal-proceso-explicado.md)
 
 ## 🚨 ¡Ayuda!
 
