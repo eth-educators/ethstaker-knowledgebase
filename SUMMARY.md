@@ -59,6 +59,7 @@
 
 * [Comprobando el estado de los nodos](escalando-nodos/comprobando-el-estado-de-los-nodos.md)
 * [Mantenimiento de nodos](escalando-nodos/mantenimiento-de-nodos.md)
+* [Alertas a escala](escalando-nodos/alertas-a-escala.md)
 
 ## 📕 Tutorials
 
