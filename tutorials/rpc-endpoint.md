@@ -77,7 +77,7 @@ Tenga en cuenta que configurar su --rpc-http-cors-origins según el ejemplo ante
 
 Esto indicará que su nodo Besu está listo para conexiones RPC
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Erigon" %}
@@ -102,7 +102,7 @@ Tenga en cuenta que configurar su --http.vhosts según el ejemplo anterior permi
 
 Esto indicará que su nodo Erigon está listo para conexiones RPC
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -130,10 +130,10 @@ Si su RPC no está disponible o es inaccesible, puede mostrar un error cuando in
 
 #### 2.4) Esté atento al mensaje de confirmación.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (4).png" alt=""><figcaption></figcaption></figure>
 
 #### 2.5) Cambie a su nueva red si Metamask aún no lo ha hecho
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ¡Éxito! Ahora puede usar Metamask como lo haría normalmente con el beneficio adicional de acceder a la red Ethereum a través de su propio nodo 🥳

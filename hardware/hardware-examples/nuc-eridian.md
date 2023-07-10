@@ -48,7 +48,7 @@ Insert the RAM into the slots. Again, they can only fit one way because of the l
 
 The finished setup should look like this:
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Replace the NUC base plate and secure the four retaining screws... and that's it!
 

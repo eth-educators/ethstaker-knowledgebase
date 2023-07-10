@@ -55,6 +55,11 @@
 * [Gestión de claves](claves-del-validador/key-management.md)
 * [(Slashing protection) Protección de cortes](claves-del-validador/slashing-protection.md)
 
+## 🎛 ESCALANDO NODOS
+
+* [Comprobando el estado de los nodos](escalando-nodos/comprobando-el-estado-de-los-nodos.md)
+* [Mantenimiento de nodos](escalando-nodos/mantenimiento-de-nodos.md)
+
 ## 📕 Tutorials
 
 * [Guias de solo staking](tutorials/solo-staking-guides.md)
@@ -83,7 +88,3 @@
 ## 🧪 DVT
 
 * [Obol DVT - Solo Goerli](dvt/obol-dvt-solo-goerli.md)
-
-## 🎛 ESCALANDO NODOS
-
-* [Comprobando el estado de los nodos](escalando-nodos/comprobando-el-estado-de-los-nodos.md)
