@@ -1,120 +1,120 @@
-# Connect with SSH
+# Conectar con el SSH
 
-Connecting remotely to a staking machine, whether it's hosted by a cloud provider (AWS, etc.) or running in your home is most often achieved using SSH (Secure Shell).
+La conexión remota a una máquina de validación, ya sea alojada por un proveedor de nube (AWS, etc.) o que se ejecute en tu hogar, se logra principalmente utilizando SSH (Secure Shell).
 
-SSH is a command line tool that allows direct access to a remote machine. This tutorial will cover:
+El SSH es una herramienta de línea de comandos que permite el acceso directo a una máquina remota. Este tutorial cubrirá:
 
-1. [Installing SSH on your staking machine](connect-via-ssh.md#installing-ssh-on-your-staking-machine)
-2. [Connecting to your staking machine using SSH](connect-via-ssh.md#connecting-to-your-staking-machine-using-ssh)
-3. [Using Mosh to improve your remote connection experience](connect-via-ssh.md#using-mosh-to-improve-your-remote-connection-experience)
-4. [Using Blink for iOS for mobile connections](connect-via-ssh.md#using-blink-for-ios-for-mobile-connections)
-5. [Generating SSH keys](connect-via-ssh.md#generating-ssh-keys)
-6. [Changing the default SSH Port](connect-via-ssh.md#changing-the-default-ssh-port)
+1. [Instación de SSH en tu máquina de staking](connect-via-ssh.md#installing-ssh-on-your-staking-machine)
+2. [Conectándote a tu máquina de staking usando SSH](connect-via-ssh.md#connecting-to-your-staking-machine-using-ssh)
+3. [Usando Mosh para mejorar tu experiencia de conexión remota](connect-via-ssh.md#using-mosh-to-improve-your-remote-connection-experience)
+4. [Usando Blink en iOS para conexiones móviles](connect-via-ssh.md#using-blink-for-ios-for-mobile-connections)
+5. [Generación de llaves SSH ](connect-via-ssh.md#generating-ssh-keys)
+6. [Cambio de puerto SSH predefinido](connect-via-ssh.md#changing-the-default-ssh-port)
 
-This tutorial won't cover the networking setup required to get a static IP, hostname and/or [VPN](../networking/setting-up-home-vpn-access.md) as those are covered in other tutorials.
+Este tutorial no cubrirá la configuración de red necesaria para obtener una IP estática, nombre de host y/o [VPN](http://localhost:5000/o/5TLAFycQGS1YA3kIVVOf/s/x0r5p8oRhI3NM8yvyTPC/), ya que estos temas se tratan en otros tutoriales.
 
-While SSH on its own is a great tool, there are some limitations that can be frustrating when connecting over a poor internet connection. For example, if the internet drops even for a second (if you're in a moving car or train) or you change WiFi networks, the SSH connection will be closed.
+Mientras que el SSH por sí mismo es una gran herramienta, hay algunas limitaciones que pueden ser frustrantes cuando se conecta a una mala conexión a Internet. Por ejemplo, si el internet se cae aunque sea por un segundo (si estás en un carro o tren en movimiento) o cambias de red WiFi, la conexión SSH se cerrará.
 
-## Installing SSH on your staking machine
+## Instalación de SSH en tu máquina de staking
 
-When you installed Linux on your staking machine the installation options should have asked if you would like to install SSH during the setup process.
+Cuando instalaste Linux en tu máquina de staking las opciones de instalación deberían haberte preguntado si querías instalar SSH durante el proceso de instalación.
 
 <figure><img src="../.gitbook/assets/image (25).png" alt="Linux Ubuntu Installation - Install SSH"><figcaption></figcaption></figure>
 
-To check if SSH is installed on your staking machine run the command:
+Para comprobar si SSH está instalado en tu máquina de staking, ejecuta el comando:
 
 ```bash
 ssh -V
 ```
 
-If SSH is installed you should see a response showing the installed version:
+Si el SSH está instalado, deberías ver una respuesta mostrando la versión instalada:
 
 ```
 OpenSSH_8.9p1 Ubuntu-3ubuntu0.1, OpenSSL 3.0.2 15 Mar 2022
 ```
 
-If you get an error or don't see the version output then it's likely that the SSH server is not installed. When you want to install any new packages to your Linux system it's best practice to make sure that your current packages are up to date for security purposes:
+Si ves un error o no ves el resultado de la versión, entonces es probable que el servidor SSH no esté instalado. Cuando desees instalar nuevos paquetes en Linux, es recomendable asegurarse de que los paquetes están actualizados por motivos de seguridad:
 
 ```bash
 sudo apt-get update
 ```
 
-Then install `openssh-server`:
+Luego instala `openssh-server`:
 
 ```bash
 sudo apt-get install -y openssh-server
 ```
 
-If you are using UFW as your firewall and have restricted incoming and outgoing connections then you will need to add the SSH port to allow remote connections (replacing `<SSH_PORT>` with the configured SSH port - the default port is `22`):
+Si estás utilizando UFW como firewall y has restringido las conexiones entrantes y salientes, tendrás que añadir el puerto SSH para permitir conexiones remotas (sustituyendo `<SSH_PORT>` por el puerto SSH configurado - el puerto por defecto es `22`):
 
 ```bash
 sudo ufw allow in <SSH_PORT> comment 'Allow SSH in'
 ```
 
-### Connecting to your staking machine using SSH
+### Conectándote a tu máquina de staking usando SSH
 
-Once you have confirmed SSH is installed on your staking machine, you can connect from a different machine using the command:
+Una vez que haya confirmado que SSH está instalado en su máquina de staking, puedes conectarte desde una máquina diferente utilizando el comando:
 
 ```bash
 ssh <USERNAME>@<IP_ADDRESS>
 ```
 
-For example: `ssh eridian@186:204:70:208`
+Por ejemplo: `ssh eridian@186:204:70:208`
 
-This command attempts to connect with your user's username at the specific IP address (or Host Name) of your staking machine.
+Este comando intenta conectarse con tu nombre de usuario a la dirección IP específica (o nombre de host) de tu máquina de staking.
 
-You may get a prompt saying something like "You haven't connected to this machine before, do you want to trust it?" to which you should submit `Yes` as the response.
+Es posible que aparezca un mensaje que diga algo así como "No se ha conectado a esta máquina antes, ¿quiere confiar en ella?", a lo que deberás responder "`Yes`".
 
-At this point, if everything is configured correctly, you should be prompted to input your password. This is the password you use to log in with your staking machine user.
+En este punto, si todo está configurado correctamente, se te pedirá que introduzcas tu contraseña. Esta es la contraseña que utilizas para iniciar sesión con el usuario de tu máquina de staking.
 
-If you are using a [different port for your SSH connection](connect-via-ssh.md#changing-the-default-ssh-port) then you can specify the port when connecting using:
+Si estás utilizando un[ puerto diferente para tu conexión SSH](connect-via-ssh.md#changing-the-default-ssh-port) entonces puedes especificar el puerto cuando te conectes utilizando:
 
 ```
 ssh -p <PORT> <USERNAME>@<IP_ADDRESS>
 ```
 
-## Using Mosh to improve your remote connection experience
+### Usando Mosh para mejorar tu experiencia de conexión remota
 
-**Benefits of using Mosh:**
+**Beneficios de usar Mosh:**
 
-* If you have an intermittent internet connection (e.g. a mobile connection or you're in a moving vehicle) a standard SSH connection will fail whenever the connection is lost. The connection must then be manually re-established, which can be annoying if it happens often and you are using additional security steps such as [2FA](ssh-security-2fa.md). Mosh allows connections to be dropped and automatically re-established when the internet signal reconnects.
-* Mosh uses a predictive interface for typing commands into the console. Standard SSH only shows the typed command once it has returned from the remote server. If you have a slow connection, this can be perceived as a laggy/slow interface. Mosh displays the text as you type commands, giving a much nicer user experience.
+* Si tienes una conexión a Internet intermitente (por ejemplo, una conexión móvil o estás en un vehículo en movimiento) una conexión SSH estándar fallará cada vez que se pierda la conexión. En ese caso, la conexión debe restablecerse manualmente, lo que puede resultar molesto si ocurre a menudo y está utilizando medidas de seguridad adicionales como [2FA](ssh-security-2fa.md). Mosh permite que las conexiones se caigan y se restablezcan automáticamente cuando la señal de Internet se reconecta.
+* Mosh utiliza una interfaz predictiva para escribir comandos en la consola. El SSH estándar sólo muestra el comando tecleado una vez que ha vuelto del servidor remoto. Si tienes una conexión lenta, esto puede percibirse como una interfaz lenta. Mosh muestra el texto a medida que escribes los comandos, dando una experiencia de usuario mucho más agradable.
 
-**Limitations of using Mosh:**
+**Limitaciones de uso de Mosh:**
 
-* A limitation you will notice when using Mosh is that you can't scroll back up the terminal history. This is due to the way Mosh only renders the current screen, which has some performance advantages but can be frustrating if you miss something and can't scroll back to see it.
+* Una limitación que notarás cuando utilices Mosh es que no puedes desplazarte hacia atrás en el historial del terminal. Esto se debe a la forma en que Mosh sólo muestra la pantalla actual, lo que tiene algunas ventajas de rendimiento, pero puede ser frustrante si se pierde algo y no puedes desplazarte hacia atrás para verlo.
 
-The Mosh package should be installed on both sides of the connection. That means both your staking machine and the machine you want to connect from (e.g. your everyday computer) will need [Mosh↗](https://mosh.org/#getting) installed.
+El paquete Mosh debe instalarse en ambos lados de la conexión. Esto significa que tanto su máquina de staking como la máquina desde la que deseas conectarte (por ejemplo, tu laptop de uso diario) necesitarán Mosh instalado.
 
-Install Mosh on your staking machine:
+Instala [Mosh ](https://mosh.org/#getting)en tu máquina de staking:
 
 ```bash
 sudo apt-get install -y mosh
 ```
 
-If you are using UFW, allowing Mosh ports through the firewall:
+Si está utilizando UFW, otorgale permisos a los puertos Mosh a través del firewall:
 
 ```
 sudo ufw allow in 60000:60020/udp comment 'Allow Mosh in'
 ```
 
-Mosh uses the same connection method as SSH, so once it is installed and the ports have been allowed it should be as simple as connecting with the command:
+Mosh utiliza el mismo método de conexión que SSH, por lo que una vez que se ha instalado y se han permitido los puertos debería ser tan sencillo como conectarse con el comando:
 
 ```
 sudo mosh <USERNAME>@<IP_ADDRESS>
 ```
 
-If you have changed the default SSH port you can specific the port used by Mosh using the command:
+Si ha cambiado el puerto SSH por defecto puede especificar el puerto utilizado por Mosh utilizando el comando:
 
 ```
 sudo mosh --ssh="ssh -p <MODIFIED_SSH_PORT>" <USERNAME>@<IP_ADDRESS>
 ```
 
-## Using Blink Shell for iOS for mobile connections
+## Usando Blink Shell en iOS para conexiones móviles
 
-The [Blink Shell↗](https://apps.apple.com/us/app/blink-shell-code-editor/id1594898306) mobile app for iOS allows you to connect to your staking machine using both SSH and Mosh.
+La app móvil de [Blink Shell↗](https://apps.apple.com/us/app/blink-shell-code-editor/id1594898306) para iOS te permite conectarte a tu máquina de staking usando SSH y Mosh.
 
-On your device (iPhone or iPad) open the Blink Shell app and type:
+En tu dispositivo (iPhone o iPad) abre la aplicación Blink Shell y escribe:
 
 ```
 config
@@ -122,54 +122,54 @@ config
 
 ![](<../.gitbook/assets/image (57).png>)
 
-Keys & Certificates can be added if you are using an SSH key for your connections:
+Puede añadir llaves y certificados si utilizas una clave SSH para tus conexiones:
 
 ![](<../.gitbook/assets/image (7) (2).png>)
 
-Hosts can be configured so you have an alias command e.g. `ssh validator` that you can use with preconfigured settings
+Los hosts pueden configurarse para que disponga de un comando alias, por ejemplo, `ssh validator`, que puedes utilizar con ajustes preconfigurados.
 
 ![](<../.gitbook/assets/image (77).png>)
 
-iCloud sync can be turned off if you don't want your SSH keys and passwords to be stored in iCLoud.
+La sincronización con iCloud puede desactivarse si no quieres que tus llaves y contraseñas del SSH se almacenen en iCLoud.
 
-Auto Lock is a useful feature to add additional security to your portable device.
+El bloqueo automático es una función útil para añadir seguridad adicional a tu dispositivo portátil. Y ya está.
 
-And that's it! You can now connect to your home staking validator remotely from your iOS device 🗺️
+Ya puedes conectarte a tu validador de staking doméstico de forma remota desde tu dispositivo iOS🗺️
 
 ![](<../.gitbook/assets/image (4) (3).png>)
 
-## Generating SSH keys
+## Generación de llaves SSH
 
-For additional security, SSH keys can be used alongside or instead of your username/password authentication when connecting to your staking machine.
+Para mayor seguridad, las llaves SSH se pueden utilizar junto o en vez de tu nombre de usuario / contraseña de autenticación cuando te conectas a tu máquina de staking.
 
-Follow the instructions here to generate SSH keys: [https://linuxconfig.org/how-to-generate-and-manage-ssh-keys-on-linux](https://linuxconfig.org/how-to-generate-and-manage-ssh-keys-on-linux)
+Sigue estas instrucciones para generar claves SSH: [https://linuxconfig.org/how-to-generate-and-manage-ssh-keys-on-linux](https://linuxconfig.org/how-to-generate-and-manage-ssh-keys-on-linux)
 
-## Changing the default SSH Port
+## Cambio de puerto SSH predefinido
 
-The default port configured is `22` for SSH connections. If you want to change the default port for any reason (e.g. due to port forwarding on your router or the port being used by another service) follow these steps:
+El puerto configurado por defecto es el `22` para conexiones SSH. Si deseas cambiar el puerto predeterminado por cualquier motivo (por ejemplo, debido al reenvío de puertos en el router o a que el puerto está siendo utilizado por otro servicio), sigue estos pasos:
 
-1.  Open the `/etc/ssh/sshd_config` file and locate the line:
+1.  Abre el archivo `/etc/ssh/sshd_config` y localiza esta línea:
 
     ```
     #Port 22
     ```
-2.  Uncomment that line (by removing the leading `#` character) and change the value with an appropriate port number (for example, 22000):
+2.  Descomenta esa línea (eliminando el carácter `#` inicial) y cambie el valor por un número de puerto adecuado (por ejemplo, 22000):
 
     ```
     Port 22000
     ```
-3. Save the change.
-4.  Restart the SSH server:
+3. Guarda los cambios.
+4.  Reinicia el servidor SSH:
 
     ```
     systemctl restart sshd
     ```
-5.  To confirm the port has been updated correctly run:
+5.  Para confirmar que el puerto ha sido correctamente actualizado, corre:
 
     ```
     sudo netstat -tulpn | grep ssh
     ```
-6.  The result should show the new port number:
+6.  El resultado debería mostrar el nuevo número del puerto:
 
     ```
     tcp        0      0 0.0.0.0:22000           0.0.0.0:*               LISTEN      1282/sshd: /usr/

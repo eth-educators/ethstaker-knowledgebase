@@ -67,7 +67,7 @@
 * [Instalando Linux](tutorials/installing-linux.md)
 * [Usa Todo el Espacio de Disco Disponible](tutorials/usa-todo-el-espacio-de-disco-disponible.md)
 * [Actualizaciones de seguridad automáticas](tutorials/actualizaciones-de-seguridad-automaticas.md)
-* [Connect with SSH](tutorials/connect-via-ssh.md)
+* [Conectar con el SSH](tutorials/connect-via-ssh.md)
 * [Seguridad SSH - 2FA](tutorials/ssh-security-2fa.md)
 * [Configurando un endpoint RPC](tutorials/rpc-endpoint.md)
 * [Como resincronizar Geth](tutorials/resync-geth.md)
