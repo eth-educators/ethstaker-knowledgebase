@@ -71,21 +71,23 @@
 * [Validator seed phrase / mnemonic](staking-glossary.md#validator-seed-phrase--mnemonic)
 * [Withdrawal address](staking-glossary.md#withdrawal-address)
 
+***
 
+## nodo de almacenamiento
 
-## Archival node
+* Almacena todo lo que se mantiene en un [#nodo-completo](staking-glossary.md#nodo-completo "mention") y crea un archivo de estados históricos.&#x20;
+* Los nodos de archivo son necesarios si desea consultar algo como el saldo de una cuenta en un bloque en particular.&#x20;
+* Estos datos representan unidades de terabytes (más de 20 TB para Geth), lo que hace que los nodos de archivo sean menos atractivos para la mayoría de los usuarios, pero pueden ser útiles para servicios como exploradores de bloques, proveedores de billeteras y análisis de cadenas.
 
-* Stores everything kept in a [full node](staking-glossary.md#full-node) and builds an archive of historical states.
-* Archive nodes are required if you want to query something like an account balance at a particular block.
-* This data represents units of terabytes (more than 20TB for Geth), which makes archive nodes less attractive for most users but can be handy for services like block explorers, wallet vendors, and chain analytics.
+La sincronización de software clientes en cualquier modo que no sea de archivo dará como resultado la eliminación de los datos extra de la cadena de bloques. Esto significa que no un nodo completo no cuenta con todos los estados históricos, pero el nodo completo puede recrearlos a pedido.
 
-Syncing clients in any mode other than archive will result in pruned blockchain data. This means, there is no archive of all historical states but the full node is able to build them on demand.
+No se requiere que los nodos de archivo participen en la validación de bloques y, en teoría, pueden construirse desde cero simplemente reproduciendo los bloques desde génesis.
 
-Archive nodes aren't required to participate in block validation and can theoretically be built from scratch by simply replaying the blocks from genesis.
+\*\*\*\*[**Fuente ↗**](https://ethereum.org/en/developers/docs/nodes-and-clients/#archive-node)
 
-\*\*\*\*[**Source ↗**](https://ethereum.org/en/developers/docs/nodes-and-clients/#archive-node)
+## atestación
 
-## Attestation
+Votos de [#validadores](staking-glossary.md#validadores "mention")[ ](staking-glossary.md#validadores)que confirman la validez de un [#bloque](staking-glossary.md#bloque "mention"). En momentos designados, cada validador es responsable de publicar diferentes certificaciones que declaran formalmente la visión actual de la cadena del validador, incluido el último [#checkpoints](staking-glossary.md#checkpoints "mention") finalizado y la [#cabeza-de-cadena-chain-head](staking-glossary.md#cabeza-de-cadena-chain-head "mention") actual.
 
 Votes by [validators](staking-glossary.md#validator) which confirm the validity of a [block](staking-glossary.md#block). At designated times, each validator is responsible for publishing different attestations that formally declare a validator's current view of the chain, including the last finalized [checkpoint](staking-glossary.md#checkpoints) and the current [head of the chain](staking-glossary.md#chain-head).
 
@@ -139,51 +141,53 @@ This registry is used to:
 
 [_**Source ↗**_](https://notes.ethereum.org/@djrtwo/Bkn3zpwxB#High-level-overview)
 
-## Block
+## bloque
 
-A block is a bundled unit of information that include an ordered list of transactions and consensus-related information. Blocks are proposed by [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, at which point they are shared across the entire peer-to-peer network, where they can easily be independently verified by all other nodes. Consensus rules govern what contents of a block are considered valid, and any invalid blocks are disregarded by the network. The ordering of these blocks and the transactions therein create a deterministic chain of events with the end representing the current state of the network.
+Un bloque es una unidad de información agrupada que incluye una lista ordenada de transacciones e información relacionada con el consenso. Los bloques son propuestos por validadores de [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos)), momento en el que se comparten en toda la red peer-to-peer, donde todos los demás nodos pueden verificarlos fácilmente de forma independiente. Las reglas de consenso rigen qué contenidos de un bloque se consideran válidos, y la red ignora cualquier bloque no válido. El orden de estos bloques y las transacciones en ellos crean una cadena determinista de eventos cuyo final representa el estado actual de la red.
 
 ## Block proposer
 
 A chosen [validator](staking-glossary.md#validator) by the [Beacon Chain](staking-glossary.md#beacon-chain) to propose the next [block](staking-glossary.md#block). There can only be one valid block per [slot](staking-glossary.md#slots).
 
-## Block status
+## Estado del Bloque
 
-### Proposed
+### Propuesto (Proposed)
 
-The block was proposed by a validator.
+El bloque fue propuesto por un validador.
 
-### Scheduled
+### Programado (Scheduled)
 
-Validators are currently submitting data.
+Los validadores están enviando datos actualmente.
 
-### Missed/skipped
+### Perdido/omitido (Missed/skipped)
 
-The proposer didn’t propose the block within the given time frame, so the block was missed/skipped.
+El proponente no propuso el bloque dentro del plazo dado, por lo que el bloque se perdió/se saltó.
 
-### Orphaned
+### Huérfano (Orphaned)
 
-In order to understand this, let us look at the diagram below "1, 2, 3, ... ,9" represent the slots.
+Para entender esto, miremos el diagrama debajo de "1, 2, 3, ..., 9" representan las ranuras (slots).
 
-1. Validator at slot 1 proposes the block “a”.
-2. Validator at slot 2 proposes “b”.
-3. Slot 4 is being skipped because the validator didn’t propose a block (e.g.: offline).
-4. At slot 5/6 a fork occurs: Validator(5) proposes a block, but validator(6) doesn’t receive this data (e.g.: the block didn’t reach them fast enough). Therefore Validator(6) proposes its block with the most recent information it sees from validator(3).
-5. The [fork choice rule ↗](https://notes.ethereum.org/@vbuterin/rkhCgQteN?type=view#LMD-GHOST-fork-choice-rule) is the key here - It decides which of the available chains is the canonical one.
+1. El validador en la ranura 1 propone el bloque "a".
+2. El validador en la ranura 2 propone "b".
+3. La ranura 4 se está omitiendo porque el validador no propuso un bloque (por ejemplo, fuera de línea).
+4. En la ranura 5/6 se produce una bifurcación: el validador (5) propone un bloque, pero el validador (6) no recibe estos datos (por ejemplo, el bloque no los alcanzó lo suficientemente rápido). Por lo tanto, Validator(6) propone su bloque con la información más reciente que ve de validator(3).
+5. La [regla de elección de fork (bifurcación) ↗](https://notes.ethereum.org/@vbuterin/rkhCgQteN?type=view#LMD-GHOST-fork-choice-rule)  es la clave aquí: decide cuál de las cadenas disponibles es la canónica.
 
-## Canonical chain
+## cadena canónica
 
-The canonical chain is the chain which is agreed to be the 'main' chain and not a [fork](staking-glossary.md#fork).
+La cadena canónica es la cadena que se acuerda que es la cadena "principal" y no un [fork](staking-glossary.md#fork).
 
-## Chain head
+## chain head
 
-The latest block received by a validator. This does not necessarily mean it is the head of the [canonical chain](staking-glossary.md#canonical-chain).
+El último bloque recibido por un validador. Esto no significa necesariamente que sea la cabeza de la [cadena canónica](staking-glossary.md#cadena-canonica).
 
-## Checkpoints
+## checkpoints
 
 The [Beacon Chain](staking-glossary.md#beacon-chain) has a tempo divided into [slots](staking-glossary.md#slot) (12 seconds) and [epochs](staking-glossary.md#epoch) (32 slots). The first slot in each epoch is a checkpoint. When a supermajority of validators [attests](staking-glossary.md#attestation) to the link between two checkpoints, they can be [justified](staking-glossary.md#justification) and then when another checkpoint is justified on top, they can be [finalized](staking-glossary.md#finalization).
 
-## Client
+## Software Cliente
+
+Una implementación del software Ethereum que verifica las transacciones en un bloque. Estos pueden ser clientes de capa de consenso o clientes de capa de ejecución. Cada validador necesita tanto un cliente de capa de ejecución como un cliente de capa de consenso.
 
 An implementation of Ethereum software that verifies transactions in a block. These can be [consensus layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#consensus-clients) or [execution layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients). Each validator needs both an execution layer client and a consensus layer client.
 
@@ -193,7 +197,7 @@ A group of at least 128 [validators](staking-glossary.md#validator) assigned to 
 
 ## Consensus layer
 
-Ethereum's consensus layer is the network of [consensus clients](validator-clients/consensus-clients.md).
+La capa de consenso de Ethereum es la red de [consensus-clients.md](validator-clients/consensus-clients.md "mention").
 
 ## Deposit contract
 
@@ -228,25 +232,25 @@ If there are less than 66.6% of the total possible votes (the [participation rat
 
 During finality issues, the validator [entry queue](staking-glossary.md#validator-queue) will be halted and new validators will not be able to join the network, however, inactive validators with less than 16 ETH balance will be exited from the network. This leads to more stability in the network and a higher participation rate, allowing the chain to eventually finalize.
 
-## Fork
+## fork
 
-A change in protocol causing the creation of an alternative chain or a temporal divergence into two potential block paths. Also see [hard fork](staking-glossary.md#hard-fork)
+Un cambio en el protocolo que provoca la creación de una cadena alternativa o una divergencia temporal en dos posibles rutas de bloques. Ver también [#hard-fork](staking-glossary.md#hard-fork "mention")
 
-## Full node
+## nodo completo
 
-Stores and maintains the full blockchain data on disk. It serves blockchain data upon request and helps support the network by participating in block validation and by verifying all blocks and states. All states can be derived from a Full node.
+Almacena y mantiene los datos completos de la cadena de bloques en el disco. Provee datos de blockchain a solicitud y ayuda a respaldar la red participando en la validación de bloques y verificando todos los bloques y estados. Todos los estados se pueden derivar de un nodo completo.
 
-[**Source ↗**](https://www.quicknode.com/guides/infrastructure/ethereum-full-node-vs-archive-node)
+[**Fuente ↗**](https://www.quicknode.com/guides/infrastructure/ethereum-full-node-vs-archive-node)
 
-## Genesis block
+## bloque Génesis
 
-The first block in a blockchain, used to initialize a particular network and its cryptocurrency.
+El primer bloque en una cadena de bloques, utilizado para inicializar una red en particular y su criptomoneda.
 
-## Hard fork
+## hard fork
 
-A hard fork occurs when an update is being pushed to the Ethereum network and the new version of the software forks from the old version. Usually requires operators to update their validator software to stay on the correct side of the fork. Also see [fork](staking-glossary.md#fork)
+Se produce un hard fork  cuando se envía una actualización a la red Ethereum y la nueva versión del software se bifurca de la versión anterior. Por lo general, requiere que los operadores actualicen su software de validación para permanecer en el lado correcto del fork. Ver también  [#fork](staking-glossary.md#fork "mention")
 
-## Head vote
+## Head voteVoto principal
 
 The validator has made a timely vote for the correct [head block](staking-glossary.md#chain-head).
 
@@ -264,7 +268,9 @@ To reflect the relative value of an attestation, the reward given to a validator
 
 <figure><img src=".gitbook/assets/InclusionDistance.png" alt="Attestation Reward Inclusion Distance Distribution"><figcaption></figcaption></figure>
 
-## Input data
+## Datos de entrada
+
+Los datos de entrada, también llamados **datos de depósito**, son una secuencia de 842 caracteres generada por el usuario. Representa la [#llave-publica](staking-glossary.md#llave-publica "mention") y la llave pública de retiro, que fueron firmadas con la [#llave-privada](staking-glossary.md#llave-privada "mention") del validador. Los datos de entrada deben agregarse a la transacción del contrato de depósito para que la cadena de balizas los identifique.
 
 The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the validator public key and the withdrawal public key, which were signed with by the validator [private key](staking-glossary.md#private-key). The input data needs to be added to the transaction to the [deposit contract](para-empezar/deposit-process.md) in order to get identified by the [beacon-chain](staking-glossary.md#beacon-chain).
 
@@ -278,65 +284,67 @@ When another block is justified on top of a justified block, it is upgraded to "
 
 [_More info on justification ↗_](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/)
 
-## Light clients
+## clientes ligeros
 
-An Ethereum client that does not store a local copy of the blockchain, or validate blocks and transactions. It offers the functions of a wallet and can create and broadcast transactions.
+Un cliente de Ethereum que no almacena una copia local de la cadena de bloques ni valida bloques y transacciones. Ofrece las funciones de una billetera y puede crear y transmitir transacciones.
 
 ## MEV
 
-MEV or "maximal extractable value", is a controversial topic. Node operators can extract MEV by accepting blocks built by "searchers", via a small side program called "[mev-boost ↗](https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177)" by Flashbots. In this case, the Consensus Layer client such as Nimbus, Teku, etc. will, when asked to procure a block to propose, get blocks from MEV relays via mev-boost and from the Execution Layer client such as Besu, Geth, etc. and then choose whichever block from the relay pays best. The Execution Layer does not currently communicate its expected payout and would only be chosen when the relay offers no block. For this, the relay has to be trusted to deliver valid blocks.
+MEV o "valor extraíble máximo", es un tema controversial. Los operadores de nodos pueden extraer MEV aceptando bloques creados por "buscadores", a través de un pequeño programa secundario llamado  "[mev-boost ↗](https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177)". En este caso, el cliente de la capa de consenso, como Nimbus, Teku, etc., cuando se le solicite obtener un bloque para proponer, obtendrá bloques de los relés MEV a través de mev-boost y del cliente de la capa de ejecución, como Besu, Geth, etc. y luego elija el bloque del relé que mejor pague. Actualmente, la capa de ejecución no comunica su pago esperado y solo se elegiría cuando el relevo no ofrezca ningún bloque. Para esto, se debe confiar en que el relé entregará bloques válidos. Las recompensas de MEV se pagan a la misma dirección del destinatario de la tarifa sugerida que las tarifas prioritarias.
 
-Rewards from MEV are paid to the same [suggested fee recipient](staking-glossary.md#suggested-fee-recipient) address as [priority fees](staking-glossary.md#priority-fees).
+Las recompensas de MEV se pagan a la misma dirección del destinatario de la tarifa sugerida que las tarifas prioritarias.
+
+ewards from MEV are paid to the same [suggested fee recipient](staking-glossary.md#suggested-fee-recipient) address as [priority fees](staking-glossary.md#priority-fees).
 
 [_**Source ↗**_](https://ethereum.org/en/developers/docs/mev/)
 
-## Mempool
+## mempool
 
-When an Ethereum node receives a transaction, it is not instantly added to a block. The transaction is held in a waiting area or a buffer zone.
+Cuando un nodo Ethereum recibe una transacción, no se agrega instantáneamente a un bloque. La transacción se lleva a cabo en un área de espera o una zona de amortiguamiento.
 
-The transaction goes from a number of levels of verification such as it checks whether the output is greater than the input, whether the signature is valid or not, etc., and then only it is added to a block. The transaction is not added to a block if it fails any of these validations. The role of a mempool comes while a transaction is going through these checks. It is simply kept in this waiting area or a mempool. As soon as the transaction confirms, it is removed from the mempool and added to a block. Mempool is not a master reference shared universally by all nodes. There’s no “one” mempool. This means each node configures its own rules for the node’s mempool. In fact, a node can be the first to receive a transaction but it is possible that it might not have propagated the transaction to the rest of the network.
+La transacción pasa por una serie de niveles de verificación, como comprobar si la salida es mayor que la entrada, si la firma es válida o no, etc., y luego solo se agrega a un bloque. La transacción no se agrega a un bloque si falla alguna de estas validaciones. El papel de un mempool surge mientras una transacción pasa por estos controles. Simplemente se mantiene en esta sala de espera o en un mempool. Tan pronto como se confirma la transacción, se elimina del mempool y se agrega a un bloque. Mempool no es una referencia maestra compartida universalmente por todos los nodos. No hay un mempool "único". Esto significa que cada nodo configura sus propias reglas para el mempool del nodo. De hecho, un nodo puede ser el primero en recibir una transacción, pero es posible que no haya propagado la transacción al resto de la red.
 
-[**Source ↗**](https://www.geeksforgeeks.org/what-is-ethereum-mempool/)
+[**Fuente ↗**](https://www.geeksforgeeks.org/what-is-ethereum-mempool/)
 
-## Node
+## nodo
 
-Any instance of Ethereum client software that is connected to other computers also running Ethereum software, forming a network. A node doesn’t necessarily need a validator but a validator requires a node. Running a node by itself does not generate any revenue but does contribute to the robustness of the network.
+Una instancia de software de cliente de Ethereum que esté conectada a otras computadoras que también ejecuten software de Ethereum, formando una red. Un nodo no necesita necesariamente un validador, pero un validador requiere un nodo. Ejecutar un nodo por sí solo no genera ningún ingreso, pero contribuye a la solidez de la red.
 
-## Operator
+## operador
 
-A person who maintains a validator
+Una persona que mantiene un validador.
 
-## Participation rate
+## tasa de participación
 
-The participation rate is the percentage of validators that are online and performing their duties.
+La tasa de participación es el porcentaje de validadores que están en línea y realizando sus funciones.
 
-If the validator set is 1,000 validators, and 250 validators are offline or rarely making proposals or attestations, then it could be estimated that the participation rate is 75%.
+Si el conjunto de validadores es de 1000 validadores y 250 validadores están fuera de línea o rara vez hacen propuestas o certificaciones, entonces se podría estimar que la tasa de participación es del 75 %.
 
-[**Source ↗**](https://ethereum.stackexchange.com/questions/87503)
+[**Fuente ↗**](https://ethereum.stackexchange.com/questions/87503)
 
-## Peers
+## peers
 
-Other nodes running Ethereum clients that connect to each other over a peer-to-peer network. Communication between peers is how the Ethereum network remains decentralized as there is no single point of failure.
+Otros nodos que ejecutan clientes de Ethereum que se conectan entre sí a través de una red de igual a igual (peer to peer). La comunicación entre peers es la forma en que la red Ethereum permanece descentralizada ya que no hay un punto único de falla.
 
 ## Priority fees
 
 Almost all transaction on Ethereum set a [priority fee ↗](https://ethereum.org/en/developers/docs/gas/#priority-fee) to incentivize [block proposers](staking-glossary.md#block-proposer) to include the transaction as a higher priority than others. The higher the fee relative to other transactions currently waiting in the [mempool](staking-glossary.md#mempool) This fee is paid to the block proposer. All of the priority fees in a block are aggregated and paid in a single state change directly to the [suggested fee recipient](staking-glossary.md#suggested-fee-recipient) set by the block proposer. This address could be a hardware wallet, a software wallet, or even a multi-sig contract.
 
-## Private key
+## llave privada
 
-A secret number that allows Ethereum users to prove ownership of an account or contracts, by producing a digital signature.
+(Private Key) Un número secreto que permite a los usuarios de Ethereum demostrar la propiedad de una cuenta o contratos mediante la producción de una firma digital.
 
-## Proof of stake (PoS)
+## proof of stake (PoS)
 
-A method by which a cryptocurrency blockchain protocol aims to achieve distributed consensus. PoS asks users to prove ownership of a certain amount of cryptocurrency (their "stake" in the network) in order to be able to participate in the validation of transactions.
+Un método por el cual un protocolo de cadena de bloques de criptomonedas tiene como objetivo lograr un consenso distribuido. PoS pide a los usuarios que demuestren la propiedad de una cierta cantidad de criptomonedas (su "participación" en la red) para poder participar en la validación de transacciones.
 
-## Public key
+## llave publica
 
-A number, derived via a one-way function from a [private key](staking-glossary.md#private-key), which can be shared publicly and used by anyone to verify a digital signature made with the corresponding private key.
+Un número, derivado a través de una función unidireccional de una [#llave-privada](staking-glossary.md#llave-privada "mention"), que puede ser compartido públicamente y utilizado por cualquier persona para verificar una firma digital realizada con la clave privada correspondiente.
 
-## Signing
+## firmar
 
-Demonstrating cryptographically that a message or transaction was approved by the holder of a specific [private key](staking-glossary.md#private-key)).
+Demostrar criptográficamente que un mensaje o transacción fue aprobado por el titular de una  [#llave-privada](staking-glossary.md#llave-privada "mention").
 
 ## Slashable offenses
 
@@ -386,7 +394,9 @@ A command-line tool used to generate validator keys and deposit data files.
 
 The fee recipient is an Ethereum address nominated by a [Beacon Chain](staking-glossary.md#beacon-chain) validator to receive tips from user transactions and [MEV](staking-glossary.md#mev).
 
-## Sync committee
+## comité de sincronización
+
+Un comité de sincronización es un grupo de [#validadores](staking-glossary.md#validadores "mention")seleccionados al azar que se actualizan cada \~27 horas. Su propósito es agregar sus [#firmar](staking-glossary.md#firmar "mention") a encabezados de bloque válidos. Los comités de sincronización permiten a los clientes ligeros realizar un seguimiento del jefe de la cadena de bloques sin necesidad de acceder a todo el conjunto de validadores. Ocurre cada 2 años en promedio, sin embargo, puede haber "períodos secos" varias veces más largos que el promedio sin que se dé uno. Entonces, si su validador es seleccionado... ¡felicidades! 🥳
 
 A sync committee is a randomly selected group of [validators](staking-glossary.md#validator) that refresh every \~27 hours. Their purpose is to add their [signatures](staking-glossary.md#signing) to valid block headers. Sync committees allow [light clients](staking-glossary.md#light-clients) to keep track of the head of the blockchain without needing to access the entire validator set. Occurs every 2 years on average, however, there can be "dry spells" multiple times longer than the average without being given one. So if your validator is selected... congratulations! 🥳
 
@@ -394,9 +404,9 @@ A sync committee is a randomly selected group of [validators](staking-glossary.m
 
 The validator has made a timely vote for the correct target [checkpoint](staking-glossary.md#checkpoints).
 
-## Validator
+## validadores
 
-A node in a [Proof of Stake (Pos)](staking-glossary.md#proof-of-stake-pos) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To activate validator software, you need to be able to stake 32 ETH. A validators job is to propose blocks and sign attestations. It has to be online for at least 50% of the time in order to have positive returns. A validator is run by an operator (a human), on hardware (a computer) and is paired with a node (many thousand validators can run on one node).
+Un nodo en un sistema de [#proof-of-stake-pos](staking-glossary.md#proof-of-stake-pos "mention") responsable de almacenar datos, procesar transacciones y agregar nuevos bloques a la cadena de bloques. Para activar el software de validación, debe poder aportar 32 ETH. El trabajo de los validadores es proponer bloques y firmar atestaciones. Tiene que estar en línea durante al menos el 50% del tiempo para tener retornos positivos. Un validador lo ejecuta un operador (un ser humano), en el hardware (una computadora) y se empareja con un nodo (muchos miles de validadores pueden ejecutarse en un nodo)
 
 ### Eligible for activation & Estimated activation
 
