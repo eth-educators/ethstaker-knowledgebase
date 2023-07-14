@@ -1,75 +1,75 @@
 # Glosario de Staking
 
-* [Archival node](staking-glossary.md#archival-node)
-* [Attestation](staking-glossary.md#attestation)
-* [Attestation aggregator](staking-glossary.md#attestation-aggregator)
-* [Beacon chain](staking-glossary.md#beacon-chain)
-* [Block](staking-glossary.md#block)
-* [Block proposer](staking-glossary.md#block-proposer)
-* [Block status](staking-glossary.md#block-status)
-  * [Proposed](staking-glossary.md#proposed)
-  * [Scheduled](staking-glossary.md#scheduled)
-  * [Missed/skipped](staking-glossary.md#missedskipped)
-  * [Orphaned](staking-glossary.md#orphaned)
-* [Canonical chain](staking-glossary.md#canonical-chain)
-* [Chain head](staking-glossary.md#chain-head)
-* [Checkpoints](staking-glossary.md#checkpoints)
-* [Client](staking-glossary.md#client)
-* [Committees](staking-glossary.md#committees)
-* [Consensus layer](staking-glossary.md#consensus-layer)
-* [Deposit contract](staking-glossary.md#deposit-contract)
-* [Effectiveness](staking-glossary.md#effectiveness)
-* [Epoch](staking-glossary.md#epoch)
-* [Execution layer](staking-glossary.md#execution-layer)
-* [Finalization](staking-glossary.md#finalization)
-  * [Finality issues](staking-glossary.md#finality-issues)
-* [Fork](staking-glossary.md#fork)
-* [Full node](staking-glossary.md#full-node)
-* [Genesis block](staking-glossary.md#genesis-block)
-* [Hard fork](staking-glossary.md#hard-fork)
-* [Head vote](staking-glossary.md#head-vote)
-* [Inactivity leak](staking-glossary.md#inactivity-leak)
-* [Inclusion distance](staking-glossary.md#inclusion-distance)
-* [Input data](staking-glossary.md#input-data)
-* [Justification](staking-glossary.md#justification)
-* [Light clients](staking-glossary.md#light-clients)
-* [MEV](staking-glossary.md#mev)
-* [Mempool](staking-glossary.md#mempool)
-* [Node](staking-glossary.md#node)
-* [Operator](staking-glossary.md#operator)
-* [Participation rate](staking-glossary.md#participation-rate)
-* [Peers](staking-glossary.md#peers)
-* [Priority fees](staking-glossary.md#priority-fees)
-* [Private key](staking-glossary.md#private-key)
-* [Proof of stake (PoS)](staking-glossary.md#proof-of-stake-pos)
-* [Public key](staking-glossary.md#public-key)
-* [Signing](staking-glossary.md#signing)
-* [Slashable offenses](staking-glossary.md#slashable-offenses)
-  * [Attestation violation](staking-glossary.md#attestation-violation)
-  * [Proposer violation](staking-glossary.md#proposer-violation)
-* [Slasher node](staking-glossary.md#slasher-node)
-* [Slot](staking-glossary.md#slot)
-* [Solo staker](staking-glossary.md#solo-staker)
-* [Source vote](staking-glossary.md#source-vote)
-* [Staker](staking-glossary.md#staker)
-* [Staking deposit CLI](staking-glossary.md#staking-deposit-cli)
-* [Suggested fee recipient](staking-glossary.md#suggested-fee-recipient)
-* [Sync committee](staking-glossary.md#sync-committee)
-* [Target vote](staking-glossary.md#target-vote)
-* [Validator](staking-glossary.md#validator)
-  * [Eligible for activation & Estimated activation](staking-glossary.md#eligible-for-activation--estimated-activation)
-  * [Unique index](staking-glossary.md#unique-index)
-  * [Current balance & Effective balance](staking-glossary.md#current-balance--effective-balance)
-* [Validator lifecycle](staking-glossary.md#validator-lifecycle)
-  * [1. Deposited](staking-glossary.md#1-deposited)
-  * [2. Pending](staking-glossary.md#2-pending)
-  * [3. Active validator](staking-glossary.md#3-active-validator)
-  * [4. Slashing validator](staking-glossary.md#4-slashing-validator)
-  * [5. Exiting validator](staking-glossary.md#5-exiting-validator)
-* [Validator pool](staking-glossary.md#validator-pool)
-* [Validator queue](staking-glossary.md#validator-queue)
-* [Validator seed phrase / mnemonic](staking-glossary.md#validator-seed-phrase--mnemonic)
-* [Withdrawal address](staking-glossary.md#withdrawal-address)
+* [#agregador-de-atestaciones](staking-glossary.md#agregador-de-atestaciones "mention")&#x20;
+* [#atestacion](staking-glossary.md#atestacion "mention")
+* [#beacon-chain](staking-glossary.md#beacon-chain "mention")
+* [#bloque](staking-glossary.md#bloque "mention")
+* [#proponente-de-bloque](staking-glossary.md#proponente-de-bloque "mention")
+* [#nodo-de-almacenamiento](staking-glossary.md#nodo-de-almacenamiento "mention")
+* [#estado-del-bloque](staking-glossary.md#estado-del-bloque "mention")
+  * [#propuesto-proposed](staking-glossary.md#propuesto-proposed "mention")
+  * [#programado-scheduled](staking-glossary.md#programado-scheduled "mention")&#x20;
+  * [#perdido-omitido-missed-skipped](staking-glossary.md#perdido-omitido-missed-skipped "mention")
+  * [#huerfano-orphaned](staking-glossary.md#huerfano-orphaned "mention")
+* [#cadena-canonica](staking-glossary.md#cadena-canonica "mention")
+* [#cabeza-de-cadena](staking-glossary.md#cabeza-de-cadena "mention")
+* [#checkpoints](staking-glossary.md#checkpoints "mention")
+* [#software-cliente](staking-glossary.md#software-cliente "mention")
+* [#comites](staking-glossary.md#comites "mention")
+* [#capa-de-consenso](staking-glossary.md#capa-de-consenso "mention")
+* [#contrato-de-deposito](staking-glossary.md#contrato-de-deposito "mention")
+* [#efectividad](staking-glossary.md#efectividad "mention")
+* [#epoca](staking-glossary.md#epoca "mention")
+* [#capa-de-ejecucion](staking-glossary.md#capa-de-ejecucion "mention")
+* [#finalizacion](staking-glossary.md#finalizacion "mention")
+  * [#problemas-de-finalidad](staking-glossary.md#problemas-de-finalidad "mention")
+* [#fork](staking-glossary.md#fork "mention")
+* [#nodo-completo](staking-glossary.md#nodo-completo "mention")
+* [#bloque-genesis](staking-glossary.md#bloque-genesis "mention")
+* [#hard-fork](staking-glossary.md#hard-fork "mention")
+* [#voto-principal](staking-glossary.md#voto-principal "mention")
+* [#fuga-de-inactividad](staking-glossary.md#fuga-de-inactividad "mention")
+* [#distancia-de-inclusion](staking-glossary.md#distancia-de-inclusion "mention")
+* [#datos-de-entrada](staking-glossary.md#datos-de-entrada "mention")
+* [#justificacion](staking-glossary.md#justificacion "mention")
+* [#clientes-ligeros](staking-glossary.md#clientes-ligeros "mention")
+* [#mev](staking-glossary.md#mev "mention")
+* [#mempool](staking-glossary.md#mempool "mention")
+* [#nodo](staking-glossary.md#nodo "mention")
+* [#operador](staking-glossary.md#operador "mention")
+* [#tasa-de-participacion](staking-glossary.md#tasa-de-participacion "mention")
+* [#peers](staking-glossary.md#peers "mention")
+* [#tarifas-de-prioridad](staking-glossary.md#tarifas-de-prioridad "mention")
+* [#llave-privada](staking-glossary.md#llave-privada "mention")
+* [#proof-of-stake-pos](staking-glossary.md#proof-of-stake-pos "mention")
+* [#llave-publica](staking-glossary.md#llave-publica "mention")
+* [#firmar](staking-glossary.md#firmar "mention")
+* [#ofensa-deducibles](staking-glossary.md#ofensa-deducibles "mention")
+  * [#violacion-de-atestacion](staking-glossary.md#violacion-de-atestacion "mention")
+  * [#violacion-de-atestacion](staking-glossary.md#violacion-de-atestacion "mention")
+* [#nodo-slasher](staking-glossary.md#nodo-slasher "mention")
+* [#slot](staking-glossary.md#slot "mention")
+* [#staker-individual](staking-glossary.md#staker-individual "mention")
+* [#voto-de-origen](staking-glossary.md#voto-de-origen "mention")
+* [#staker](staking-glossary.md#staker "mention")
+* [#staking-cli](staking-glossary.md#staking-cli "mention")
+* [#destinatario-de-tarifas-sugerido](staking-glossary.md#destinatario-de-tarifas-sugerido "mention")
+* [#comite-de-sincronizacion](staking-glossary.md#comite-de-sincronizacion "mention")
+* [#voto-destino](staking-glossary.md#voto-destino "mention")
+* [#validadores](staking-glossary.md#validadores "mention")
+  * [#elegible-para-activacion-y-activacion-estimada](staking-glossary.md#elegible-para-activacion-y-activacion-estimada "mention")
+  * [#indice-unico](staking-glossary.md#indice-unico "mention")
+  * [#saldo-actual-y-saldo-efectivo](staking-glossary.md#saldo-actual-y-saldo-efectivo "mention")
+* [#ciclo-de-vida-del-validador](staking-glossary.md#ciclo-de-vida-del-validador "mention")
+  * [#1.-depositar](staking-glossary.md#1.-depositar "mention")
+  * [#2.-pendiente](staking-glossary.md#2.-pendiente "mention")
+  * [#3.-validador-activo](staking-glossary.md#3.-validador-activo "mention")
+  * [#4.-slashing-validator](staking-glossary.md#4.-slashing-validator "mention")
+  * [#5.-salida-del-validad](staking-glossary.md#5.-salida-del-validad "mention")
+* [#grupo-de-validadores](staking-glossary.md#grupo-de-validadores "mention")
+* [#cola-de-validacion](staking-glossary.md#cola-de-validacion "mention")
+* [#frase-semilla-mnemotecnico](staking-glossary.md#frase-semilla-mnemotecnico "mention")
+* [#direccion-de-retiro](staking-glossary.md#direccion-de-retiro "mention")
 
 ***
 
@@ -87,43 +87,43 @@ No se requiere que los nodos de archivo participen en la validación de bloques 
 
 ## atestación
 
-Votos de [#validadores](staking-glossary.md#validadores "mention")[ ](staking-glossary.md#validadores)que confirman la validez de un [#bloque](staking-glossary.md#bloque "mention"). En momentos designados, cada validador es responsable de publicar diferentes certificaciones que declaran formalmente la visión actual de la cadena del validador, incluido el último [#checkpoints](staking-glossary.md#checkpoints "mention") finalizado y la [#cabeza-de-cadena-chain-head](staking-glossary.md#cabeza-de-cadena-chain-head "mention") actual.
+Votos de [#validadores](staking-glossary.md#validadores "mention")[ ](staking-glossary.md#validadores)que confirman la validez de un [#bloque](staking-glossary.md#bloque "mention"). En momentos designados, cada validador es responsable de publicar diferentes certificaciones que declaran formalmente la visión actual de la cadena del validador, incluido el último [#checkpoints](staking-glossary.md#checkpoints "mention") finalizado y la [#cabeza-de-cadena](staking-glossary.md#cabeza-de-cadena "mention") actual.
 
-Every active validator creates one attestation per [epoch](staking-glossary.md#epoch) (\~6.5 minutes), consisting of the following components:
+Cada validador activo crea una atestación por [#epoca](staking-glossary.md#epoca "mention") (\~6,5 minutos), que consta de los siguientes componentes:
 
-| Component                                                                          | Description                                                                                                                                                                                                                  |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Committee**                                                                      | A bitlist of validators where the position maps to the validator index in their committee. The value (0/1) indicates whether the validator signed the data (i.e. whether they are active and agree with the block proposer). |
-| **Slot**                                                                           | The slot number that the attestation references.                                                                                                                                                                             |
-| **Index**                                                                          | A number that identifies which committee the validator belongs to in a given slot.                                                                                                                                           |
-| <p><strong>Chain head vote</strong></p><p><strong>(beacon_block_root)</strong></p> | The root hash of the block the validator sees at the head of the chain (the result of applying the fork-choice algorithm).                                                                                                   |
-| **Source**                                                                         | Part of the finality vote indicating what the validators see as the most recently justified block.                                                                                                                           |
-| **Target**                                                                         | Part of the finality vote indicating what the validators see as the first block in the current epoch.                                                                                                                        |
-| **Signature**                                                                      | A BLS signature that aggregates the signatures of individual validators.                                                                                                                                                     |
+| Componente                                         | Descripcion                                                                                                                                                                                                                      |
+| -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Comité**                                         | Una lista de bits de validadores donde la posición se asigna al índice del validador en su comité. El valor (0/1) indica si el validador firmó los datos (es decir, si están activos y de acuerdo con el proponente del bloque). |
+| **Slot**                                           | El número de slot al que hace referencia la atestación.                                                                                                                                                                          |
+| **Índice**                                         | A number that identifies which committee the validator belongs to in a given slot.                                                                                                                                               |
+| **Voto de cabeza de cadena (beacon\_block\_root)** | The root hash of the block the validator sees at the head of the chain (the result of applying the fork-choice algorithm).                                                                                                       |
+| **Origen**                                         | Parte del voto de finalidad que indica lo que los validadores ven como el bloque justificado más reciente.                                                                                                                       |
+| **Destino**                                        | Parte del voto de finalidad que indica lo que los validadores ven como el primer bloque en la época actual.                                                                                                                      |
+| **Firma**                                          | Una firma BLS que agrega las firmas de validadores individuales.                                                                                                                                                                 |
 
-An important component related to effectiveness is the chain head vote. This is a vote the validator makes about what it believes is the latest valid block in the chain at the time of attesting. The structure of a chain head vote consists of the following components:
+Un componente importante relacionado con la eficacia es el voto de cabeza de cadena. Este es un voto que hace el validador sobre lo que cree que es el último bloque válido en la cadena al momento de certificar. La estructura de una votación principal en cadena consta de los siguientes componentes:
 
-* Slot - Defines _where_ the validator believes the current chain head to be.
-* Hash - Defines _what_ the validator believes the current chain head to be to be.
+* Slot - Define _dónde_ cree el validador que se encuentra el cabezal de cadena actual.
+* Hash - Define _lo que_ el validador cree que es el cabezal de cadena actual.
 
-The combination uniquely defines a point on the blockchain. By combining enough of these chain head votes the Ethereum network reaches consensus about the state of the chain.
+La combinación define de forma única un punto en la cadena de bloques. Al combinar suficientes votos de cabeza de cadena, la red Ethereum llega a un consenso sobre el estado de la cadena.
 
-[**Source (ethereum.org) ↗**](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attestations/)\
-[**Source (Attestant) ↗**](https://www.attestant.io/posts/defining-attestation-effectiveness/)
+[**Fuente (ethereum.org) ↗**](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attestations/)\
+[**Fuente (Attestant) ↗**](https://www.attestant.io/posts/defining-attestation-effectiveness/)
 
-## Attestation aggregator
+## agregador de atestaciones
 
-Although the data in each [attestation](staking-glossary.md#attestation) is relatively small, it mounts up quickly with tens of thousands of [validators](staking-glossary.md#validator). As this data will be stored forever on the blockchain, minimizing it is important, and this is done through a process known as attestation aggregation.
+Aunque los datos en cada atestación son relativamente pequeños, se acumulan rápidamente con decenas de miles de validadores. Como estos datos se almacenarán para siempre en la cadena de bloques, es importante minimizarlos, y esto se hace a través de un proceso conocido como agregación de atestación.
 
-Aggregation takes multiple attestations that have all chosen to vote with the same committee, chain head vote, and finality vote, and merges them together in to a single aggregate attestation.
+La agregación toma múltiples atestaciones que han elegido votar con el mismo comité, voto principal en cadena y voto definitivo, y las fusiona en una única atestación agregada.
 
-An aggregate attestation differs in two ways from a simple attestation. First, there are multiple validators listed. Second, the signature is an aggregate signature made from the signatures of the matching simple attestations. Aggregate attestations are very efficient to store, but introduce additional communications and computational burdens.
+Una atestación agregada difiere en dos aspectos de una atestación simple. En primer lugar, se enumeran varios validadores. En segundo lugar, la firma es una firma agregada hecha a partir de las firmas de las atestaciones simples coincidentes. Las atestaciones agregadas son muy eficientes para almacenar, pero introducen comunicaciones adicionales y cargas computacionales.
 
-If every validator was required to aggregate all attestations it would quickly overload the network with the number of communications required to pass every attestation to every validator. Equally, if aggregating were purely optional then validators will not bother to waste their own resources doing so. Instead, a subset of validators is chosen by the network to carry out aggregation duties1. It is in their interest to do a good job, as aggregate attestations with higher numbers of validators are more likely to be included in the blockchain so the validator is more likely to be rewarded.
+Si se requiriera que cada validador agregara todas las atestaciones, sobrecargaría rápidamente la red con la cantidad de comunicaciones requeridas para pasar cada atestación a cada validador. Del mismo modo, si la agregación fuera puramente opcional, los validadores no se molestarían en desperdiciar sus propios recursos al hacerlo. En su lugar, la red elige un subconjunto de validadores para llevar a cabo tareas de agregación. Les interesa hacer un buen trabajo, ya que es más probable que se incluyan atestaciones agregadas con un mayor número de validadores en la cadena de bloques, por lo que es más probable que el validador sea recompensado.
 
-Validators that carry out this aggregation process are known as aggregators.
+Los validadores que realizan este proceso de agregación se conocen como **agregadores**.
 
-[_**Source ↗**_](https://www.attestant.io/posts/defining-attestation-effectiveness/)
+[_**Fuente ↗**_](https://www.attestant.io/posts/defining-attestation-effectiveness/)
 
 ## beacon chain
 
@@ -143,11 +143,11 @@ Este registro se utiliza para:
 
 Un bloque es una unidad de información agrupada que incluye una lista ordenada de transacciones e información relacionada con el consenso. Los bloques son propuestos por validadores de [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos)), momento en el que se comparten en toda la red peer-to-peer, donde todos los demás nodos pueden verificarlos fácilmente de forma independiente. Las reglas de consenso rigen qué contenidos de un bloque se consideran válidos, y la red ignora cualquier bloque no válido. El orden de estos bloques y las transacciones en ellos crean una cadena determinista de eventos cuyo final representa el estado actual de la red.
 
-## Block proposer
+## proponente de bloque
 
-A chosen [validator](staking-glossary.md#validator) by the [Beacon Chain](staking-glossary.md#beacon-chain) to propose the next [block](staking-glossary.md#block). There can only be one valid block per [slot](staking-glossary.md#slots).
+Un [#validadores](staking-glossary.md#validadores "mention") elegido por [#beacon-chain](staking-glossary.md#beacon-chain "mention") para proponer el siguiente [#bloque](staking-glossary.md#bloque "mention"). Solo puede haber un bloque válido por [#slot](staking-glossary.md#slot "mention").
 
-## Estado del Bloque
+## estado del Bloque
 
 ### Propuesto (Proposed)
 
@@ -250,21 +250,21 @@ El primer bloque en una cadena de bloques, utilizado para inicializar una red en
 
 Se produce un hard fork  cuando se envía una actualización a la red Ethereum y la nueva versión del software se bifurca de la versión anterior. Por lo general, requiere que los operadores actualicen su software de validación para permanecer en el lado correcto del fork. Ver también  [#fork](staking-glossary.md#fork "mention")
 
-## Head voteVoto principal
+## voto principal
 
-The validator has made a timely vote for the correct [head block](staking-glossary.md#chain-head).
+El validador ha votado oportunamente por la [#cabeza-de-cadena](staking-glossary.md#cabeza-de-cadena "mention") correcto.
 
-## Inactivity leak
+## fuga de inactividad
 
-If the Beacon Chain has gone more than four [epochs](staking-glossary.md#epoch) without [finalizing](staking-glossary.md#finalization), an emergency protocol called the "inactivity leak" is activated. The ultimate aim of the inactivity leak is to create the conditions required for the chain to recover finality. Finality requires a 2/3 majority of the total staked ether to agree on source and target checkpoints. If validators representing more than 1/3 of the total validators go offline or fail to submit correct [attestations](staking-glossary.md#attestation) then it is not possible for a 2/3 supermajority to finalize checkpoints. The inactivity leak lets the stake belonging to the inactive validators gradually bleed away until they control less than 1/3 of the total stake, allowing the remaining active validators finalize the chain. However large the pool of inactive validators, the remaining active validators will eventually control >2/3 of the stake. The loss of stake is a strong incentive for inactive validators to reactivate as soon as possible!
+Si Beacon Chain ha pasado más de cuatro [#epoca](staking-glossary.md#epoca "mention")s sin [#finalizacion](staking-glossary.md#finalizacion "mention"), se activa un protocolo de emergencia llamado "fuga de inactividad". El fin último de la fuga de inactividad es crear las condiciones necesarias para que la cadena recupere la finalidad. La finalidad requiere una mayoría de 2/3 del ether total apostado para acordar los puntos de [#checkpoints](staking-glossary.md#checkpoints "mention"). Si los validadores que representan más de 1/3 del total de validadores se desconectan o no envían las [#atestacion](staking-glossary.md#atestacion "mention") correctas, entonces no es posible que una gran mayoría de 2/3 finalice los [#checkpoints](staking-glossary.md#checkpoints "mention"). La fuga de inactividad permite que la participación perteneciente a los validadores inactivos se desangre gradualmente hasta que controlen menos de 1/3 de la participación total, lo que permite que los validadores activos restantes finalicen la cadena. Por grande que sea el grupo de validadores inactivos, los validadores activos restantes eventualmente controlarán >2/3 de la apuesta. ¡La pérdida de participación es un fuerte incentivo para que los validadores inactivos se reactiven lo antes posible!
 
-## Inclusion distance
+## distancia de inclusión
 
-The inclusion distance of a [slot](staking-glossary.md#slot) is the difference between the slot in which an [attestation](staking-glossary.md#attestation) is made and the lowest slot number of the block in which the attestation is included. For example, an attestation made in slot _s_ and included in the block at slot _s + 1_ has an inclusion distance of _1_. If instead the attestation was included in the block at slot _s + 5_ the inclusion distance would be _5_.
+La distancia de inclusión de un [#slot](staking-glossary.md#slot "mention") es la diferencia entre el slot en el que se realiza una [#atestacion](staking-glossary.md#atestacion "mention") y el número de slot  más bajo del bloque en el que se incluye la [#atestacion](staking-glossary.md#atestacion "mention"). Por ejemplo, una atestación realizada en el slot _s_ e incluida en el bloque en la ranura _s + 1_ tiene una distancia de inclusión de 1. Si, en cambio, la atestación se incluyera en el bloque en el slot _s + 5_, la distancia de inclusión sería 5.
 
-The value of an attestation to the Ethereum network is dependent on its inclusion distance, with a low inclusion distance being preferable. This is because the sooner the information is presented to the network, the more useful it is.
+El valor de una certificación de la red Ethereum depende de su distancia de inclusión, siendo preferible una distancia de inclusión baja. Esto se debe a que cuanto antes se presente la información a la red, más útil será.
 
-To reflect the relative value of an attestation, the reward given to a validator for attesting is scaled according to the inclusion distance. Specifically, the reward is multiplied by _1/d_, where _d_ is the inclusion distance.
+Para reflejar el valor relativo de una certificación, la recompensa otorgada a un validador por certificar se escala de acuerdo con la distancia de inclusión. Específicamente, la recompensa se multiplica por 1/d, donde d es la distancia de inclusión.
 
 <figure><img src=".gitbook/assets/InclusionDistance.png" alt="Attestation Reward Inclusion Distance Distribution"><figcaption></figcaption></figure>
 
@@ -324,9 +324,9 @@ Si el conjunto de validadores es de 1000 validadores y 250 validadores están fu
 
 Otros nodos que ejecutan clientes de Ethereum que se conectan entre sí a través de una red de igual a igual (peer to peer). La comunicación entre peers es la forma en que la red Ethereum permanece descentralizada ya que no hay un punto único de falla.
 
-## Priority fees
+## tarifas de prioridad
 
-Almost all transaction on Ethereum set a [priority fee ↗](https://ethereum.org/en/developers/docs/gas/#priority-fee) to incentivize [block proposers](staking-glossary.md#block-proposer) to include the transaction as a higher priority than others. The higher the fee relative to other transactions currently waiting in the [mempool](staking-glossary.md#mempool) This fee is paid to the block proposer. All of the priority fees in a block are aggregated and paid in a single state change directly to the [suggested fee recipient](staking-glossary.md#suggested-fee-recipient) set by the block proposer. This address could be a hardware wallet, a software wallet, or even a multi-sig contract.
+Casi todas las transacciones en Ethereum establecen una [tarifa de prioridad ↗](https://ethereum.org/en/developers/docs/gas/#priority-fee) para incentivar a los [#proponente-de-bloque](staking-glossary.md#proponente-de-bloque "mention") a incluir la transacción como una prioridad más alta que otras. Cuanto mayor sea la tarifa en relación con otras transacciones que actualmente esperan en el [#mempool](staking-glossary.md#mempool "mention") Esta tarifa se paga al proponente del bloque. Todas las tarifas de prioridad en un bloque se agregan y pagan en un solo cambio de estado directamente al [#destinatario-de-tarifas-sugerido](staking-glossary.md#destinatario-de-tarifas-sugerido "mention") establecido por el proponente del bloque. Esta dirección podría ser una billetera de hardware, una billetera de software o incluso un contrato de múltiples firmas.
 
 ## llave privada
 
@@ -344,33 +344,31 @@ Un número, derivado a través de una función unidireccional de una [#llave-pri
 
 Demostrar criptográficamente que un mensaje o transacción fue aprobado por el titular de una  [#llave-privada](staking-glossary.md#llave-privada "mention").
 
-## Slashable offenses
+## ofensa deducibles
 
-If your validator commits a slashable offense it will be force exited from the validator pool and will have ETH deducted depending on the circumstances of the event. Typically, this will be 1-2 ETH but could be [significantly more ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/#slashing).
+Si su validador comete un delito que puede implicar deducciones (slashing), será forzado a salir del grupo de validadores y se le deducirá ETH según las circunstancias del evento. Por lo general, esto será 1-2 ETH, pero podría ser [significativamente más ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/#slashing).
 
-This is not something to be overly worried about, there are [simple steps](help/slashing-explained.md) you can take to make sure that you don't invoke a slashing event.
+Esto no es algo de lo que deba preocuparse demasiado, hay [pasos simples](help/slashing-explained.md) que puede seguir para asegurarse de no invocar un evento de slashing.
 
-There are three ways a validator can be slashed, all of which amount to the dishonest proposal or attestation of blocks.
+Hay tres formas que probocan esto, todas las cuales equivalen a la propuesta deshonesta o la certificación de bloques.
 
-### Attestation violation
+### violación de atestación
 
-* **Double voting**: Signing two different [attestations](staking-glossary.md#attestation) in one [epoch](staking-glossary.md#epoch).
-* **Surround votes**: Attesting to a block that "surrounds" another one (effectively changing history).
+* **Votación doble:** Firma de dos [#atestacion](staking-glossary.md#atestacion "mention")es  diferentes en una [#epoca](staking-glossary.md#epoca "mention").
+* **Votos envolventes**: Atestar a un bloque que "rodea" a otro (efectivamente cambiando la historia).
 
-### Proposer violation
+### Infracción del proponente
 
-* **Double block proposal**: [Proposing](staking-glossary.md#block-proposer) and [signing](staking-glossary.md#signing) two different [blocks](staking-glossary.md#block) for the same [slot](staking-glossary.md#slot).
+* **Propuesta de doble bloque:** [Proponer ](staking-glossary.md#proponente-de-bloque)y [#firmar](staking-glossary.md#firmar "mention") firmar dos bloques diferentes para un mismo [#slot](staking-glossary.md#slot "mention").
 
-## Slasher node
+## nodo slasher
 
-The [**slasher**](https://github.com/Buttaa/ethstaker/blob/main/slasher.md) **is its own entity** but requires a beacon-node to receive [attestations](https://kb.beaconcha.in/glossary#attestation). To find malicious activity by validators, the slashers iterates through all received attestations until a **slashable offense** has been found. Found slashings are broadcasted to the network and the next [block proposer](staking-glossary.md#block-proposer) adds the proof to the block. The block proposer receives a reward for slashing the malicious validator. However, the whistleblower (Slasher) does not receive a reward.
+El [slasher ](https://github.com/Buttaa/ethstaker/blob/main/slasher.md)**es una entidad propia**, pero requiere un [#beacon-chain](staking-glossary.md#beacon-chain "mention") para recibir [atestaciones](staking-glossary.md#atestacion). Para encontrar actividad maliciosa por parte de los validadores, los slashers iteran a través de todas las atestaciones recibidas hasta que se encuentra una ofensa dedicul que se puede cortar. Los recortes encontrados se transmiten a la red y el siguiente [#proponente-de-bloque](staking-glossary.md#proponente-de-bloque "mention") agrega la prueba al [#bloque](staking-glossary.md#bloque "mention"). El proponente del bloque recibe una recompensa por cortar al validador malicioso. Sin embargo, el denunciante (Slasher) no recibe una recompensa.
 
 ## slot
 
 **32 slots = 1** [#epoca](staking-glossary.md#epoca "mention")\
 Un período de tiempo de 12 segundos en el que un validador elegido al azar tiene tiempo para proponer un bloque. El número total de validadores se divide en [#committees](staking-glossary.md#committees "mention") y uno o más comités individuales son responsables de dar fe de cada puesto. Se elegirá un validador del comité para que sea el agregador, mientras que los otros 127 validadores dan fe. Después de cada época, los validadores se mezclan y fusionan en nuevos comités. Cada espacio puede tener o no un bloque, ya que un validador podría perder su propuesta (por ejemplo, puede estar desconectado o enviar su bloque demasiado tarde). Hay un mínimo de 128 validadores por comité.
-
-A time period of **12 seconds** in which a randomly chosen validator has time to propose a block. The total number of validators is split up in [committees](staking-glossary.md#committees) and one or more individual committees are responsible to attest to each slot. One validator from the committee will be chosen to be the aggregator, while the other 127 validators are attesting. After each Epoch, the validators are mixed and merged to new committees. Each slot may or may not have a block in it as a validatory could miss their proposal (e.g. they may be offline or submit their block too late). There is a minimum of 128 validators per committee.
 
 ## staker individual
 
@@ -390,15 +388,13 @@ Una herramienta de línea de comandos utilizada para generar claves de validaci�
 
 * [https://github.com/ethereum/staking-deposit-cli](https://github.com/ethereum/staking-deposit-cli)
 
-## Suggested fee recipient
+## destinatario de tarifas sugerido
 
-The fee recipient is an Ethereum address nominated by a [Beacon Chain](staking-glossary.md#beacon-chain) validator to receive tips from user transactions and [MEV](staking-glossary.md#mev).
+El destinatario de la tarifa es una dirección de Ethereum nominada por un validador de [#beacon-chain](staking-glossary.md#beacon-chain "mention") para recibir las tarifas de transacciones de usuarios y [#mev](staking-glossary.md#mev "mention").
 
 ## comité de sincronización
 
 Un comité de sincronización es un grupo de [#validadores](staking-glossary.md#validadores "mention")seleccionados al azar que se actualizan cada \~27 horas. Su propósito es agregar sus [#firmar](staking-glossary.md#firmar "mention") a encabezados de bloque válidos. Los comités de sincronización permiten a los [#clientes-ligeros](staking-glossary.md#clientes-ligeros "mention")  realizar un seguimiento de la [#chain-head](staking-glossary.md#chain-head "mention") jefe de la cadena de bloques sin necesidad de acceder a todo el conjunto de validadores. Ocurre cada 2 años en promedio, sin embargo, puede haber "períodos secos" varias veces más largos que el promedio sin que se dé uno. Entonces, si su validador es seleccionado... ¡felicidades! 🥳
-
-A sync committee is a randomly selected group of [validators](staking-glossary.md#validator) that refresh every \~27 hours. Their purpose is to add their [signatures](staking-glossary.md#signing) to valid block headers. Sync committees allow [light clients](staking-glossary.md#light-clients) to keep track of the head of the blockchain without needing to access the entire validator set. Occurs every 2 years on average, however, there can be "dry spells" multiple times longer than the average without being given one. So if your validator is selected... congratulations! 🥳
 
 ## voto destino
 
@@ -428,39 +424,39 @@ Aquí hay ejemplos de cómo cambia el saldo efectivo:
 * Si el saldo actual se redujo de 22 ETH a 21,76 ETH, el saldo efectivo será de **22,00 ETH**.
 * Si el saldo actual aumenta a 22,25 **y** el saldo efectivo es de 21 ETH, el saldo efectivo aumentará a 22 ETH.
 
-## Validator lifecycle
+## ciclo de vida del validador
 
-#### 1. Deposited
+#### 1. Depositar
 
-32 ETH has been deposited to the ETH1 deposit-contract and this state will be kept for around 7 hours. This offers security in case the Ethereum chain gets attacked.
+Se han depositado 32 ETH en el [#contrato-de-deposito](staking-glossary.md#contrato-de-deposito "mention") y este estado se mantendrá durante unas 7 horas. Esto ofrece seguridad en caso de que la cadena Ethereum sea atacada.
 
-#### 2. Pending
+#### 2. Pendiente
 
-Waiting for activation on the [Beacon Chain](staking-glossary.md#beacon-chain).
+Esperando la activación en el [Beacon Chain](staking-glossary.md#beacon-chain).
 
-Before validators enter the [validator queue](staking-glossary.md#validator-queue), they need to be voted in by other active validators. This occurs every 4 hours.
+Antes de que los validadores ingresen al la [#cola-de-validacion](staking-glossary.md#cola-de-validacion "mention"), necesitan ser votados por otros validadores activos. Esto ocurre cada 4 horas.
 
-#### 3. Active validator
+#### 3. Validador activo
 
-Currently attesting and proposing blocks.
+Actualmente atestando y proponiendo bloques.
 
-The validator will stay active until:
+El validador permanecerá activo hasta que:
 
-* Its balance drops below 16 ETH (ejected).
-* Voluntary exit.
-* It gets slashed.
+* Su saldo cae por debajo de 16 ETH (expulsado).
+* Salida voluntaria.
+* Sea slashed.
 
 #### 4. Slashing validator
 
-The Validator has been malicious and will be slashed and kicked out of the system.
+El validador ha sido malicioso y será cortado y expulsado del sistema.
 
-> A _**Penalty**_ is a negative reward (e.g. for going offline).\
-> A _**Slashing**_ is a large penalty (≥ 1/32 of balance at stake) and a forceful exit ... **. - Justin Drake**
+> Una _**Penalty**_ es una recompensa negativa (por ejemplo, por desconectarse).\
+> Un _**Slashing**_ es un penalidad grande (≥ 1/32 de saldo en juego) y una salida contundente... **. - Justin Drake**
 
-#### 5. Exiting validator
+#### 5. Salida del validador
 
-* **Ejected**: The validator balance fell below a threshold and was kicked out by the network.
-* **Exited**: Voluntary exit, the withdrawal key holder has the ability to **withdraw** the current balance of the corresponding validator balance.
+* **Expulsado:** El saldo del validador cayó por debajo de un umbral y fue expulsado por la red.
+* **Salida:** Salida voluntaria, el titular de la clave de retiro tiene la capacidad de retirar el saldo actual del saldo del validador correspondiente.
 
 ## grupo de validadores
 
