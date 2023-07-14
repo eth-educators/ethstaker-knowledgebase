@@ -59,7 +59,7 @@ With the **Live USB** that you created during the preparation step, plug it into
 
 ### Get the tools on the computer
 
-Now that you have the offline operations system running, plug in your USB that has `ethdo`, your `address`, and `offline-preperation.json` file. You will likely see a notification appear that the device was detected and clicking on that device will open the file explorer to that device.\
+Now that you have the offline operations system running, plug in your USB that has `ethdo`, your `address`, and `offline-preparation.json` file. You will likely see a notification appear that the device was detected and clicking on that device will open the file explorer to that device.\
 \
 At this point, we are going to be operating in a **Terminal** which will allow us to execute the `ethdo CLI` and create the operation. You can open the Terminal by clicking on `Activities` in the top left and then typing `terminal`. If you get stuck, you can follow a guide [here](https://ubuntu.com/tutorials/command-line-for-beginners#3-opening-a-terminal).&#x20;
 
