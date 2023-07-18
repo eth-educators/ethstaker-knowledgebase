@@ -11,7 +11,7 @@ El SSH es una herramienta de línea de comandos que permite el acceso directo a 
 5. [Generación de llaves SSH ](connect-via-ssh.md#generating-ssh-keys)
 6. [Cambio de puerto SSH predefinido](connect-via-ssh.md#changing-the-default-ssh-port)
 
-Este tutorial no cubrirá la configuración de red necesaria para obtener una IP estática, nombre de host y/o [VPN](http://localhost:5000/o/5TLAFycQGS1YA3kIVVOf/s/x0r5p8oRhI3NM8yvyTPC/), ya que estos temas se tratan en otros tutoriales.
+Este tutorial no cubrirá la configuración de red necesaria para obtener una IP estática, nombre de host y/o [VPN](http://127.0.0.1:5000/o/5TLAFycQGS1YA3kIVVOf/s/x0r5p8oRhI3NM8yvyTPC/), ya que estos temas se tratan en otros tutoriales.
 
 Mientras que el SSH por sí mismo es una gran herramienta, hay algunas limitaciones que pueden ser frustrantes cuando se conecta a una mala conexión a Internet. Por ejemplo, si el internet se cae aunque sea por un segundo (si estás en un carro o tren en movimiento) o cambias de red WiFi, la conexión SSH se cerrará.
 

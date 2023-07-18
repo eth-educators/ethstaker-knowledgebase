@@ -52,7 +52,6 @@
 ## 🔑 Claves del validador
 
 * [Generación segura de claves](claves-del-validador/secure-key-generation.md)
-* [Gestión de claves](claves-del-validador/key-management.md)
 * [(Slashing protection) Protección de cortes](claves-del-validador/slashing-protection.md)
 
 ## 🎛 ESCALANDO NODOS
