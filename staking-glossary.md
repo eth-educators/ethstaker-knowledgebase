@@ -71,7 +71,7 @@
 * [Validator seed phrase / mnemonic](staking-glossary.md#validator-seed-phrase--mnemonic)
 * [Withdrawal address](staking-glossary.md#withdrawal-address)
 
-***
+
 
 ## Archival node
 

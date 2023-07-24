@@ -16,45 +16,39 @@ Staking deposits are processed through the ethereum.org launchpad:
 
 The following screenshots show the deposit process.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-04 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-08 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-12 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-17 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-21 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-25 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-30 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-37 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
-
-
-
-<figure><img src="../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-48-42 Advisories.png" alt=""><figcaption></figcaption></figure>
 
 ### Choose execution client
 
@@ -64,21 +58,23 @@ The following screenshots show the deposit process.
 
 ### Choose consensus client
 
-<figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-49-40 Choose consensus client.png" alt="Choose consensus client"><figcaption></figcaption></figure>
 
 
 
 ### Generate key pairs
 
-<figure><img src="../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14) (1).png" alt="Generate key pairs"><figcaption></figcaption></figure>
 
 ### What is your current operating system?
 
-Select this option&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-51-06 Generate key pairs.png" alt="What is your current operating system?"><figcaption></figcaption></figure>
 
 
 
 ### How do you want to generate your keys?
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-52-05 Generate key pairs (1).png" alt="How do you want to generate your keys"><figcaption></figcaption></figure>
 
 * Download CLI app&#x20;
 * Download Key Gen GUI app&#x20;
