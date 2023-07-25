@@ -39,6 +39,7 @@
 * [Firewalls and subnetting](networking/firewalls-and-subnetting.md)
 * [Brute-force SSH protection](networking/brute-force-ssh-protection.md)
 * [Setting up home VPN access](networking/setting-up-home-vpn-access.md)
+* [Setting up Tailscale VPN](networking/setting-up-tailscale-vpn.md)
 
 ## ⛓ Validator Clients
 
