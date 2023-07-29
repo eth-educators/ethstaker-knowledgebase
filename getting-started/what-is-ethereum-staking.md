@@ -4,15 +4,15 @@ Staking is the act of depositing 32 ETH to activate validator software. As a val
 
 ## 💰Earn rewards
 
-Rewards are given for actions that help the network reach consensus. You'll get rewards for running software that properly batches transactions into new blocks and checks the work of other validators because that's what keeps the chain running securely.
+Rewards are given for actions that help the network reach a consensus. You'll get rewards for running software that properly batches transactions into new blocks and checks the work of other validators because that's what keeps the chain running securely.
 
 ## 🔒 Better security
 
 The network gets stronger against attacks as more ETH is staked, as it then requires more ETH to control a majority of the network. To become a threat, you would need to hold the majority of validators, which means you'd need to control the majority of ETH in the system–that's a lot!
 
-## 🌿 More sustainable
+## 🌿 More Sustainable
 
-Stakers don't need energy-intensive computers to participate in a Proof of Stake (PoS) system - just a home computer or (in future) a smartphone. This will make Ethereum better for the environment.
+Stakers don't need energy-intensive computers to participate in a Proof of Stake (PoS) system - just a home computer or (in the future) a smartphone. This will make Ethereum better for the environment.
 
 ## How to stake your ETH
 
@@ -37,7 +37,7 @@ If you don't want or don't feel comfortable dealing with hardware but still want
 
 These options usually walk you through creating a set of validator credentials, uploading your signing keys to them, and depositing your 32 ETH. This allows the service to validate on your behalf.
 
-This method of staking requires a certain level of trust in the provider. To limit counter-party risk, the keys to withdrawal your ETH are usually kept in your possession.
+This method of staking requires a certain level of trust in the provider. To limit counter-party risk, the keys to withdrawing your ETH are usually kept in your possession.
 
 ### 🪺 Pooled staking
 
@@ -63,10 +63,10 @@ Many centralized exchanges provide staking services if you are not yet comfortab
 
 The trade-off here is that centralized providers consolidate large pools of ETH to run large numbers of validators. This can be dangerous for the network and its users as it creates a large centralized target and point of failure, making the network more vulnerable to attack or bugs.
 
-If you don't feel comfortable holding your own keys, that's okay. These options are here for you. In the meantime, consider checking out the [ethereum.org wallets page](https://ethereum.org/wallets/), where you can get started learning how to take true ownership over your funds. When you're ready, come back and level up your staking game by trying one of the self-custody pooled staking services offered.
+If you don't feel comfortable holding your own keys, that's okay. These options are here for you. In the meantime, consider checking out the [ethereum.org wallets page](https://ethereum.org/wallets/), where you can get started learning how to take true ownership of your funds. When you're ready, come back and level up your staking game by trying one of the self-custody pooled staking services offered.
 
+***
 
-
-As you may have noticed, there are many ways to participate in Ethereum staking. These paths target a wide range of users and ultimately are each unique and vary in terms of risks, rewards, and trust assumptions. Some are more decentralized, battle-tested and/or risky than others. We provide some information on popular projects in the space, but always do your own research before sending ETH anywhere.
+As you may have noticed, there are many ways to participate in Ethereum staking. These paths target a wide range of users and ultimately are each unique and vary in terms of risks, rewards, and trust assumptions. Some are more decentralized, battle-tested, and/or risky than others. We provide some information on popular projects in the space but always do your own research before sending ETH anywhere.
 
 [Source ↗](https://ethereum.org/en/staking/)
