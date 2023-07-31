@@ -15,7 +15,7 @@
 
 * [My validator is offline! What do I do?](help/validator-offline.md)
 * [Missed attestations! What can I do?](help/missed-attestations.md)
-* [I'm worried about downtime 😔](help/downtime-explained.md)
+* [I'm worried about downtime!](help/downtime-explained.md)
 * [I'm worried about slashing 🔪](help/slashing-explained.md)
 * [Common errors and mistakes](help/common-errors-mistakes.md)
 
