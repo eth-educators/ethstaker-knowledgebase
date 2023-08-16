@@ -4,7 +4,7 @@
 
 The penalty for missing attestations is exactly the same as the reward for a successful one. Any downtime penalty will be recovered in the same amount of uptime.
 
-[Proposing a block is rare](../rewards/proposal-frequency.md). Depending on the size of the [validator pool](../staking-glossary.md#validator-pool), a single validator will on average only propose a block every few months. If you are unlucky enough to be offline at the time that your validator is asked to propose a block, that's also ok.
+[Proposing a block is rare](../ganjaran/proposal-frequency.md). Depending on the size of the [validator pool](../staking-glossary.md#validator-pool), a single validator will on average only propose a block every few months. If you are unlucky enough to be offline at the time that your validator is asked to propose a block, that's also ok.
 
 The Ethereum network is robust and designed to handle these situations. If you miss your block proposal, the [slot](https://github.com/Buttaa/ethstaker/blob/main/help/staking-glossary.md#slot) that should have contained your block will be empty. Other than the lost [rewards](https://github.com/Buttaa/ethstaker/blob/main/help/rewards/chain-rewards.md) from missing the block proposal, there are **no penalties or slashing** that occurs from a missed block proposal.
 

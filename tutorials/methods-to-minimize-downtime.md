@@ -36,5 +36,5 @@ There will be times when you are offline and are missing attestations, do not st
 
 For more information about downtime see our helper posts:&#x20;
 
-* [I'm worried about downtime 😔](../help/downtime-explained.md)
-* [I'm worried about slashing 🔪](../help/slashing-explained.md)
+* [I'm worried about downtime 😔](../tolong/downtime-explained.md)
+* [I'm worried about slashing 🔪](../tolong/slashing-explained.md)

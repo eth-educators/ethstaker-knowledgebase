@@ -1,62 +1,62 @@
 ---
-description: '"Welcoming First, Knowledgeable Second"'
+description: '"Selamat datang didahulukan, Pengetahuan Kemudian"'
 ---
 
-# EthStaker knowledge base
+# Pengetahuan asas EthStaker
 
-## Welcome to the EthStaker Knowledge base!
+## Selamat datang ke pengetahuan asas EthStaker!
 
-An unbiased, open-source collection of useful information and concepts about Ethereum staking. If you're looking to get started staking on Ethereum or simply to learn more about how the network is secured through [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, you've come to the right place!
+Tidak berat sebelah, koleksi sumber terbuka untuk informasi dan konsep mengenai Ethereum staking. Jikalau anda sedang mencari maklumat untuk memulakan staking di Ethereum atau hanya ingin belajar bagaimana rangkaian ini selamat menerusi [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, anda berada di tempat yang betul!
 
-## 🔗 Useful Links
+## 🔗 Pautan Berguna
 
-* [Staking glossary](staking-glossary.md)
+* [Staking glosar](staking-glossary.md)i
 * [Staking FAQ](faq.md)
 
-## 🚀 Getting started
+## 🚀 Bermula
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
+* Apa itu [Ethereum staking?](getting-started/what-is-ethereum-staking.md)
+* Mengoperasikan [node tanpa ETH](getting-started/ethereum-node.md)
+* Penjelasan proses [Deposit](getting-started/deposit-process.md)
 
-### **🚨 HELP!**
+### **🚨 TOLONG!**
 
-* [My validator is offline! What do I do?](help/validator-offline.md)
-* [Missed attestations! What can I do?](help/missed-attestations.md)
-* [I'm worried about downtime 😔](help/downtime-explained.md)
-* [I'm worried about slashing 🔪](help/slashing-explained.md)
+* V[alidator aku offline! Apa boleh saya buat?](tolong/validator-offline.md)
+* Terlepas pengesahan[! Apa boleh saya buat?](tolong/missed-attestations.md)
+* Saya risau masa henti beroperasi[ 😔](tolong/downtime-explained.md)
+* Saya risau pasal[ slashing 🔪](tolong/slashing-explained.md)
 
-### 💰 Rewards
+### 💰 Ganjaran
 
-* [How does my validator earn ETH?](rewards/chain-rewards.md)
-* [Block proposal frequency](rewards/proposal-frequency.md)
+* Bagaimana [validator peroleh ETH?](ganjaran/chain-rewards.md)
+* Kekerapan [Block proposal](ganjaran/proposal-frequency.md)
 
 ### 💻 Hardware
 
-* [Hardware requirements](hardware/hardware-requirements.md)
-* [Hardware examples](hardware/hardware-examples/)
+* Keperluan [Hardware](hardware/hardware-requirements.md)
+* Contoh [Hardware](hardware/hardware-examples/)
 
 ### ⛓️ Validator Clients
 
-* [Validator clients explained](validator-clients/validator-clients-explained.md)
+* [Validator clients](validator-clients/validator-clients-explained.md)
 * [Execution clients](validator-clients/execution-clients.md)
 * [Consensus clients](validator-clients/consensus-clients.md)
-* [Checkpoint sync](validator-clients/checkpoint-sync.md)
+* [Checkpoint s](validator-clients/checkpoint-sync.md)elari
 * [Validator effectiveness](validator-clients/validator-effectiveness.md)
 * [MEV boost](validator-clients/mev-boost.md)
 
-## Can I contribute to the EthStaker knowledge base?
+## Bolehkah saya menyumbang kepada Pengetahuan asas EthStaker?
 
-Yes! This is a living documentation site, meaning we need the community's help to maintain and update the content. Any contribution, from writing whole sections and translations to correcting spelling and grammar mistakes will be greatly appreciated.
+Boleh! Ini adalah website dokumentasi secara live, bermakna kita perlukan pertolongan komuniti untuk mengekal dan kemas kini isi kandungannya. Sebarang sumbangan, daripada menulis seluruh bahagian, menterjemah, atau pembetulan sebarang ejaan amat dihargai.
 
-You can earn GitPOAPs by contributing directly to the EthStaker Knowledge Base (a [contributor↗](https://www.gitpoap.io/gp/881)) and by asking a question that leads to content being created (a [supporter↗](https://www.gitpoap.io/gp/923)).
+Anda boleh peroleh GitPOAPs daripada menyumbang secara terus kepada Pengetahuan asas EthStaker (a [contributor↗](https://www.gitpoap.io/gp/881)) dan secara bertanya soalan yang boleh menyebabkan kandungan baru ditambah (a [supporter↗](https://www.gitpoap.io/gp/923)).
 
 [![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
 
-To suggest changes or add new content please visit our [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) or if you have any questions please join our [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
+Untuk sebarang cadangan perubahan dan penambahan kandungan sila lawati [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) atau mempunyai sebarang pertanyaan sila sertai [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
 
-### ✏️ Get Involved
+### ✏️ Melibatkan diri
 
-* [How to contribute](get-involved/how-to-contribute.md)
+* Bagaimana untuk menyumbang
 
 **Supported by a GitBook Community License ♥️**

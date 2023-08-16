@@ -1,17 +1,17 @@
-# Staking glossary
+# Staking glosari
 
 * [Archival node](staking-glossary.md#archival-node)
-* [Attestation](staking-glossary.md#attestation)
+* [Attestation](staking-glossary.md#attestation) (Pengesahan)
 * [Attestation aggregator](staking-glossary.md#attestation-aggregator)
 * [Beacon chain](staking-glossary.md#beacon-chain)
-* [Block](staking-glossary.md#block)
+* [Block](staking-glossary.md#block) (Blok)
 * [Block proposer](staking-glossary.md#block-proposer)
 * [Block status](staking-glossary.md#block-status)
   * [Proposed](staking-glossary.md#proposed)
   * [Scheduled](staking-glossary.md#scheduled)
   * [Missed/skipped](staking-glossary.md#missedskipped)
   * [Orphaned](staking-glossary.md#orphaned)
-* [Canonical chain](staking-glossary.md#canonical-chain)
+* [Canonical chain](staking-glossary.md#canonical-chain) (Rantaian utama)
 * [Chain head](staking-glossary.md#chain-head)
 * [Checkpoints](staking-glossary.md#checkpoints)
 * [Client](staking-glossary.md#client)
@@ -75,21 +75,21 @@
 
 ## Archival node
 
-* Stores everything kept in a [full node](staking-glossary.md#full-node) and builds an archive of historical states.
-* Archive nodes are required if you want to query something like an account balance at a particular block.
-* This data represents units of terabytes (more than 20TB for Geth), which makes archive nodes less attractive for most users but can be handy for services like block explorers, wallet vendors, and chain analytics.
+* Menyimpan semua di satu [full node](staking-glossary.md#full-node) dan membina satu arkib sejarah penuh.
+* Archive nodes diperlukan jika anda ada pertanyaan seperti baki akaun di dalam sebuah blok.
+* Data ini diwakili dalam unit terabytes (lebih daripada 20TB untuk Geth), menjadikan archive nodes kurang menarik bagi kebanyakan pengguna tetapi sangat berguna untuk service seperti meneroka blok, vendor dompet, dan analisa rantaian.
 
-Syncing clients in any mode other than archive will result in pruned blockchain data. This means, there is no archive of all historical states but the full node is able to build them on demand.
+Syncing clients dalam apa-apa mode selain daripada archive akan mengakibatkan pruned blockchain data. Ini bermakna mode lain tiada arkib sejarah penuh tetapi full node boleh membinanya jikalau diminta.
 
-Archive nodes aren't required to participate in block validation and can theoretically be built from scratch by simply replaying the blocks from genesis.
+Archive nodes tidak diperlukan untuk terlibat dengan pengesahan blok dan secara teori ia boleh membina semula daripada genesis.
 
 [**Source ↗**](https://ethereum.org/en/developers/docs/nodes-and-clients/#archive-node)
 
-## Attestation
+## Attestation (Pengesahan)
 
-Votes by [validators](staking-glossary.md#validator) which confirm the validity of a [block](staking-glossary.md#block). At designated times, each validator is responsible for publishing different attestations that formally declare a validator's current view of the chain, including the last finalized [checkpoint](staking-glossary.md#checkpoints) and the current [head of the chain](staking-glossary.md#chain-head).
+Undi by daripada [validators](staking-glossary.md#validator) yang setuju dengan kesahihan oleh sebuah [block](staking-glossary.md#block) (blok). Pada masa yang tertentu, setiap validator bertanggungjawab untuk menyiarkan pelbagai pengesahan yang secara rasmi mengistiharkan pandangan semasa validator's terhadap rantaian, ini termasuk final [checkpoint](staking-glossary.md#checkpoints) terakhir dan [head of the chain](staking-glossary.md#chain-head) semasa.
 
-Every active validator creates one attestation per [epoch](staking-glossary.md#epoch) (\~6.5 minutes), consisting of the following components:
+Setiap validator yang aktif membuat satu pengesahan setiap [epoch](staking-glossary.md#epoch) (\~6.5 minutes), mengandungi komponen yang berikut:
 
 | Component                                                                          | Description                                                                                                                                                                                                                  |
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -101,140 +101,140 @@ Every active validator creates one attestation per [epoch](staking-glossary.md#e
 | **Target**                                                                         | Part of the finality vote indicating what the validators see as the first block in the current epoch.                                                                                                                        |
 | **Signature**                                                                      | A BLS signature that aggregates the signatures of individual validators.                                                                                                                                                     |
 
-An important component related to effectiveness is the chain head vote. This is a vote the validator makes about what it believes is the latest valid block in the chain at the time of attesting. The structure of a chain head vote consists of the following components:
+Salah satu komponen penting berkaitan dengan keberkesanan ialah undi chain head. Ini merupakan undi dibuat validator bahawanya percaya blok itu adalah blok semasa dan sahih di rantaian pada masa pengesahan dibuat. Struktur undi chain head mengandungi komponen yang berikut:
 
-* Slot - Defines _where_ the validator believes the current chain head to be.
-* Hash - Defines _what_ the validator believes the current chain head to be to be.
+* Slot - Definasi dimana validator percaya chain head semasa ialah apa.
+* Hash - Definasi apa validator percaya chain head semasa ialah apa.
 
-The combination uniquely defines a point on the blockchain. By combining enough of these chain head votes the Ethereum network reaches consensus about the state of the chain.
+Kombinasi yang unik ini tentukan satu titik pada rantaian. Dengan mengabungkan secukupnya undi chain head rangkaian Ethereum mencapai konsesi keadaan rantaian.
 
 [**Source (ethereum.org) ↗**](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/attestations/)\
 [**Source (Attestant) ↗**](https://www.attestant.io/posts/defining-attestation-effectiveness/)
 
 ## Attestation aggregator
 
-Although the data in each [attestation](staking-glossary.md#attestation) is relatively small, it mounts up quickly with tens of thousands of [validators](staking-glossary.md#validator). As this data will be stored forever on the blockchain, minimizing it is important, and this is done through a process known as attestation aggregation.
+Walaupun data pada setiap [attestation](staking-glossary.md#attestation) adalah kecil, ia mengunung cepat kepada berpuluh ribu [validators](staking-glossary.md#validator). Memandangkan data ini akan disimpan selamanya pada rantaian, minimizing memainkan peranan yang sangat penting. Ini dilakukan melalui proses yang dikenali sebagai attestation aggregation.
 
-Aggregation takes multiple attestations that have all chosen to vote with the same committee, chain head vote, and finality vote, and merges them together into a single aggregate attestation.
+Aggregation mengambil pelbagai attestations yang telah dipilih untuk mengundi dengan committee yang sama bagi chain head vote, dan undi muktamad, selepas itu mencantumkan mereka kepada single aggregate attestation.
 
-An aggregate attestation differs in two ways from a simple attestation. First, there are multiple validators listed. Second, the signature is an aggregate signature made from the signatures of the matching simple attestations. Aggregate attestations are very efficient to store, but introduce additional communications and computational burdens.
+Satu aggregate attestation berbeza dalam dua cara dengan satu simple attestation. Yang pertama, ia mempunyai pelbagai validators disenarai. Yang kedua, the signature is an aggregate signature made from the signatures of the matching simple attestations. Aggregate attestations adalah sangat efisien untuk disimpan, tetapi mengandungi tambahan komunikasi dan beban komputasi.
 
-If every validator was required to aggregate all attestations it would quickly overload the network with the number of communications required to pass every attestation to every validator. Equally, if aggregating were purely optional then validators will not bother to waste their own resources doing so. Instead, a subset of validators is chosen by the network to carry out aggregation duties1. It is in their interest to do a good job, as aggregate attestations with higher numbers of validators are more likely to be included in the blockchain so the validator is more likely to be rewarded.
+Jika setiap validator diwajibkan aggregate semua attestations ia akan menyebabkan rangkaian segera terlebih beban dengan komunikasi yang diperlukan untuk hantar setiap attestation kepada setiap validator. Perkara yang sama, jika aggregating adalah pilihan validators tidak akan bazirkan sumber untuk membuat demikian. Oleh itu, satu subset validators dipilih oleh rangkaian untuk menjalankan tugas aggregation duties. Ini memanfaatkan jikalau tugas dilakukan dengan baik, kerana aggregate attestations dengan validators yang banyak mempunyai lebih kebarangkalian disertakan dalam rantaian menyebabkan validator juga lebih kebarangkalian menerima ganjaran.
 
-Validators that carry out this aggregation process are known as aggregators.
+Validators yang menjalankan tugas aggregation process dipanggil aggregators.
 
 [_**Source ↗**_](https://www.attestant.io/posts/defining-attestation-effectiveness/)
 
 ## Beacon chain
 
-A major part of the work of the beacon chain is storing and managing the registry of [validators](staking-glossary.md#validator) – the set of participants are responsible for running the Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) system.
+Satu bahagian penting tugas penting beacon chain ialah menyimpan dan menguruskan registry of [validators](staking-glossary.md#validator) – senarai perserta yang bertanggunjawab untuk mengoperasikan Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) sistem.
 
-This registry is used to:
+Senarai ini digunakan untuk:
 
-* Assigns validators their duties.
+* Tugaskan validators tugas mereka.
 * Finalizes [checkpoints](staking-glossary.md#checkpoints).
-* Perform a protocol level random number generation (RNG).
-* Progress the beacon chain.
-* Vote on the [head of the chain](staking-glossary.md#chain-head) for the fork choice.
+* Melaksanakan protokol level random number generation (RNG).
+* Kemajuan beacon chain.
+* Undi pada [head of the chain](staking-glossary.md#chain-head) untuk fork choice.
 
 [_**Source ↗**_](https://notes.ethereum.org/@djrtwo/Bkn3zpwxB#High-level-overview)
 
-## Block
+## Block (Blok)
 
-A block is a bundled unit of information that include an ordered list of transactions and consensus-related information. Blocks are proposed by [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, at which point they are shared across the entire peer-to-peer network, where they can easily be independently verified by all other nodes. Consensus rules govern what contents of a block are considered valid, and any invalid blocks are disregarded by the network. The ordering of these blocks and the transactions therein create a deterministic chain of events with the end representing the current state of the network.
+Satu blok ialah bundel unit informasi yang terdiri daripada satu senarai transaksi dan maklumat konsesi. Blok dicadangkan oleh [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, dimana ia dikongsi seluruh rangkaian melalui peer-to-peer, ia juga boleh disahkan oleh nodes yang lain. Peraturan konsesi Consensus rules govern mengawal apa di dalam blok yang sah, dan jikalau terdapat blok yang tidak sah ia akan diabaikan oleh rangkaian. Susun catur blok dan transaksi sebegitu mencipta rantaian yang akhirnya menwakili keadaan semasa rangkaian.&#x20;
 
 ## Block proposer
 
-A chosen [validator](staking-glossary.md#validator) by the [Beacon Chain](staking-glossary.md#beacon-chain) to propose the next [block](staking-glossary.md#block). There can only be one valid block per [slot](staking-glossary.md#slots).
+Satu [validator](staking-glossary.md#validator) dipilih oleh [Beacon Chain](staking-glossary.md#beacon-chain) untuk mencadangkan [block](staking-glossary.md#block) yang seterusnya. Hanya ada satu blok yang sah untuk setiap [slot](staking-glossary.md#slots).
 
 ## Block status
 
 ### Proposed
 
-The block was proposed by a validator.
+Blok dicadangkan oleh validator.
 
 ### Scheduled
 
-Validators are currently submitting data.
+Validators sedang menyalurkan data.
 
 ### Missed/skipped
 
-The proposer didn’t propose the block within the given time frame, so the block was missed/skipped.
+Pencadang tidak mencadangkan blok pada masa yang ditentukan, oleh itu blok missed/skipped.
 
 ### Orphaned
 
-In order to understand this, let us look at the diagram below "1, 2, 3, ... ,9" represent the slots.
+Untuk memahami, mari kita tengok penerangan di bawah "1, 2, 3, ... ,9" mewakili slots.
 
-1. Validator at slot 1 proposes the block “a”.
-2. Validator at slot 2 proposes “b”.
-3. Slot 4 is being skipped because the validator didn’t propose a block (e.g.: offline).
-4. At slot 5/6 a fork occurs: Validator(5) proposes a block, but validator(6) doesn’t receive this data (e.g.: the block didn’t reach them fast enough). Therefore Validator(6) proposes its block with the most recent information it sees from validator(3).
-5. The [fork choice rule ↗](https://notes.ethereum.org/@vbuterin/rkhCgQteN?type=view#LMD-GHOST-fork-choice-rule) is the key here - It decides which of the available chains is the canonical one.
+1. Validator di slot 1 mencadangkan the block “a”.
+2. Validator at slot 2 mencadangkan “b”.
+3. Slot 4 dilangkau kerana tidak mencadangkan blok (e.g.: offline).
+4. Di slot 5/6 a fork occurs: Validator(5) mencadangkan blok, tetapi validator(6) tidak menerima data tersebut (e.g.: the block didn’t reach them fast enough). Oleh itu Validator(6) mencadangkan bloknya decent informasi yang paling baru daripada validator(3).
+5. The [fork choice rule ↗](https://notes.ethereum.org/@vbuterin/rkhCgQteN?type=view#LMD-GHOST-fork-choice-rule) ialah kuncinya - Ia memutuskan mana satu antara dua rangkaian itu ialah canonical one.
 
-## Canonical chain
+## Canonical chain (Rantaian utama)
 
-The canonical chain is the chain which is agreed to be the 'main' chain and not a [fork](staking-glossary.md#fork).
+The canonical chain ialah rantaian yang dipersutujui untuk menjadi 'main' chain dan bukan [fork](staking-glossary.md#fork).
 
 ## Chain head
 
-The latest block received by a validator. This does not necessarily mean it is the head of the [canonical chain](staking-glossary.md#canonical-chain).
+Blok terkini yang diterima oleh validator. Ini tidak bermakna ia adalah head of the [canonical chain](staking-glossary.md#canonical-chain).
 
 ## Checkpoints
 
-The [Beacon Chain](staking-glossary.md#beacon-chain) has a tempo divided into [slots](staking-glossary.md#slot) (12 seconds) and [epochs](staking-glossary.md#epoch) (32 slots). The first slot in each epoch is a checkpoint. When a supermajority of validators [attests](staking-glossary.md#attestation) to the link between two checkpoints, they can be [justified](staking-glossary.md#justification) and then when another checkpoint is justified on top, they can be [finalized](staking-glossary.md#finalization).
+[Beacon Chain](staking-glossary.md#beacon-chain) menpunyai tempo dibahagikan kepada [slots](staking-glossary.md#slot) (12 seconds) dan [epochs](staking-glossary.md#epoch) (32 slots). Slot pertama disetiap epoch ialah checkpoint. Apabila ada supermajority validators [attests](staking-glossary.md#attestation) kepada pautan diantara dua checkpoints, ia boleh dijustifikasi dan apabila salah satu checkpoint dijustifikasi berada di atas, ia boleh [finalized](staking-glossary.md#finalization)(dimuktamadkan).
 
 ## Client
 
-An implementation of Ethereum software that verifies transactions in a block. These can be [consensus layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#consensus-clients) or [execution layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients). Each validator needs both an execution layer client and a consensus layer client.
+Satu pelaksanaan perisian Ethereum that yang verifikasi transaksi di dalam sebuah blok. Ia terdiri daripada [consensus layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#consensus-clients) atau [execution layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients). Setiap validator memerlukan kedua-dua execution layer client dan consensus layer client.
 
 ## Committees
 
-A group of at least 128 [validators](staking-glossary.md#validator) is assigned to validate blocks in each [slot](staking-glossary.md#slot). One of the validators in the committee is the aggregator, responsible for aggregating the signatures of all other validators in the committee that agree on an attestation. Not to be confused with [sync committees](staking-glossary.md#sync-committee).
+Satu kumpulan terdiri sekurang-kurangnya 128 [validators](staking-glossary.md#validator) ditugaskan untuk mengesahkan blok di setiap [slot](staking-glossary.md#slot). Salah satu validators di dalam committee ialah aggregator, bertanggungjwab untuk menagregatkan signatures kepada validators lain di dalam committee yang bersetuju untuk attestation. Tidak bersamaan dengan [sync committees](staking-glossary.md#sync-committee).
 
 ## Consensus layer
 
-Ethereum's consensus layer is the network of [consensus clients](validator-clients/consensus-clients.md).
+Ethereum's consensus layer ialah rangkaian [consensus clients](validator-clients/consensus-clients.md).
 
 ## Deposit contract
 
-The Deposit contract is the **gateway** to Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) and is managed **through a smart contract** on Ethereum. The smart contract accepts any transaction with a minimum amount of 1 ETH and valid [input data](staking-glossary.md#input-data). Ethereum beacon nodes listen to the deposit contract and use the input data to credit each validator.
+Deposit contract ialah **gateway** kepada Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) dan dikendali melalui **smart contract** di Ethereum. Smart contract tersebut menerima apa-apa transaksi dengan jumlah minima 1 ETH dan [input data](staking-glossary.md#input-data) sah. Ethereum beacon nodes mendengar deposit contract tersebut dan mengunakan input data untuk kredit ke setiap validator.
 
-[_More info on the deposit contract_](getting-started/deposit-process.md)
+[_Penjelasan proses deposit_](getting-started/deposit-process.md)
 
 ## Effectiveness
 
-The average time it takes for a validator's attestations to be included in the chain.
+Purata masa diperlukan untuk validator's attestations dimasukkan kepada rangkaian.
 
 [_Check out our page explaining validator effectiveness in more detail_](validator-clients/validator-effectiveness.md)
 
 ## Epoch
 
-**1 Epoch = 32** [**Slots**](staking-glossary.md#slot)\
-Represents the number of 32 slots (12 seconds) and takes approximately **6.4 minutes.** Epochs play an important role when it comes to the [validator queue](staking-glossary.md#validator-queue) and [finality](staking-glossary.md#finalization).
+**1 Epoch = 32** [**Slot**](staking-glossary.md#slot)\
+Mewakili 32 slot (12 saat) dan mengambil lebih kurang **6.4 minit.** Epochs memainkan peranan yang penting untuk [validator queue](staking-glossary.md#validator-queue) dan [finality](staking-glossary.md#finalization).
 
 ## Execution layer
 
-Ethereum's execution layer is the network of [execution clients](validator-clients/execution-clients.md).
+Ethereum's execution layer rangkaian [execution clients](validator-clients/execution-clients.md).
 
 ## Finalization
 
-one-thirdIn Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) at least two third of the validators have to be honest, therefore if there are two competing [epochs](staking-glossary.md#epoch) and one third of the [validators](staking-glossary.md#validator) decide to be malicious, they will receive a penalty. Honest validators will be rewarded.
+Jikalau terdapat tiga kumpulan pada Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) sekurang-kurang dua daripada tiga kumpulan tersebut haruslah berlaku jujur, apabila terdapat dua [epochs](staking-glossary.md#epoch) bertanding dan satu pertiga daripada kumpulan [validators](staking-glossary.md#validator) memutuskan untuk berniat jahat, mereka akan menerima penalti. Validators yang jujur akan diberi ganjaran.
 
-In order to determine if an epoch has been finalized, validators have to agree on the latest two epochs in a row, then all previous Epochs can be considered as finalized.
+Untuk menentukan jikalau satu epoch telah dimuktamadkan, validators perlu bersetuju untuk dua epochs terbaru sekaligus berturut-turut, selepas itu semua Epochs sebelumnya boleh dikira sebagai muktamad.
 
 ### Finality issues
 
-If there are less than 66.6% of the total possible votes (the [participation rate](staking-glossary.md#participation-rate)) in a specific epoch, the epoch cannot be [justified](staking-glossary.md#justification). As mentioned in "[Finalization](staking-glossary.md#finalization)", three justified epochs in a row are required to reach finality. As long as the chain cannot reach this state it has finality issues.
+Jikalau kurang daripada 66.6% jumlah keseluruhan undi (the [participation rate](staking-glossary.md#participation-rate)) di dalam sesebuah epoch, epoch itu tidak boleh [justified](staking-glossary.md#justification) (dijustifikasi). Seperti penjelasan di "[Finalization](staking-glossary.md#finalization)", tiga three justified epochs berturut-turut diperlukan untuk mencapai finality. Selagi rangkaian tidak mencapai keadaan ini ia akan mempunyai isu finality.
 
-During finality issues, the validator [entry queue](staking-glossary.md#validator-queue) will be halted and new validators will not be able to join the network, however, inactive validators with less than 16 ETH balance will be exited from the network. This leads to more stability in the network and a higher participation rate, allowing the chain to eventually finalize.
+Semasa finality issues, validator [entry queue](staking-glossary.md#validator-queue) akan terhenti dan validators baru tidak akan dapat sertai rangkaian, tetapi, inactive validators tidak aktif yang kurang daripada 16 ETH akan dikeluarkan daripada rangkaian. Ini menjadikan rangkaian lebih stabil dan penyertaan lebih tinggi, juga membenarkan rantaian itu akhirnya dimuktamadkan.
 
 ## Fork
 
-A change in protocol causing the creation of an alternative chain or a temporal divergence into two potential block paths. Also see [hard fork](staking-glossary.md#hard-fork)
+Satu perubahan protokol yang menyebabkan kelahiran satu rantai alternatif atau kejadian berlaku dua laluan blok. Sila baca [hard fork](staking-glossary.md#hard-fork)
 
 ## Full node
 
-Stores and maintains the full blockchain data on disk. It serves blockchain data upon request and helps support the network by participating in block validation and by verifying all blocks and states. All states can be derived from a Full node.
+Menyimpan dan mengekalkan data penuh rantaian blok pada disk. It serves blockchain data upon request and helps support the network by participating in block validation and by verifying all blocks and states. All states can be derived from a Full node.
 
 [**Source ↗**](https://www.quicknode.com/guides/infrastructure/ethereum-full-node-vs-archive-node)
 
@@ -342,7 +342,7 @@ Demonstrating cryptographically that a message or transaction was approved by th
 
 If your validator commits a slashable offense it will be force exited from the validator pool and will have ETH deducted depending on the circumstances of the event. Typically, this will be 1-2 ETH but could be [significantly more ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/#slashing).
 
-This is not something to be overly worried about, there are [simple steps](help/slashing-explained.md) you can take to make sure that you don't invoke a slashing event.
+This is not something to be overly worried about, there are [simple steps](tolong/slashing-explained.md) you can take to make sure that you don't invoke a slashing event.
 
 There are three ways a validator can be slashed, all of which amount to the dishonest proposal or attestation of blocks.
 

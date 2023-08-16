@@ -1,28 +1,28 @@
 # Table of contents
 
-* [EthStaker knowledge base](README.md)
-* [Staking glossary](staking-glossary.md)
+* [Pengetahuan asas EthStaker](README.md)
+* [Staking glosari](staking-glossary.md)
 * [Staking FAQ](faq.md)
 
 ## 🚀 Getting Started
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
+* [Apa itu Ethereum staking?](getting-started/what-is-ethereum-staking.md)
+* [Mengoperasikan node tanpa ETH](getting-started/ethereum-node.md)
+* [Penjelasan proses deposit](getting-started/deposit-process.md)
 * [Withdrawal process explained](getting-started/withdrawal-process-explained.md)
 
-## 🚨 Help!
+## 🚨 TOLONG!
 
-* [My validator is offline! What do I do?](help/validator-offline.md)
-* [Missed attestations! What can I do?](help/missed-attestations.md)
-* [I'm worried about downtime 😔](help/downtime-explained.md)
-* [I'm worried about slashing 🔪](help/slashing-explained.md)
-* [Common errors and mistakes](help/common-errors-mistakes.md)
+* [My validator is offline! What do I do?](tolong/validator-offline.md)
+* [Missed attestations! What can I do?](tolong/missed-attestations.md)
+* [I'm worried about downtime 😔](tolong/downtime-explained.md)
+* [I'm worried about slashing 🔪](tolong/slashing-explained.md)
+* [Common errors and mistakes](tolong/common-errors-mistakes.md)
 
-## 💰 Rewards
+## 💰 Ganjaran
 
-* [How does my validator earn ETH?](rewards/chain-rewards.md)
-* [Block proposal frequency](rewards/proposal-frequency.md)
+* [How does my validator earn ETH?](ganjaran/chain-rewards.md)
+* [Block proposal frequency](ganjaran/proposal-frequency.md)
 
 ## 💻 Hardware
 
