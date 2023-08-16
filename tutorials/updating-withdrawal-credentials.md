@@ -1,6 +1,6 @@
 # Updating Withdrawal Credentials
 
-As described in [Validator sweeping](../getting-started/withdrawal-process-explained.md#validator-sweeping), the only way to receive rewards from the [Beacon chain](../staking-glossary.md#beacon-chain) or the initial 32 ETH deposit upon a [validator exiting](../staking-glossary.md#5.-exiting-validator) is for a validator to have set a [Withdrawal address](../staking-glossary.md#withdrawal-address) changing their Withdrawal Credentials from `0x00` to `0x01`.
+As described in [Validator sweeping](../getting-started/processo-de-saque.md#validator-sweeping), the only way to receive rewards from the [Beacon chain](../staking-glossary.md#beacon-chain) or the initial 32 ETH deposit upon a [validator exiting](../staking-glossary.md#5.-exiting-validator) is for a validator to have set a [Withdrawal address](../staking-glossary.md#withdrawal-address) changing their Withdrawal Credentials from `0x00` to `0x01`.
 
 It is possible upon validator creation to specify a withdrawal address and, if you have done so, there is no need to update your credentials. In fact, **once your credentials have been set to 0x01 it will not be possible to change them in the future**. This is why it is imperative that when you choose a withdrawal address, you **choose one that you have full control over such as a hardware wallet**. It is heavily recommended to **NOT** choose a wallet on an exchange or third party where you do not control the private keys.
 
@@ -144,13 +144,13 @@ Where `<IP>` is the address of your node, most likely `localhost`
 
 At this point, the submission process and propagation should be near instantaneous. Look up your validator on the [beaconcha.in](https://beaconcha.in/) and see if the withdrawal credentials have been updated. When viewing a validator, there is a `Deposits` section which should note the change of your credentials.&#x20;
 
-At this point, your credentials have been updated and you will automatically receive your Beacon chain rewards as described [here](../getting-started/withdrawal-process-explained.md#validator-sweeping).
+At this point, your credentials have been updated and you will automatically receive your Beacon chain rewards as described [here](../getting-started/processo-de-saque.md#validator-sweeping).
 
 ## FAQ
 
 #### My credentials are 0x01. Do I have to do anything?
 
-Nope. You are all set! You will periodically receive your rewards as defined [here](../getting-started/withdrawal-process-explained.md#validator-sweeping).
+Nope. You are all set! You will periodically receive your rewards as defined [here](../getting-started/processo-de-saque.md#validator-sweeping).
 
 #### How can I change my withdrawal address again?
 

@@ -1,4 +1,4 @@
-# Staking FAQ
+# Perguntas frequentes sobre staking
 
 * [Can I be slashed for being offline?](faq.md#can-i-be-slashed-for-being-offline)
 * [Can I stop running my validator for a few days and then start it back up again?](faq.md#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
@@ -36,7 +36,7 @@
 * [Why is all my RAM being used?](faq.md#why-is-all-my-ram-being-used)
 * [Why the 32 ETH maximum?](faq.md#why-the-32-eth-maximum)
 
-***
+
 
 ## Can I be slashed for being offline?
 

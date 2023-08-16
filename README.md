@@ -2,9 +2,9 @@
 description: '"Primeiro acolhedor, depois conhecedor"'
 ---
 
-# Base de conhecimentos de EthStaker
+# Base de conhecimentos EthStaker
 
-## Bem-vindo a base de conhecimentos de EthStaker!
+## Bem-vindo a base de conhecimentos EthStaker!
 
 Uma coleção imparcial e de código aberto de informações e conceitos úteis sobre participação no Ethereum. Se quiser começar a participar da segurança do Ethereum ou simplesmente saber mais sobre como a rede é protegida por validadores através da [Prova de Participação (PoS)](staking-glossary.md#prova-de-participacao-pos), você veio ao lugar certo!
 
@@ -47,15 +47,15 @@ Uma coleção imparcial e de código aberto de informações e conceitos úteis 
 * [Validator effectiveness](validator-clients/validator-effectiveness.md)
 * [MEV boost](validator-clients/mev-boost.md)
 
-## Posso contribuir para a base de conhecimentos de EthStaker?
+## Posso contribuir para a base de conhecimentos EthStaker?
 
 Sim! Este é um site de documentação vivo, o que significa que precisamos da ajuda de toda a comunidade para manter e atualizar seu conteúdo. Qualquer contribuição, desde escrever seções inteiras, traduções, ou até mesmo corrigir erros de ortografia e gramática, serão muito bem-vindas.
 
-Você pode ganhar GitPOAPs contribuindo diretamente para a Base de Conhecimento de EthStaker (como[ contribuidor↗](https://www.gitpoap.io/gp/881)) ou fazendo perguntas que levem à criação de conteúdo (como [apoiador](https://www.gitpoap.io/gp/923)[↗](https://www.gitpoap.io/gp/923)).
+Você pode ganhar GitPOAPs contribuindo diretamente para a Base de Conhecimento EthStaker (como[ contribuidor↗](https://www.gitpoap.io/gp/881)) ou fazendo perguntas que levem à criação de conteúdo (como [apoiador](https://www.gitpoap.io/gp/923)[↗](https://www.gitpoap.io/gp/923)).
 
 [![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
 
-Para sugerir alterações ou adicionar novos conteúdos, visite nosso [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) ou, se tiver alguma dúvida, entre em nosso [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
+Para sugerir alterações ou adicionar novos conteúdos, visite nosso [Github↗ ](https://github.com/eth-educators/ethstaker-knowledgebase)ou, se tiver alguma dúvida, entre em nosso [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
 
 ### ✏️ Envolva-se
 

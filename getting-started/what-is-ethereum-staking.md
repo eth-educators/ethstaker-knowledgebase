@@ -65,7 +65,7 @@ O trade-off é que os provedores centralizados consolidam grandes pools de ETH p
 
 Se você não se sentir confortável em guardar suas próprias chaves, não tem problema. Essas opções estão aqui para você. Enquanto isso, confira a página de [carteiras na ethereum.org↗](https://ethereum.org/en/wallets/), onde você pode começar a aprender como assumir a verdadeira propriedade sobre seus fundos. Quando estiver pronto, volte e de um level up nos seus conhecimentos de staking experimentando um dos serviços de staking em pool com autocustódia.
 
-***
+
 
 Como você deve ter notado, há muitas maneiras de participar do staking de Ethereum. Esses caminhos têm como alvo uma ampla gama de usuários e, em última análise, cada um deles é único e varia em termos de riscos, recompensas e suposições de confiança. Alguns são mais descentralizados, mais testados na prática e/ou mais arriscados do que outros. Fornecemos algumas informações sobre projetos populares no espaço, mas sempre faça sua própria pesquisa antes de enviar ETH para qualquer lugar.
 

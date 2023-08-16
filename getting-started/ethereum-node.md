@@ -1,21 +1,21 @@
-# Running an Ethereum Node
+# Executando um nó sem ETH
 
 {% hint style="info" %}
-No ETH is required to run a full node! 🥳  
+Não é necessário ETH para executar um nó completo!🥳
 {% endhint %}
 
-## Why run an Ethereum full node?
+## Por que executar um nó completo de Ethereum?
 
-🍎 Contribute to the health of the Ethereum network.
+🍎 Contribua para a saúde da rede Ethereum.
 
-- Check all transactions on the network are valid for yourself.
-- Don't trust, verify.
+* Verifique se todas as transações na rede são válidas por conta própria.
+* Não confie, verifique.
 
-📡 Broadcast your transactions [through your own node](../tutorials/rpc-endpoint.md).
+📡 Transmita suas transações [através de seu próprio nó](../tutorials/rpc-endpoint.md).
 
-- Remove reliance on 3rd parties and intermediaries such as Infura or Alchemy.
-- Increase censorship resistance through decentralization.
+* Remova a dependência de terceiros e intermediários, como Infura ou Alchemy.
+* Aumente a resistência à censura por meio da descentralização.
 
-Running a full node has very similar hardware requirements to running a validating node. The only difference is that a validating nodes [propose blocks](../staking-glossary.md#block-proposer).
+A execução de um nó completo tem requisitos de hardware muito semelhantes aos da execução de um nó de validação. A única diferença é que os nós de validação [propõem blocos](../staking-glossary.md#block-proposer).
 
-If you follow any of the [solo staking guides](../tutorials/solo-staking-guides.md) and complete all the steps apart from the deposit process (which requires 32 ETH) then you will be running a full node!
+Se você seguir qualquer um dos [guias de staking solo ](../tutorials/solo-staking-guides.md)e concluir todas as etapas, exceto o processo de depósito (que requer 32 ETH), você estará executando um nó completo!

@@ -1,15 +1,15 @@
 # Table of contents
 
-* [Base de conhecimentos de EthStaker](README.md)
+* [Base de conhecimentos EthStaker](README.md)
 * [Glossário sobre staking](staking-glossary.md)
 * [Perguntas frequentes sobre staking](faq.md)
 
 ## 🚀 Getting Started
 
 * [O que é staking de Ethereum?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
-* [Withdrawal process explained](getting-started/withdrawal-process-explained.md)
+* [Executando um nó sem ETH](getting-started/ethereum-node.md)
+* [Processo de depósito](getting-started/deposit-process.md)
+* [Processo de saque](getting-started/processo-de-saque.md)
 
 ## 🚨 Help!
 

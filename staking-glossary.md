@@ -1,4 +1,4 @@
-# Glossário sobre participação
+# Glossário sobre staking
 
 * [Archival node](staking-glossary.md#archival-node)
 * [Attestation](staking-glossary.md#attestation)
@@ -71,7 +71,7 @@
 * [Validator seed phrase / mnemonic](staking-glossary.md#validator-seed-phrase--mnemonic)
 * [Withdrawal address](staking-glossary.md#withdrawal-address)
 
-***
+
 
 ## Archival node
 

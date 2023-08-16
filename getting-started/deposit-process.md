@@ -1,88 +1,82 @@
-# Deposit process explained
+# Processo de depósito
 
 {% hint style="warning" %}
-Never blindly trust any links when depositing ETH into the staking contract.
+Nunca confie cegamente em nenhum link ao depositar ETH no contrato de staking.
 
-**Always verify the deposit contract address from MULTIPLE sources:**
+**Sempre verifique o endereço do contrato de depósito em MULTIPLAS fontes:**
 
 [https://ethereum.org/en/staking/deposit-contract ↗](https://ethereum.org/en/staking/deposit-contract/)
 {% endhint %}
 
-Once you have your validator machine setup running both an [Execution Layer client](../validator-clients/execution-clients.md) and [Consensus Layer client](../validator-clients/consensus-clients.md) you are ready to start the deposit process.
+Assim que tiver configurado seu validador para executar um [cliente da Camada de Execução ](../validator-clients/execution-clients.md)e um [cliente da Camada de Consenso](../validator-clients/consensus-clients.md), você estará pronto para iniciar o processo de depósito.
 
-Staking deposits are processed through the ethereum.org launchpad:
+Os depósitos de staking são processados por meio da plataforma de lançamento da ethereum.org:
 
-[https://launchpad.ethereum.org/en/overview ↗](https://launchpad.ethereum.org/en/overview)
+[https://launchpad.ethereum.org/pt-br/overview ↗](https://launchpad.ethereum.org/pt-br/overview)
 
-The following screenshots show the deposit process.
+As capturas de tela a seguir mostram o processo de depósito.
 
-<figure><img src="../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-30-47 Recomendações.png" alt="Descrição do processo de staking"><figcaption></figcaption></figure>
 
-
-
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-32-55 Recomendações.png" alt="Descrição do processo de depósito"><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-33-30 Recomendações.png" alt="Usando o terminal"><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 Uptime.png" alt="Tempo de atividade do validador"><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5.png" alt="Mau comportamento"><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6.png" alt="Gerenciamento de chaves"><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../.gitbook/assets/7.png" alt="Risco de adoção antecipada"><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/8.png" alt="Lista de verificação"><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/9.png" alt="Tela de confirmação"><figcaption></figcaption></figure>
 
 
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+### Selecione o cliente de execução
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-37-38 Escolher cliente execução.png" alt=""><figcaption></figcaption></figure>
 
 
 
-### Choose execution client
+### Selecione o cliente de consenso
 
-<figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure>
-
-
-
-### Choose consensus client
-
-<figure><img src="../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-38-46 Escolher cliente consenso.png" alt="Escolha seu cliente de consenso e configure um nó"><figcaption></figcaption></figure>
 
 
 
-### Generate key pairs
+### Gerar pares de chaves
 
-<figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-39-21 Gerar pares de chaves.png" alt="Quantos validadores você gostaria de rodar?"><figcaption></figcaption></figure>
 
-### What is your current operating system?
+### Qual é o seu sistema operacional atual?
 
-Select this option&#x20;
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-39-53 Gerar pares de chaves.png" alt="Qual é o seu sistema operacional atual?"><figcaption></figcaption></figure>
 
 
 
-### How do you want to generate your keys?
+### Como você deseja gerar suas chaves?
 
-* Download CLI app&#x20;
-* Download Key Gen GUI app&#x20;
-* Build from source
+<figure><img src="../.gitbook/assets/Screenshot 2023-06-25 at 16-43-47 Gerar pares de chaves.png" alt="Como você deseja gerar suas chaves?"><figcaption></figcaption></figure>
 
 
 
