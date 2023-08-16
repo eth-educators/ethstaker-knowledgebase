@@ -10,7 +10,7 @@ Tidak berat sebelah, koleksi sumber terbuka untuk informasi dan konsep mengenai 
 
 ## 🔗 Pautan Berguna
 
-* [Staking glosar](staking-glossary.md)i
+* [Staking glosari](staking-glossary.md)
 * [Staking FAQ](faq.md)
 
 ## 🚀 Bermula
@@ -41,7 +41,7 @@ Tidak berat sebelah, koleksi sumber terbuka untuk informasi dan konsep mengenai 
 * [Validator clients](validator-clients/validator-clients-explained.md)
 * [Execution clients](validator-clients/execution-clients.md)
 * [Consensus clients](validator-clients/consensus-clients.md)
-* [Checkpoint s](validator-clients/checkpoint-sync.md)elari
+* [Checkpoint selari](validator-clients/checkpoint-sync.md)
 * [Validator effectiveness](validator-clients/validator-effectiveness.md)
 * [MEV boost](validator-clients/mev-boost.md)
 
