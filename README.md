@@ -1,62 +1,58 @@
----
-description: '"Welcoming First, Knowledgeable Second"'
----
+# EthStaker Bilgi Bankası
 
-# EthStaker knowledge base
+## Ethstaker Bilgi Bankasına Hoş Geldiniz!
 
-## Welcome to the EthStaker Knowledge base!
+Ethereum staking hakkında faydalı bilgiler ve kavramlar içeren tarafsız ve açık kaynaklı bir koleksiyon. Ethereum staking'e başlamak veya basitçe ağın [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validatörler tarafından nasıl korunduğu hakkında bilgi almak istiyorsanız tam yerine geldiniz!
 
-An unbiased, open-source collection of useful information and concepts about Ethereum staking. If you're looking to get started staking on Ethereum or simply to learn more about how the network is secured through [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, you've come to the right place!
+## 🔗 Faydalı Bağlantılar
 
-## 🔗 Useful Links
+* [Staking Sözlüğü](staking-glossary.md)
+* [Staking ile İlgili SSS](faq.md)
 
-* [Staking glossary](staking-glossary.md)
-* [Staking FAQ](faq.md)
+## 🚀 Başlarken
 
-## 🚀 Getting started
+* [Ethereum staking nedir?](getting-started/what-is-ethereum-staking.md)
+* [ETH olmaksızın validatör çalıştırmak](getting-started/ethereum-node.md)
+* [ETH yatırma süreci](getting-started/deposit-process.md)
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
+### **🚨 YARDIM!**
 
-### **🚨 HELP!**
+* [Validatörüm çevrimdışı! Ne yapmalıyım?](help/validator-offline.md)
+* [Attestation kaçırdım! Ne yapabilirim?](help/missed-attestations.md)
+* [Downtime konusu canımı sıkıyor 😔](help/downtime-explained.md)
+* [Slashing konusu canımı sıkıyor 🔪](help/slashing-explained.md)
 
-* [My validator is offline! What do I do?](help/validator-offline.md)
-* [Missed attestations! What can I do?](help/missed-attestations.md)
-* [I'm worried about downtime 😔](help/downtime-explained.md)
-* [I'm worried about slashing 🔪](help/slashing-explained.md)
+### 💰 Ödüller
 
-### 💰 Rewards
+* [Validatörüm nasıl ETH kazanıyor?](rewards/chain-rewards.md)
+* [Blok teklif etme sıklığı](rewards/proposal-frequency.md)
 
-* [How does my validator earn ETH?](rewards/chain-rewards.md)
-* [Block proposal frequency](rewards/proposal-frequency.md)
+### 💻 Donanım
 
-### 💻 Hardware
+* [Donanım gereksinimleri](hardware/hardware-requirements.md)
+* [Donanım örnekleri](hardware/hardware-examples/)
 
-* [Hardware requirements](hardware/hardware-requirements.md)
-* [Hardware examples](hardware/hardware-examples/)
+### ⛓️ Validatör İstemcileri
 
-### ⛓️ Validator Clients
-
-* [Validator clients explained](validator-clients/validator-clients-explained.md)
-* [Execution clients](validator-clients/execution-clients.md)
-* [Consensus clients](validator-clients/consensus-clients.md)
-* [Checkpoint sync](validator-clients/checkpoint-sync.md)
-* [Validator effectiveness](validator-clients/validator-effectiveness.md)
+* [Validatör istemcileri hakkında](validator-clients/validator-clients-explained.md)
+* [Yürütme istemcileri](validator-clients/execution-clients.md)
+* [Konsensüs istemcileri](validator-clients/consensus-clients.md)
+* [Checkpoint senkronizasyonu](validator-clients/checkpoint-sync.md)
+* [Validatör verimliliği](validator-clients/validator-effectiveness.md)
 * [MEV boost](validator-clients/mev-boost.md)
 
-## Can I contribute to the EthStaker knowledge base?
+## EthStaker Bilgi Bankasına katkıda bulunabilir miyim?
 
-Yes! This is a living documentation site, meaning we need the community's help to maintain and update the content. Any contribution, from writing whole sections and translations to correcting spelling and grammar mistakes will be greatly appreciated.
+Evet! Bu dokümantasyon sitesi, sürekli gelişmektedir. Dolayısıyla, içeriğin güncel tutulması için topluluğun yardımına ihtiyaç duyuyoruz. Yeni bir bölüm yazmak ve çeviriden, yazım ve dilbilgisi hatalarının düzeltilmesine kadar her türlü katkı memnuniyetle karşılanacaktır.
 
-You can earn GitPOAPs by contributing directly to the EthStaker Knowledge Base (a [contributor↗](https://www.gitpoap.io/gp/881)) and by asking a question that leads to content being created (a [supporter↗](https://www.gitpoap.io/gp/923)).
+Doğrudan EthStaker Bilgi Bankasına katkıda bulunarak ([contributor↗](https://www.gitpoap.io/gp/881)) ve içerik oluşturmasını sağlayacak sorular sorarak ([supporter↗](https://www.gitpoap.io/gp/923)) GitPOAP'lar kazanabilirsiniz.
 
 [![EthStaker Knowledge Base Contributor GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2Fgitpoap3a-2023-ethstaker-knowledge-base-contributor-2022-logo-1671596764627.png\&w=384\&q=75)](https://www.gitpoap.io/gp/881)[![EthStaker Knowledge Base Supporter GitPOAP 2023](https://www.gitpoap.io/\_next/image?url=https%3A%2F%2Fassets.poap.xyz%2F2023-ethstaker-knowledge-base-supporter-2022-logo-1672411990803.png\&w=384\&q=75)](https://www.gitpoap.io/gp/923)
 
-To suggest changes or add new content please visit our [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) or if you have any questions please join our [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS).&#x20;
+Değişiklik teklifinde bulunmak veya yeni içerik eklemek için [EthStaker Github↗](https://github.com/eth-educators/ethstaker-knowledgebase) sayfamızı ziyaret edebilir, herhangi bir konuda soru sormak için [Discord↗](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjpm6nC5K78AhUBi1wKHaxHCF8QFnoECAsQAQ\&url=https%3A%2F%2Fdiscord.com%2Finvite%2FucsTcA2wTq\&usg=AOvVaw0U61EK\_8NaT71SEZlw3aJS) sunucumuza katılabilirsiniz.
 
-### ✏️ Get Involved
+### ✏️ Aramıza Katılın
 
-* [How to contribute](get-involved/how-to-contribute.md)
+* [Nasıl Katkı Sağlarım?](get-involved/how-to-contribute.md)
 
-**Supported by a GitBook Community License ♥️**
+**GitBook Topluluk Lisansı ile desteklenmektedir ♥️**

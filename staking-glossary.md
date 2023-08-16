@@ -1,83 +1,83 @@
-# Staking glossary
+# Staking Sözlüğü
 
-* [Archival node](staking-glossary.md#archival-node)
+* [Arşiv Node'u](staking-glossary.md#arsiv-nodeu)
 * [Attestation](staking-glossary.md#attestation)
 * [Attestation aggregator](staking-glossary.md#attestation-aggregator)
 * [Beacon chain](staking-glossary.md#beacon-chain)
-* [Block](staking-glossary.md#block)
-* [Block proposer](staking-glossary.md#block-proposer)
-* [Block status](staking-glossary.md#block-status)
+* [Blok](staking-glossary.md#blok)
+* [Blok teklif eden](staking-glossary.md#blok-teklif-eden)
+* [Blok durumu](staking-glossary.md#blok-durumu)
   * [Proposed](staking-glossary.md#proposed)
   * [Scheduled](staking-glossary.md#scheduled)
   * [Missed/skipped](staking-glossary.md#missedskipped)
   * [Orphaned](staking-glossary.md#orphaned)
-* [Canonical chain](staking-glossary.md#canonical-chain)
-* [Chain head](staking-glossary.md#chain-head)
-* [Checkpoints](staking-glossary.md#checkpoints)
-* [Client](staking-glossary.md#client)
-* [Committees](staking-glossary.md#committees)
-* [Consensus layer](staking-glossary.md#consensus-layer)
-* [Deposit contract](staking-glossary.md#deposit-contract)
-* [Effectiveness](staking-glossary.md#effectiveness)
+* [Kanonik zincir](staking-glossary.md#kanonik-zincir)
+* [Zincir başı](staking-glossary.md#zincir-basi)
+* [Checkpoint](staking-glossary.md#checkpoints)
+* [İstemci](staking-glossary.md#istemci)
+* [Komite](staking-glossary.md#komite)
+* [Konsensus katmanı](staking-glossary.md#konsensus-katmani)
+* [Depozit kontratı](staking-glossary.md#depozit-kontrati)
+* [Verimlilik](staking-glossary.md#verimlilik)
 * [Epoch](staking-glossary.md#epoch)
-* [Execution layer](staking-glossary.md#execution-layer)
-* [Finalization](staking-glossary.md#finalization)
-  * [Finality issues](staking-glossary.md#finality-issues)
+* [Yürütme katmanı](staking-glossary.md#yueruetme-katmani)
+* [Finalizasyon](staking-glossary.md#finalizasyon)
+  * [Finalite sorunları](staking-glossary.md#finalite-sorunlari)
 * [Fork](staking-glossary.md#fork)
 * [Full node](staking-glossary.md#full-node)
-* [Genesis block](staking-glossary.md#genesis-block)
+* [Genesis blok](staking-glossary.md#genesis-blok)
 * [Hard fork](staking-glossary.md#hard-fork)
-* [Head vote](staking-glossary.md#head-vote)
-* [Inactivity leak](staking-glossary.md#inactivity-leak)
-* [Inclusion distance](staking-glossary.md#inclusion-distance)
-* [Input data](staking-glossary.md#input-data)
-* [Justification](staking-glossary.md#justification)
-* [Light clients](staking-glossary.md#light-clients)
+* [Baş oy](staking-glossary.md#bas-oy)
+* [Etkinsizlik sızıntısı](staking-glossary.md#etkinsizlik-sizintisi)
+* [Dahil edilme mesafesi](staking-glossary.md#dahil-edilme-mesafesi)
+* [Girdi verisi](staking-glossary.md#girdi-verisi)
+* [Gerekçelendirme](staking-glossary.md#gerekcelendirme)
+* [Hafif istemciler](staking-glossary.md#hafif-istemciler)
 * [MEV](staking-glossary.md#mev)
 * [Mempool](staking-glossary.md#mempool)
 * [Node](staking-glossary.md#node)
-* [Operator](staking-glossary.md#operator)
-* [Participation rate](staking-glossary.md#participation-rate)
-* [Peers](staking-glossary.md#peers)
-* [Priority fees](staking-glossary.md#priority-fees)
-* [Private key](staking-glossary.md#private-key)
+* [Operatör](staking-glossary.md#operatoer)
+* [Katılım oranı](staking-glossary.md#yueruetme-katmani)
+* [Eşler](staking-glossary.md#esler)
+* [Öncelik ücreti](staking-glossary.md#oencelik-uecreti)
+* [Gizli anahtar](staking-glossary.md#gizli-anahtar)
 * [Proof of stake (PoS)](staking-glossary.md#proof-of-stake-pos)
-* [Public key](staking-glossary.md#public-key)
-* [Signing](staking-glossary.md#signing)
-* [Slashable offenses](staking-glossary.md#slashable-offenses)
-  * [Attestation violation](staking-glossary.md#attestation-violation)
-  * [Proposer violation](staking-glossary.md#proposer-violation)
+* [Açık anahtar](staking-glossary.md#acik-anahtar)
+* [İmzalama](staking-glossary.md#imzalama)
+* [Slash edilebilir ihlaller](staking-glossary.md#slash-edilebilir-ihlaller)
+  * [Attestation ihlali](staking-glossary.md#attestation-ihlali)
+  * [Proposer ihlali](staking-glossary.md#proposer-ihlali)
 * [Slasher node](staking-glossary.md#slasher-node)
 * [Slot](staking-glossary.md#slot)
 * [Solo staker](staking-glossary.md#solo-staker)
-* [Source vote](staking-glossary.md#source-vote)
+* [Kaynak oy](staking-glossary.md#kaynak-oy)
 * [Staker](staking-glossary.md#staker)
 * [Staking deposit CLI](staking-glossary.md#staking-deposit-cli)
-* [Suggested fee recipient](staking-glossary.md#suggested-fee-recipient)
-* [Sync committee](staking-glossary.md#sync-committee)
-* [Target vote](staking-glossary.md#target-vote)
-* [Validator](staking-glossary.md#validator)
+* [Önerilen ücret alıcısı](staking-glossary.md#oenerilen-uecret-alicisi)
+* [Senkronizasyon komitesi](staking-glossary.md#senkronizasyon-komitesi)
+* [Hedef oy](staking-glossary.md#hedef-oy)
+* [Validatör](staking-glossary.md#validatoer)
   * [Eligible for activation & Estimated activation](staking-glossary.md#eligible-for-activation--estimated-activation)
   * [Unique index](staking-glossary.md#unique-index)
   * [Current balance & Effective balance](staking-glossary.md#current-balance--effective-balance)
-* [Validator lifecycle](staking-glossary.md#validator-lifecycle)
+* [Validatör yaşam döngüsü](staking-glossary.md#validatoer-yasam-doenguesue)
   * [1. Deposited](staking-glossary.md#1-deposited)
   * [2. Pending](staking-glossary.md#2-pending)
   * [3. Active validator](staking-glossary.md#3-active-validator)
   * [4. Slashing validator](staking-glossary.md#4-slashing-validator)
   * [5. Exiting validator](staking-glossary.md#5-exiting-validator)
-* [Validator pool](staking-glossary.md#validator-pool)
-* [Validator queue](staking-glossary.md#validator-queue)
-* [Validator seed phrase / mnemonic](staking-glossary.md#validator-seed-phrase--mnemonic)
-* [Withdrawal address](staking-glossary.md#withdrawal-address)
+* [Validatör havuzu](staking-glossary.md#validatoer-havuzu)
+* [Validatör kuyruğu](staking-glossary.md#validatoer-kuyrugu)
+* [Validatör seed phrase / mnemonic](staking-glossary.md#validatoer-seed-phrase-mnemonic)
+* [Çekim adresi](staking-glossary.md#cekim-adresi)
 
-***
 
-## Archival node
 
-* Stores everything kept in a [full node](staking-glossary.md#full-node) and builds an archive of historical states.
-* Archive nodes are required if you want to query something like an account balance at a particular block.
-* This data represents units of terabytes (more than 20TB for Geth), which makes archive nodes less attractive for most users but can be handy for services like block explorers, wallet vendors, and chain analytics.
+## Arşiv Node'u
+
+* Bir [full node](staking-glossary.md#full-node)'da tutulan her şeyi saklar ve durumların tarihsel arşivini oluşturur.
+* Belirli bir blokta hesap bakiyesi gibi bir şeyi sorgulamanız gerektiğinde arşiv nodlarına ihtiyaç duyulur.
+* Bu veriler, terabaytlarla ifade edilir (Geth için 20TB'den fazla). Dolayısıyla, arşiv node'ları çoğu kullanıcı tarafından pek tercih edilmezken blok gezginleri, cüzdan sağlayıcılar ve zincir üstü analiz sağlayıcılar için kullanışlı olabilmektedir.
 
 Syncing clients in any mode other than archive will result in pruned blockchain data. This means, there is no archive of all historical states but the full node is able to build them on demand.
 
@@ -139,15 +139,15 @@ This registry is used to:
 
 [_**Source ↗**_](https://notes.ethereum.org/@djrtwo/Bkn3zpwxB#High-level-overview)
 
-## Block
+## Blok
 
 A block is a bundled unit of information that include an ordered list of transactions and consensus-related information. Blocks are proposed by [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) validators, at which point they are shared across the entire peer-to-peer network, where they can easily be independently verified by all other nodes. Consensus rules govern what contents of a block are considered valid, and any invalid blocks are disregarded by the network. The ordering of these blocks and the transactions therein create a deterministic chain of events with the end representing the current state of the network.
 
-## Block proposer
+## Blok teklif eden
 
 A chosen [validator](staking-glossary.md#validator) by the [Beacon Chain](staking-glossary.md#beacon-chain) to propose the next [block](staking-glossary.md#block). There can only be one valid block per [slot](staking-glossary.md#slots).
 
-## Block status
+## Blok Durumu
 
 ### Proposed
 
@@ -171,37 +171,37 @@ In order to understand this, let us look at the diagram below "1, 2, 3, ... ,9" 
 4. At slot 5/6 a fork occurs: Validator(5) proposes a block, but validator(6) doesn’t receive this data (e.g.: the block didn’t reach them fast enough). Therefore Validator(6) proposes its block with the most recent information it sees from validator(3).
 5. The [fork choice rule ↗](https://notes.ethereum.org/@vbuterin/rkhCgQteN?type=view#LMD-GHOST-fork-choice-rule) is the key here - It decides which of the available chains is the canonical one.
 
-## Canonical chain
+## Kanonik zincir
 
 The canonical chain is the chain which is agreed to be the 'main' chain and not a [fork](staking-glossary.md#fork).
 
-## Chain head
+## Zincir başı
 
 The latest block received by a validator. This does not necessarily mean it is the head of the [canonical chain](staking-glossary.md#canonical-chain).
 
-## Checkpoints
+## Checkpoint
 
 The [Beacon Chain](staking-glossary.md#beacon-chain) has a tempo divided into [slots](staking-glossary.md#slot) (12 seconds) and [epochs](staking-glossary.md#epoch) (32 slots). The first slot in each epoch is a checkpoint. When a supermajority of validators [attests](staking-glossary.md#attestation) to the link between two checkpoints, they can be [justified](staking-glossary.md#justification) and then when another checkpoint is justified on top, they can be [finalized](staking-glossary.md#finalization).
 
-## Client
+## İstemci
 
 An implementation of Ethereum software that verifies transactions in a block. These can be [consensus layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#consensus-clients) or [execution layer clients](https://ethereum.org/en/developers/docs/nodes-and-clients/#execution-clients). Each validator needs both an execution layer client and a consensus layer client.
 
-## Committees
+## Komite
 
 A group of at least 128 [validators](staking-glossary.md#validator) is assigned to validate blocks in each [slot](staking-glossary.md#slot). One of the validators in the committee is the aggregator, responsible for aggregating the signatures of all other validators in the committee that agree on an attestation. Not to be confused with [sync committees](staking-glossary.md#sync-committee).
 
-## Consensus layer
+## Konsensus katmanı
 
 Ethereum's consensus layer is the network of [consensus clients](validator-clients/consensus-clients.md).
 
-## Deposit contract
+## Depozit kontratı
 
 The Deposit contract is the **gateway** to Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) and is managed **through a smart contract** on Ethereum. The smart contract accepts any transaction with a minimum amount of 1 ETH and valid [input data](staking-glossary.md#input-data). Ethereum beacon nodes listen to the deposit contract and use the input data to credit each validator.
 
 [_More info on the deposit contract_](getting-started/deposit-process.md)
 
-## Effectiveness
+## Verimlilik
 
 The average time it takes for a validator's attestations to be included in the chain.
 
@@ -212,17 +212,17 @@ The average time it takes for a validator's attestations to be included in the c
 **1 Epoch = 32** [**Slots**](staking-glossary.md#slot)\
 Represents the number of 32 slots (12 seconds) and takes approximately **6.4 minutes.** Epochs play an important role when it comes to the [validator queue](staking-glossary.md#validator-queue) and [finality](staking-glossary.md#finalization).
 
-## Execution layer
+## Yürütme katmanı
 
 Ethereum's execution layer is the network of [execution clients](validator-clients/execution-clients.md).
 
-## Finalization
+## Finalizasyon
 
 one-thirdIn Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) at least two third of the validators have to be honest, therefore if there are two competing [epochs](staking-glossary.md#epoch) and one third of the [validators](staking-glossary.md#validator) decide to be malicious, they will receive a penalty. Honest validators will be rewarded.
 
 In order to determine if an epoch has been finalized, validators have to agree on the latest two epochs in a row, then all previous Epochs can be considered as finalized.
 
-### Finality issues
+### Finalite sorunları
 
 If there are less than 66.6% of the total possible votes (the [participation rate](staking-glossary.md#participation-rate)) in a specific epoch, the epoch cannot be [justified](staking-glossary.md#justification). As mentioned in "[Finalization](staking-glossary.md#finalization)", three justified epochs in a row are required to reach finality. As long as the chain cannot reach this state it has finality issues.
 
@@ -238,7 +238,7 @@ Stores and maintains the full blockchain data on disk. It serves blockchain data
 
 [**Source ↗**](https://www.quicknode.com/guides/infrastructure/ethereum-full-node-vs-archive-node)
 
-## Genesis block
+## Genesis blok
 
 The first block in a blockchain, used to initialize a particular network and its cryptocurrency.
 
@@ -246,15 +246,15 @@ The first block in a blockchain, used to initialize a particular network and its
 
 A hard fork occurs when an update is being pushed to the Ethereum network and the new version of the software forks from the old version. Usually requires operators to update their validator software to stay on the correct side of the fork. Also see [fork](staking-glossary.md#fork)
 
-## Head vote
+## Baş oy
 
 The validator has made a timely vote for the correct [head block](staking-glossary.md#chain-head).
 
-## Inactivity leak
+## Etkinsizlik sızıntısı
 
 If the Beacon Chain has gone more than four [epochs](staking-glossary.md#epoch) without [finalizing](staking-glossary.md#finalization), an emergency protocol called the "inactivity leak" is activated. The ultimate aim of the inactivity leak is to create the conditions required for the chain to recover finality. Finality requires a 2/3 majority of the total staked ether to agree on source and target checkpoints. If validators representing more than 1/3 of the total validators go offline or fail to submit correct [attestations](staking-glossary.md#attestation) then it is not possible for a 2/3 supermajority to finalize checkpoints. The inactivity leak lets the stake belonging to the inactive validators gradually bleed away until they control less than 1/3 of the total stake, allowing the remaining active validators finalize the chain. However large the pool of inactive validators, the remaining active validators will eventually control >2/3 of the stake. The loss of stake is a strong incentive for inactive validators to reactivate as soon as possible!
 
-## Inclusion distance
+## Dahil edilme mesafesi
 
 The inclusion distance of a [slot](staking-glossary.md#slot) is the difference between the slot in which an [attestation](staking-glossary.md#attestation) is made and the lowest slot number of the block in which the attestation is included. For example, an attestation made in slot _s_ and included in the block at slot _s + 1_ has an inclusion distance of _1_. If instead the attestation was included in the block at slot _s + 5_ the inclusion distance would be _5_.
 
@@ -264,13 +264,13 @@ To reflect the relative value of an attestation, the reward given to a validator
 
 <figure><img src=".gitbook/assets/InclusionDistance.png" alt="Attestation Reward Inclusion Distance Distribution"><figcaption></figcaption></figure>
 
-## Input data
+## Girdi verisi
 
 The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the validator public key and the withdrawal public key, which were signed with by the validator [private key](staking-glossary.md#private-key). The input data needs to be added to the transaction to the [deposit contract](getting-started/deposit-process.md) in order to get identified by the [beacon-chain](staking-glossary.md#beacon-chain).
 
 [_More info about the deposit process_](getting-started/deposit-process.md)
 
-## Justification
+## Gerekçelendirme
 
 66.6% of the total validators need to attest in favour of a block's inclusion in the [canonical chain](staking-glossary.md#canonical-chain). This condition upgrades the block to "justified". Justified blocks are unlikely to be reverted, but they can be under certain conditions.
 
@@ -278,7 +278,7 @@ When another block is justified on top of a justified block, it is upgraded to "
 
 [_More info on justification ↗_](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/gasper/)
 
-## Light clients
+## Hafif istemciler
 
 An Ethereum client that does not store a local copy of the blockchain, or validate blocks and transactions. It offers the functions of a wallet and can create and broadcast transactions.
 
@@ -302,11 +302,11 @@ The transaction goes from a number of levels of verification such as it checks w
 
 Any instance of Ethereum client software that is connected to other computers also running Ethereum software, forming a network. A node doesn’t necessarily need a validator but a validator requires a node. Running a node by itself does not generate any revenue but does contribute to the robustness of the network.
 
-## Operator
+## Operatör
 
 A person who maintains a validator
 
-## Participation rate
+## Katılım oranı
 
 The participation rate is the percentage of validators that are online and performing their duties.
 
@@ -314,15 +314,15 @@ If the validator set is 1,000 validators, and 250 validators are offline or rare
 
 [**Source ↗**](https://ethereum.stackexchange.com/questions/87503)
 
-## Peers
+## Eşler
 
 Other nodes running Ethereum clients that connect to each other over a peer-to-peer network. Communication between peers is how the Ethereum network remains decentralized as there is no single point of failure.
 
-## Priority fees
+## Öncelik ücreti
 
 Almost all transaction on Ethereum set a [priority fee ↗](https://ethereum.org/en/developers/docs/gas/#priority-fee) to incentivize [block proposers](staking-glossary.md#block-proposer) to include the transaction as a higher priority than others. The higher the fee relative to other transactions currently waiting in the [mempool](staking-glossary.md#mempool) This fee is paid to the block proposer. All of the priority fees in a block are aggregated and paid in a single state change directly to the [suggested fee recipient](staking-glossary.md#suggested-fee-recipient) set by the block proposer. This address could be a hardware wallet, a software wallet, or even a multi-sig contract.
 
-## Private key
+## Gizli anahtar
 
 A secret number that allows Ethereum users to prove ownership of an account or contracts, by producing a digital signature.
 
@@ -330,15 +330,15 @@ A secret number that allows Ethereum users to prove ownership of an account or c
 
 A method by which a cryptocurrency blockchain protocol aims to achieve distributed consensus. PoS asks users to prove ownership of a certain amount of cryptocurrency (their "stake" in the network) in order to be able to participate in the validation of transactions.
 
-## Public key
+## Açık anahtar
 
 A number, derived via a one-way function from a [private key](staking-glossary.md#private-key), which can be shared publicly and used by anyone to verify a digital signature made with the corresponding private key.
 
-## Signing
+## İmzalama
 
 Demonstrating cryptographically that a message or transaction was approved by the holder of a specific [private key](staking-glossary.md#private-key)).
 
-## Slashable offenses
+## Slash edilebilir ihlaller
 
 If your validator commits a slashable offense it will be force exited from the validator pool and will have ETH deducted depending on the circumstances of the event. Typically, this will be 1-2 ETH but could be [significantly more ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/#slashing).
 
@@ -346,12 +346,12 @@ This is not something to be overly worried about, there are [simple steps](help/
 
 There are three ways a validator can be slashed, all of which amount to the dishonest proposal or attestation of blocks.
 
-### Attestation violation
+### Attestation ihlali
 
 * **Double voting**: Signing two different [attestations](staking-glossary.md#attestation) in one [epoch](staking-glossary.md#epoch).
 * **Surround votes**: Attesting to a block that "surrounds" another one (effectively changing history).
 
-### Proposer violation
+### Proposer ihlali
 
 * **Double block proposal**: [Proposing](staking-glossary.md#block-proposer) and [signing](staking-glossary.md#signing) two different [blocks](staking-glossary.md#block) for the same [slot](staking-glossary.md#slot).
 
@@ -368,7 +368,7 @@ A time period of **12 seconds** in which a randomly chosen validator has time to
 
 An operator who runs a validator on the Ethereum network without a protocol between their validator and the Beaconchain
 
-## Source vote
+## Kaynak oy
 
 The validator has made a timely vote for the correct source [checkpoint](staking-glossary.md#checkpoint).
 
@@ -382,19 +382,19 @@ A command-line tool used to generate validator keys and deposit data files.
 
 * [https://github.com/ethereum/staking-deposit-cli](https://github.com/ethereum/staking-deposit-cli)
 
-## Suggested fee recipient
+## Önerilen ücret alıcısı
 
 The fee recipient is an Ethereum address nominated by a [Beacon Chain](staking-glossary.md#beacon-chain) validator to receive tips from user transactions and [MEV](staking-glossary.md#mev).
 
-## Sync committee
+## Senkronizasyon komitesi
 
 A sync committee is a randomly selected group of [validators](staking-glossary.md#validator) that refresh every \~27 hours. Their purpose is to add their [signatures](staking-glossary.md#signing) to valid block headers. Sync committees allow [light clients](staking-glossary.md#light-clients) to keep track of the head of the blockchain without needing to access the entire validator set. Occurs every 2 years on average, however, there can be "dry spells" multiple times longer than the average without being given one. So if your validator is selected... congratulations! 🥳
 
-## Target vote
+## Hedef oy
 
 The validator has made a timely vote for the correct target [checkpoint](staking-glossary.md#checkpoints).
 
-## Validator
+## Validatör
 
 A node in a [Proof of Stake (Pos)](staking-glossary.md#proof-of-stake-pos) system responsible for storing data, processing transactions, and adding new blocks to the blockchain. To activate validator software, you need to be able to stake 32 ETH. A validator's job is to propose blocks and sign attestations. It has to be online for at least 50% of the time in order to have positive returns. A validator is run by an operator (a human), on hardware (a computer) and is paired with a node (many thousand validators can run on one node).
 
@@ -418,7 +418,7 @@ Here are examples of how the effective balance changes:
 * If the Current balance dropped from 22 ETH to 21.76 ETH – Effective balance will be **22.00 ETH**.
 * If the Current balance increases to 22.25 **and** the effective balance is 21 ETH, the effective balance will increase to 22 ETH.
 
-## Validator lifecycle
+## Validatör yaşam döngüsü
 
 #### 1. Deposited
 
@@ -452,11 +452,11 @@ The Validator has been malicious and will be slashed and kicked out of the syste
 * **Ejected**: The validator balance fell below a threshold and was kicked out by the network.
 * **Exited**: Voluntary exit, the withdrawal key holder has the ability to **withdraw** the current balance of the corresponding validator balance.
 
-## Validator pool
+## Validatör havuzu
 
 The number of currently active validators securing the Ethereum network. The current validator pool can be seen [here ↗](https://beaconcha.in/validators).
 
-## Validator queue
+## Validatör kuyruğu
 
 The validator queue is a first-in-first-out queue for activating and exiting validators on the [Beacon Chain](staking-glossary.md#beacon-chain).
 
@@ -471,10 +471,10 @@ The validator queue is a first-in-first-out queue for activating and exiting val
 
 Exiting validators works in the same way, with the amount of validators that can exit the Beacon Chain per day rate limited to preserve the stability of the network.
 
-## Validator seed phrase / mnemonic
+## Validatör seed phrase / mnemonic
 
 The Seed Phrase or Mnemonic is a set of words (usually 12, 18 or 24 words long) used to generate your validator keys. Your mnemonic is the backup for your validator keys and will be the ONLY way to withdraw your ETH when the time comes and no one can help you recover your mnemonic if you lose it.
 
-## Withdrawal address
+## Çekim adresi
 
 An address that can be optionally set when creating a validator key that will be used to withdraw staked ETH. If this address is not set at the time of key creation it can be set at the time of withdrawal instead. For more information about setting the withdrawal address on key creation, [see our FAQ answer](faq.md#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator).

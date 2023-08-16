@@ -1,7 +1,7 @@
 # Table of contents
 
-* [EthStaker knowledge base](README.md)
-* [Staking glossary](staking-glossary.md)
+* [EthStaker Bilgi Bankası](README.md)
+* [Staking Sözlüğü](staking-glossary.md)
 * [Staking FAQ](faq.md)
 
 ## 🚀 Getting Started
