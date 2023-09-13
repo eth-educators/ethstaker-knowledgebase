@@ -55,12 +55,6 @@
 * [Secure key generation](validator-keys/secure-key-generation.md)
 * [Slashing protection](validator-keys/slashing-protection.md)
 
-## 🎛 Scaled Node Operators
-
-* [Node health checks](scaled-node-operators/node-health-checks.md)
-* [Node maintenance](scaled-node-operators/node-maintenance.md)
-* [Alerting at scale](scaled-node-operators/alerting-at-scale.md)
-
 ## 📕 Tutorials
 
 * [Solo staking guides](tutorials/solo-staking-guides.md)
@@ -75,6 +69,21 @@
 * [Safely migrating validator keys](tutorials/validator-key-migration.md)
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
 * [Updating withdrawal credentials](tutorials/updating-withdrawal-credentials.md)
+
+## 🎛 Scaled Node Operators
+
+* [What is a scaled node operator?](scaled-node-operators/what-is-a-scaled-node-operator.md)
+* [Alerting at scale](scaled-node-operators/alerting-at-scale.md)
+* [MEV at scale](scaled-node-operators/mev-at-scale.md)
+* [Key management at scale](scaled-node-operators/key-management-at-scale.md)
+* [Migration at scale](scaled-node-operators/migration-at-scale.md)
+* [Monitoring at scale](scaled-node-operators/monitoring-at-scale.md)
+* [Node health checks](scaled-node-operators/node-health-checks.md)
+* [On-Call/Incidence response](scaled-node-operators/on-call-incidence-response.md)
+* [Resource scaling](scaled-node-operators/resource-scaling.md)
+* [Security at scale](scaled-node-operators/security-at-scale.md)
+* [Updates at scale](scaled-node-operators/updates-at-scale.md)
+* [Uptime at scale](scaled-node-operators/uptime-at-scale.md)
 
 ## ✏️ Get Involved
 
