@@ -20,3 +20,7 @@ If someone wanted to attack the Ethereum network they could propose multiple blo
 The amount of ETH taken as a penalty varies on the state of the network. If a small number of validators are slashed simultaneously, then a rough estimate of the slashing penalty is 1 or 2 ETH. In an incredibly rare Black Swan event, when a large portion of the network is simultaneously offline or breaking the rules (e.g. in a coordinated attack) then the slashing penalty can be up to and including 100% of the stake.
 
 When your validator is force exited and the stake is withdrawn you are able to re-stake your remaining ETH (if you still have the 32 required), after going through both the [exit queue](../staking-glossary.md#validator-queue) and [activation queue](../staking-glossary.md#validator-queue) again.
+
+### Slashing Tracker
+
+{% embed url="https://www.rated.network/slashings" %}
