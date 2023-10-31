@@ -71,7 +71,7 @@
 * [Validator seed phrase / mnemonic](staking-glossary.md#validator-seed-phrase--mnemonic)
 * [Withdrawal address](staking-glossary.md#withdrawal-address)
 
-
+***
 
 ## Archival node
 
@@ -284,7 +284,7 @@ An Ethereum client that does not store a local copy of the blockchain, or valida
 
 ## MEV
 
-MEV or "maximal extractable value", is a controversial topic. Node operators can extract MEV by accepting blocks built by "searchers", via a small side program called "[mev-boost ↗](https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177)" by Flashbots. In this case, the Consensus Layer client such as Nimbus, Teku, etc. will, when asked to procure a block to propose, get blocks from MEV relays via mev-boost and from the Execution Layer client such as Besu, Geth, etc. and then choose whichever block from the relay pays best. The Execution Layer does not currently communicate its expected payout and would only be chosen when the relay offers no block. For this, the relay has to be trusted to deliver valid blocks.
+MEV or "maximal extractable value", is a controversial topic. Node operators can extract MEV by accepting blocks built by "searchers", via a small side program called "[mev-boost ↗](https://ethresear.ch/t/mev-boost-merge-ready-flashbots-architecture/11177)" by Flashbots. In this case, the Consensus Layer client such as Nimbus, Teku, etc. will, when asked to procure a block to propose, get blocks from MEV relays via mev-boost and from the Execution Layer client such as Besu, Geth, etc. and then choose whichever block from the relay pays best. The local Execution Layer client will only build a block when no block is offered by the relay (e.g the relay is down) or the min-bid offered is lower than the locally set value. If a blinded block from a relay has already been signed, then a local block will not be built so double signing does not occur. For this reason, when a validator signs a block from the relay, it is trusting that the relay will submit that signed block to the network.
 
 Rewards from MEV are paid to the same [suggested fee recipient](staking-glossary.md#suggested-fee-recipient) address as [priority fees](staking-glossary.md#priority-fees).
 
