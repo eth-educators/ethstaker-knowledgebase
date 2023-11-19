@@ -73,6 +73,8 @@
 
 ***
 
+***
+
 ## Archival node
 
 * Stores everything kept in a [full node](staking-glossary.md#full-node) and builds an archive of historical states.

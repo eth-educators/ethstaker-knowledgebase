@@ -37,7 +37,7 @@
 * [Why is all my RAM being used?](faq.md#why-is-all-my-ram-being-used)
 * [Why the 32 ETH maximum?](faq.md#why-the-32-eth-maximum)
 
-
+***
 
 ## Can I be slashed for being offline?
 
