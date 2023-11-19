@@ -1,16 +1,5 @@
 # Updates at scale
 
-```
-Skeleton Bullet Points
-- Channels to listen to for updates, hard forks, attack mitigations
-- How to do rolling updates? Go offline for updates?
-- How often to do updates? When to know an update is urgent? 
-- How to rollback an update? How do know what update needs to be rolled back (what metrics to check)?
-- How to get rid of a node and start fresh if an update corrupted a DB? 
-- Patch management for OS/Hardware?
-- How to backup keys? When to restore from backup? When/How to use WS sync? 
-```
-
 Rolling out software upgrades is a common operation task. It is often overlooked during the service scaling up. Ensuring that the new release is deployed in time is particularly important for running Ethereum or blockchain infrastructure in general because:
 
 * New upgrades & forks are only supported by the new release, failing to do so in time will result in the node stopping syncing or producing invalid blocks. In the worst-case scenario, it will cause validators going offline.
@@ -68,6 +57,7 @@ Alternatively, you can develop a custom bot tailored to your requirements for tr
 
 Proper planning is crucial for the smooth execution of software upgrades. By incorporating software upgrade planning into your project management process, you can ensure timely implementation, address the risk of de-prioritization, and mitigate potential technical issues due to more time to research and prepare.
 
+* Ensure that all important data is backed up in advanced. Have a detailed, repeatable process for this. A backup is only truly a backup if you are actually able to restore it, so make sure to test the full end to end process, not just to assume that if you too a backup that it will work.
 * Make sure you talk about software upgrades in the planning session: For example, if your team uses Scrum and conducts planning every two weeks, allocate 20 minutes just to go through all the software new releases. This practice will help ensure that upgrades are prioritized and completed within the designated time frame.
 * Check for deadlines and breaking changes: When you go through the releases, make sure you check for any deadlines associated with software upgrades, such as hard forks or security patches, and plan accordingly. Also, examine the release notes for breaking changes that may require additional work or adjustments to your existing configurations. Keep in mind that some changes, like database upgrades, might be irreversible and must be rolled out with care.
 
@@ -75,10 +65,18 @@ Proper planning is crucial for the smooth execution of software upgrades. By inc
 
 Automation can significantly streamline the software upgrade process, minimizing the risk of human error and reducing the time required to complete the upgrade. Implementing automation in your upgrade process can increase efficiency and ensure that updates are consistently applied. Here are some example tasks that can benefit from automation:
 
+* **Automated OS Security Patches and Updates:** Use automated systems for scheduling and deploying patches. This reduces human error and ensures timely update. Classify patches based on security risk and functionality impact. Prioritize critical security patches to mitigate vulnerability risks. Implement patches in stages, start with a small, controlled group to identify potential issues before wider deployment. Test patches in a separate environment to ensure compatibility and functionality without affecting live systems. Maintain detailed records of all patches for compliance. Document the patch, affected systems, and deployment dates.
 * **Automated pull requests:** Utilize tools or scripts that automatically create pull requests when new software releases are detected, updating the deployment definition accordingly. This approach ensures that your system stays up-to-date with the latest software versions and reduces the manual effort required to initiate updates.
 * **Automated rollout and rollback:** Use tools like Argo Rollouts to define acceptance criteria and roll out new versions automatically. This method is particularly useful if you require several hours to confirm the success of each deployment. Additionally, these tools often provide built-in rollback capabilities, ensuring that your system can quickly recover from any issues encountered during the upgrade process.
+* **Incremental rolling upgrades:** When running Ethereum validators, unless there is a critical update required, it is usually the case that not all nodes need to all be updated at the same time. To avoid problems with new versions of software having bugs, incrementally upgrading nodes during automated upgrades can improve resiliency.
 
 By incorporating automation into your software upgrade strategy, you can greatly improve the overall efficiency and reliability of your update process, ensuring that your Ethereum nodes remain secure and up-to-date.
+
+### 5. What to do when something goes wrong
+
+A key principle of DevOps is to treat servers like "cattle, not pets". This means that infrastructure should not be seen as unique snowflakes, but instead as replaceable. When an update doesn't work as expected, e.g. a database gets corrupted, rather than on the fly creating exotic new scripts and performing heroics in an attempt to fix it, processes should be in place that demand servers be shut down and recreated.
+
+Important data, such as validator keys, should already be securely backed up. If you're ever in a situation where an update breaks a server and you lose critical data, it is not the fault of the update but some important steps missing from your processes!
 
 ## Conclusion
 
