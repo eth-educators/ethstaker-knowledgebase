@@ -40,6 +40,14 @@ An unbiased, open-source collection of useful information and concepts about Eth
 * [Hardware security](hardware/hardware-security.md)
 * [Hardware best practices](hardware/hardware-best-practices.md)
 
+### 🖧 Networking
+
+* [port-forwarding.md](networking/port-forwarding.md "mention")
+* [firewalls-and-subnetting.md](networking/firewalls-and-subnetting.md "mention")
+* [brute-force-ssh-protection.md](networking/brute-force-ssh-protection.md "mention")
+* [setting-up-home-vpn-access.md](networking/setting-up-home-vpn-access.md "mention")
+* [setting-up-tailscale-vpn.md](networking/setting-up-tailscale-vpn.md "mention")
+
 ### ⛓️ Validator Clients
 
 * [Validator clients explained](validator-clients/validator-clients-explained.md)
@@ -48,6 +56,29 @@ An unbiased, open-source collection of useful information and concepts about Eth
 * [Checkpoint sync](validator-clients/checkpoint-sync.md)
 * [Validator effectiveness](validator-clients/validator-effectiveness.md)
 * [MEV boost](validator-clients/mev-boost.md)
+
+### 🔑 Validator Keys
+
+* [secure-key-generation.md](validator-keys/secure-key-generation.md "mention")
+* [slashing-protection.md](validator-keys/slashing-protection.md "mention")
+
+### 📕 Tutorials
+
+* [Broken link](broken-reference "mention")
+
+### 🎛️ Scaled Node Operators
+
+* [what-is-a-scaled-node-operator.md](scaled-node-operators/what-is-a-scaled-node-operator.md "mention")
+* [alerting-at-scale.md](scaled-node-operators/alerting-at-scale.md "mention")
+* [mev-at-scale.md](scaled-node-operators/mev-at-scale.md "mention")
+* [key-management-at-scale.md](scaled-node-operators/key-management-at-scale.md "mention")
+* [monitoring-at-scale.md](scaled-node-operators/monitoring-at-scale.md "mention")
+* [node-health-checks.md](scaled-node-operators/node-health-checks.md "mention")
+* [on-call-incidence-response.md](scaled-node-operators/on-call-incidence-response.md "mention")
+* [resource-scaling.md](scaled-node-operators/resource-scaling.md "mention")
+* [security-at-scale.md](scaled-node-operators/security-at-scale.md "mention")
+* [updates-at-scale.md](scaled-node-operators/updates-at-scale.md "mention")
+* [uptime-at-scale.md](scaled-node-operators/uptime-at-scale.md "mention")
 
 ## Can I contribute to the EthStaker knowledge base?
 
