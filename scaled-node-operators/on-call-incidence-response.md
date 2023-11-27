@@ -1,13 +1,5 @@
 # On-Call/Incidence response
 
-```
-Skeleton Bullet Points
-- What to look for first? When do you raise an alarm?
-- First steps required during incidence response
-- What channels to reach out if you think its a network attack?
-- What channels to reach out if its a possible vulnerability?
-```
-
 As a scaled Ethereum staking provider, you're responsible for a significant part of the network's overall health and security. This guide provides you with targeted information on what to prioritize when incidents happen, ensuring that you can react effectively.
 
 ### What to Look for First? When Do You Raise an Alarm?

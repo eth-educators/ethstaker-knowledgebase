@@ -1,3 +1,7 @@
+---
+description: Under construction 🏗️
+---
+
 # Resource scaling
 
 ```
