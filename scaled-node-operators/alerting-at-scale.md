@@ -1,6 +1,6 @@
 # Alerting at scale
 
-Alerting should be very specific. It’s easy just to set thresholds to every possible monitored metric and add an alarm to it... 🚨🚨🚨
+Alerts should be carefully selected. It’s easy to set thresholds on every possible monitored metric and add an alarm to it... 🚨🚨🚨
 
 But that leads to fatigue, distractions, and eventually ignoring alerts, see [this article](https://www.atlassian.com/incident-management/on-call/alert-fatigue) for more details.
 
