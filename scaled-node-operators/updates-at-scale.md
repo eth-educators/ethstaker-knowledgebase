@@ -83,3 +83,9 @@ Important data, such as validator keys, should already be securely backed up. If
 Keeping software up-to-date requires commitment and is an essential part of operating a secure and stable blockchain infrastructure, such as Ethereum. By understanding the challenges associated with software upgrades and implementing effective solutions, such as maintaining an accurate software inventory, staying informed about new releases, planning for upgrades, and automating the upgrade process, you can ensure timely and successful software updates.
 
 Updates at scale are a complex yet critical component of maintaining a large-scale Ethereum staking operation. By following these guidelines and continuously refining your processes, you can achieve a balance of security, performance, and reliability in your infrastructure.
+
+
+
+### Other Resources
+
+{% embed url="https://www.kiln.fi/post/ethereum-upgrades-at-scale" %}
