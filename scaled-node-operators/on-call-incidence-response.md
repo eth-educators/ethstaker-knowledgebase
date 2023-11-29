@@ -1,5 +1,7 @@
 # On-Call/Incidence response
 
+<figure><img src="../.gitbook/assets/image (82).png" alt="" width="563"><figcaption></figcaption></figure>
+
 As a scaled Ethereum staking provider, you're responsible for a significant part of the network's overall health and security. This guide provides you with targeted information on what to prioritize when incidents happen, ensuring that you can react effectively.
 
 ### What to Look for First? When Do You Raise an Alarm?
@@ -32,6 +34,15 @@ Set predefined thresholds for raising an alarm. For example, if more than 5% of 
 3. **GitHub**: If the vulnerability is in an open-source tool, you may also open a confidential issue on the respective GitHub repository.
 4. **Private Communication Channels**: For less immediate vulnerabilities, reach out to trusted peers in the industry via secure, private channels to verify the issue before going public.
 
+## Incident Response
 
+What to look for first?
+
+1. Is the node up and running? Is the validator client up and running? CPU/RAM/Disk space okay?
+2. Read the logs. Are there enough peers? Is the number of validators found by the validator client as you expected?
+3. Is your node in sync/is it syncing? If so, is it on the right fork? Take [`eth/v1/beacon/headers/head` API](https://ethereum.github.io/beacon-APIs/#/Beacon/getBlockHeader) and check it against any public block explorer or in a community.
+4. Is the network finalizing? [`eth/v1/beacon/headers/finalized` API](https://ethereum.github.io/beacon-APIs/#/Beacon/getBlockHeader) -- should be moving every 6.2 minutes.
+
+***
 
 Being a scaled node operator comes with the responsibility of ensuring the network's security and efficiency. Adequate preparation and knowing precisely what to focus on when issues arise will make your incidence response effective and timely. Always remember, in times of incidents, swift action and clear communication are key.
