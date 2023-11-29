@@ -1,7 +1,26 @@
+---
+cover: ../.gitbook/assets/EthScaling.png
+coverY: 81
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # What is a scaled node operator?
 
 {% hint style="info" %}
-### Optional information - Not required for solo  home stakers!
+### Optional information - Not required for solo home stakers!
 
 It's crucial to note that the recommendations and strategies presented in the following pages go above and beyond what a small-scale or solo staker would typically require. If you're staking from home with just a few validators, don't be overwhelmed; you don't need an entire incident response team or complex resource scaling strategies!
 {% endhint %}
@@ -15,6 +34,12 @@ The content in this guide is valuable to anyone involved in Ethereum staking but
 ### Why the Extra Mile?
 
 While the added complexity might seem daunting, the benefits of optimized resource management, heightened security, and streamlined update processes can translate into significant advantages for large-scale operators. The increased cost and effort of implementing these practices are often justified by the higher stakes involved, both literally and figuratively.
+
+<div data-full-width="false">
+
+<figure><img src="../.gitbook/assets/image (103).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ### What to expect?
 
