@@ -1,5 +1,7 @@
 # Node health checks
 
+<figure><img src="../.gitbook/assets/image (106).png" alt="" width="563"><figcaption></figcaption></figure>
+
 To serve as a validator, both CL and EL need to be up to date with the network. There are a couple of techniques of how to check that.
 
 All this health check data should lead to a [monitoring tool](https://github.com/gateway-fm/validator-kb/blob/main/reference/nodes/monitoring.md) of your choice.
