@@ -1,10 +1,5 @@
 ---
-cover: ../.gitbook/assets/EthScaling.png
-coverY: 81
 layout:
-  cover:
-    visible: true
-    size: hero
   title:
     visible: true
   description:
@@ -18,6 +13,12 @@ layout:
 ---
 
 # What is a scaled node operator?
+
+<div data-full-width="false">
+
+<figure><img src="../.gitbook/assets/EthScaling.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 {% hint style="info" %}
 ### Optional information - Not required for solo home stakers!

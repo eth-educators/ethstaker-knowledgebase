@@ -1,4 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Security at scale
+
+<figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
 Security is non-negotiable when you're running Ethereum validators at scale. This guide focuses on best practices specifically tailored for scaled Ethereum staking providers. The objective is to offer a comprehensive security framework that goes beyond typical measures used by solo stakers.
 
