@@ -4,7 +4,7 @@ description: '"Welcoming First, Knowledgeable Second"'
 
 # EthStaker knowledge base
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 ## Welcome to the EthStaker Knowledge base!
 

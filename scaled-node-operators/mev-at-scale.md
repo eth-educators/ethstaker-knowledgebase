@@ -14,7 +14,7 @@ layout:
 
 # MEV at scale
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Maximal Extractable Value (MEV) has become a pivotal aspect of blockchain operation, especially for large-scale node operators. While MEV offers potential rewards, it also introduces unique challenges in a high-volume environment. This guide delves into the critical considerations for implementing MEV at scale.
 
