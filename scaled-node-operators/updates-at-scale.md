@@ -33,7 +33,7 @@ A software inventory is a comprehensive record of all software components within
 
 * **Metrics:** Many clients expose version information through their Prometheus metrics, making it simple to create a Grafana panel that displays version information for all your workloads. By visualizing this data, you can easily monitor software versions and identify any discrepancies that may require attention.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>A panel for Lighthouse version distribution</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>A panel for Lighthouse version distribution</p></figcaption></figure>
 
 * **Third-party tools:** Leverage third-party tools to help manage your software inventory. There are many open-source tools available for generating inventory reports. If you're using Kubernetes, you can use [Kubernetes Inventory Docker image](https://hub.docker.com/r/linkbn/kubernetes-inventory) or [Anchore's k8s-inventory](https://github.com/anchore/k8s-inventory) to help you track client versions in your deployments.
 * **In-house solution:** Develop a custom in-house solution tailored to your specific needs, such as a simple shell script. Creating a solution that fits your organization's requirements allows for seamless integration with your existing systems and processes.
