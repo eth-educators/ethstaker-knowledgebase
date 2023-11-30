@@ -1,4 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Alerting at scale
+
+<figure><img src="../.gitbook/assets/image (105).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Alerts should be carefully selected. It’s easy to set thresholds on every possible monitored metric and add an alarm to it... 🚨🚨🚨
 

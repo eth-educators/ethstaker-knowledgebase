@@ -1,6 +1,20 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # On-Call/Incidence response
 
-<figure><img src="../.gitbook/assets/image (105).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (107).png" alt="" width="563"><figcaption></figcaption></figure>
 
 As a scaled Ethereum staking provider, you're responsible for a significant part of the network's overall health and security. This guide provides you with targeted information on what to prioritize when incidents happen, ensuring that you can react effectively.
 

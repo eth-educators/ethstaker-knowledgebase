@@ -77,13 +77,13 @@
 * [Node health checks](scaled-node-operators/node-health-checks.md)
 * [On-Call/Incidence response](scaled-node-operators/on-call-incidence-response.md)
 * [Alerting at scale](scaled-node-operators/alerting-at-scale.md)
+* [MEV at scale](scaled-node-operators/mev-at-scale.md)
 * [Updates at scale](scaled-node-operators/updates-at-scale.md)
 * [Resource scaling](scaled-node-operators/resource-scaling.md)
 * [Key management at scale](scaled-node-operators/key-management-at-scale.md)
 * [Migration at scale](scaled-node-operators/migration-at-scale.md)
 * [Monitoring at scale](scaled-node-operators/monitoring-at-scale.md)
 * [Uptime at scale](scaled-node-operators/uptime-at-scale.md)
-* [MEV at scale](scaled-node-operators/mev-at-scale.md)
 
 ## ✏️ Get Involved
 
