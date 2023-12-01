@@ -41,3 +41,5 @@ Maximal Extractable Value (MEV) has become a pivotal aspect of blockchain operat
 ### **Conclusion**
 
 MEV at scale presents a complex landscape for large-scale node operators. Balancing efficiency, compliance, and profitability requires a nuanced approach, blending innovative technical solutions with strategic operational planning. As the MEV landscape evolves, so too must the strategies employed by those at the forefront of blockchain technology.
+
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

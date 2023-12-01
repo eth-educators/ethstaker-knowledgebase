@@ -210,3 +210,5 @@ Integrating these systems allows for a more comprehensive security posture, as e
 ***
 
 Security at scale is an ongoing commitment that involves continual assessment and evolution. By implementing these practices, scaled Ethereum staking providers can not only secure their own operations but also contribute to the overall security of the Ethereum network.
+
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

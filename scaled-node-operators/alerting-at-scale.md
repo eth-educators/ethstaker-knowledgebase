@@ -81,3 +81,5 @@ Running Ethereum staking services efficiently requires a robust and well-thought
 11. **Long Block Processing Times**: Monitoring block processing times is important, as prolonged processing times can indicate deeper issues within the staking infrastructure. Alerts for unusually long block processing times can signal problems such as inadequate hardware resources or network bottlenecks. Early detection and resolution of these issues are vital to maintaining the efficiency and reliability of the staking service.
 
 By monitoring these aspects and setting appropriate alerts, Ethereum staking services can operate reliably, maintain security, and optimize their staking rewards while minimizing risks and penalties.
+
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

@@ -57,3 +57,5 @@ Scaling is inevitable but should be approached systematically.
 
 
 Resource scaling requires foresight, preparation, and a good understanding of the operational intricacies of Ethereum staking. By keeping these best practices in mind, you can ensure that your large-scale Ethereum staking operation is both robust and agile, capable of adapting to the ever-evolving landscape of Ethereum staking.
+
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

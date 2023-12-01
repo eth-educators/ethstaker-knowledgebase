@@ -39,3 +39,5 @@ Since sometimes the block proposals could be missed, it doesn't make sense to ke
 Finally, the case when the blocks are being synced, but you are on the wrong fork. Detection of that could happen on the EL very easily, by using the block hash returned from [`eth_getBlockByNumber("latest", false)`](https://docs.gateway.fm/v/api-docs/ethereum/eth\_getblockbynumber).
 
 You can compare these hashes across the nodes and also across the external sources of truth.
+
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

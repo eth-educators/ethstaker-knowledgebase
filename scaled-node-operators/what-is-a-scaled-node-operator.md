@@ -47,3 +47,5 @@ While the added complexity might seem daunting, the benefits of optimized resour
 This guide covers a range of topics, from incident response and security protocols to updates and resource scaling. Each section provides a deep dive into the best practices, actionable strategies, and things to look out for when operating at scale.
 
 If you're responsible for a large-scale Ethereum staking operation, the following pages will equip you with the knowledge you need to operate efficiently, securely, and profitably. So let's dive in and explore what it means to be a scaled node operator in the evolving world of Ethereum staking.
+
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
