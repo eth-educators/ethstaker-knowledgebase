@@ -8,16 +8,16 @@
 
 * [Qu'est-ce que le staking sur Ethereum?](pour-debuter/what-is-ethereum-staking.md)
 * [Faire fonctionner un nœud sans aucun ETH](pour-debuter/ethereum-node.md)
-* [Deposit process explained](pour-debuter/deposit-process.md)
-* [Withdrawal process explained](pour-debuter/withdrawal-process-explained.md)
+* [Procédure pour le dépôt](pour-debuter/deposit-process.md)
+* [Explication du processus de retrait](pour-debuter/explication-du-processus-de-retrait.md)
 
 ## 🚨 A l'Aide!
 
-* [Mon validateur est hors ligne ! Que dois-je faire ?](a-laide/validator-offline.md)
-* [Attestations manquées ! Que puis-je faire ?](a-laide/missed-attestations.md)
-* [Je suis inquiet concernant les pannes 😔](a-laide/downtime-explained.md)
-* [Je suis inquiet d'être exclu🔪](a-laide/slashing-explained.md)
-* [Erreurs courantes](a-laide/common-errors-mistakes.md)
+* [Mon validateur est hors ligne ! Que dois-je faire ?](help/validator-offline.md)
+* [Attestations manquées ! Que puis-je faire ?](help/missed-attestations.md)
+* [Je suis inquiet concernant les pannes 😔](help/downtime-explained.md)
+* [Je suis inquiet d'être exclu🔪](help/slashing-explained.md)
+* [Erreurs courantes](help/common-errors-mistakes.md)
 
 ## 💰 Rewards
 
