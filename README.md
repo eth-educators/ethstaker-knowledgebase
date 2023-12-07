@@ -16,8 +16,8 @@ An unbiased, open-source collection of useful information and concepts about Eth
 ## 🚀 Getting started
 
 * [What is Ethereum staking?](pour-debuter/what-is-ethereum-staking.md)
-* [Running a node without any ETH](pour-debuter/ethereum-node.md)
-* [Deposit process explained](pour-debuter/deposit-process.md)
+* [Running a node without any ETH](getting-started/ethereum-node.md)
+* [Deposit process explained](getting-started/deposit-process.md)
 
 ### **🚨 AIDE !**
 
@@ -28,8 +28,8 @@ An unbiased, open-source collection of useful information and concepts about Eth
 
 ### 💰 Rewards
 
-* [How does my validator earn ETH?](rewards/chain-rewards.md)
-* [Block proposal frequency](rewards/proposal-frequency.md)
+* [How does my validator earn ETH?](recompenses/chain-rewards.md)
+* [Block proposal frequency](recompenses/proposal-frequency.md)
 
 ### 💻 Hardware
 

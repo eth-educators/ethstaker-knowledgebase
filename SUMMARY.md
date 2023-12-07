@@ -7,9 +7,9 @@
 ## 🚀 Pour Débuter
 
 * [Qu'est-ce que le staking sur Ethereum?](pour-debuter/what-is-ethereum-staking.md)
-* [Faire fonctionner un nœud sans aucun ETH](pour-debuter/ethereum-node.md)
-* [Procédure pour le dépôt](pour-debuter/deposit-process.md)
-* [Explication du processus de retrait](pour-debuter/explication-du-processus-de-retrait.md)
+* [Faire fonctionner un nœud sans aucun ETH](getting-started/ethereum-node.md)
+* [Procédure pour le dépôt](getting-started/deposit-process.md)
+* [Explication du processus de retrait](getting-started/withdrawal-process-explained.md)
 
 ## 🚨 A l'Aide!
 
@@ -19,10 +19,10 @@
 * [Je suis inquiet d'être exclu🔪](help/slashing-explained.md)
 * [Erreurs courantes](help/common-errors-mistakes.md)
 
-## 💰 Rewards
+## 💰 Récompenses
 
-* [How does my validator earn ETH?](rewards/chain-rewards.md)
-* [Block proposal frequency](rewards/proposal-frequency.md)
+* [Comment mon validateur gagne-t-il des ETH ?](recompenses/chain-rewards.md)
+* [Fréquence de proposition de bloc](recompenses/proposal-frequency.md)
 
 ## 💻 Hardware
 

@@ -73,6 +73,8 @@
 
 ***
 
+***
+
 ## Archival node
 
 * Stores everything kept in a [full node](staking-glossary.md#full-node) and builds an archive of historical states.
@@ -199,7 +201,7 @@ Ethereum's consensus layer is the network of [consensus clients](validator-clien
 
 The Deposit contract is the **gateway** to Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) and is managed **through a smart contract** on Ethereum. The smart contract accepts any transaction with a minimum amount of 1 ETH and valid [input data](staking-glossary.md#input-data). Ethereum beacon nodes listen to the deposit contract and use the input data to credit each validator.
 
-[_More info on the deposit contract_](pour-debuter/deposit-process.md)
+[_More info on the deposit contract_](getting-started/deposit-process.md)
 
 ## Effectiveness
 
@@ -266,9 +268,9 @@ To reflect the relative value of an attestation, the reward given to a validator
 
 ## Input data
 
-The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the validator public key and the withdrawal public key, which were signed with by the validator [private key](staking-glossary.md#private-key). The input data needs to be added to the transaction to the [deposit contract](pour-debuter/deposit-process.md) in order to get identified by the [beacon-chain](staking-glossary.md#beacon-chain).
+The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the validator public key and the withdrawal public key, which were signed with by the validator [private key](staking-glossary.md#private-key). The input data needs to be added to the transaction to the [deposit contract](getting-started/deposit-process.md) in order to get identified by the [beacon-chain](staking-glossary.md#beacon-chain).
 
-[_More info about the deposit process_](pour-debuter/deposit-process.md)
+[_More info about the deposit process_](getting-started/deposit-process.md)
 
 ## Justification
 

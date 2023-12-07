@@ -50,7 +50,7 @@ Yes, but with small penalties. See [I'm worried about downtime](help/downtime-ex
 
 Yes! Withdrawals are now enabled on Ethereum :owl:
 
-If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](rewards/chain-rewards.md#priority-fees) and [MEV](rewards/chain-rewards.md#mev) (if you are using an [MEV-Boost](validator-clients/mev-boost.md) relay).
+If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](recompenses/chain-rewards.md#priority-fees) and [MEV](recompenses/chain-rewards.md#mev) (if you are using an [MEV-Boost](validator-clients/mev-boost.md) relay).
 
 To withdraw your full validator amount (not just the skimmed amount) you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](staking-glossary.md#validator-queue). This process is different for each client, details for each can be found here: [How to exit a validator](tutorials/how-to-exit-a-validator.md).
 
@@ -64,7 +64,7 @@ Beaconcha.in has built a resource exactly for this: [https://beaconcha.in/tools/
 
 ## How are validators incentivized to stay active and honest?
 
-As a validator you are [rewarded](rewards/chain-rewards.md) for proposing / attesting to blocks that are included in the chain. On the other hand, you can be [penalized for being offline](rewards/chain-rewards.md#validator-penalties) and behaving maliciously—for example attesting to invalid or contradicting blocks.
+As a validator you are [rewarded](recompenses/chain-rewards.md) for proposing / attesting to blocks that are included in the chain. On the other hand, you can be [penalized for being offline](recompenses/chain-rewards.md#validator-penalties) and behaving maliciously—for example attesting to invalid or contradicting blocks.
 
 The key concept is the following:
 
@@ -134,7 +134,7 @@ You can view a validator's reward for proposed blocks by looking at the fee reci
 
 <figure><img src=".gitbook/assets/image (74).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
 
-See a detailed explanation here: [How does my validator earn ETH?](rewards/chain-rewards.md)
+See a detailed explanation here: [How does my validator earn ETH?](recompenses/chain-rewards.md)
 
 ## Is the deposit/source address shown anywhere?
 
@@ -146,7 +146,7 @@ The deposit/source address can be seen on [beaconcha.in](https://beaconcha.in) u
 
 ## Is there a penalty for missing a block proposal?
 
-No. If you miss your block proposal, the [slot](staking-glossary.md#slot) that should have contained your block will be empty. Other than the lost [rewards](rewards/chain-rewards.md) from missing the block proposal, there are **no penalties or slashing** that occurs from a missed block proposal.
+No. If you miss your block proposal, the [slot](staking-glossary.md#slot) that should have contained your block will be empty. Other than the lost [rewards](recompenses/chain-rewards.md) from missing the block proposal, there are **no penalties or slashing** that occurs from a missed block proposal.
 
 ## Is there a penalty for missing an attestation?
 

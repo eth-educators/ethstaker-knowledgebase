@@ -64,5 +64,3 @@ En développant ce calcul, nous pouvons estimer le temps qu'il faudra pour trait
 |       800 000      |     7,0 jours     |
 
 Comme vous pouvez le voir, le délai s’allonge à mesure que davantage de validateurs sont présents sur le réseau. Une augmentation des blocs manqués pourrait aussi ralentir cela proportionnellement, mais cette estimation représentera généralement l'estimation la plus lente possible.
-
-**Source:** [**https://ethereum.org/fr/staking/withdrawals/**](https://ethereum.org/fr/staking/withdrawals/)
