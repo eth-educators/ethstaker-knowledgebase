@@ -19,12 +19,12 @@ An unbiased, open-source collection of useful information and concepts about Eth
 * [Running a node without any ETH](pour-debuter/ethereum-node.md)
 * [Deposit process explained](pour-debuter/deposit-process.md)
 
-### **🚨 HELP!**
+### **🚨 AIDE !**
 
-* [My validator is offline! What do I do?](help/validator-offline.md)
-* [Missed attestations! What can I do?](help/missed-attestations.md)
-* [I'm worried about downtime 😔](help/downtime-explained.md)
-* [I'm worried about slashing 🔪](help/slashing-explained.md)
+* [My validator is offline! What do I do?](a-laide/validator-offline.md)
+* [Missed attestations! What can I do?](a-laide/missed-attestations.md)
+* [I'm worried about downtime 😔](a-laide/downtime-explained.md)
+* [I'm worried about slashing 🔪](a-laide/slashing-explained.md)
 
 ### 💰 Rewards
 

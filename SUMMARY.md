@@ -11,13 +11,13 @@
 * [Deposit process explained](pour-debuter/deposit-process.md)
 * [Withdrawal process explained](pour-debuter/withdrawal-process-explained.md)
 
-## 🚨 Help!
+## 🚨 A l'Aide!
 
-* [My validator is offline! What do I do?](help/validator-offline.md)
-* [Missed attestations! What can I do?](help/missed-attestations.md)
-* [I'm worried about downtime 😔](help/downtime-explained.md)
-* [I'm worried about slashing 🔪](help/slashing-explained.md)
-* [Common errors and mistakes](help/common-errors-mistakes.md)
+* [Mon validateur est hors ligne ! Que dois-je faire ?](a-laide/validator-offline.md)
+* [Attestations manquées ! Que puis-je faire ?](a-laide/missed-attestations.md)
+* [Je suis inquiet concernant les pannes 😔](a-laide/downtime-explained.md)
+* [Je suis inquiet d'être exclu🔪](a-laide/slashing-explained.md)
+* [Erreurs courantes](a-laide/common-errors-mistakes.md)
 
 ## 💰 Rewards
 

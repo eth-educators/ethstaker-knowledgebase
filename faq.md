@@ -44,7 +44,7 @@ No. Realistically, the only condition that can cause a [slashing event](staking-
 
 ## Can I stop running my validator for a few days and then start it back up again?
 
-Yes, but with small penalties. See [I'm worried about downtime](help/downtime-explained.md).
+Yes, but with small penalties. See [I'm worried about downtime](a-laide/downtime-explained.md).
 
 ## Can I withdraw my ETH at any time?
 

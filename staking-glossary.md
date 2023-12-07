@@ -342,7 +342,7 @@ Demonstrating cryptographically that a message or transaction was approved by th
 
 If your validator commits a slashable offense it will be force exited from the validator pool and will have ETH deducted depending on the circumstances of the event. Typically, this will be 1-2 ETH but could be [significantly more ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/#slashing).
 
-This is not something to be overly worried about, there are [simple steps](help/slashing-explained.md) you can take to make sure that you don't invoke a slashing event.
+This is not something to be overly worried about, there are [simple steps](a-laide/slashing-explained.md) you can take to make sure that you don't invoke a slashing event.
 
 There are three ways a validator can be slashed, all of which amount to the dishonest proposal or attestation of blocks.
 
