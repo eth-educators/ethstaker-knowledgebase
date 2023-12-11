@@ -80,7 +80,7 @@ Now the fun begins! To install, execute the below command
 apt-get install openvpn-as
 ```
 
-<figure><img src="../.gitbook/assets/image (8) (1) (2).png" alt=""><figcaption><p>You may need to install a fair few packages for this one...</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption><p>You may need to install a fair few packages for this one...</p></figcaption></figure>
 
 Hooray, you've just installed OpenVPN access server! Pay attention to this part of the debug, it contains valuable information.
 
@@ -154,7 +154,7 @@ Please navigate to Authentication > Settings
 
 Please find the "TOTP Multi-Factor Authentication" setting and toggle it
 
-<figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 Once the setting has been changed, you must again click "Save Settings" down the bottom and then "Update running server" as shown in the bottom of the last example (Step 5.3).
 

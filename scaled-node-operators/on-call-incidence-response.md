@@ -61,4 +61,4 @@ What to look for first?
 
 Being a scaled node operator comes with the responsibility of ensuring the network's security and efficiency. Adequate preparation and knowing precisely what to focus on when issues arise will make your incidence response effective and timely. Always remember, in times of incidents, swift action and clear communication are key.
 
-> <img src="../.gitbook/assets/image (8).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
