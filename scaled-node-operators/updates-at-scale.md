@@ -90,4 +90,4 @@ Updates at scale are a complex yet critical component of maintaining a large-sca
 
 {% embed url="https://www.kiln.fi/post/ethereum-upgrades-at-scale" %}
 
-> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
+> <img src="../.gitbook/assets/image (8).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

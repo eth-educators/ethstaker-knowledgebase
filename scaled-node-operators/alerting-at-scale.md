@@ -82,4 +82,4 @@ Running Ethereum staking services efficiently requires a robust and well-thought
 
 By monitoring these aspects and setting appropriate alerts, Ethereum staking services can operate reliably, maintain security, and optimize their staking rewards while minimizing risks and penalties.
 
-> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
+> <img src="../.gitbook/assets/image (8).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

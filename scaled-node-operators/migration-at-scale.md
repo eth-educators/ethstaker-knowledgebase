@@ -9,4 +9,4 @@ description: Under construction 🏗️
 * How to check you are really offline?
 * Best practice for rolling migrations?
 
-> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
+> <img src="../.gitbook/assets/image (8).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
