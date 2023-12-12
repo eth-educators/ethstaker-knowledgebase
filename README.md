@@ -12,33 +12,33 @@ An unbiased, open-source collection of useful information and concepts about Eth
 
 ## 🔗 Useful Links
 
-* [Staking glossary](staking-glossary.md)
-* [Staking FAQ](faq.md)
+* [staking-glossary.md](staking-glossary.md "mention")
+* [faq.md](faq.md "mention")
 
 ## 🚀 Getting started
 
-* [What is Ethereum staking?](getting-started/what-is-ethereum-staking.md)
-* [Running a node without any ETH](getting-started/ethereum-node.md)
-* [Deposit process explained](getting-started/deposit-process.md)
+* [what-is-ethereum-staking.md](getting-started/what-is-ethereum-staking.md "mention")
+* [ethereum-node.md](getting-started/ethereum-node.md "mention")
+* [deposit-process.md](getting-started/deposit-process.md "mention")
 
 ### **🚨 HELP!**
 
-* [My validator is offline! What do I do?](help/validator-offline.md)
-* [Missed attestations! What can I do?](help/missed-attestations.md)
-* [I'm worried about downtime 😔](help/downtime-explained.md)
-* [I'm worried about slashing 🔪](help/slashing-explained.md)
+* [validator-offline.md](help/validator-offline.md "mention")
+* [missed-attestations.md](help/missed-attestations.md "mention")
+* [downtime-explained.md](help/downtime-explained.md "mention")
+* [slashing-explained.md](help/slashing-explained.md "mention")
 
 ### 💰 Rewards
 
-* [How does my validator earn ETH?](rewards/chain-rewards.md)
-* [Block proposal frequency](rewards/proposal-frequency.md)
+* [chain-rewards.md](rewards/chain-rewards.md "mention")
+* [proposal-frequency.md](rewards/proposal-frequency.md "mention")
 
 ### 💻 Hardware
 
-* [Hardware requirements](hardware/hardware-requirements.md)
-* [Hardware examples](hardware/hardware-examples/)
-* [Hardware security](hardware/hardware-security.md)
-* [Hardware best practices](hardware/hardware-best-practices.md)
+* [hardware-requirements.md](hardware/hardware-requirements.md "mention")
+* [hardware-examples](hardware/hardware-examples/ "mention")
+* [hardware-security.md](hardware/hardware-security.md "mention")
+* [hardware-best-practices.md](hardware/hardware-best-practices.md "mention")
 
 ### 🖧 Networking
 
@@ -50,12 +50,12 @@ An unbiased, open-source collection of useful information and concepts about Eth
 
 ### ⛓️ Validator Clients
 
-* [Validator clients explained](validator-clients/validator-clients-explained.md)
-* [Execution clients](validator-clients/execution-clients.md)
-* [Consensus clients](validator-clients/consensus-clients.md)
-* [Checkpoint sync](validator-clients/checkpoint-sync.md)
-* [Validator effectiveness](validator-clients/validator-effectiveness.md)
-* [MEV boost](validator-clients/mev-boost.md)
+* [validator-clients-explained.md](validator-clients/validator-clients-explained.md "mention")
+* [execution-clients.md](validator-clients/execution-clients.md "mention")
+* [consensus-clients.md](validator-clients/consensus-clients.md "mention")
+* [checkpoint-sync.md](validator-clients/checkpoint-sync.md "mention")
+* [validator-effectiveness.md](validator-clients/validator-effectiveness.md "mention")
+* [mev-boost.md](validator-clients/mev-boost.md "mention")
 
 ### 🔑 Validator Keys
 
