@@ -220,7 +220,7 @@ Ethereum's execution layer is the network of [execution clients](validator-clien
 
 ## Finalization
 
-one-thirdIn Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) at least two third of the validators have to be honest, therefore if there are two competing [epochs](staking-glossary.md#epoch) and one third of the [validators](staking-glossary.md#validator) decide to be malicious, they will receive a penalty. Honest validators will be rewarded.
+In Ethereum [Proof of Stake (PoS)](staking-glossary.md#proof-of-stake-pos) at least two third of the validators have to be honest, therefore if there are two competing [epochs](staking-glossary.md#epoch) and one third of the [validators](staking-glossary.md#validator) decide to be malicious, they will receive a penalty. Honest validators will be rewarded.
 
 In order to determine if an epoch has been finalized, validators have to agree on the latest two epochs in a row, then all previous Epochs can be considered as finalized.
 
