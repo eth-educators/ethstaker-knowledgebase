@@ -26,7 +26,7 @@ Multiple layers of alerting can help to reduce single points of failure and prov
 
 For good tips on alerting in general, see [“My Philosophy on Alerting”](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit).
 
-### What makes a good alert?
+### 🚨 What makes a good alert?
 
 1. **Relevance and Specificity**: A good alert is highly relevant to the system's overall health and performance. It should target specific conditions that are indicative of real issues, avoiding general or vague triggers. This specificity helps in the quick identification and resolution of problems.
 2. **Actionable Information**: The alert should provide enough information for immediate action. It needs to be clear about what the problem is, where the problem is, and ideally, suggest potential solutions or next steps. This reduces the time spent in diagnosing the issue.
@@ -43,7 +43,7 @@ By adhering to these principles, an alerting system can be both effective and ef
 
 * [Google SRE Handbook](https://sre.google/sre-book/table-of-contents/)
 
-### Should all alerts be on-call alerts?
+### 🤔 Should all alerts be on-call alerts?
 
 There is a practice in every cloud service, called “being on-call”. That means that at some moment in time, there is a person responsible for reacting to alerts, regardless of when they happen.
 
@@ -64,7 +64,7 @@ The necessity for an alert to trigger an on-call response depends on several fac
 
 In summary, while on-call alerts are crucial for addressing critical issues promptly, not every alert warrants an immediate on-call response. The decision should be based on the severity, urgency, frequency, and the possibility of automation in handling these alerts.
 
-### What alerts do we need for running staking services?
+### 🔔 What alerts do we need for running staking services?
 
 Running Ethereum staking services efficiently requires a robust and well-thought-out alerting system. This system should ensure maximum uptime and quick response to any issues that might affect staking operations. Here are key alerts necessary for managing Ethereum staking services:
 

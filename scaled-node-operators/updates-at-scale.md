@@ -1,5 +1,7 @@
 # Updates at scale
 
+<figure><img src="../.gitbook/assets/image.png" alt="" width="535"><figcaption></figcaption></figure>
+
 Rolling out software upgrades is a common operation task. It is often overlooked during the service scaling up. Ensuring that the new release is deployed in time is particularly important for running Ethereum or blockchain infrastructure in general because:
 
 * New upgrades & forks are only supported by the new release, failing to do so in time will result in the node stopping syncing or producing invalid blocks. In the worst-case scenario, it will cause validators going offline.
@@ -78,13 +80,11 @@ A key principle of DevOps is to treat servers like "cattle, not pets". This mean
 
 Important data, such as validator keys, should already be securely backed up. If you're ever in a situation where an update breaks a server and you lose critical data, it is not the fault of the update but some important steps missing from your processes!
 
-## Conclusion
+***
 
 Keeping software up-to-date requires commitment and is an essential part of operating a secure and stable blockchain infrastructure, such as Ethereum. By understanding the challenges associated with software upgrades and implementing effective solutions, such as maintaining an accurate software inventory, staying informed about new releases, planning for upgrades, and automating the upgrade process, you can ensure timely and successful software updates.
 
 Updates at scale are a complex yet critical component of maintaining a large-scale Ethereum staking operation. By following these guidelines and continuously refining your processes, you can achieve a balance of security, performance, and reliability in your infrastructure.
-
-
 
 ### Other Resources
 
