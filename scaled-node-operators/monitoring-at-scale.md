@@ -15,4 +15,4 @@ description: Under construction 🏗️
 
 {% embed url="https://www.kiln.fi/post/monitoring-ethereum-staking-infrastructure-at-scale" %}
 
-> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider and [Igor Mandrigin](https://x.com/mandrigin).
