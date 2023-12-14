@@ -28,6 +28,14 @@ Monitor performance and error metrics such as missed attestations, node latency,
 
 Set predefined thresholds for raising an alarm. For example, if more than 5% of validators are underperforming or if you observe an unusual surge in network requests, it should immediately trigger an alarm.
 
+{% hint style="info" %}
+**Incident response example from GatewayFM**&#x20;
+
+Once one of our machines went offline in one of our new bare metal providers, and we could only ask for help using the use website support ticket because we didn't have all the contacts yet. The communication was done via emails and there weren't not many updates from their side. After one hour our CEO called our account manager and we managed to create a Slack channel with their engineers. And things went quickly after that. In the end, they had to go to the data center physically and examine the machine. When the machine started again, our service was offline for 4 hours. In retrospect, it could have been longer if we didn't have the Slack channel.
+
+Lesson learned, always ask for a direct support/communication channel (phone, Slack, etc) when on-boarding a new data center provider.
+{% endhint %}
+
 ### First Steps Required During Incidence Response
 
 1. **Initial Assessment**: Determine the scope of the problem. Is it affecting one validator, multiple validators, or is it a network-wide issue?
@@ -61,4 +69,4 @@ What to look for first?
 
 Being a scaled node operator comes with the responsibility of ensuring the network's security and efficiency. Adequate preparation and knowing precisely what to focus on when issues arise will make your incidence response effective and timely. Always remember, in times of incidents, swift action and clear communication are key.
 
-> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider and [Igor Mandrigin](https://x.com/mandrigin).
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [Igor Mandrigin](https://x.com/mandrigin) and [Gateway.fm](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

@@ -14,7 +14,7 @@ layout:
 
 # Security at scale
 
-<figure><img src="../.gitbook/assets/image (1) (2).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Security is non-negotiable when you're running Ethereum validators at scale. This guide focuses on best practices specifically tailored for scaled Ethereum staking providers. The objective is to offer a comprehensive security framework that goes beyond typical measures used by solo stakers.
 
@@ -211,4 +211,4 @@ Integrating these systems allows for a more comprehensive security posture, as e
 
 Security at scale is an ongoing commitment that involves continual assessment and evolution. By implementing these practices, scaled Ethereum staking providers can not only secure their own operations but also contribute to the overall security of the Ethereum network.
 
-> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider and [Igor Mandrigin](https://x.com/mandrigin).
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [Igor Mandrigin](https://x.com/mandrigin) and [Gateway.fm](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

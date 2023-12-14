@@ -153,4 +153,4 @@ The post-migration phase is crucial in solidifying the success of the Ethereum v
 
 Migrating validators to new servers at scale is a complex process that requires careful planning and execution. Following these guidelines and best practices will help ensure a smooth transition with minimal downtime or risk to your validators. Always prioritize the security and integrity of your validator keys and data during the migration process.
 
-> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider and [Igor Mandrigin](https://x.com/mandrigin).
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [Igor Mandrigin](https://x.com/mandrigin) and [Gateway.fm](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.

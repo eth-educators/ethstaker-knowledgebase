@@ -1,6 +1,6 @@
 # Updates at scale
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="535"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="535"><figcaption></figcaption></figure>
 
 Rolling out software upgrades is a common operation task. It is often overlooked during the service scaling up. Ensuring that the new release is deployed in time is particularly important for running Ethereum or blockchain infrastructure in general because:
 
@@ -90,4 +90,4 @@ Updates at scale are a complex yet critical component of maintaining a large-sca
 
 {% embed url="https://www.kiln.fi/post/ethereum-upgrades-at-scale" %}
 
-> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [GatewayFM](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider and [Igor Mandrigin](https://x.com/mandrigin).
+> <img src="../.gitbook/assets/image (108).png" alt="" data-size="line">The information in the Scaled Node Operators section has been written and reviewed by [Igor Mandrigin](https://x.com/mandrigin) and [Gateway.fm](https://gateway.fm), a leading large scale Ethereum staking infrastructure provider.
