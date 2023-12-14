@@ -18,6 +18,8 @@ layout:
 
 As a scaled Ethereum staking provider, you're responsible for a significant part of the network's overall health and security. This guide provides you with targeted information on what to prioritize when incidents happen, ensuring that you can react effectively.
 
+## On-Call
+
 ### What to Look for First? When Do You Raise an Alarm?
 
 #### Key Metrics

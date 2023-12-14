@@ -6,13 +6,20 @@ Effective key management is crucial for Ethereum validators, especially at scale
 
 **Best Practices**
 
-* [**Systematic Tracking of Keys**](key-management-at-scale.md#1.-systematic-tracking-of-keys): Maintaining an organized record of all keys is vital. Utilize key management software to track the status and usage of each key. Regular audits and checks are necessary to ensure accuracy.
-* [**Backup Strategies**](key-management-at-scale.md#2.-backup-strategies): Implement a robust backup protocol for keys. Backups should be stored securely, ideally in physically different locations to mitigate risks like natural disasters or local hardware failures.
-* [**Risks of Hot Standbys**](key-management-at-scale.md#3.-risks-of-hot-standbys): While hot standbys offer quick recovery, they can be vulnerable to attacks if not properly secured. Ensure these systems are as secure as the primary systems and limit their exposure to potential threats.
-* [**Use of Web3Signer**](key-management-at-scale.md#4.-use-of-web3signer): Incorporate Web3Signer for secure and scalable key management. It separates key management from validator duties, reducing the risk of key exposure and facilitating ease of management across multiple validators.
-* [**Integration with Secure Vaults**](key-management-at-scale.md#5.-integration-with-secure-vaults): Store keys in secure vaults, such as hardware security modules (HSMs), which offer robust protection against physical and digital threats. Ensure these vaults are accessible only to authorized personnel and have multi-factor authentication (MFA) mechanisms.
-* [**Audit and Compliance**](key-management-at-scale.md#7.-audit-and-compliance): Regularly audit key management practices and maintain logs for compliance purposes. This not only ensures adherence to best practices but also aids in identifying potential areas of improvement.
-* [**Training and Awareness**](key-management-at-scale.md#8.-training-and-awareness): Educate your team on the importance of key security and the potential risks of mismanagement. Regular training sessions can help maintain a high level of awareness and vigilance.
+* **Systematic Tracking of Keys**:\
+  Maintaining an organized record of all keys is vital. Utilize key management software to track the status and usage of each key. Regular audits and checks are necessary to ensure accuracy.
+* **Backup Strategies**:\
+  Implement a robust backup protocol for keys. Backups should be stored securely, ideally in physically different locations to mitigate risks like natural disasters or local hardware failures.
+* **Risks of Hot Standbys**:\
+  While hot standbys offer quick recovery, they can be vulnerable to attacks if not properly secured. Ensure these systems are as secure as the primary systems and limit their exposure to potential threats.
+* **Use of Web3Signer**:\
+  Incorporate Web3Signer for secure and scalable key management. It separates key management from validator duties, reducing the risk of key exposure and facilitating ease of management across multiple validators.
+* **Integration with Secure Vaults**:\
+  Store keys in secure vaults, such as hardware security modules (HSMs), which offer robust protection against physical and digital threats. Ensure these vaults are accessible only to authorized personnel and have multi-factor authentication (MFA) mechanisms.
+* **Audit and Compliance**:\
+  Regularly audit key management practices and maintain logs for compliance purposes. This not only ensures adherence to best practices but also aids in identifying potential areas of improvement.
+* **Training and Awareness**:\
+  Educate your team on the importance of key security and the potential risks of mismanagement. Regular training sessions can help maintain a high level of awareness and vigilance.
 
 ### 🔍 Systematic Tracking of Keys
 
