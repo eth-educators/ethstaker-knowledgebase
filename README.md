@@ -88,7 +88,7 @@ Yes! This is a living documentation site, meaning we need the community's help t
 
 Use this GitBook invite link to suggest edits and new content directly on GitBook:
 
-{% embed url="https://app.gitbook.com/invite/5TLAFycQGS1YA3kIVVOf/WIAQnld5Py2wJBhKcshO" %}
+{% embed url="https://app.gitbook.com/invite/5TLAFycQGS1YA3kIVVOf/mApYtvFWf7QnDjZJdUhf" %}
 
 You can earn GitPOAPs by contributing directly to the EthStaker Knowledge Base (a [contributor↗](https://www.gitpoap.io/gp/881)) and by asking a question that leads to content being created (a [supporter↗](https://www.gitpoap.io/gp/923)).
 
