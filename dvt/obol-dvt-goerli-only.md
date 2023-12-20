@@ -1,8 +1,4 @@
-# Obol DVT - Goerli Only
-
-{% hint style="warning" %}
-Testnet only!
-{% endhint %}
+# Obol DVT
 
 ## Connect existing EC & BN clients
 

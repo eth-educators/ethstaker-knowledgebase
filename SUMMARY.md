@@ -70,6 +70,11 @@
 * [How to exit a validator](tutorials/how-to-exit-a-validator.md)
 * [Updating withdrawal credentials](tutorials/updating-withdrawal-credentials.md)
 
+## 🧪 DVT
+
+* [Obol DVT](dvt/obol-dvt-goerli-only.md)
+* [SSV DVT](dvt/ssv-dvt.md)
+
 ## 🎛 Scaled Node Operators
 
 * [What is a scaled node operator?](scaled-node-operators/what-is-a-scaled-node-operator.md)
@@ -94,7 +99,3 @@
 ***
 
 * [Privacy policy](privacy-policy.md)
-
-## 🧪 DVT
-
-* [Obol DVT - Goerli Only](dvt/obol-dvt-goerli-only.md)
