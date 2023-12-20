@@ -51,8 +51,8 @@ cd charon-distributed-validator-node
 
 There are three steps needed to change the configuration:
 
-1. [Copy and edit the .env](obol-dvt-goerli-only.md#copy-and-edit-the-.env)
-2. [Copy and edit the example override file](obol-dvt-goerli-only.md#copy-and-edit-the-example-override-file)
+1. [Copy and edit the .env](obol-dvt.md#copy-and-edit-the-.env)
+2. [Copy and edit the example override file](obol-dvt.md#copy-and-edit-the-example-override-file)
 
 #### Copy and edit the .env
 

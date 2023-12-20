@@ -72,7 +72,7 @@
 
 ## 🧪 DVT
 
-* [Obol DVT](dvt/obol-dvt-goerli-only.md)
+* [Obol DVT](dvt/obol-dvt.md)
 * [SSV DVT](dvt/ssv-dvt.md)
 
 ## 🎛 Scaled Node Operators
