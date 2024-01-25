@@ -5,7 +5,7 @@ For more info about Execution clients and Validator clients start here: \
 [Validator clients explained](validator-clients-explained.md) 👀
 {% endhint %}
 
-There are multiple consensus clients (previously known as 'Eth2' clients) to support the consensus upgrades. They are running the Beacon Chain and provide a [proof-of-stake (PoS)](../staking-glossary.md#proof-of-stake-pos) consensus mechanism to [execution clients](execution-clients.md).
+Consensus clients run the Beacon Chain and provide a [proof-of-stake (PoS)](../staking-glossary.md#proof-of-stake-pos) consensus mechanism to [execution clients](execution-clients.md).
 
 Consensus clients all follow the same [specification ↗](https://github.com/ethereum/consensus-specs). If a client doesn't follow this spec it won't be able to come to consensus with the rest of the network.
 
@@ -26,7 +26,6 @@ Nimbus is a consensus client implementation written in Nim under the Apache-2.0 
 Implemented by Trinity. Works like fast sync but also downloads the data needed to execute latest blocks, which allows you to query the chain within the first few minutes from starting.
 
 * Syncs state first and enables you to query RPC in a few minutes.
-* Still in development and not fully reliable, background sync is slowed down and RPC responses might fail.
 
 ### Prysm
 

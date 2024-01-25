@@ -234,28 +234,29 @@ There are pre-configured hardware options like [Dappnode↗](https://dappnode.co
 
 The majority of the time commitment for staking is the initial learning and setup. It will probably take a day or two of tinkering to get it all figured out (maybe more, and that's okay!). Once you get going you're looking at updating once a month or so (ten minutes) and responding to outages, which are rare.
 
-## What should I do if I am getting lots of client errors post Shanghai?
+## What should I do if I am getting lots of client errors after a network upgrade?
 
-The most common cause of this issue is when node operators have failed to upgrade their node software prior to the network upgrade taking place. This can cause database corruption where a resync is required to get the node operating again.
+The most common cause of this issue is when node operators have failed to upgrade their node software prior to the network upgrade taking place. This can cause the client software to follow a forked chain and require a resync to get the node operating again on the correct chain.
 
-Ensure that you are running a client version that is supported post network upgrade. The below versions should be the versions you are running _at a minimum._
+Ensure that you are running a client version that is supported post network upgrade. Please check the GitHub notes for respective the clients you are using to verify which version you should be running.
 
-| Execution  | Version |
-| ---------- | ------- |
-| Geth       | v1.11.5 |
-| Nethermind | v1.17.3 |
-| Besu       | v23.1.2 |
-| Erigon     | v2.42.0 |
+| Execution                                                          |
+| ------------------------------------------------------------------ |
+| [Geth](https://github.com/ethereum/go-ethereum/releases)           |
+| [Nethermind](https://github.com/NethermindEth/nethermind/releases) |
+| [Besu](https://github.com/hyperledger/besu/releases)               |
+| [Erigon](https://github.com/ledgerwatch/erigon/releases)           |
+| [Reth](https://github.com/paradigmxyz/reth/releases)               |
 
-|            |         |
-| ---------- | ------- |
-| Prysm      | v4.0.0  |
-| Lighthouse | v4.0.1  |
-| Nimbus     | v23.3.2 |
-| Teku       | v23.3.1 |
-| Lodestar   | v1.7.0  |
+|                                                             |
+| ----------------------------------------------------------- |
+| [Prysm](https://github.com/prysmaticlabs/prysm/releases)    |
+| [Lighthouse](https://github.com/sigp/lighthouse/releases)   |
+| [Nimbus](https://github.com/status-im/nimbus-eth2/releases) |
+| [Teku](https://github.com/ConsenSys/teku/releases)          |
+| [Lodestar](https://github.com/ChainSafe/lodestar/releases)  |
 
-If you were running an older version post network upgrade, most likely your local database will need to be deleted and resynced as it has most likely corrupted. This is more commonly true for execution clients than it is for consensus clients.
+If you were running an older version post network upgrade, then most likely your local database will need to be deleted and resynced. This is more commonly true for execution clients than it is for consensus clients.
 
 If you download the beaconchai.in app or sign up to an account you can configure email alerts when new client releases are published so you won't run into this issue.&#x20;
 
@@ -270,8 +271,6 @@ The answer to this question very much depends on how much ETH you have at your d
 There are many great resources out there to help you monitor your setup, a few are linked below.
 
 {% embed url="https://beaconcha.in/" %}
-A mobile app version is also available for real time alerts.
-{% endembed %}
 
 {% embed url="https://beaconscan.com/" %}
 

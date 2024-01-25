@@ -2,6 +2,8 @@
 
 {% hint style="info" %}
 A community maintained list of checkpoint sync endpoints can be found here: [Ethereum Beacon Chain checkpoint sync endpoints ↗](https://eth-clients.github.io/checkpoint-sync-endpoints/)
+
+The endpoint maintained by EthStaker can be found [here](https://beaconstate.ethstaker.cc/)
 {% endhint %}
 
 Checkpoint sync, also known as weak subjectivity sync, creates a superior user experience for syncing Beacon Node. It's based on assumptions of [weak subjectivity↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/weak-subjectivity) which enables syncing Beacon Chain from a recent weak subjectivity checkpoint instead of genesis. Checkpoint sync makes the initial sync time significantly faster with similar trust assumptions as syncing from [genesis](../staking-glossary.md#genesis-block).

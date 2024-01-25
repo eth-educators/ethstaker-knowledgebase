@@ -27,7 +27,7 @@ When a validator is scheduled to propose the next block, it is required to build
 {% hint style="info" %}
 Think about an analogue clock. The hand on the clock points to the hour, progresses in one direction, doesn’t skip any hours, and eventually wraps around to the beginning again after the last number is reached.\
 \
-Now instead of 1 through 12, imagine the clock has 0 through N _(the total number of validator accounts that have ever been registered on the Beacon Chain, over 500,000 as of Jan 2023)._\
+Now instead of 1 through 12, imagine the clock has 0 through N _(the total number of validator accounts that have ever been registered on the Beacon Chain, over 900,000 as of Jan 2024)._\
 \
 The hand on the clock points to the next validator that needs to be checked for eligible withdrawals. It starts at 0, and progresses all the way around without skipping any accounts. When the last validator is reached, the cycle continues back at the beginning.
 {% endhint %}
@@ -57,11 +57,10 @@ Expanding this calculation, we can estimate the time it will take to process a g
 
 | Number of withdrawals | Time to complete |
 | :-------------------: | :--------------: |
-|        400,000        |     3.5 days     |
-|        500,000        |     4.3 days     |
-|        600,000        |     5.2 days     |
-|        700,000        |     6.1 days     |
 |        800,000        |     7.0 days     |
+|        900,000        |     7.8 days     |
+|       1,000,000       |     8.7 days     |
+|       1,100,000       |     9.6 days     |
 
 As you see this slows down as more validators are on the network. An increase in missed blocks could slow this down proportionally, but this will generally represent the slower side of possible outcomes.
 

@@ -1,6 +1,8 @@
 # Use all available disk space
 
-Even if you have a large SSD installed, there are cases where Ubuntu only reports 200GB of total available space, causing the system to run out of disk space when syncing.
+Even if you have a large SSD installed, you may only have (Ubuntu Server) 200GB of total available space depending on whether or not you have a LVM configured for your disk.
+
+This can cause the system to run out of disk space when syncing.
 
 The error message is similar to:
 

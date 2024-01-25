@@ -16,18 +16,17 @@ The following are considered _**minimum**_ requirements to run a full node:
 * Quad-core CPU (or dual-core hyperthreaded); both `x64` and `arm64` are supported
 * 16 GB of RAM (preferably DDR4)
 * 2 TB of free **SSD Disk Space**
-  * A spinning platter hard drive _is not fast enough_ to handle the constant random reads and writes that blockchain activity requires. You **MUST** use a solid-state drive.
+  * A spinning platter hard drive _is not fast enough_ to handle the constant random reads and writes that blockchain activity requires. You **MUST** use a solid-state drive. [A list of tested SSD's can be found here.](https://gist.github.com/yorickdowne/f3a3e79a573bf35767cd002cc977b038)
 
 {% hint style="info" %}
 Typical configurations tend to use 16GB or 32GB of RAM for future-proofing.
 {% endhint %}
 
 * The ideal setup, and best practice is to have a dedicated computer for staking. Try to limit additional processes running on your staking box. Especially if it is something that is connecting to the outside world. Every extra process and every file being downloaded is another opportunity for an exploit.
-* Your ETH will be locked into the [Beacon Chain](../staking-glossary.md#beacon-chain) until at the earliest mid-2023, [possibly later](../faq.md#can-i-withdraw-my-eth-at-any-time). It makes sense to buy some good hardware. This isn’t like mining with razor-thin margins, it will pay for itself quickly.
 * Use Linux, it's easy! For the foreseeable future, Linux will receive better support from both the client teams and the community at large. If you choose Linux you will have access to more guides and more technical support from the community at large. Linux is lightweight, stable, secure, and it doesn't force you to restart for updates every other day.
 * Use a [minority client](../validator-clients/validator-clients-explained.md)! It is both good for the health of Ethereum and good for the health of your money.
 * A battery backup (UPS) is **strongly** recommended! Plug your modem and router into it also. Many ISPs have generators to support emergency services communications, meaning the internet continues to work during a power outage as long as your equipment is powered. Your ISP may be the same. Aside from blackouts, not having your computer shut down on every momentary power flicker is a nice quality-of-life improvement when staking from home.
-* Everything here applies to both solo staking and being a 16 ETH minipool node operator with [Rocket Pool ↗](https://rocketpool.net/).
+* Everything here applies to both solo staking and being a minipool node operator with [Rocket Pool ↗](https://rocketpool.net/).
 
 ## Hardware examples
 
@@ -63,7 +62,7 @@ Take a look at the [hardware examples](hardware-examples/) page for detailed exp
 
 **Memory:** Unless you go with an extremely bare-bones OS, 16GB is the minimum amount of RAM recommended for Mainnet.
 
-**Storage:** An SSD is required. You do not need to worry about SATA vs NVMe, either will be fast enough. Buying one with a high terabytes written spec will help with longevity. The Ethereum execution and consensus layer are approaching 1TB in size so a 2TB or bigger drive is recommended.
+**Storage:** An SSD is required. You do not need to worry about SATA vs NVMe, either will be fast enough. Buying one with a high terabytes written spec will help with longevity. A 2TB or bigger drive is recommended.
 
 **Caveats:** Stability and uptime are essential to maximize your profits. If you are using an older desktop consider replacing the PSU and the fans. Buying a titanium or platinum-rated PSU will help save on the monthly power bill as well.
 
@@ -131,4 +130,7 @@ It's not possible to run Linux on the new ARM architecture this uses. It is more
 
 **Performance:** You can buy as much as you can afford.
 
-If you live somewhere that is prone to natural disaster or has an unstable power grid or internet connection but still want to solo stake, this is a good option. If you do have stable power and internet, running your own hardware will be a cheaper/more profitable solution long term. You need to evaluate the pros/cons of this for your own situation. Remember that if one of the VPS providers goes down, it will mean all of the people using that VPS service to host will also go down, and the inactivity penalties will be much larger than if you have uncorrelated downtime yourself.
+If you live somewhere that is prone to natural disaster or has an unstable power grid or internet connection but still want to solo stake, this is a good option. You can also consider using a DVT protocol.
+
+If you do have stable power and internet, running your own hardware will be a cheaper/more profitable solution long term. You need to evaluate the pros/cons of this for your own situation. Remember that if one of the VPS providers goes down, it will mean all of the people using that VPS service to host will also go down, and the inactivity penalties will be much larger than if you have uncorrelated downtime yourself.
+
