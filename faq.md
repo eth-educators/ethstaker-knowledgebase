@@ -3,6 +3,7 @@
 * [Can I be slashed for being offline?](faq.md#can-i-be-slashed-for-being-offline)
 * [Can I stop running my validator for a few days and then start it back up again?](faq.md#can-i-stop-running-my-validator-for-a-few-days-and-then-start-it-back-up-again)
 * [Can I withdraw my ETH at any time?](faq.md#can-i-withdraw-my-eth-at-any-time)
+* [How long will a withdrawal take?](faq.md#how-long-will-a-withdrawal-take)
 * [How are validators incentivized to stay active and honest?](faq.md#how-are-validators-incentivized-to-stay-active-and-honest)
 * [How does MEV Boost min-bid work?](faq.md#how-does-mev-boost-min-bid-work)
 * [How long do pre-signed exit messages remain valid?](faq.md#how-long-do-pre-signed-exit-messages-remain-valid)
@@ -56,6 +57,12 @@ If your validator proposes a block, then some of those rewards are immediately a
 To withdraw your full validator amount (not just the skimmed amount) you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](staking-glossary.md#validator-queue). This process is different for each client, details for each can be found here: [How to exit a validator](tutorials/how-to-exit-a-validator.md).
 
 Ethereum Foundation Withdrawals FAQ: [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
+
+## How long will a withdrawal take?
+
+Validator withdrawals are processed in a round-robin fashion. Starting from validator 0 at the Capella upgrade, with each block, [the consensus layer sweeps](https://ethereum.org/en/staking/withdrawals/#validator-sweeping) through the validator set in validator index order until it has found 16 withdrawals to include. The next block proposer will pick up where the previous proposer left off in the validator set and scan for 16 further withdrawals, and so on. If every validator were eligible for a withdrawal, and if the beacon chain is performing perfectly, then a full sweep of 980,000 validators would take 8.5 days ("sweep delay").
+For more info, [see Ben Edgington's eth2book](https://eth2book.info/capella/part2/deposits-withdrawals/withdrawal-processing/#withdrawal-processing). 
+The queue and estimated withdrawal time can be seen on [validatorqueue.com](https://www.validatorqueue.com/) 
 
 ## Does my validator need to be online to withdraw my ETH?
 
