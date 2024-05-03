@@ -40,7 +40,7 @@
 * [Protección Brute-force SSH](networking/proteccion-brute-force-ssh.md)
 * [Configurando el acceso VPN en casa](networking/setting-up-home-vpn-access.md)
 
-## ⛓ Validator Clients
+## ⛓️ Validator Clients
 
 * [¿Qué son los clientes de validación?](validator-clients/validator-clients-explained.md)
 * [Clientes de Ejecución](validator-clients/execution-clients.md)
@@ -54,7 +54,7 @@
 * [Generación segura de claves](claves-del-validador/secure-key-generation.md)
 * [(Slashing protection) Protección de cortes](claves-del-validador/slashing-protection.md)
 
-## 🎛 ESCALANDO NODOS
+## 🎛️ ESCALANDO NODOS
 
 * [Comprobando el estado de los nodos](escalando-nodos/comprobando-el-estado-de-los-nodos.md)
 * [Mantenimiento de nodos](escalando-nodos/mantenimiento-de-nodos.md)
@@ -72,14 +72,14 @@
 * [Como resincronizar Geth](tutorials/resync-geth.md)
 * [Métodos para minimizar el tiempo de inactividad](tutorials/methods-to-minimize-downtime.md)
 * [Migrando de forma segura las llaves de validadores](tutorials/validator-key-migration.md)
-* [¿Cómo salir de un validador?](tutorials/how-to-exit-a-validator.md)
+* [¿Cómo realizar la salida de un validador?](tutorials/how-to-exit-a-validator.md)
 * [Actualizar credenciales de depósito](tutorials/actualizar-credenciales-de-deposito.md)
 
 ## ✏️ Involúcrese
 
 * [Ideas de contenido](involucrese/ideas-de-contenido.md)
 * [Código de conducta](involucrese/codigo-de-conducta.md)
-* [Como contribuir](involucrese/how-to-contribute.md)
+* [Cómo contribuir](involucrese/how-to-contribute.md)
 
 ***
 

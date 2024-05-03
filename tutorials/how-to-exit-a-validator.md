@@ -1,6 +1,6 @@
-# ¿Cómo salir de un validador?
+# ¿Cómo realizar la salida de un validador?
 
-Salir de un validador requiere que se envíe un mensaje firmado desde su cliente de validación. Los detalles del proceso de salida son diferentes para cada cliente. Estos enlaces son para cada cliente específico:
+Para realizar la salida de un validador, es necesario que se envíe un mensaje firmado desde su cliente de validación. Los detalles del proceso de salida son diferentes para cada cliente. Estos enlaces son para cada cliente específico:
 
 * [Exiting a Prysm validator ↗](https://docs.prylabs.network/docs/wallet/exiting-a-validator)
 * [Exiting a Lighthouse validator ↗](https://lighthouse-book.sigmaprime.io/voluntary-exit.html)
