@@ -23,7 +23,7 @@ maxretry = 5
 {% endcode %}
 
 {% hint style="info" %}
-If you're using a non-standard SSH port that isn't `22` then you will need to change that in the cofig file above.
+If you're using a non-standard SSH port that isn't `22` then you will need to change that in the config file above.
 {% endhint %}
 
 You can change the `maxretry` setting, which is the number of attempts it will allow before locking the offending address out.
