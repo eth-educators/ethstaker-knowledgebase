@@ -23,7 +23,7 @@ If you're interested in contributing to one of these topics or have your own ide
 
 How to Contribute:
 
-1. Join the EthStaker Discord server: [https://discord.io/ethstaker](https://discord.io/ethstaker)
+1. Join the EthStaker Discord server: [discord.com/invite/ethstaker](discord.com/invite/ethstaker)
 2. Head over to the [#knowledge-base channel](https://discord.com/channels/694822223575384095/1085669876795985920).
 3. Express your interest in contributing to a specific topic or idea or pitch your own idea.
 4. Collaborate with our team and community members to gather resources, guidance, and support.
