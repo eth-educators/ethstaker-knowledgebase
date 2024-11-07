@@ -5,7 +5,7 @@ A **full node** is one that runs both an [Execution Client](../validator-clients
 Here is a simple breakdown of what is required to run a full Ethereum node:
 
 * A **stable Internet connection**. The longer you stay online, the better your rewards. A spotty Internet connection will hurt your returns.
-* At least **10Mbps of bandwidth both up and down**. A full node usually takes around 8Mbps to 10Mbps up & down of network traffic, depending on your configuration.
+* At least **10Mbps of bandwidth both up and down**. A full node usually takes around 8Mbps to 10Mbps up & down of network traffic, depending on your configuration. You'll also need to take into account other traffic happening on this network (downloads, video calls, streaming, gaming, etc).
 * **No data cap** is imposed by your ISP. Running a full node will take a lot of data - as much as over 2 TB per month of on-chain data alone. This can be mitigated somewhat with a few settings tweaks to the ETH clients, but as a rule of thumb, don't run a full node if your Internet plan comes with a monthly data cap.
 * **Stable electricity**. For the same reason as needing a stable Internet connection, you also want to have reliable power. This can be mitigated with a large UPS (backup battery) to deal with short blackouts.
 * A **computer** with sufficient specs. This is pretty flexible because it _really_ depends on what Execution and Consensus client you use, and what settings you configure them with. The computer can be a local machine, or it can be a Virtual Private Server (VPS) hosted in the cloud. Read below for some more information on those two options, and how to decide which is best for you.
@@ -14,13 +14,11 @@ The following are considered _**minimum**_ requirements to run a full node:
 
 * Linux or macOS Operating System
 * Quad-core CPU (or dual-core hyperthreaded); both `x64` and `arm64` are supported
-* 16 GB of RAM (preferably DDR4)
-* 2 TB of free **SSD Disk Space**
+* 32 GB of RAM (preferably DDR4)
+* 4 TB of free **SSD Disk Space**
   * A spinning platter hard drive _is not fast enough_ to handle the constant random reads and writes that blockchain activity requires. You **MUST** use a solid-state drive. [A list of tested SSD's can be found here.](https://gist.github.com/yorickdowne/f3a3e79a573bf35767cd002cc977b038)
 
-{% hint style="info" %}
-Typical configurations tend to use 16GB or 32GB of RAM for future-proofing.
-{% endhint %}
+**Recommendations:**
 
 * The ideal setup, and best practice is to have a dedicated computer for staking. Try to limit additional processes running on your staking box. Especially if it is something that is connecting to the outside world. Every extra process and every file being downloaded is another opportunity for an exploit.
 * Use Linux, it's easy! For the foreseeable future, Linux will receive better support from both the client teams and the community at large. If you choose Linux you will have access to more guides and more technical support from the community at large. Linux is lightweight, stable, secure, and it doesn't force you to restart for updates every other day.
