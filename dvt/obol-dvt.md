@@ -62,7 +62,7 @@ Copy the sample `.env` file.
 cp .env.sample .env
 ```
 
-Uncomment (remove the `#`) the line `CHARON_BEACON_NODE_ENDPOINTS`. Add your existing Beacon Node IP address, for example `"http://192.168.1.8:5052"`. As the Charon Client is running inside a Docker container you can't use `localhost`, even though might be running on the same physical machine, it requires the IP address of the host machine.
+Uncomment (remove the `#`) the line `CHARON_BEACON_NODE_ENDPOINTS`. Add your existing Beacon Node IP address, for example `"http://192.168.1.8:5052"`. As the Charon Client is running inside a Docker container you can't use `localhost`, even though it might be running on the same physical machine, it requires the IP address of the host machine.
 
 {% code title=".env" %}
 ```
