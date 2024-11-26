@@ -38,7 +38,7 @@ For an attestation to become part of the chain it needs to be included in a bloc
 
 Block production failure has a second impact, which is that it increases the total number of attestations that are eligible for inclusion in the next block that is produced. If there are more attestations available than can fit in a block the producer is likely to include the attestations that return the highest reward, which will be those with the lowest inclusion distance. This can result in attestations that miss their optimal block also missing subsequent blocks due to being less and less attractive to include.
 
-The fact that block production is out of the validator’s control (except for those the validator itself produces) requires the definition of the term earliest inclusion slot, where the earliest inclusion slot is the first slot greater than the attestation slot in which a valid block is produced. This takes in to account the fact that attestations cannot be included in blocks that do not exist, and is no reflection on the effectiveness of the validator.
+The fact that block production is out of the validator’s control (except for those the validator itself produces) requires the definition of the term earliest inclusion slot, where the earliest inclusion slot is the first slot greater than the attestation slot in which a valid block is produced. This takes into account the fact that attestations cannot be included in blocks that do not exist, and is no reflection on the effectiveness of the validator.
 
 ## Malicious Activity
 
