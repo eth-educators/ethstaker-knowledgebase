@@ -49,7 +49,7 @@ git clone https://github.com/ObolNetwork/charon-distributed-validator-node.git
 cd charon-distributed-validator-node
 ```
 
-There are three steps needed to change the configuration:
+There are two steps needed to change the configuration:
 
 1. [Copy and edit the .env](obol-dvt.md#copy-and-edit-the-.env)
 2. [Copy and edit the example override file](obol-dvt.md#copy-and-edit-the-example-override-file)
