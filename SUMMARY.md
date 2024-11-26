@@ -80,7 +80,7 @@
 * [What is a scaled node operator?](scaled-node-operators/what-is-a-scaled-node-operator.md)
 * [Security at scale](scaled-node-operators/security-at-scale.md)
 * [Node health checks](scaled-node-operators/node-health-checks.md)
-* [On-Call/Incidence response](scaled-node-operators/on-call-incidence-response.md)
+* [On-Call/Incident response](scaled-node-operators/on-call-incidence-response.md)
 * [Alerting at scale](scaled-node-operators/alerting-at-scale.md)
 * [MEV at scale](scaled-node-operators/mev-at-scale.md)
 * [Updates at scale](scaled-node-operators/updates-at-scale.md)
