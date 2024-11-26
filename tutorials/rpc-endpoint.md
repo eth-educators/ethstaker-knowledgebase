@@ -116,7 +116,7 @@ The below example will show you how to use your RPC endpoint with Metamask as it
 
 <figure><img src="../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
 
-#### 2.2) Scroll down the bottom and select "Add a network manually"
+#### 2.2) Scroll down to the bottom and select "Add a network manually"
 
 <figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
