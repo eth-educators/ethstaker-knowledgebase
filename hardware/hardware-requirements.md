@@ -102,7 +102,7 @@ Enterprise servers are jam packed with features, and are specifically designed t
 
 **Price:** Medium price
 
-**Performance:** The DAppNodeXtreme is a good option if you are looking for a custom built OS with an easy UX. A DAppNode box is just a NUC pre-configured with their software. If you are confident enough to install an OS by yourself, you can save a bit of money by purchasing a normal NUC and installing DAppNode yourself. You can also install the DAppNode OS on any computer. If you don’t want to mess around with installing operating systems and want an easy UX, buying a DAppNode box is a convenient and simple way to get started.
+**Performance:** The DAppNodeXtreme is a good option if you are looking for a custom-built OS with an easy UX. A DAppNode box is just a NUC pre-configured with their software. If you are confident enough to install an OS by yourself, you can save a bit of money by purchasing a normal NUC and installing DAppNode yourself. You can also install the DAppNode OS on any computer. If you don’t want to mess around with installing operating systems and want an easy UX, buying a DAppNode box is a convenient and simple way to get started.
 
 **Power Usage:** 20-25ish watts.
 
