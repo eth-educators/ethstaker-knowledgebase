@@ -16,7 +16,7 @@ To go on a deep dive and learn everything about the attestation duty, timings, e
 - [Exploring ETH2: Attestation Inclusion ↗](https://www.symphonious.net/2020/09/08/exploring-eth2-attestation-inclusion/) by Adrian Sutton
 - [Defining Attestation Effectiveness ↗](https://www.attestant.io/posts/defining-attestation-effectiveness/) by Jim McDonald
 
-As a staker, you cannot do much about the causes that are outside of your control. What you can do is work on elements of your setup that are under your control to maximize your rewards. Even if you have a setup that was performing well before the merge, it's possible that with the additional work being introduced, some overlooked part of your setup might be the cause of additional misses or lower effectiveness since the merge happened. That's why you should double check all these items.
+As a staker, you cannot do much about the causes that are outside of your control. What you can do is work on elements of your setup that are under your control to maximize your rewards. Even if you have a setup that was performing well before the merge, it's possible that with the additional work being introduced, some overlooked part of your setup might be the cause of additional misses or lower effectiveness since the merge happened. That's why you should double-check all these items.
 
 1. Make sure your clients are _up-to-date_. Client updates often include optimizations and improvements that will help perform your duties on time.
 
