@@ -119,4 +119,4 @@ services:
 
 You are now ready to start the Obol tutorial for creating an ENR and getting your new DVT validator set up!
 
-[https://docs.obol.org/docs/next/start/quickstart_overview](https://docs.obol.org/docs/next/start/quickstart_overview)
+[https://docs.obol.org/run/start/quickstart_overview](https://docs.obol.org/run/start/quickstart_overview)
