@@ -11,7 +11,7 @@ Validators that participate in securing the [Beacon Chain](../staking-glossary.m
 | [Priority Fees](../staking-glossary.md#priority-fees)   | [Execution](../staking-glossary.md#execution-layer) | Included in every Block Proposal containing transactions                                   | Typically 0.01 to 0.1 ETH; very rarely 1+ ETH |
 | [MEV Rewards](../staking-glossary.md#mev)               | [Execution](../staking-glossary.md#execution-layer) | Also included in Block Proposals when using [MEV-boost](../validator-clients/mev-boost.md) | Typically 0.01 to 0.1 ETH; very rarely 1+ ETH |
 
-\*_Varies based on the total number of validators in the network. Estimate shown approximated for 435,000 active validators._
+\*_Varies based on the total number of validators in the network. The estimate shown is approximated for 435,000 active validators._
 
 \*\*_These are subject to randomness; there can be "dry spells" multiple times longer than the average without being given one._
 
