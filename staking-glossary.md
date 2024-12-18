@@ -359,7 +359,7 @@ There are three ways a validator can be slashed, all of which amount to the dish
 
 ## Slasher node
 
-The [**slasher**](https://github.com/Buttaa/ethstaker/blob/main/slasher.md) **is its own entity** but requires a beacon-node to receive [attestations](https://kb.beaconcha.in/glossary#attestation). To find malicious activity by validators, the slashers iterate through all received attestations until a **slashable offense** has been found. Found slashings are broadcasted to the network and the next [block proposer](staking-glossary.md#block-proposer) adds the proof to the block. The block proposer receives a reward for slashing the malicious validator. However, the whistleblower (Slasher) does not receive a reward.
+The [**slasher**] **is its own entity** but requires a beacon-node to receive [attestations](https://kb.beaconcha.in/glossary#attestation). To find malicious activity by validators, the slashers iterate through all received attestations until a **slashable offense** has been found. Found slashings are broadcasted to the network and the next [block proposer](staking-glossary.md#block-proposer) adds the proof to the block. The block proposer receives a reward for slashing the malicious validator. However, the whistleblower (Slasher) does not receive a reward.
 
 ## Slot
 
