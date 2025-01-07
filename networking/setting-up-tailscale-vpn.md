@@ -18,7 +18,7 @@ We will briefly cover a basic configuration of it, but feel free to [review thei
 
 First, create a free [Tailscale account ↗](https://tailscale.com/). Tailscale requires the use of an SSO identity provider such as Google, GitHub, Okta, Microsoft, etc. For details, visit [their SSO Page ↗](https://tailscale.com/kb/1013/sso-providers/).
 
-It is recommended that you enable 2FA (Two Factor Authentication) on whichever identity provider you choose for added security.
+It is recommended that you enable 2FA (Two-Factor Authentication) on whichever identity provider you choose for added security.
 
 Next, follow [their onboarding guide ↗](https://tailscale.com/kb/1017/install/) to install Tailscale on your **client** - the machine you want to connect to your network with. For example, this could be a laptop or your phone. **Note that it is **_**not**_** your validator node!**
 
