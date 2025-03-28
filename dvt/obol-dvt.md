@@ -18,7 +18,7 @@ On your existing Beacon Node, ensure these flags are added so the Charon client 
 --http-port=5052
 ```
 
-[https://lighthouse-book.sigmaprime.io/api-bn.html#starting-the-server](https://lighthouse-book.sigmaprime.io/api-bn.html#starting-the-server)
+[https://lighthouse-book.sigmaprime.io/api_bn.html#starting-the-server](https://lighthouse-book.sigmaprime.io/api_bn.html#starting-the-server)
 {% endtab %}
 
 {% tab title="Teku Flags" %}
