@@ -65,6 +65,32 @@ plugins:
   #   cards_dir: assets/plugins/social-cards
   #   log_level: warn
   #   cards: false
+  - i18n:
+      # https://ultrabug.github.io/mkdocs-static-i18n/fr/setup/setting-up-languages/
+      docs_structure: folder
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Español
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+        - locale: ms
+          name: Malay
+          build: true
+        - locale: nl
+          name: Dutch
+          build: true
+        - locale: pt
+          name: Portuguese
+          build: true
+        - locale: tr
+          name: Turkish
+          build: true
 repo_url: https://github.com/eth-educators/ethstaker-knowledgebase
 repo_name: eth-educators/ethstaker-knowledgebase
 edit_uri: edit/main/docs/
@@ -73,37 +99,6 @@ extra:
   #   provider: google
   #   property: G-XXXXXXXXXX
   site_url: https://docs.ethstaker.org
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    # - name: Deutsch
-    #   link: /deutsch/
-    #   lang: de
-    - name: French
-      link: /french/
-      lang: fr
-    # - name: Dutch
-    #   link: /dutch/
-    #   lang: nl
-    # - name: Italian
-    #   link: /italian/
-    #   lang: it
-    # - name: Chinese
-    #   link: /chinese/
-    #   lang: zh
-    - name: Malay
-      link: /malay/
-      lang: ms
-    - name: Portuguese
-      link: /portuguese/
-      lang: pt
-    - name: Spanish
-      link: /spanish/
-      lang: es
-    - name: Turkish
-      link: /turkish/
-      lang: tr
   social:
     - icon: fontawesome/brands/discord
       link: https://dsc.gg/ethstaker
