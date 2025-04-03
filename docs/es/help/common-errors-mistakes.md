@@ -6,7 +6,7 @@
 
 Una causa común de los errores de Geth es un apagado incorrecto, por ejemplo, debido a un corte de energía, o no hay tiempo suficiente para una salida ordenada del proceso mientras geth escribe datos en el disco. Como solución permanente para este último caso, incrementa el valor de `TimeoutStopSec` de tu servicio systemd al valor 300.
 
-Para arreglarlo, puedes [Resincronizar Geth](/es/tutorials/resync-geth.md)
+Para arreglarlo, puedes [Resincronizar Geth](../../tutorials/resync-geth.md)
 
 </details>
 

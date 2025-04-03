@@ -2,7 +2,7 @@
 
 ## C'est aléatoire
 
-La fréquence à laquelle un validateur reçoit des propositions de blocs et est sélectionné pour faire partie d'un [comité de synchronisation](/fr/staking-glossary#sync-committee), est entièrement aléatoire. Tant que vous ne constatez pas de propositions manquées, il n'y a absolument rien que vous puissiez faire pour augmenter la fréquence.
+La fréquence à laquelle un validateur reçoit des propositions de blocs et est sélectionné pour faire partie d'un [comité de synchronisation](../../staking-glossary#sync-committee), est entièrement aléatoire. Tant que vous ne constatez pas de propositions manquées, il n'y a absolument rien que vous puissiez faire pour augmenter la fréquence.
 
 La vraie aléatoire peut sembler assez étrange. Un validateur qui ne reçoit pas de proposition pendant 9 mois est parfaitement normal. Un validateur qui obtient deux propositions en une semaine est également tout à fait normal. Sur un ensemble assez grand, cela s'équilibre, mais pour un petit nombre de validateurs, l'aléatoire peut effectivement sembler déstabilisant.
 

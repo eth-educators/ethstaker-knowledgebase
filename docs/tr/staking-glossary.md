@@ -193,19 +193,19 @@ A group of at least 128 [validators](#validator) is assigned to validate blocks 
 
 ## Konsensus katmanı
 
-Ethereum's consensus layer is the network of [consensus clients](/tr/validator-clients/consensus-clients).
+Ethereum's consensus layer is the network of [consensus clients](../validator-clients/consensus-clients).
 
 ## Depozit kontratı
 
 The Deposit contract is the **gateway** to Ethereum [Proof of Stake (PoS)](#proof-of-stake-pos) and is managed **through a smart contract** on Ethereum. The smart contract accepts any transaction with a minimum amount of 1 ETH and valid [input data](#input-data). Ethereum beacon nodes listen to the deposit contract and use the input data to credit each validator.
 
-[_More info on the deposit contract_](/tr/getting-started/deposit-process)
+[_More info on the deposit contract_](../getting-started/deposit-process)
 
 ## Verimlilik
 
 The average time it takes for a validator's attestations to be included in the chain.
 
-[_Check out our page explaining validator effectiveness in more detail_](/tr/validator-clients/validator-effectiveness)
+[_Check out our page explaining validator effectiveness in more detail_](../validator-clients/validator-effectiveness)
 
 ## Epoch
 
@@ -214,7 +214,7 @@ Represents the number of 32 slots (12 seconds) and takes approximately **6.4 min
 
 ## Yürütme katmanı
 
-Ethereum's execution layer is the network of [execution clients](/tr/validator-clients/execution-clients).
+Ethereum's execution layer is the network of [execution clients](../validator-clients/execution-clients).
 
 ## Finalizasyon
 
@@ -266,9 +266,9 @@ To reflect the relative value of an attestation, the reward given to a validator
 
 ## Girdi verisi
 
-The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the validator public key and the withdrawal public key, which were signed with by the validator [private key](#private-key). The input data needs to be added to the transaction to the [deposit contract](/tr/getting-started/deposit-process) in order to get identified by the [beacon-chain](#beacon-chain).
+The Input data, also called the **deposit data**, is a user generated, 842 long sequence of characters. It represents the validator public key and the withdrawal public key, which were signed with by the validator [private key](#private-key). The input data needs to be added to the transaction to the [deposit contract](../getting-started/deposit-process) in order to get identified by the [beacon-chain](#beacon-chain).
 
-[_More info about the deposit process_](/tr/getting-started/deposit-process)
+[_More info about the deposit process_](../getting-started/deposit-process)
 
 ## Gerekçelendirme
 
@@ -342,7 +342,7 @@ Demonstrating cryptographically that a message or transaction was approved by th
 
 If your validator commits a slashable offense it will be force exited from the validator pool and will have ETH deducted depending on the circumstances of the event. Typically, this will be 1-2 ETH but could be [significantly more ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/#slashing).
 
-This is not something to be overly worried about, there are [simple steps](/tr/help/slashing-explained) you can take to make sure that you don't invoke a slashing event.
+This is not something to be overly worried about, there are [simple steps](../help/slashing-explained) you can take to make sure that you don't invoke a slashing event.
 
 There are three ways a validator can be slashed, all of which amount to the dishonest proposal or attestation of blocks.
 
@@ -477,4 +477,4 @@ The Seed Phrase or Mnemonic is a set of words (usually 12, 18 or 24 words long) 
 
 ## Çekim adresi
 
-An address that can be optionally set when creating a validator key that will be used to withdraw staked ETH. If this address is not set at the time of key creation it can be set at the time of withdrawal instead. For more information about setting the withdrawal address on key creation, [see our FAQ answer](/tr/faq#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator).
+An address that can be optionally set when creating a validator key that will be used to withdraw staked ETH. If this address is not set at the time of key creation it can be set at the time of withdrawal instead. For more information about setting the withdrawal address on key creation, [see our FAQ answer](../faq#should-i-set-a-withdrawal-address-when-setting-up-my-solo-staking-validator).

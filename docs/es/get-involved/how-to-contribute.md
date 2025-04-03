@@ -16,20 +16,20 @@ Para sugerir cambios o agregar contenido nuevo, visita nuestro [EthStaker Github
 
 Crea una solicitud para cualquier cambio que quieras realizar y lo revisaremos lo antes posible.
 
-* [Notas sobre la estandarización de documentación](how-to-contribute.md#documentacion-estandarizacion-de-notas)[ ](how-to-contribute.md#documentacion-estandarizacion-de-notas)
-* [Crear/Actualizar tablas de contenido](how-to-contribute.md#crear-actualizar-tablas-de-contenido)
-* [Glosario y orden de encabezados en preguntas frecuentes](how-to-contribute.md#glosario-y-pedido-de-encabezados-de-preguntas-frecuentes)
+* [Notas sobre la estandarización de documentación](#documentacion-estandarizacion-de-notas)[ ](#documentacion-estandarizacion-de-notas)
+* [Crear/Actualizar tablas de contenido](#crear-actualizar-tablas-de-contenido)
+* [Glosario y orden de encabezados en preguntas frecuentes](#glosario-y-pedido-de-encabezados-de-preguntas-frecuentes)
 
 ## Notas sobre la estandarización de documentación
 
 Utiliza estas notas cuando escribas para esta base de conocimientos para mantener un formato estandarizado.
 
 * Utiliza [enlaces relativos↗](https://github.blog/2013-01-31-relative-links-in-markup-files/) para navegar entre diferentes archivos dentro de esta base de conocimiento.
-* `[Otro enlace a documento](otro_documento.md)` → [Otro enlace a documento](how-to-contribute.md)
+* `[Otro enlace a documento](otro_documento.md)` → [Otro enlace a documento](../../get-involved/how-to-contribute.md)
 * Use enlaces de anclaje a encabezados dentro del mismo archivo.
-  * `[Enlace ancla](#encabezado-ancla)` → [Enlace Ancla](how-to-contribute.md#documentacion-estandarizacion-de-notas)
+  * `[Enlace ancla](#encabezado-ancla)` → [Enlace Ancla](../../get-involved/how-to-contribute.md#documentacion-estandarizacion-de-notas)
 * Combina enlaces relativos a otros archivos con enlaces ancla.
-  * `[Enlace ancla a otro documento](otro_documento.md#encabezado-ancla)` → [Enlace ancla a otro documento](how-to-contribute.md#documentation-standardization-notes)
+  * `[Enlace ancla a otro documento](otro_documento.md#encabezado-ancla)` → [Enlace ancla a otro documento](../../get-involved/how-to-contribute.md#documentation-standardization-notes)
 * Muestra cuando un enlace hace referencia a un sitio externo agregando el icono ↗ al final del enlace.
   * `[Enlace externo ↗](https://example.com)` → [Enlace externo ↗](https://example.com)
 * Crea una imagen que también sea un enlace.

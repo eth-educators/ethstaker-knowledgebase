@@ -14,7 +14,7 @@ Les utilisateurs souhaitant arrêter complètement le staking et retirer la tota
 
 Le processus de sortie d'un validateur prend un temps variable, en fonction du nombre de validateurs quittant en même temps. Une fois terminé, ce validateur ne sera plus responsable de l'exécution des tâches du réseau, ne sera plus éligible aux récompenses et n'aura plus d'ETH "en jeu". À ce moment-là, le compte sera marqué comme étant entièrement "sortie".
 
-Une fois qu'un compte est signalé comme "sortie" et que les informations d'identification de retrait ont été fournies, il n'y a plus rien à faire pour l'utilisateur, si ce n'est attendre. Les comptes sont automatiquement et continuellement balayés par les proposeurs de sortis éligibles, et le solde de votre compte sera transféré en totalité (également appelé "retrait complet") lors du prochain [balayage](https://ethereum.org/fr/staking/withdrawals/#validator-sweeping).
+Une fois qu'un compte est signalé comme "sortie" et que les informations d'identification de retrait ont été fournies, il n'y a plus rien à faire pour l'utilisateur, si ce n'est attendre. Les comptes sont automatiquement et continuellement balayés par les proposeurs de sortis éligibles, et le solde de votre compte sera transféré en totalité (également appelé "retrait complet") lors du prochain [balayage](https://ethereum.org/staking/withdrawals/#validator-sweeping).
 
 ### Comment fonctionnent les paiements de retrait et des récompenses ?
 

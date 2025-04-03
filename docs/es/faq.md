@@ -28,25 +28,25 @@
 
 ## ¿Puedo ser sancionado por estar desconectado?
 
-No. Realmente la única condición que puede causar una [sanción](/es/staking-glossary#slashable-offenses) es si usas las llaves de tu validador en dos nodos al mismo tiempo (como una conmutación por error / configuración de redundancia, donde tu nodo de respaldo se enciende accidentalmente mientras el principal sigue en funcionamiento). No permitas que esto suceda y no serás sancionado. **No se puede ser sancionado por estar desconectado por mantenimiento**.
+No. Realmente la única condición que puede causar una [sanción](../staking-glossary#slashable-offenses) es si usas las llaves de tu validador en dos nodos al mismo tiempo (como una conmutación por error / configuración de redundancia, donde tu nodo de respaldo se enciende accidentalmente mientras el principal sigue en funcionamiento). No permitas que esto suceda y no serás sancionado. **No se puede ser sancionado por estar desconectado por mantenimiento**.
 
 ## ¿Puedo dejar de correr mi validador durante unos días y luego volver a iniciarlo?
 
-Sí, pero con penalizaciones pequeñas. Consulta [Estoy preocupado por el tiempo de inactividad](/es/help/downtime-explained).
+Sí, pero con penalizaciones pequeñas. Consulta [Estoy preocupado por el tiempo de inactividad](../help/downtime-explained).
 
 ## ¿Puedo retirar mi ETH en cualquier momento?
 
-Los retiros no están actualmente habilitados en la [Beacon chain](/es/staking-glossary#beacon-chain). Esto significa que todo el ETH depositado quedará bloqueado en el contrato de staking hasta un momento futuro (abril 2023) en el que se permitirán los retiros tras una actualización de la red.
+Los retiros no están actualmente habilitados en la [Beacon chain](../staking-glossary#beacon-chain). Esto significa que todo el ETH depositado quedará bloqueado en el contrato de staking hasta un momento futuro (abril 2023) en el que se permitirán los retiros tras una actualización de la red.
 
 Puedes ver más información en la página de preguntas frecuentes de la Ethereum Foundation (en inglés) [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
 
-Si tu validador propone un bloque, parte de las recompensas estarán disponibles de forma inmediata en forma de [fees de prioridad](/es/rewards/chain-rewards) y [MEV](/es/rewards/chain-rewards) (si estás usando un relay con [MEV-Boost](/es/validator-clients/mev-boost)).
+Si tu validador propone un bloque, parte de las recompensas estarán disponibles de forma inmediata en forma de [fees de prioridad](../rewards/chain-rewards) y [MEV](../rewards/chain-rewards) (si estás usando un relay con [MEV-Boost](../validator-clients/mev-boost)).
 
-En el futuro, cuando los retiros estén habilitados, podrás retirar tu ETH al salir del validador y esperar en la [cola de retiro](/es/staking-glossary#validator-queue).
+En el futuro, cuando los retiros estén habilitados, podrás retirar tu ETH al salir del validador y esperar en la [cola de retiro](../staking-glossary#validator-queue).
 
 ## ¿Cómo se incentiva a los validadores a permanecer activos y honestos?
 
-Como validador, eres [recompensado](/es/rewards/chain-rewards) por proponer / atestiguar bloques que se incluyan en la cadena. Por otro lado, puedes ser [penalizado por estar desconectado](/es/rewards/chain-rewards#penalizaciones-de-validador) y comportarte de manera maliciosa, por ejemplo, atestiguando bloques inválidos o contradictorios.
+Como validador, eres [recompensado](../rewards/chain-rewards) por proponer / atestiguar bloques que se incluyan en la cadena. Por otro lado, puedes ser [penalizado por estar desconectado](../rewards/chain-rewards#penalizaciones-de-validador) y comportarte de manera maliciosa, por ejemplo, atestiguando bloques inválidos o contradictorios.
 
 El concepto clave es el siguiente:
 
@@ -76,9 +76,9 @@ Cada par de llaves asociado con un validador requiere bloquear 32 ETH para activ
 
 Hay muchas opciones para participar haciendo staking en Ethereum, esto sin duda puede ser abrumador.
 
-Tómalo con calma. Primero aprende sobre las [opciones que tienes](/es/getting-started/what-is-ethereum-staking#como-participar-con-sus-eth) y escoge la que más te convenga. No hay necesidad de apurarse y perder el sueño.
+Tómalo con calma. Primero aprende sobre las [opciones que tienes](../getting-started/what-is-ethereum-staking#como-participar-con-sus-eth) y escoge la que más te convenga. No hay necesidad de apurarse y perder el sueño.
 
-Si escoges "staking individual en casa" y quieres correr tu propio validador, decide entre las diferentes [opciones de hardware](/es/hardware/hardware-requirements) (e.j. Intel NUC) y sigue una [guía de staking](/es/tutorials/solo-staking-guides) en una red de prueba primero. Busca guías de staking para la red de pruebas Goerli. Toma notas, averigua que sucede cuando desconectas el cable de alimentación del validador, como actualizar, etc. En resumen, obtén experiencia con tu nodo antes de hacer staking en la red principal de Ethereum.
+Si escoges "staking individual en casa" y quieres correr tu propio validador, decide entre las diferentes [opciones de hardware](../hardware/hardware-requirements) (e.j. Intel NUC) y sigue una [guía de staking](../tutorials/solo-staking-guides) en una red de prueba primero. Busca guías de staking para la red de pruebas Goerli. Toma notas, averigua que sucede cuando desconectas el cable de alimentación del validador, como actualizar, etc. En resumen, obtén experiencia con tu nodo antes de hacer staking en la red principal de Ethereum.
 
 Igualmente, no tienes que enfrentar los problemas tu solo.
 
@@ -86,17 +86,17 @@ No dudes en hacernos cualquier pregunta y únete a nuestra comunidad de [Discord
 
 ## ¡Propuse un bloque! ¿Qué gané?
 
-Los validadores que participan en asegurar la [Beacon chain](/es/staking-glossary#beacon-chain) y realizan sus "deberes" son recompensados por ello mediante la emisión de ETH nuevo. Además, los validadores reciben fees de prioridad pagados por los usuarios, y MEV (Maximal Extractable Value) opcionalmente.
+Los validadores que participan en asegurar la [Beacon chain](../staking-glossary#beacon-chain) y realizan sus "deberes" son recompensados por ello mediante la emisión de ETH nuevo. Además, los validadores reciben fees de prioridad pagados por los usuarios, y MEV (Maximal Extractable Value) opcionalmente.
 
 Puedes ver las recompensas por bloques propuestos de un validador mirando la dirección del receptor de los fees en [etherscan.io↗](https://etherscan.io) bajo `Produced Blocks`.
 
 <figure><img src="/assets/img/gitbook/image (6) (1).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
 
-Puedes ver una explicación detallada aquí: [¿Cómo gana ETH mi validador?](/es/rewards/chain-rewards)
+Puedes ver una explicación detallada aquí: [¿Cómo gana ETH mi validador?](../rewards/chain-rewards)
 
 ## ¿Se muestra la dirección de depósito u origen en algún lugar?
 
-Si, la dirección de depósito u origen se muestra en el validador. Sin embargo, no se usa para nada en el protocolo. La [capa de consenso](/es/staking-glossary#consensus-layer) no tiene registro de desde qué dirección se realizó el depósito de un validador, pero queda registrado en el historial de la [capa de ejecución](/es/staking-glossary#execution-layer) al igual que todas las demás transacciones.
+Si, la dirección de depósito u origen se muestra en el validador. Sin embargo, no se usa para nada en el protocolo. La [capa de consenso](../staking-glossary#consensus-layer) no tiene registro de desde qué dirección se realizó el depósito de un validador, pero queda registrado en el historial de la [capa de ejecución](../staking-glossary#execution-layer) al igual que todas las demás transacciones.
 
 La dirección de depósito u origen se puede ver en [beaconcha.in](https://beaconcha.in) bajo `Deposits` -> `Ethereum Deposits` -> `From Address`.
 
@@ -104,23 +104,23 @@ La dirección de depósito u origen se puede ver en [beaconcha.in](https://beaco
 
 ## ¿Hay una penalización por perder una propuesta de bloque?
 
-No. Si pierdes una propuesta de bloque, la [ranura](/es/staking-glossary#slot) que debería contener tu bloque estará vacía. A parte de las [recompensas](/es/rewards/chain-rewards) perdidas por perder la propuesta del bloque, **no hay ninguna penalidad o sanción** que ocurra por una propuesta de bloque perdida.
+No. Si pierdes una propuesta de bloque, la [ranura](../staking-glossary#slot) que debería contener tu bloque estará vacía. A parte de las [recompensas](../rewards/chain-rewards) perdidas por perder la propuesta del bloque, **no hay ninguna penalidad o sanción** que ocurra por una propuesta de bloque perdida.
 
 ## ¿Hay una penalización por perder una certificación?
 
-Perder algunas certificaciones es completamente normal y extremadamente económico. La penalidad por perder una [certificación](/es/staking-glossary#attestation) es exactamente la misma que la recompensa por una exitosa. Por lo tanto, con alrededor de 240 certificaciones al día por validador, perder uno o dos sigue siendo una tasa exitosa de más del 99%.
+Perder algunas certificaciones es completamente normal y extremadamente económico. La penalidad por perder una [certificación](../staking-glossary#attestation) es exactamente la misma que la recompensa por una exitosa. Por lo tanto, con alrededor de 240 certificaciones al día por validador, perder uno o dos sigue siendo una tasa exitosa de más del 99%.
 
 ## ¿Hay alguna ventaja en tener más de 32 ETH en participación?
 
 No. No hay ninguna ventaja en tener más de 32 ETH en participación.
 
-Depositar más de 32 ETH en el mismo set de llaves no incrementa el potencial de recompensas, o acumula recompensas por encima de 32 ETH ya que cada [validador](/es/staking-glossary#validator) está limitado a un balance de 32. Esto significa que se participa en incrementos de 32 ETH, cada uno con su único set de llaves y balance.
+Depositar más de 32 ETH en el mismo set de llaves no incrementa el potencial de recompensas, o acumula recompensas por encima de 32 ETH ya que cada [validador](../staking-glossary#validator) está limitado a un balance de 32. Esto significa que se participa en incrementos de 32 ETH, cada uno con su único set de llaves y balance.
 
 ## ¿Debería establecer una dirección de retiro al configurar mi validador?
 
-Establecer una [dirección de retiro](/es/staking-glossary#withdrawal-address) cuando creas las llaves de tu validador puede ser útil ya que no tendrás que configurarla de nuevo cuando se habiliten los retiros.
+Establecer una [dirección de retiro](../staking-glossary#withdrawal-address) cuando creas las llaves de tu validador puede ser útil ya que no tendrás que configurarla de nuevo cuando se habiliten los retiros.
 
-La [interfaz de línea de comando de depósito de participación](/es/staking-glossary#staking-deposit-cli) puede establecer una dirección de retiro cuando se crea el json de depósito. Si un usuario decide no hacerlo, normalmente por omisión, entonces establece el hash de la llave pública de retiro en su lugar. En algún momento futuro, posiblemente con la actualización Shangai/Capella, habrá una herramienta que tome la mnemónica y firme un mensaje para efectuar un cambio único de credenciales v0, llave de retiro, a credenciales v1, dirección de retiro.
+La [interfaz de línea de comando de depósito de participación](../staking-glossary#staking-deposit-cli) puede establecer una dirección de retiro cuando se crea el json de depósito. Si un usuario decide no hacerlo, normalmente por omisión, entonces establece el hash de la llave pública de retiro en su lugar. En algún momento futuro, posiblemente con la actualización Shangai/Capella, habrá una herramienta que tome la mnemónica y firme un mensaje para efectuar un cambio único de credenciales v0, llave de retiro, a credenciales v1, dirección de retiro.
 
 Y eso es todo. Una vez tu validador usa credenciales v1, la dirección de retiro no puede ser cambiada. Bajo el diseño actual, las barridas son automáticas, igual que los retiros completos: Los retiros completos ocurren solo cuando se completa la salida del validador.
 
@@ -133,17 +133,17 @@ En ambos casos la llave puede ser generada dentro del CLI, ser usada para su pro
 
 Sin embargo, hay algunos casos a tomar en cuanta donde es preferible **no** establecer una dirección de depósito al principio:
 
-* Si planeas migrar tu validador a una piscina en el futuro (e.j. RocketPool), no podrás hacer esta migración si configuras una [dirección de retiro](/es/staking-glossary#withdrawal-address) cuando creas las llaves de tu validador. Necesitarías esperar a que se habiliten los retiros, esperar en la fila de retiros y después volver a entrar a un validador, potencialmente teniendo que esperar una fila de activación también.
+* Si planeas migrar tu validador a una piscina en el futuro (e.j. RocketPool), no podrás hacer esta migración si configuras una [dirección de retiro](../staking-glossary#withdrawal-address) cuando creas las llaves de tu validador. Necesitarías esperar a que se habiliten los retiros, esperar en la fila de retiros y después volver a entrar a un validador, potencialmente teniendo que esperar una fila de activación también.
 
 ## ¿Qué es un validador exactamente?
 
-Un validador es una entidad virutal que vive en la [Beacon chain](/es/staking-glossary#beacon-chain), representado por un balance, [llave pública](/es/staking-glossary#public-key) y otras propiedades. También participa en el [consenso](/es/staking-glossary#consensus-layer) de la red de Ethereum.
+Un validador es una entidad virutal que vive en la [Beacon chain](../staking-glossary#beacon-chain), representado por un balance, [llave pública](../staking-glossary#public-key) y otras propiedades. También participa en el [consenso](../staking-glossary#consensus-layer) de la red de Ethereum.
 
 ## ¿Qué pasa si pierdo las llaves de mi validador?
 
-Si hay una falla catastrófica de tu validador y pierdes sus llaves no te preocupes. Estas pueden ser fácilmente recuperadas siempre y cuando tengas la [frase semilla o mnemónica de tu validador](/es/staking-glossary#validator-seed-phrase-mnemonic). Simplemente sigue las mismas instrucciones que cuando generaste por primera vez las llaves de tu validador, e instálalas en una nueva máquina validadora.
+Si hay una falla catastrófica de tu validador y pierdes sus llaves no te preocupes. Estas pueden ser fácilmente recuperadas siempre y cuando tengas la [frase semilla o mnemónica de tu validador](../staking-glossary#validator-seed-phrase-mnemonic). Simplemente sigue las mismas instrucciones que cuando generaste por primera vez las llaves de tu validador, e instálalas en una nueva máquina validadora.
 
-> Tienes que estar 100% seguro de que las máquinas anteriores no volverán a estar en línea, ya que esto resultará en un [evento de penalización](/es/staking-glossary#slashable-offenses).
+> Tienes que estar 100% seguro de que las máquinas anteriores no volverán a estar en línea, ya que esto resultará en un [evento de penalización](../staking-glossary#slashable-offenses).
 
 ## ¿Qué pasa si pierdo la frase semilla o mnemónica de mi validador?
 
@@ -153,7 +153,7 @@ De todas formas, si tienes una dirección de retiro, las llaves del validador so
 
 ## ¿Y si quiero dejar de participar?
 
-Si no puedes recuperar tu validador o decides que quieres dejar de participar, tienes la opción de salir de tu validador. Aunque los retiros no están habilitados, puedes hacer que tu validador salga de la red. Esto significa que, aunque no vas a poder tener el balance de tu validador de inmediato (hasta que se activen los retiros), no vas a ser penalizado por estar fuera de línea una vez el validador sale de la [fila de retiro](/es/staking-glossary#validator-queue). Salir de un validador es un proceso de una vía ahora mismo. Para más detalles sobre como salir de tu validador, [revisa nuestra guía](/es/tutorials/how-to-exit-a-validator).
+Si no puedes recuperar tu validador o decides que quieres dejar de participar, tienes la opción de salir de tu validador. Aunque los retiros no están habilitados, puedes hacer que tu validador salga de la red. Esto significa que, aunque no vas a poder tener el balance de tu validador de inmediato (hasta que se activen los retiros), no vas a ser penalizado por estar fuera de línea una vez el validador sale de la [fila de retiro](../staking-glossary#validator-queue). Salir de un validador es un proceso de una vía ahora mismo. Para más detalles sobre como salir de tu validador, [revisa nuestra guía](../tutorials/how-to-exit-a-validator).
 
 ## ¿Qué es un operador de nodos?
 
@@ -161,7 +161,7 @@ Un operador de nodos es un humano que se asegura de que el software del cliente 
 
 ## ¿Qué es un cliente del validador?
 
-Un cliente del [validador](/es/staking-glossary#validator) es el software que actúa a nombre del validador al sostener y usar sus llaves privadas para hacer certificaciones acerca del estado de la cadena. Un único cliente validador puede tener multiples pares de llaves, controlando varios validadores.
+Un cliente del [validador](../staking-glossary#validator) es el software que actúa a nombre del validador al sostener y usar sus llaves privadas para hacer certificaciones acerca del estado de la cadena. Un único cliente validador puede tener multiples pares de llaves, controlando varios validadores.
 
 ## ¿Qué es el contrato de depósito?
 
@@ -171,7 +171,7 @@ Puedes pensar en el contrato de depósito como una transferencia de fondos desde
 
 Configurar tu propio validador para participar individualmente desde casa no es complicado.
 
-Puedes seguir estas [guías de participación](/es/tutorials/solo-staking-guides) paso a paso, lo que no te tomará mucho tiempo. Puedes revisar también el [compromiso de tiempo](#what-is-the-time-commitment-for-running-a-validator).
+Puedes seguir estas [guías de participación](../tutorials/solo-staking-guides) paso a paso, lo que no te tomará mucho tiempo. Puedes revisar también el [compromiso de tiempo](#what-is-the-time-commitment-for-running-a-validator).
 
 De todas formas, hay opciones de hardware pre-configuradas como [Dappnode↗](https://dappnode.com/) o [Avado↗](https://ava.do/), que pueden hacer todo más fácil y eliminar la necesidad de interactuar con la interfaz de línea de comando o Linux en general. También puedes instalar el software de código abierto de [Dappnode ↗](https://docs.dappnode.io/user/quick-start/core/installation/) en tu propio hardware para tener una experiencia de participación más intuitiva.
 

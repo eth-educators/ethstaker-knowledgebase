@@ -2,13 +2,13 @@
 
 ## Don't panic!
 
-Missing some [attestations](/introduction/staking-glossary#attestation) is completely normal and extremely low-cost. The penalty for missing an attestation is exactly the same as the reward for a successful one. So, with around 240 attestations per day per validator, missing one or two is still a successful attestation rate of over 99%!
+Missing some [attestations](../../staking-glossary#attestation) is completely normal and extremely low-cost. The penalty for missing an attestation is exactly the same as the reward for a successful one. So, with around 240 attestations per day per validator, missing one or two is still a successful attestation rate of over 99%!
 
 ## Understanding missed attestations, low effectiveness and improving your setup
 
 > There are two causes of missing an attestation or having a low effectiveness with your validator. Some causes are under your control as a staker and some causes are outside of your control.
 
-Even with a perfect setup, you might miss some attestations or incorrectly vote during an attestation lowering your [effectiveness](/introduction/staking-glossary#effectiveness) once in a while. Causes that are outside of your control are often related to network propagation or related to some of your [peers](/introduction/staking-glossary#peers) being late in performing their own duties.
+Even with a perfect setup, you might miss some attestations or incorrectly vote during an attestation lowering your [effectiveness](../../staking-glossary#effectiveness) once in a while. Causes that are outside of your control are often related to network propagation or related to some of your [peers](../../staking-glossary#peers) being late in performing their own duties.
 
 To go on a deep dive and learn everything about the attestation duty, timings, effectiveness and network propagation, check out these great articles.
 

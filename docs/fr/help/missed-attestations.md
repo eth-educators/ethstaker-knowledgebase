@@ -2,13 +2,13 @@
 
 ## Ne paniquez pas!
 
-Manquer quelques [attestations](/fr/staking-glossary#attestation) est tout à fait normal et a un coût extrêmement faible. La pénalité pour avoir manqué une attestation est exactement la même que la récompense pour une attestation réussie. Ainsi, avec environ 240 attestations par jour par validateur, en manquer une ou deux représente toujours un taux d'attestation réussi de plus de 99% !
+Manquer quelques [attestations](../../staking-glossary#attestation) est tout à fait normal et a un coût extrêmement faible. La pénalité pour avoir manqué une attestation est exactement la même que la récompense pour une attestation réussie. Ainsi, avec environ 240 attestations par jour par validateur, en manquer une ou deux représente toujours un taux d'attestation réussi de plus de 99% !
 
 ## Comprendre les attestations manquées, la faible efficacité et comment améliorer votre configuration
 
 > Il y a deux causes possibles pour manquer une attestation ou avoir une faible efficacité avec votre validateur. Certaines causes sont sous votre contrôle en tant qu'opérateur et d'autres causes sont indépendantes de votre volonté.
 
-Même avec une configuration parfaite, vous pourriez manquer certaines attestations ou voter incorrectement lors d'une attestation, réduisant ainsi votre [efficacité](/fr/staking-glossary#effectiveness) de temps en temps. Les causes qui échappent à votre contrôle sont souvent liées à la propagation du réseau ou au fait que certains de vos [pairs](/fr/staking-glossary#peers) soient en retard dans l'exécution de leurs propres devoirs.
+Même avec une configuration parfaite, vous pourriez manquer certaines attestations ou voter incorrectement lors d'une attestation, réduisant ainsi votre [efficacité](../../staking-glossary#effectiveness) de temps en temps. Les causes qui échappent à votre contrôle sont souvent liées à la propagation du réseau ou au fait que certains de vos [pairs](../../staking-glossary#peers) soient en retard dans l'exécution de leurs propres devoirs.
 
 Pour approfondir et tout savoir sur le devoir d'attestation, la synchronicité, l'efficacité et la propagation sur le réseau, consultez ces excellents articles.
 

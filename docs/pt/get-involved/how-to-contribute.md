@@ -19,11 +19,11 @@ Favor criar uma solicitação de pull para qualquer alteração que você queira
 Favor usar essas instruções ao escrever nesta base de conhecimento para manter um formato padronizado.
 
 * Use [links relativos↗](https://github.blog/2013-01-31-relative-links-in-markup-files/) para navegar entre os diferentes arquivos desta base de conhecimento.
-  * `[Other file link](other_file.md)` → [Link de outro arquivo](/pt/how-to-contribute)
+  * `[Other file link](other_file.md)` → [Link de outro arquivo](how-to-contribute)
 * Use links âncora para títulos dentro do mesmo arquivo.
-  * `[Anchor link](#heading-anchor)` → [Link âncora](/pt/how-to-contribute#notas-sobre-a-padronizacao-da-documentacao)
+  * `[Anchor link](#heading-anchor)` → [Link âncora](how-to-contribute#notas-sobre-a-padronizacao-da-documentacao)
 * Combine links relativos a outros arquivos com links âncora.
-  * `[Other file anchor link](other_file.md#heading-anchor)` → [Link de outro arquivo](/pt/how-to-contribute#notas-sobre-a-padronizacao-da-documentacao)
+  * `[Other file anchor link](other_file.md#heading-anchor)` → [Link de outro arquivo](how-to-contribute#notas-sobre-a-padronizacao-da-documentacao)
 * Mostre quando um link fizer referência a um site externo adicionando o ícone ↗ no final do link.
   * `[External site link ↗](https://example.com)` → [Link de site externo↗](https://example.com)
 * Crie uma imagem que também é um link.

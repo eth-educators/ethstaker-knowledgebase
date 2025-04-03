@@ -2,7 +2,7 @@
 
 ## It's random
 
-How often a validator receives block proposals, and is selected to be part of a [sync committee](/introduction/staking-glossary#sync-committee), is entirely random. As long as you do not see missed proposals, there is absolutely nothing you can do to increase the frequency.
+How often a validator receives block proposals, and is selected to be part of a [sync committee](../../staking-glossary#sync-committee), is entirely random. As long as you do not see missed proposals, there is absolutely nothing you can do to increase the frequency.
 
 True randomness can feel quite odd. A validator not getting a proposal for 9 months is perfectly normal. A validator getting two proposals in a week is entirely normal. Over a large enough set, this evens out, but for a handful of validators, randomness can indeed feel unsettling.
 

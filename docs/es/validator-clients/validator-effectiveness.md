@@ -1,6 +1,6 @@
 # Validator effectiveness
 
-La efectividad de un validador se puede entender como la utilidad de una [attestation](/es/staking-glossary#attestation) para la red, eniendo en cuenta tanto la [producción de bloques ](/es/staking-glossary#block-proposer)como la [idistancia de inclusión](/es/staking-glossary#inclusion-distance).
+La efectividad de un validador se puede entender como la utilidad de una [attestation](../../staking-glossary#attestation) para la red, eniendo en cuenta tanto la [producción de bloques ](../../staking-glossary#block-proposer)como la [idistancia de inclusión](../../staking-glossary#inclusion-distance).
 
 
 
@@ -10,8 +10,8 @@ La efectividad de un validador se puede entender como la utilidad de una [attest
 
 > Esta es una visión simplificada de la attesting, pero puede ser un buen punto de partida.
 
-1. Cada validador que realiza una [attestation](/es/staking-glossary#attestation) genera datos sobre el estado de la cadena.
-2. La attestation se propaga por la red de Ethereum hacia los agregadores [aggregators](/es/staking-glossary#attestation-aggregator) relevantes.
+1. Cada validador que realiza una [attestation](../../staking-glossary#attestation) genera datos sobre el estado de la cadena.
+2. La attestation se propaga por la red de Ethereum hacia los agregadores [aggregators](../../staking-glossary#attestation-aggregator) relevantes.
 3. Cada agregador relevante que recibe la attestation la agrega con otras attestations que tienen las mismas reclamaciones.
 4. La attestation agregada se propaga por la red de Ethereum a todos los nodos.
 5. Cualquier validador que esté proponiendo un bloque y aún no haya visto la attestation agregada en la cadena, la añade al bloque.

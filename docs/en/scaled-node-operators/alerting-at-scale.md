@@ -48,7 +48,7 @@ By adhering to these principles, an alerting system can be both effective and ef
 There is a practice in every cloud service, called “being on-call”. That means that at some moment in time, there is a person responsible for reacting to alerts, regardless of when they happen.
 
 <div class="grid">
-  <a href="/scaled-node-operators/on-call-incidence-response" class="card local">On-Call/Incidence response</a>
+  <a href="../../scaled-node-operators/on-call-incidence-response" class="card local">On-Call/Incidence response</a>
 </div>
 
 An example of the on-call policy can be found in this [GitLab On-Call Handbook](https://about.gitlab.com/handbook/on-call/).

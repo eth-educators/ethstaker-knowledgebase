@@ -42,19 +42,19 @@
 
 ## Can I be slashed for being offline?
 
-No. Realistically, the only condition that can cause a [slashing event](/introduction/staking-glossary#slashable-offenses) is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and you won't get slashed. **Slashing cannot occur from being offline for maintenance**.
+No. Realistically, the only condition that can cause a [slashing event](../staking-glossary#slashable-offenses) is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and you won't get slashed. **Slashing cannot occur from being offline for maintenance**.
 
 ## Can I stop running my validator for a few days and then start it back up again?
 
-Yes, but with small penalties. See [I'm worried about downtime](/help/downtime-explained).
+Yes, but with small penalties. See [I'm worried about downtime](../help/downtime-explained).
 
 ## Can I withdraw my ETH at any time?
 
 Yes! Withdrawals are now enabled on Ethereum :owl:
 
-If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](/rewards/chain-rewards#priority-fees) and [MEV](/rewards/chain-rewards#mev) (if you are using an [MEV-Boost](/validator-clients/mev-boost) relay).
+If your validator proposes a block, then some of those rewards are immediately available to you in the form of [priority fees](../rewards/chain-rewards#priority-fees) and [MEV](../rewards/chain-rewards#mev) (if you are using an [MEV-Boost](../validator-clients/mev-boost) relay).
 
-To withdraw your full validator amount (not just the skimmed amount) you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](/introduction/staking-glossary#validator-queue). This process is different for each client, details for each can be found here: [How to exit a validator](/tutorials/how-to-exit-a-validator).
+To withdraw your full validator amount (not just the skimmed amount) you will be able to withdraw your ETH by exiting your validator and waiting in the [withdrawal queue](../staking-glossary#validator-queue). This process is different for each client, details for each can be found here: [How to exit a validator](../tutorials/how-to-exit-a-validator).
 
 Ethereum Foundation Withdrawals FAQ: [https://notes.ethereum.org/@launchpad/withdrawals-faq](https://notes.ethereum.org/@launchpad/withdrawals-faq)
 
@@ -66,19 +66,19 @@ The queue and estimated withdrawal time can be seen on [validatorqueue.com](http
 
 ## Does my validator need to be online to withdraw my ETH?
 
-No. You can generate your [exit message](/tutorials/how-to-exit-a-validator) and submit it using someone elses Beacon Chain client.
+No. You can generate your [exit message](../tutorials/how-to-exit-a-validator) and submit it using someone elses Beacon Chain client.
 
 Beaconcha.in has built a resource exactly for this: [https://beaconcha.in/tools/broadcast](https://beaconcha.in/tools/broadcast)
 
 ## How are validators incentivized to stay active and honest?
 
-As a validator you are [rewarded](/rewards/chain-rewards) for proposing / attesting to blocks that are included in the chain. On the other hand, you can be [penalized for being offline](/rewards/chain-rewards#validator-penalties) and behaving maliciously—for example attesting to invalid or contradicting blocks.
+As a validator you are [rewarded](../rewards/chain-rewards) for proposing / attesting to blocks that are included in the chain. On the other hand, you can be [penalized for being offline](../rewards/chain-rewards#validator-penalties) and behaving maliciously—for example attesting to invalid or contradicting blocks.
 
 The key concept is the following:
 
 * Rewards are given for actions that help the network reach consensus.
 * Minor penalties are given for inadvertent actions (or inactions) that hinder consensus.
-* And major penalties (or [slashings](/introduction/staking-glossary#slashable-offenses)) are given for malicious actions.
+* And major penalties (or [slashings](../staking-glossary#slashable-offenses)) are given for malicious actions.
 
 In other words, you maximize your rewards by providing the greatest benefit to the network as a whole.
 
@@ -134,9 +134,9 @@ Once your ETH is secured, further investigations and actions can be taken to pre
 
 Staking on Ethereum gives you many options to participate. This can be overwhelming - no doubt. We all have been there!
 
-Take it step by step. First learn about the [options you have](/getting-started/what-is-ethereum-staking#how-to-stake-your-eth) and choose what you are most comfortable with. There is no need to rush things and risk your precious sleep while doing so.
+Take it step by step. First learn about the [options you have](../getting-started/what-is-ethereum-staking#how-to-stake-your-eth) and choose what you are most comfortable with. There is no need to rush things and risk your precious sleep while doing so.
 
-If you choose "Solo Home Staking" and want to run your own validator, decide between the different [hardware options](/hardware/hardware-requirements) (f.e. Intel NUC) and follow [a staking guide](/tutorials/solo-staking-guides) on testnet first. Search for Goerli Testnet Staking Guides. Take notes, find out what happens when you disconnect the power cable of your validator, how to update, etc. All in all - get confident with your node before staking on Ethereum Mainnet.
+If you choose "Solo Home Staking" and want to run your own validator, decide between the different [hardware options](../hardware/hardware-requirements) (f.e. Intel NUC) and follow [a staking guide](../tutorials/solo-staking-guides) on testnet first. Search for Goerli Testnet Staking Guides. Take notes, find out what happens when you disconnect the power cable of your validator, how to update, etc. All in all - get confident with your node before staking on Ethereum Mainnet.
 
 And - You don't have to face problems on your own.
 
@@ -144,17 +144,17 @@ Feel free to ask us any question and join our community on [Discord](https://dis
 
 ## I proposed a block! What did I earn?
 
-Validators that participate in securing the [beacon chain](/introduction/staking-glossary#beacon-chain) and execute "duties" get rewarded for this by new issuance of ETH. In addition, validators receive priority fees paid by users, and optionally MEV, Maximal Extractable Value.
+Validators that participate in securing the [beacon chain](../staking-glossary#beacon-chain) and execute "duties" get rewarded for this by new issuance of ETH. In addition, validators receive priority fees paid by users, and optionally MEV, Maximal Extractable Value.
 
 You can view a validator's reward for proposed blocks by looking at the fee recipient address on [etherscan.io↗](https://etherscan.io) under `Produced Blocks`.
 
 <figure><img src="/assets/img/gitbook/image (52).png" alt="Etherscan proposed block rewards"><figcaption></figcaption></figure>
 
-See a detailed explanation here: [How does my validator earn ETH?](/rewards/chain-rewards)
+See a detailed explanation here: [How does my validator earn ETH?](../rewards/chain-rewards)
 
 ## Is the deposit/source address shown anywhere?
 
-Yes, the deposit/source address is shown on the validator. It’s not used for anything in the protocol though. The [consensus layer](/introduction/staking-glossary#consensus-layer) actually has no record of which address a validator's deposit was made from but it is in the history of the [execution layer](/introduction/staking-glossary#execution-layer) as all transactions are.
+Yes, the deposit/source address is shown on the validator. It’s not used for anything in the protocol though. The [consensus layer](../staking-glossary#consensus-layer) actually has no record of which address a validator's deposit was made from but it is in the history of the [execution layer](../staking-glossary#execution-layer) as all transactions are.
 
 The deposit/source address can be seen on [beaconcha.in](https://beaconcha.in) under `Deposits` -> `Ethereum Deposits` -> `From Address`.
 
@@ -162,23 +162,23 @@ The deposit/source address can be seen on [beaconcha.in](https://beaconcha.in) u
 
 ## Is there a penalty for missing a block proposal?
 
-No. If you miss your block proposal, the [slot](/introduction/staking-glossary#slot) that should have contained your block will be empty. Other than the lost [rewards](/rewards/chain-rewards) from missing the block proposal, there are **no penalties or slashing** that occurs from a missed block proposal.
+No. If you miss your block proposal, the [slot](../staking-glossary#slot) that should have contained your block will be empty. Other than the lost [rewards](../rewards/chain-rewards) from missing the block proposal, there are **no penalties or slashing** that occurs from a missed block proposal.
 
 ## Is there a penalty for missing an attestation?
 
-Missing some [attestations](/introduction/staking-glossary#attestation) is completely normal and extremely low-cost. The penalty for missing an attestation is exactly the same as the reward for a successful one. So, with around 240 attestations per day per validator, missing one or two is still a successful attestation rate of over 99%!
+Missing some [attestations](../staking-glossary#attestation) is completely normal and extremely low-cost. The penalty for missing an attestation is exactly the same as the reward for a successful one. So, with around 240 attestations per day per validator, missing one or two is still a successful attestation rate of over 99%!
 
 ## Is there any advantage to having more than 32 ETH at stake?
 
 No. There is no advantage to having more than 32 ETH staked.
 
-Depositing more than 32 ETH to a single set of keys does not increase rewards potential, nor does accumulating rewards above 32 ETH, as each [validator](/introduction/staking-glossary#validator) is limited to an effective balance of 32. This means that staking is done in 32 ETH increments, each with its own set of keys and balance.
+Depositing more than 32 ETH to a single set of keys does not increase rewards potential, nor does accumulating rewards above 32 ETH, as each [validator](../staking-glossary#validator) is limited to an effective balance of 32. This means that staking is done in 32 ETH increments, each with its own set of keys and balance.
 
 ## Should I set a withdrawal address when setting up my solo staking validator?
 
-Setting a [withdrawal address](/introduction/staking-glossary#withdrawal-address) when creating your validator keys is an important step when setting up your validator. Until a withdrawal address is set, you will not be able to claim your beacon chain rewards or withdraw your ETH.
+Setting a [withdrawal address](../staking-glossary#withdrawal-address) when creating your validator keys is an important step when setting up your validator. Until a withdrawal address is set, you will not be able to claim your beacon chain rewards or withdraw your ETH.
 
-The [Staking Deposit CLI](/introduction/staking-glossary#staking-deposit-cli) can set a withdrawal address during deposit `JSON` creation (an 0x01 address). If a user opts not to do this - usually simply by omission - then it sets the hash of the withdrawal pub key instead (an 0x00 address)
+The [Staking Deposit CLI](../staking-glossary#staking-deposit-cli) can set a withdrawal address during deposit `JSON` creation (an 0x01 address). If a user opts not to do this - usually simply by omission - then it sets the hash of the withdrawal pub key instead (an 0x00 address)
 
 And that’s it. Once your validator uses v1 credentials the withdrawal address is fixed and can’t be changed. In the current design, skimming is automatic, and so are full withdrawals: Full withdrawal just happens after exit is completed.
 
@@ -201,13 +201,13 @@ This will give you a rundown of the rewards your validators have accrued. Always
 
 ## What exactly is a validator?
 
-A validator is a virtual entity that lives on the [Beacon Chain](/introduction/staking-glossary#beacon-chain), represented by a balance, [public key](/introduction/staking-glossary#public-key), and other properties, and participates in [consensus](/introduction/staking-glossary#consensus-layer) of the Ethereum network.
+A validator is a virtual entity that lives on the [Beacon Chain](../staking-glossary#beacon-chain), represented by a balance, [public key](../staking-glossary#public-key), and other properties, and participates in [consensus](../staking-glossary#consensus-layer) of the Ethereum network.
 
 ## What happens if I lose my validator keys?
 
-If there's a catastrophic failure of your validator and you lose your validator keys, don't panic! These can be easily recovered as long as you still have your [validator seed phrase / mnemonic](/introduction/staking-glossary#validator-seed-phrase). Simply follow the same steps you used when you first generated your validator keys, and install them on a new validator machine.
+If there's a catastrophic failure of your validator and you lose your validator keys, don't panic! These can be easily recovered as long as you still have your [validator seed phrase / mnemonic](../staking-glossary#validator-seed-phrase). Simply follow the same steps you used when you first generated your validator keys, and install them on a new validator machine.
 
-> Be 100% certain that any previous machines will not come back online as this will lead to a [slashing event](/introduction/staking-glossary#slashable-offenses).
+> Be 100% certain that any previous machines will not come back online as this will lead to a [slashing event](../staking-glossary#slashable-offenses).
 
 ## What happens if I lose my validator seed phrase / mnemonic?
 
@@ -217,7 +217,7 @@ However, if you had set a withdrawal address, then the validator keys are enough
 
 ## What if I want to stop staking?
 
-In the event that you can't recover your validator or you decide you want to stop staking, you have the option to exit your validator. Exiting a validator is a one way process. For details on how to exit your validator, [check out our guide](/tutorials/how-to-exit-a-validator).
+In the event that you can't recover your validator or you decide you want to stop staking, you have the option to exit your validator. Exiting a validator is a one way process. For details on how to exit your validator, [check out our guide](../tutorials/how-to-exit-a-validator).
 
 ## What is a node operator?
 
@@ -225,7 +225,7 @@ A node operator is the human being who makes sure the client software is running
 
 ## What is a validator client?
 
-A [validator](/introduction/staking-glossary#validator) client is the software that acts on behalf of the validator by holding and using its [private key](/introduction/staking-glossary#private-key) to make [attestations](/introduction/staking-glossary#attestation) about the state of the chain. A single validator client can hold many key pairs, controlling many validators.
+A [validator](../staking-glossary#validator) client is the software that acts on behalf of the validator by holding and using its [private key](../staking-glossary#private-key) to make [attestations](../staking-glossary#attestation) about the state of the chain. A single validator client can hold many key pairs, controlling many validators.
 
 ## What is the deposit contract?
 
@@ -235,7 +235,7 @@ You can think of the deposit contract as a transfer of funds from an Ethereum ac
 
 Setting up your own validator for "Solo Home Staking" is not difficult.
 
-You can follow step-by-step [staking guides](/tutorials/solo-staking-guides), which don't take much time at all. See also [time commitment](#what-is-the-time-commitment-for-running-a-validator).
+You can follow step-by-step [staking guides](../tutorials/solo-staking-guides), which don't take much time at all. See also [time commitment](#what-is-the-time-commitment-for-running-a-validator).
 
 There are pre-configured hardware options like [Dappnode↗](https://dappnode.com/) or [Avado↗](https://ava.do/) which can make things easier and eliminate the need to interact with the command line interface or Linux in general. You can also install the open-source [Dappnode software ↗](https://docs.dappnode.io/user/quick-start/core/installation/) on your own hardware to have a more intuitive staking experience.
 

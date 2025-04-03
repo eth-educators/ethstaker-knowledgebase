@@ -1,7 +1,7 @@
 # Métodos para minimizar el tiempo de inactividad
 
 !!! info "Info"
-    Recuerda que nunca se deben configurar las claves del validador en múltiples máquinas al mismo tiempo, ya que si la misma clave del validador está activa dos veces en la red, se producirá una [_deducción (slashing)_](/es/staking-glossary#slashable-offenses). Las claves solo deben configurarse para un validador al mismo tiempo.
+    Recuerda que nunca se deben configurar las claves del validador en múltiples máquinas al mismo tiempo, ya que si la misma clave del validador está activa dos veces en la red, se producirá una [_deducción (slashing)_](../../staking-glossary#slashable-offenses). Las claves solo deben configurarse para un validador al mismo tiempo.
 
 
 Habiendo dicho eso, vamos a entrar en detalle. A continuación mostraremos algunas cosas que puedes hacer para minimizar el tiempo de inactividad.
@@ -12,7 +12,7 @@ Las siguientes ideas pueden o no ser factibles dependiendo de la cantidad de val
 
 ### Conectar tu nodo y router a un UPS
 
-Esto asegurará que tu equipo no se apague abruptamente, lo que potencialmente salvará tu hardware de daños, así como evitará la corrupción de tu base de datos/sistema operativo, ahorrándote la necesidad de resincronizar o reinstalar. Puedes encontrar más información al respecto en la página de [prácticas de hardware recomendadas](/es/hardware/hardware-best-practices).
+Esto asegurará que tu equipo no se apague abruptamente, lo que potencialmente salvará tu hardware de daños, así como evitará la corrupción de tu base de datos/sistema operativo, ahorrándote la necesidad de resincronizar o reinstalar. Puedes encontrar más información al respecto en la página de [prácticas de hardware recomendadas](../../hardware/hardware-best-practices).
 
 ### Ejecutar múltiples pares de clientes de Consenso-Ejecución
 
@@ -34,5 +34,5 @@ Habrá momentos en los que estés desconectado y falten atestaciones, no te estr
 
 Para obtener más información sobre el tiempo de inactividad, consulta nuestras publicaciones de ayuda:
 
-* [Estoy preocupado por el tiempo de inactividad 😔](/es/help/downtime-explained)
-* [Estoy preocupado por las deducciones (slashing) 🔪](/es/help/slashing-explained)
+* [Estoy preocupado por el tiempo de inactividad 😔](../../help/downtime-explained)
+* [Estoy preocupado por las deducciones (slashing) 🔪](../../help/slashing-explained)

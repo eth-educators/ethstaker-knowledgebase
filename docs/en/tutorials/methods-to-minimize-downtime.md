@@ -2,7 +2,7 @@
 
 !!! info "Info"
 
-    This is a reminder that you should never have your validator keys configured across multiple machines at the same time, because if the same validator key is active twice across the network _it will get_ [_slashed_](/introduction/staking-glossary#slashable-offenses). They should _only_ ever be configured to run in one place at one time!
+    This is a reminder that you should never have your validator keys configured across multiple machines at the same time, because if the same validator key is active twice across the network _it will get_ [_slashed_](../../staking-glossary#slashable-offenses). They should _only_ ever be configured to run in one place at one time!
 
 
 With that out of the way, let's get into it. There are a few things that you can do to minimize your potential downtime.&#x20;
@@ -13,7 +13,7 @@ The below ideas may or may not be feasible depending on how many validators you 
 
 ### Connecting your node and router to a UPS
 
-This will ensure abrupt shutdowns don't occur potentially saving your hardware from breaking, or your DB/OS from corrupting saving you a resync/reinstall. More information can be found about this on the [hardware best practices page.](/hardware/hardware-best-practices)
+This will ensure abrupt shutdowns don't occur potentially saving your hardware from breaking, or your DB/OS from corrupting saving you a resync/reinstall. More information can be found about this on the [hardware best practices page.](../../hardware/hardware-best-practices)
 
 ### **Running multiple Consensus-Execution client pairs.**
 
@@ -37,5 +37,5 @@ There will be times when you are offline and are missing attestations, do not st
 
 For more information about downtime see our helper posts:&#x20;
 
-* [I'm worried about downtime 😔](/help/downtime-explained)
-* [I'm worried about slashing 🔪](/help/slashing-explained)
+* [I'm worried about downtime 😔](../../help/downtime-explained)
+* [I'm worried about slashing 🔪](../../help/slashing-explained)

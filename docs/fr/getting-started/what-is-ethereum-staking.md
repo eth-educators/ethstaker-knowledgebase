@@ -63,10 +63,10 @@ De nombreuses plateformes d'échange centralisées proposent des services de sta
 
 Le compromis ici est que les fournisseurs centralisés regroupent de grandes quantités d'ETH pour gérer un grand nombre de validateurs. Cela peut être dangereux pour le réseau et ses utilisateurs, car cela crée une cible centralisée importante et un point de défaillance, rendant le réseau plus vulnérable aux attaques ou aux bugs.
 
-Si vous ne vous sentez pas à l'aise pour gérer vos propres clés, ce n'est pas grave. Ces options sont là pour vous. En attendant, pensez à consulter [la page à propos des portefeuilles sur ethereum.org](https://ethereum.org/fr/wallets/) , où vous pourrez commencer à apprendre comment prendre véritablement en main vos fonds. Lorsque vous serez prêt, revenez et améliorez votre méthode de staking en essayant par exemple l'un des services proposés de staking mutualisé avec un jeton.
+Si vous ne vous sentez pas à l'aise pour gérer vos propres clés, ce n'est pas grave. Ces options sont là pour vous. En attendant, pensez à consulter [la page à propos des portefeuilles sur ethereum.org](https://ethereum.org/wallets/) , où vous pourrez commencer à apprendre comment prendre véritablement en main vos fonds. Lorsque vous serez prêt, revenez et améliorez votre méthode de staking en essayant par exemple l'un des services proposés de staking mutualisé avec un jeton.
 
 &#x20;
 
 Comme vous avez pu le remarquer, il existe de nombreuses façons de participer au staking sur Ethereum. Ces solutions visent à une grande diversité d'utilisateurs et sont en fin de compte chacune singulières et différentes en ce qui concerne les risques, les récompenses et la confiance. Certaines sont plus décentralisées, éprouvées et/ou risquées que d'autres. Nous fournissons des informations sur des projets populaires dans ce domaine, mais faites toujours vos propres recherches avant d'envoyer des ETH n'importe où.
 
-[Sources ↗](https://ethereum.org/fr/staking/)
+[Sources ↗](https://ethereum.org/staking/)

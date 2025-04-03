@@ -14,11 +14,11 @@ You shouldn't worry about downtime, but understanding what happens when your val
 * You start your solo staking home validator with 32 ETH.
 * Everything is going well and after a few months, your validator balance is 32.5 ETH.
 * Then... your validator goes offline! 🚨
-  * If this happens for real, check out the "[My validator is offline! What do I do?](/help/validator-offline)" guide.
+  * If this happens for real, check out the "[My validator is offline! What do I do?](../../help/validator-offline)" guide.
 
 ### Inactivity Leak
 
-* As soon as your validator is no longer participating in the network it will start [leaking](/introduction/staking-glossary#inactivity-leak) ETH.
+* As soon as your validator is no longer participating in the network it will start [leaking](../../staking-glossary#inactivity-leak) ETH.
   * When you are offline, for each missed attestation the inactivity leak might be around -0.000011 ETH (the inactivity leak is slightly less than a successful attestation).
   * For a normal successful attestation, you might be rewarded with 0.000014 ETH.
 * If you have a catastrophic failure and you are not able to get your validator back online for 5 days, then it will take about 5 days of being back online to get back to the same balance as when the failure occurred.
@@ -37,7 +37,7 @@ No. Realistically, the only condition that can cause a [slashing event](https://
 
 ## What if I can't recover my validator and/or I want to stop staking?
 
-If you can't recover your validator or decide you want to stop staking, you have the option to exit your validator from the network. Exiting a validator is a one-way process. For details on how to exit your validator, [check out our guide](/tutorials/how-to-exit-a-validator).
+If you can't recover your validator or decide you want to stop staking, you have the option to exit your validator from the network. Exiting a validator is a one-way process. For details on how to exit your validator, [check out our guide](../../tutorials/how-to-exit-a-validator).
 
 ## Conclusion
 

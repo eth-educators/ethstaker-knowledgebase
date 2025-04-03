@@ -12,11 +12,11 @@ No deberías preocuparte por el tiempo de inactividad, pero comprender lo que su
 * Comienzas como validador en solitario en casa con 32 ETH.
 * Todo va bien y después de unos meses, el saldo de tu validador es de 32,5 ETH.
 * Entonces... ¡tu validador se desconecta! 🚨\
-  Si esto sucede de verdad, consulta la guía "Mi  "[¡Mi validador está desconectado! ¿Qué hago?"](/es/help/validator-offline).
+  Si esto sucede de verdad, consulta la guía "Mi  "[¡Mi validador está desconectado! ¿Qué hago?"](../../help/validator-offline).
 
 ### Fuga por inactividad
 
-* Tan pronto como tu validador ya no participe en la red, comenzará a [fugarse](/es/staking-glossary#inactivity-leak) ETH.&#x20;
+* Tan pronto como tu validador ya no participe en la red, comenzará a [fugarse](../../staking-glossary#inactivity-leak) ETH.&#x20;
   * Cuando estás desconectado, por cada atestación perdida, la fuga por inactividad podría ser de alrededor de -0,000011 ETH (la fuga por inactividad es ligeramente menor que una atestación exitosa).
   * Por una atestación exitosa normal, podrías ser recompensado con 0,000014 ET.
 * Si tienes una falla catastrófica y no puedes volver a conectar tu validador en línea durante 5 días, entonces tomará aproximadamente 5 días de estar en línea para volver al mismo saldo que cuando ocurrió la falla.
@@ -35,7 +35,7 @@ No. En realidad, la única condición que puede causar un [evento de deduccion](
 
 ## ¿Qué pasa si no puedo recuperar mi validador y / o quiero dejar de hacer staking?
 
-Si no puedes recuperar tu validador o decides dejar de hacer staking, tienes la opción de sacar tu validador. Aunque actualmente no se permiten retiros, aún puedes sacar a tu validador de la red. Esto significa que, aunque no podrás recuperar tu saldo de validador de inmediato (hasta que se permitan los retiros), no recibirás ninguna penalización por estar desconectado una vez que el validador salga de la [cola de retiro](/es/staking-glossary#validator-queue). Sacar un validador es actualmente un proceso unidireccional. Para obtener más detalles sobre cómo sacar tu validador, [consulta nuestra guía](/es/tutorials/how-to-exit-a-validator).
+Si no puedes recuperar tu validador o decides dejar de hacer staking, tienes la opción de sacar tu validador. Aunque actualmente no se permiten retiros, aún puedes sacar a tu validador de la red. Esto significa que, aunque no podrás recuperar tu saldo de validador de inmediato (hasta que se permitan los retiros), no recibirás ninguna penalización por estar desconectado una vez que el validador salga de la [cola de retiro](../../staking-glossary#validator-queue). Sacar un validador es actualmente un proceso unidireccional. Para obtener más detalles sobre cómo sacar tu validador, [consulta nuestra guía](../../tutorials/how-to-exit-a-validator).
 
 ## Conclusión
 

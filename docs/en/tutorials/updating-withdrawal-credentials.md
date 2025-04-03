@@ -1,6 +1,6 @@
 # Updating Withdrawal Credentials
 
-As described in [Validator sweeping](/getting-started/withdrawal-process-explained#validator-sweeping), the only way to receive rewards from the [Beacon chain](/introduction/staking-glossary#beacon-chain) or the initial 32 ETH deposit upon a [validator exiting](/introduction/staking-glossary#5-exiting-validator) is for a validator to have set a [Withdrawal address](/introduction/staking-glossary#withdrawal-address) changing their Withdrawal Credentials from `0x00` to `0x01`.
+As described in [Validator sweeping](../../getting-started/withdrawal-process-explained#validator-sweeping), the only way to receive rewards from the [Beacon chain](../../staking-glossary#beacon-chain) or the initial 32 ETH deposit upon a [validator exiting](../../staking-glossary#5-exiting-validator) is for a validator to have set a [Withdrawal address](../../staking-glossary#withdrawal-address) changing their Withdrawal Credentials from `0x00` to `0x01`.
 
 It is possible upon validator creation to specify a withdrawal address and, if you have done so, there is no need to update your credentials. In fact, **once your credentials have been set to 0x01 it will not be possible to change them in the future**. This is why it is imperative that when you choose a withdrawal address, you **choose one that you have full control over such as a hardware wallet**. It is heavily recommended to **NOT** choose a wallet on an exchange or third party where you do not control the private keys.
 
@@ -40,7 +40,7 @@ In order for ethdo to make the necessary changes, there are a number of things y
 * Note: You may not have `ethdo` on your machine and will need to download it\
   \
   If you do not have access to your validator or are using a third party, you can ask the community for a version or [download an older one here](https://github.com/benjaminchodroff/ConsensusLayerWithdrawalProtection/blob/main/offline-preparation.json.mainnet.2023-03-04.tar.gz).
-* **The validator mnemonic:** When you generated your validator, you created or provided a [mnemonic key](/introduction/staking-glossary#validator-seed-phrase-mnemonic). If you do not have ownership of this key or have lost it, you will not be able to continue further and make the necessary signature.
+* **The validator mnemonic:** When you generated your validator, you created or provided a [mnemonic key](../../staking-glossary#validator-seed-phrase-mnemonic). If you do not have ownership of this key or have lost it, you will not be able to continue further and make the necessary signature.
 * **Offline air-gapped machine:** Because you are going to be exposing the mnemonic to sign this operation, it is recommended to use an offline machine to perform the operation. There are numerous guides on how to create an air-gapped machine and you can [view an example here](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu#1-overview).
 * **An execution layer address:** In order to receive funds, you need to specify an execution layer address that you fully control. This would preferably be a hardware wallet such as a ledger but you certainly want to choose an address that has the highest security. After an address is set, if the corresponding wallet were to be compromised, you would have a high likelihood of losing your rewards and initial deposit.
 * **A USB flash drive:** The machine you are going to perform this change on will not have access to the internet and thus you will not be able to download or upload anything directly. In order to get the necessary information to the machine and the results from the machine, you will need a flash drive to store said information and results. On this flash drive you should put the `ethdo` cli tool, the `offline-preparation.json` file, and the `address` you wish to set.
@@ -144,13 +144,13 @@ Where `<IP>` is the address of your node, most likely `localhost`
 
 At this point, the submission process and propagation should be near instantaneous. Look up your validator on the [beaconcha.in](https://beaconcha.in/) and see if the withdrawal credentials have been updated. When viewing a validator, there is a `Deposits` section which should note the change of your credentials.&#x20;
 
-At this point, your credentials have been updated and you will automatically receive your Beacon chain rewards as described [here](/getting-started/withdrawal-process-explained#validator-sweeping).
+At this point, your credentials have been updated and you will automatically receive your Beacon chain rewards as described [here](../../getting-started/withdrawal-process-explained#validator-sweeping).
 
 ## FAQ
 
 #### My credentials are 0x01. Do I have to do anything?
 
-Nope. You are all set! You will periodically receive your rewards as defined [here](/getting-started/withdrawal-process-explained#validator-sweeping).
+Nope. You are all set! You will periodically receive your rewards as defined [here](../../getting-started/withdrawal-process-explained#validator-sweeping).
 
 #### How can I change my withdrawal address again?
 

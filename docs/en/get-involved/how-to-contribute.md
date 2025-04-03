@@ -25,7 +25,7 @@ Please create a pull request for any changes you want to make and we'll review i
 Please use these notes when writing for this knowledge base to maintain a standardized format.
 
 * Use [relative links ↗](https://github.blog/2013-01-31-relative-links-in-markup-files/) to navigate between different files within this knowledge base.
-  * `[Other file link](/other_file)` → [Privacy Policy](/privacy-policy)
+  * `[Other file link](/other_file)` → [Privacy Policy](../../privacy-policy)
 * Use anchor links to headings within the same file.
   * `[Anchor link](#heading-anchor)` → [Anchor link](#documentation-standardization-notes)
 * Combine relative links to other files with anchor links.

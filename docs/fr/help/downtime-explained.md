@@ -12,11 +12,11 @@ Vous ne devriez pas trop vous inquiéter des interruptions, mais comprendre ce q
 * Vous lancez votre validateur solo à domicile avec 32 ETH.
 * Tout se passe bien et après quelques mois, le solde de votre validateur est de 32,5 ETH.
 * Puis... votre validateur est hors ligne ! 🚨
-  * Si cela se produit réellement, consultez le guide "[Mon validateur est hors-ligne ! Que dois-je faire?](/fr/help/validator-offline)" .
+  * Si cela se produit réellement, consultez le guide "[Mon validateur est hors-ligne ! Que dois-je faire?](../validator-offline)" .
 
 ### Pénalité d'Inactivité
 
-* Dès que votre validateur ne participe plus au réseau, il commencera à [perdre](/fr/staking-glossary#inactivity-leak) des ETH.
+* Dès que votre validateur ne participe plus au réseau, il commencera à [perdre](../../staking-glossary#inactivity-leak) des ETH.
   * Lorsque vous êtes hors ligne, pour chaque attestation manquée, la fuite d'inactivité serait d'environ -0,000011 ETH (la fuite d'inactivité est légèrement inférieure à une attestation réussie).
   * Pour une attestation réussie normale, vous pourriez être récompensé de 0,000014 ETH.
 * Si vous avez une défaillance catastrophique et que vous ne parvenez pas à remettre votre validateur en ligne pendant 5 jours, il vous faudra environ 5 jours de connexion pour revenir au même solde qu'au moment de la défaillance.
@@ -35,7 +35,7 @@ Non. En réalité, la seule condition pouvant entraîner une [exclusion](https:/
 
 ## Que faire si je ne peux pas récupérer mon validateur et/ou que je souhaite arrêter la mise en jeu?
 
-Si vous ne pouvez pas récupérer votre validateur ou décidez que vous souhaitez arrêter la mise en jeu, vous avez la possibilité de sortir votre validateur du réseau. Cela signifie que, bien que vous ne puissiez pas récupérer immédiatement le solde de votre validateur, vous ne recevrez aucune pénalité pour avoir été hors ligne une fois que le validateur quitte [fil d'attente de retrait](/fr/staking-glossary#validator-queue). Actuellement, la sortie d'un validateur est un processus irréversible. Pour plus de détails sur la façon de sortir votre validateur, [cosultez notre guide](/fr/tutorials/how-to-exit-a-validator).
+Si vous ne pouvez pas récupérer votre validateur ou décidez que vous souhaitez arrêter la mise en jeu, vous avez la possibilité de sortir votre validateur du réseau. Cela signifie que, bien que vous ne puissiez pas récupérer immédiatement le solde de votre validateur, vous ne recevrez aucune pénalité pour avoir été hors ligne une fois que le validateur quitte [fil d'attente de retrait](../../staking-glossary#validator-queue). Actuellement, la sortie d'un validateur est un processus irréversible. Pour plus de détails sur la façon de sortir votre validateur, [cosultez notre guide](../../tutorials/how-to-exit-a-validator).
 
 ## Conclusion
 

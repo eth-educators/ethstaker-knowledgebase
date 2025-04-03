@@ -169,7 +169,7 @@ If your machine supports installing multiple good SSDs and your system is config
 
 ### Monitoring and Alerting
 
-A good practice is to install and configure [monitoring](/guides/monitoring-maintenance/monitoring) and [alerting](/guides/monitoring-maintenance/alerting) tools to watch your machine's free disk space.
+A good practice is to install and configure [monitoring](../../../guides/monitoring-maintenance/monitoring) and [alerting](../../../guides/monitoring-maintenance/alerting) tools to watch your machine's free disk space.
 
 ## Migrating to a Larger Disk
 

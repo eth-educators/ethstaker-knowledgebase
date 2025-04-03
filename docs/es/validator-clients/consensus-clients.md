@@ -2,9 +2,9 @@
 
 !!! info "Info"
     Puedes consultar más información sobre los clientes de ejecución y los clientes de validación aqui: \
-    [¿Qué son los clientes de validación?](/es/validator-clients/validator-clients-explained)👀
+    [¿Qué son los clientes de validación?](../../validator-clients/validator-clients-explained)👀
 
-Existen varios clientes de consenso (anteriormente conocidos como clientes 'Eth2') que respaldan las actualizaciones de consenso. Estos clientes ejecutan la Beacon Chain y proporcionan un mecanismo de consenso de prueba de [prueba de participación (PoS)](/es/staking-glossary#proof-of-stake-pos) a los [clientes de ejecución](/es/validator-clientsexecution-clients).&#x20;
+Existen varios clientes de consenso (anteriormente conocidos como clientes 'Eth2') que respaldan las actualizaciones de consenso. Estos clientes ejecutan la Beacon Chain y proporcionan un mecanismo de consenso de prueba de [prueba de participación (PoS)](../../staking-glossary#proof-of-stake-pos) a los [clientes de ejecución](../../validator-clientsexecution-clients).&#x20;
 
 Todos los clientes de consenso siguen la misma [especificación ↗](https://github.com/ethereum/consensus-specs). Si un cliente no cumple con esta especificación, no podrá llegar a un consenso con el resto de la red.
 

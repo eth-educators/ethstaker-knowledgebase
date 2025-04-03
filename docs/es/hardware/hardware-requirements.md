@@ -1,6 +1,6 @@
 # Requerimentos de hardware
 
-Un **full node** es uno que se ejecute tanto en el  [Execution Client](/es/validator-clients/execution-clients) como en el [Consensus Client](/es/validator-clients/consensus-clients).
+Un **full node** es uno que se ejecute tanto en el  [Execution Client](../../validator-clients/execution-clients) como en el [Consensus Client](../../validator-clients/consensus-clients).
 
 Aquí puedes ver de forma sencilla que es lo que se requiere para ejecutar un full node en la red de Ethereum:&#x20;
 
@@ -22,9 +22,9 @@ Algunos de los requísitos que son considerados como **mínimos** para ejecutar 
     Generalmente las configuraciones tienden a usar entre 16GB y 32GB de RAM para lograr retornos a largo plazo.&#x20;
 
 * La configuración ideal y lo más práctico es tener una computadora dedicada para el staking. Intenta limitar los procesos adicionales que se ejecutan en tu equipo de staking, especialmente si se trata de algo que se conecta con el mundo exterior. Cada proceso adicional y cada archivo descargado es otra oportunidad.
-* Tus ETH estarán bloqueados en la [Beacon Chain](/es/staking-glossary#beacon-chain) hasta mediados de 2023, [posiblemente más](/es/faq#can-i-withdraw-my-eth-at-any-time). Por lo que tiene sentido comprar hardware de buena calidad. Pero no te alarmes, esto no es como la minería que tiene márgenes ajustados, aquí la inversión se recuperará rápidamente.
+* Tus ETH estarán bloqueados en la [Beacon Chain](../../staking-glossary#beacon-chain) hasta mediados de 2023, [posiblemente más](../../faq#can-i-withdraw-my-eth-at-any-time). Por lo que tiene sentido comprar hardware de buena calidad. Pero no te alarmes, esto no es como la minería que tiene márgenes ajustados, aquí la inversión se recuperará rápidamente.
 * ¡Usa Linux, es fácil! En un futuro previsible, Linux recibirá un mejor soporte tanto de los equipos de clientes como de la comunidad en general. Si eliges Linux, tendrás acceso a más guías y más soporte técnico de la comunidad en general. Linux es ligero, estable, seguro y no te obliga a reiniciar para las actualizaciones frecuentemente.
-* ¡Usa un [cliente minoritario](/es/validator-clients/validator-clients-explained)! Es bueno tanto para la salud de Ethereum como para la salud de tu bolsillo.
+* ¡Usa un [cliente minoritario](../../validator-clients/validator-clients-explained)! Es bueno tanto para la salud de Ethereum como para la salud de tu bolsillo.
 * ¡Se recomienda fuertemente un respaldo con una UPS! En el deben de estar conectados tanto el módem como el router. Muchos proveedores de servicios de internet tienen generadores para respaldar las comunicaciones de servicios de emergencia, lo que significa que el Internet sigue funcionando durante un corte de energía siempre que tu equipo esté alimentado. Tu proveedor de servicios de Internet puede ser el mismo. Aparte de los cortes de energía, no tener que apagar tu computadora cada vez que la alimentación eléctrica falle es algo que se agradece bastante cuando haces staking desde casa.&#x20;
 * Todo lo que se mencionó aquí aplica tanto para los que hacen staking solos y también para los que son operadores de nodos de una minipool de 16 ETH. con [Rocket Pool ↗](https://rocketpool.net/).
 
@@ -34,17 +34,17 @@ Aquí puedes echar un vistazo a algunos ejemplos de equipo y sus explicaciones d
 
 ## Opciones de Hardware
 
-* [**Raspberry Pi**](/es/hardware-requirements#raspberry-pi)
-* [**Laptop vieja/ escritorio**](/es/hardware-requirements#old-laptopdesktop)
-* [**Laptop nueva**](/es/hardware-requirements#new-laptop)
-* [**De escritorio pre-fabricado** ](/es/hardware-requirements#new-pre-built-desktop)
-* [**De escritorio personalidad**](/es/hardware-requirements#custom-built-desktop)
-* [**Intel NUC**](/es/hardware-requirements#intel-nuc)
-* [**Servidor**](/es/hardware-requirements#server)
-* [**DAppNode**](/es/hardware-requirements#dappnode)
-* [**Avado**](/es/hardware-requirements#avado)
-* [**M1 Mac Mini**](/es/hardware-requirements#m1-mac-mini)
-* [**Virtual Private Server**](/es/hardware-requirements#virtual-private-server)
+* [**Raspberry Pi**](#raspberry-pi)
+* [**Laptop vieja/ escritorio**](#old-laptopdesktop)
+* [**Laptop nueva**](#new-laptop)
+* [**De escritorio pre-fabricado** ](#new-pre-built-desktop)
+* [**De escritorio personalidad**](#custom-built-desktop)
+* [**Intel NUC**](#intel-nuc)
+* [**Servidor**](#server)
+* [**DAppNode**](#dappnode)
+* [**Avado**](#avado)
+* [**M1 Mac Mini**](#m1-mac-mini)
+* [**Virtual Private Server**](#virtual-private-server)
 
 ### **Raspberry Pi**
 

@@ -193,19 +193,19 @@ Un grupo de al menos 128 [#validadores](#validadores "mention") asignados para v
 
 ## capa de consenso
 
-La capa de consenso de Ethereum es la red de [consensus-clients.md](validator-clients/consensus-clients.md "mention").
+La capa de consenso de Ethereum es la red de [consensus-clients.md](../validator-clients/consensus-clients.md "mention").
 
 ## contrato de depósito
 
 El contrato de depósito es la puerta de entrada a Ethereum [#proof-of-stake-pos](#proof-of-stake-pos "mention") y se administra a través de un **contrato inteligente** en Ethereum. El contrato inteligente acepta cualquier transacción con una cantidad mínima de 1 ETH y [#datos-de-entrada](#datos-de-entrada "mention") válidos. Los nodos de [#beacon-chain](#beacon-chain "mention") escuchan el contrato de depósito y usan los datos de entrada para acreditar cada validador.&#x20;
 
-[_Más información sobre el contrato de depósito_](para-empezar/deposit-process.md)
+[_Más información sobre el contrato de depósito_](../getting-started/deposit-process.md)
 
 ## efectividad
 
 El tiempo medio que tardan las certificaciones de un validador en incluirse en la cadena.
 
-[_Revisa nuestra página sobre validator effectiveness_ ](validator-clients/validator-effectiveness.md)
+[_Revisa nuestra página sobre validator effectiveness_ ](../validator-clients/validator-effectiveness.md)
 
 ## época
 
@@ -216,7 +216,7 @@ epresents the number of 32 slots (12 seconds) and takes approximately **6.4 minu
 
 ## capa de ejecución
 
-La capa de ejecución de Ethereum es la red de [clientes de ejecución](validator-clients/execution-clients.md).&#x20;
+La capa de ejecución de Ethereum es la red de [clientes de ejecución](../validator-clients/execution-clients.md).&#x20;
 
 ## finalización
 
@@ -272,7 +272,7 @@ Para reflejar el valor relativo de una certificación, la recompensa otorgada a 
 
 Los datos de entrada, también llamados **datos de depósito**, son una secuencia de 842 caracteres generada por el usuario. Representa la [#llave-publica](#llave-publica "mention") y la llave pública de retiro, que fueron firmadas con la [#llave-privada](#llave-privada "mention") del validador. Los datos de entrada deben agregarse a la transacción del [#contrato-de-deposito](#contrato-de-deposito "mention") para que la [#beacon-chain](#beacon-chain "mention") los identifique.
 
-[_Más información sobre el contrato de depósito_](para-empezar/deposit-process.md)
+[_Más información sobre el contrato de depósito_](../getting-started/deposit-process.md)
 
 ## justificación
 
@@ -348,7 +348,7 @@ Demostrar criptográficamente que un mensaje o transacción fue aprobado por el 
 
 Si su validador comete un delito que puede implicar deducciones (slashing), será forzado a salir del grupo de validadores y se le deducirá ETH según las circunstancias del evento. Por lo general, esto será 1-2 ETH, pero podría ser [significativamente más ↗](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/#slashing).
 
-Esto no es algo de lo que deba preocuparse demasiado, hay [pasos simples](help/slashing-explained.md) que puede seguir para asegurarse de no invocar un evento de slashing.
+Esto no es algo de lo que deba preocuparse demasiado, hay [pasos simples](../help/slashing-explained.md) que puede seguir para asegurarse de no invocar un evento de slashing.
 
 Hay tres formas que probocan esto, todas las cuales equivalen a la propuesta deshonesta o la certificación de bloques.
 
@@ -483,4 +483,4 @@ La frase semilla o mnemotécnica es un conjunto de palabras (generalmente de 12,
 
 ## dirección de retiro
 
-Una dirección que se puede configurar opcionalmente al crear una clave de validación que se usará para retirar ETH apostado. Si esta dirección no se configura en el momento de la creación de la clave, se puede configurar en el momento del retiro. Para obtener más información sobre cómo configurar la dirección de retiro en la creación de la clave, consulte nuestra respuesta a las [preguntas frecuentes](/es/faq.md).
+Una dirección que se puede configurar opcionalmente al crear una clave de validación que se usará para retirar ETH apostado. Si esta dirección no se configura en el momento de la creación de la clave, se puede configurar en el momento del retiro. Para obtener más información sobre cómo configurar la dirección de retiro en la creación de la clave, consulte nuestra respuesta a las [preguntas frecuentes](../faq.md).

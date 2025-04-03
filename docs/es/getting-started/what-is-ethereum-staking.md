@@ -63,7 +63,7 @@ Muchos exchanges centralizados brindan servicios de staking si aún no se siente
 
 La desventaja aquí es que los exchanges centralizados consolidan grandes agrupaciones de ETH para ejecutar un gran número de validadores. Esto puede ser peligroso para la red y sus usuarios, ya que crean un gran blanco central y un punto de fallo, haciendo la red más vulnerable a ataques o errores.
 
-Si no te sientes cómodo manteniendo sus propias llaves, no pasa nada. Te ofrecemos las siguientes alternativas. Mientras tanto, consulte nuestra [página de carteras](https://ethereum.org/es/wallets/) , donde aprenderá a tomar la verdadera posesión de sus fondos. Cuando esté listo, regrese y eleve el nivel de su participación probando uno de los servicios de participación agrupada de autocustodia que se ofrecen.
+Si no te sientes cómodo manteniendo sus propias llaves, no pasa nada. Te ofrecemos las siguientes alternativas. Mientras tanto, consulte nuestra [página de carteras](https://ethereum.org/wallets/) , donde aprenderá a tomar la verdadera posesión de sus fondos. Cuando esté listo, regrese y eleve el nivel de su participación probando uno de los servicios de participación agrupada de autocustodia que se ofrecen.
 
 
 

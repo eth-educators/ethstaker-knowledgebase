@@ -3,7 +3,7 @@
 !!! info "Info"
 
     For more info about Execution clients and Validator clients start here:
-    [Validator clients explained](/validator-clients/validator-clients-explained) 👀
+    [Validator clients explained](../../validator-clients/validator-clients-explained) 👀
 
 
 The Ethereum community maintains multiple open-source execution clients (previously known as 'Eth1 clients', or just 'Ethereum clients'), developed by different teams using different programming languages. This makes the network stronger and more diverse. The ideal goal is to achieve diversity without any client dominating to reduce any single points of failure.

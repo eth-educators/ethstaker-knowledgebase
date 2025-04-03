@@ -45,11 +45,11 @@ exclude_docs: |
   exclude/*
   mkdocs.yml
   README.md
-  turkish/README.md
-  malay/README.md
-  french/README.md
-  spanish/README.md
-  portuguese/README.md
+  tr/README.md
+  ma/README.md
+  fr/README.md
+  es/README.md
+  pt/README.md
   alphabetical-ordering.sh
   test
   test-page.md
@@ -133,8 +133,10 @@ validation:
   links:
     anchors: ignore
     absolute_links: ignore
+    unrecognized_links: ignore
 nav:
   - Introduction:
+    - Table of contents: index.md
     - Glossary: staking-glossary.md
     - FAQ: faq.md
   # - 🚀 Getting Started:

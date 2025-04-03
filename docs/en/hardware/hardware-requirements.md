@@ -1,6 +1,6 @@
 # Hardware requirements
 
-A **full node** is one that runs both an [Execution Client](/validator-clients/execution-clients) and a [Consensus Client](/validator-clients/consensus-clients).
+A **full node** is one that runs both an [Execution Client](../../validator-clients/execution-clients) and a [Consensus Client](../../validator-clients/consensus-clients).
 
 Here is a simple breakdown of what is required to run a full Ethereum node:
 
@@ -22,27 +22,27 @@ The following are considered _**minimum**_ requirements to run a full node:
 
 * The ideal setup, and best practice is to have a dedicated computer for staking. Try to limit additional processes running on your staking box. Especially if it is something that is connecting to the outside world. Every extra process and every file being downloaded is another opportunity for an exploit.
 * Use Linux, it's easy! For the foreseeable future, Linux will receive better support from both the client teams and the community at large. If you choose Linux you will have access to more guides and more technical support from the community at large. Linux is lightweight, stable, secure, and it doesn't force you to restart for updates every other day.
-* Use a [minority client](/validator-clients/validator-clients-explained)! It is both good for the health of Ethereum and good for the health of your money.
+* Use a [minority client](../../validator-clients/validator-clients-explained)! It is both good for the health of Ethereum and good for the health of your money.
 * A battery backup (UPS) is **strongly** recommended! Plug your modem and router into it also. Many ISPs have generators to support emergency services communications, meaning the internet continues to work during a power outage as long as your equipment is powered. Your ISP may be the same. Aside from blackouts, not having your computer shut down on every momentary power flicker is a nice quality-of-life improvement when staking from home.
 * Everything here applies to both solo staking and being a minipool node operator with [Rocket Pool ↗](https://rocketpool.net/).
 
 ## Hardware examples
 
-Take a look at the [hardware examples](/hardware-examples/) page for detailed explanations of real solo home staking setups.
+Take a look under hardware examples for detailed explanations of real solo home staking setups.
 
 ## Hardware options
 
-* [**Raspberry Pi**](/hardware-requirements#raspberry-pi)
-* [**Old laptop/desktop**](/hardware-requirements#old-laptopdesktop)
-* [**New laptop**](/hardware-requirements#new-laptop)
-* [**New pre-built desktop**](/hardware-requirements#new-pre-built-desktop)
-* [**Custom built desktop**](/hardware-requirements#custom-built-desktop)
-* [**Intel NUC**](/hardware-requirements#intel-nuc)
-* [**Server**](/hardware-requirements#server)
-* [**DAppNode**](/hardware-requirements#dappnode)
-* [**Avado**](/hardware-requirements#avado)
-* [**M1 Mac Mini**](/hardware-requirements#m1-mac-mini)
-* [**Virtual Private Server**](/hardware-requirements#virtual-private-server)
+* [**Raspberry Pi**](hardware-requirements#raspberry-pi)
+* [**Old laptop/desktop**](hardware-requirements#old-laptopdesktop)
+* [**New laptop**](hardware-requirements#new-laptop)
+* [**New pre-built desktop**](hardware-requirements#new-pre-built-desktop)
+* [**Custom built desktop**](hardware-requirements#custom-built-desktop)
+* [**Intel NUC**](hardware-requirements#intel-nuc)
+* [**Server**](hardware-requirements#server)
+* [**DAppNode**](hardware-requirements#dappnode)
+* [**Avado**](hardware-requirements#avado)
+* [**M1 Mac Mini**](hardware-requirements#m1-mac-mini)
+* [**Virtual Private Server**](hardware-requirements#virtual-private-server)
 
 ### **Raspberry Pi**
 

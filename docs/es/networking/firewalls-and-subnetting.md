@@ -31,7 +31,7 @@ sudo ufw allow 13000/tcp
 sudo ufw enable
 ```
 
-Esta muy seguro! No hay tráfico de entrada o salida a menos que esté estrictamente relacionado con Ethereum. Una lista completa de puertos externos por ejecución y cliente de consenso se puede encontrar [aquí](/es/networking/port-forwarding).&#x20;
+Esta muy seguro! No hay tráfico de entrada o salida a menos que esté estrictamente relacionado con Ethereum. Una lista completa de puertos externos por ejecución y cliente de consenso se puede encontrar [aquí](../../networking/port-forwarding).&#x20;
 
 Desde aquí se pueden desbloquear puertos adicionales como SSH, la API HTTP de consenso (si también está ejecutando su validador en otra máquina) o la API RPC de ejecución (si desea interactuar con la red Ethereum utilizando su propio nodo).
 

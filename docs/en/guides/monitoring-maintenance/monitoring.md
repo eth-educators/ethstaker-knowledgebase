@@ -754,7 +754,7 @@ $ ssh -L 3000:127.0.0.1:3000 [user@]hostname[:port]
 
 ## What's next?
 
-You might want to add *alerting* to your setup. If so, check out my other [Guide on how to do alerting for an Ethereum validator](/guides/monitoring-maintenance/alerting).
+You might want to add *alerting* to your setup. If so, check out my other [Guide on how to do alerting for an Ethereum validator](../../../guides/monitoring-maintenance/alerting).
 
 ## Support
 

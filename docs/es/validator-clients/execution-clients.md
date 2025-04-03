@@ -2,9 +2,9 @@
 
 !!! info "Info"
     Puedes consultar más información sobre los clientes de ejecución y los clientes de validación aqui: \
-    [Qué son los clientes de validacióón?](/es/validator-clients/validator-clients-explained)👀
+    [Qué son los clientes de validacióón?](../../validator-clients/validator-clients-explained)👀
 
-La comunidad de Ethereum mantiene varios clientes de ejecución de código abierto (anteriormente conocidos como 'clientes Eth1' o simplemente 'clientes de Ethereum'), desarrollados por diferentes equipos, utilizando diferentes lenguajes de programación. Esto hace que la red sea más fuerte y diversa. El objetivo ideal es lograr diversidad sin que ningún cliente domine, para reducir cualquier punto único de falla.
+La comunidad de Ethereum mantiene varios clientes de ejecución de código abierto (anteriormente conocidos como 'clientes Eth1' o simplemente 'clientes de Ethereum'), desardollados por diferentes equipos, utilizando diferentes lenguajes de programación. Esto hace que la red sea más fuerte y diversa. El objetivo ideal es lograr diversidad sin que ningún cliente domine, para reducir cualquier punto único de falla.
 
 | Cliente        | Documentación                                          | GitHub                                                | Discord                                                                                                     |
 | -------------- | ------------------------------------------------------ | ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |

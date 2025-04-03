@@ -2,13 +2,13 @@
 
 ## ¡No entres en pánico!
 
-Perder algunas [atestaciones](/es/staking-glossary#attestation) es completamente normal y extremadamente de bajo costo. La penalización por perder una atestación es exactamente la misma que la recompensa por una exitosa. Entonces, con alrededor de 240 atestaciones por día por validador, ¡perder una o dos sigue siendo una tasa de atestación exitosa de más del 99%!
+Perder algunas [atestaciones](../../staking-glossary#attestation) es completamente normal y extremadamente de bajo costo. La penalización por perder una atestación es exactamente la misma que la recompensa por una exitosa. Entonces, con alrededor de 240 atestaciones por día por validador, ¡perder una o dos sigue siendo una tasa de atestación exitosa de más del 99%!
 
 ## Comprendiendo las atestaciones perdidas, baja efectividad y mejorando tu configuración
 
 > Hay dos causas de perder una atestación o tener una baja efectividad con tu validador. Algunas causas están bajo tu control como staker y algunas causas están fuera de tu control.
 
-Incluso con una configuración perfecta, podrías perder algunas atestaciones o votar incorrectamente durante una atestación disminuyendo tu [efectividad](/es/staking-glossary#effectiveness) de vez en cuando. Las causas que están fuera de tu control a menudo están relacionadas con la propagación de la red o relacionadas con que algunos de tus [peers](/es/staking-glossary#peers) se retrasen en realizar sus propias tareas.
+Incluso con una configuración perfecta, podrías perder algunas atestaciones o votar incorrectamente durante una atestación disminuyendo tu [efectividad](../../staking-glossary#effectiveness) de vez en cuando. Las causas que están fuera de tu control a menudo están relacionadas con la propagación de la red o relacionadas con que algunos de tus [peers](../../staking-glossary#peers) se retrasen en realizar sus propias tareas.
 
 Para profundizar y aprender todo sobre la tarea de atestación, los tiempos, la efectividad y la propagación de la red, revisa estos excelentes artículos.
 

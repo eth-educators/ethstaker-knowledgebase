@@ -9,7 +9,7 @@
     [https://ethereum.org/en/staking/deposit-contract ↗](https://ethereum.org/en/staking/deposit-contract/)
 
 
-Once you have your validator machine setup running both an [Execution Layer client](/validator-clients/execution-clients) and [Consensus Layer client](/validator-clients/consensus-clients) you are ready to start the deposit process.
+Once you have your validator machine setup running both an [Execution Layer client](../../validator-clients/execution-clients) and [Consensus Layer client](../../validator-clients/consensus-clients) you are ready to start the deposit process.
 
 Staking deposits are processed through the ethereum.org launchpad:
 

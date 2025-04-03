@@ -77,7 +77,7 @@ ssh -p <PORT> <USERNAME>@<IP_ADDRESS>
 
 **Beneficios de usar Mosh:**
 
-* Si tienes una conexión a Internet intermitente (por ejemplo, una conexión móvil o estás en un vehículo en movimiento) una conexión SSH estándar fallará cada vez que se pierda la conexión. En ese caso, la conexión debe restablecerse manualmente, lo que puede resultar molesto si ocurre a menudo y está utilizando medidas de seguridad adicionales como [2FA](/es/tutorials/ssh-security-2fa). Mosh permite que las conexiones se caigan y se restablezcan automáticamente cuando la señal de Internet se reconecta.
+* Si tienes una conexión a Internet intermitente (por ejemplo, una conexión móvil o estás en un vehículo en movimiento) una conexión SSH estándar fallará cada vez que se pierda la conexión. En ese caso, la conexión debe restablecerse manualmente, lo que puede resultar molesto si ocurre a menudo y está utilizando medidas de seguridad adicionales como [2FA](../../tutorials/ssh-security-2fa). Mosh permite que las conexiones se caigan y se restablezcan automáticamente cuando la señal de Internet se reconecta.
 * Mosh utiliza una interfaz predictiva para escribir comandos en la consola. El SSH estándar sólo muestra el comando tecleado una vez que ha vuelto del servidor remoto. Si tienes una conexión lenta, esto puede percibirse como una interfaz lenta. Mosh muestra el texto a medida que escribes los comandos, dando una experiencia de usuario mucho más agradable.
 
 **Limitaciones de uso de Mosh:**

@@ -18,7 +18,7 @@ There are two types of distribution that you can choose:
 
 Desktop comes with a graphical interface that is similar to Windows or macOS desktops. For staking machines, the desktop version isn't ideal as it comes with additional overhead that isn't required, but it can be easier for new users who feel more comfortable with a graphical interface.
 
-Server is a command line only interface. This can feel intimidating at first, but when following [solo staking guides](/tutorials/solo-staking-guides) you will simply be copying and pasting commands, so it's not too difficult. You can remotely connect to your staking machine securely using protocols like SSH, but the easiest way to get started is to directly connect a keyboard and monitor. [SSH can always be used later](/tutorials/connect-via-ssh).
+Server is a command line only interface. This can feel intimidating at first, but when following [solo staking guides](../../tutorials/solo-staking-guides) you will simply be copying and pasting commands, so it's not too difficult. You can remotely connect to your staking machine securely using protocols like SSH, but the easiest way to get started is to directly connect a keyboard and monitor. [SSH can always be used later](../../tutorials/connect-via-ssh).
 
 ### Flash a USB with the distribution image
 
@@ -86,7 +86,7 @@ Setting up the user profile is important as it's how you will access the machine
 
 <figure><img src="/assets/img/gitbook/image (31).png" alt="Linux installation user creation screen"><figcaption></figcaption></figure>
 
-At this point it's a good idea to set up the SSH server so you don't have to install it manually later. If you never intend to SSH into your staking machine and only connect to it directly with a keyboard and monitor then you don't need this option. For information on SSH connections see the tutorial [Connect with SSH](/tutorials/connect-via-ssh).
+At this point it's a good idea to set up the SSH server so you don't have to install it manually later. If you never intend to SSH into your staking machine and only connect to it directly with a keyboard and monitor then you don't need this option. For information on SSH connections see the tutorial [Connect with SSH](../../tutorials/connect-via-ssh).
 
 <figure><img src="/assets/img/gitbook/image (22).png" alt="Linux installation ssh setup"><figcaption></figcaption></figure>
 
@@ -116,4 +116,4 @@ And... you're in!
 
 Congratulations! You've successfully installed Ubuntu Linux server on your staking machine 🥳
 
-At this point, you are now "on the command line" and can start to work through many of the [solo staking guides](/tutorials/solo-staking-guides).
+At this point, you are now "on the command line" and can start to work through many of the [solo staking guides](../../tutorials/solo-staking-guides).

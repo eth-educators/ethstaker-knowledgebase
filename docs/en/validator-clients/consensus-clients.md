@@ -3,10 +3,10 @@
 !!! info "Info"
 
     For more info about Execution clients and Validator clients start here:
-    [Validator clients explained](/validator-clients/validator-clients-explained) 👀
+    [Validator clients explained](../../validator-clients/validator-clients-explained) 👀
 
 
-Consensus clients run the Beacon Chain and provide a [proof-of-stake (PoS)](/introduction/staking-glossary#proof-of-stake-pos) consensus mechanism to [execution clients](/validator-clients/execution-clients).
+Consensus clients run the Beacon Chain and provide a [proof-of-stake (PoS)](../../staking-glossary#proof-of-stake-pos) consensus mechanism to [execution clients](../../validator-clients/execution-clients).
 
 Consensus clients all follow the same [specification ↗](https://github.com/ethereum/consensus-specs). If a client doesn't follow this spec it won't be able to come to consensus with the rest of the network.
 

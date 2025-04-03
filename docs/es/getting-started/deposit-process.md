@@ -7,7 +7,7 @@
 
     [https://ethereum.org/en/staking/deposit-contract](https://ethereum.org/en/staking/deposit-contract)[ ↗](https://ethereum.org/en/staking/deposit-contract/)
 
-Una vez que tenga configurada su nodo validador y esté ejecutando tanto un [cliente de capa de ejecución](/es/validator-clients/execution-clients) como un [cliente de capa de consenso](/es/validator-clients/consensus-clients), está listo para comenzar el proceso de depósito.
+Una vez que tenga configurada su nodo validador y esté ejecutando tanto un [cliente de capa de ejecución](../../validator-clients/execution-clients) como un [cliente de capa de consenso](../../validator-clients/consensus-clients), está listo para comenzar el proceso de depósito.
 
 Los depósitos de participación se procesan a través de la plataforma de lanzamiento de [ethereum.org](http://ethereum.org/):
 

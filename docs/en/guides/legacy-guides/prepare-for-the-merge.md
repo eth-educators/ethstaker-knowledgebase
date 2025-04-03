@@ -64,7 +64,7 @@ Pruning your execution client database is a good strategy for managing your exec
 
 Other execution clients have different strategies for managing data growth. Some are leaner in terms of disk size usage to get started with and some include automatic online pruning. You should consider running [a minority execution client](#execution-client-diversity).
 
-I suggest you implement [monitoring](/guides/monitoring-maintenance/monitoring) and [alerting](/guides/monitoring-maintenance/alerting) to help you find out when you are low on available disk space.
+I suggest you implement [monitoring](../../../guides/monitoring-maintenance/monitoring) and [alerting](../../../guides/monitoring-maintenance/alerting) to help you find out when you are low on available disk space.
 
 ### Managing your execution client bandwidth usage
 
@@ -219,7 +219,7 @@ Create a systemd service file to store the service config which tells systemd to
 $ sudo nano /etc/systemd/system/mevboost.service
 ```
 
-Paste the following into the file to run mev-boost on Mainnet. You **must** replace `https://example.com` in this configuration with one or many existing relays. We have [a list of relays](/guides/MEV-relay-list) you can explore. Exit and save once done (`Ctrl` + `X`, `Y`, `Enter`).
+Paste the following into the file to run mev-boost on Mainnet. You **must** replace `https://example.com` in this configuration with one or many existing relays. We have [a list of relays](../../../guides/MEV-relay-list) you can explore. Exit and save once done (`Ctrl` + `X`, `Y`, `Enter`).
 
 ```ini
 [Unit]

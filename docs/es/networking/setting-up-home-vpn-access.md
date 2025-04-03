@@ -21,7 +21,7 @@ _Respuesta_-Un servidor VPN introduce otra capa de seguridad. Para conectarte a 
 * Este tutorial asume que tienes instalado y funcionando Ubuntu Server 22.04 LTS. ¡Si no lo tienes, no te preocupes! Puedes consultar en el siguiente enlace un tutorial sobre cómo hacerlo.
 
 <div class="grid">
-  <a href="/tutorials/installing-linux" class="card local">Installing Linux</a>
+  <a href="../../tutorials/installing-linux" class="card local">Installing Linux</a>
 </div>
 
 ### Recomendaciones&#x20;

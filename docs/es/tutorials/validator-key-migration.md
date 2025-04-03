@@ -21,10 +21,10 @@ En cualquiera de estos casos, el procedimiento debe ser el mismo. La cosa más i
 
 1. Detén cliente de validación en la máquina origen.
 2. Detén cliente de validación en la máquina destino.
-3. Espera un **MÍNIMO** de dos [epochs](/es/staking-glossary#epoch) finalizados antes de continuar.
-4. Copia las llaves de los validadores a la máquina destino por medio de almacenamiento (Por ejemplo USB) o directamente de la máquina origen a la destino (Por ejemplo `scp`, `rsync`, etc...) Sí las llaves de los validadores se pierden durante un fallo de hardware [genéralas de vuelta](/es/validator-keys/secure-key-generation).
+3. Espera un **MÍNIMO** de dos [epochs](../../staking-glossary#epoch) finalizados antes de continuar.
+4. Copia las llaves de los validadores a la máquina destino por medio de almacenamiento (Por ejemplo USB) o directamente de la máquina origen a la destino (Por ejemplo `scp`, `rsync`, etc...) Sí las llaves de los validadores se pierden durante un fallo de hardware [genéralas de vuelta](../../validator-keys/secure-key-generation).
 5. Borra las llaves de la máquina origen. Esto asegura que incluso sí la máquina origen reinicia inesperadamente, las llaves para firmar de los validadores no existirán y no podrán ser usadas por el cliente validador
-6. De estar disponible, exporta cualquier [protección contra slashing](/es/validator-keys/slashing-protection) de la máquina origen e importala en la máquina destino.
+6. De estar disponible, exporta cualquier [protección contra slashing](../../validator-keys/slashing-protection) de la máquina origen e importala en la máquina destino.
 7. Apaga la máquina origen y asegúrate al 100% que no se pueda reiniciar.
 8. Arranca el cliente validador en la máquina destino.
 9. Importa las llaves de validación.

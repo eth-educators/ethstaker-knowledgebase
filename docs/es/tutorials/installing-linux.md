@@ -18,7 +18,7 @@ Hay dos tipos de distribuciones entre las que puedes elegir:
 
 La versión de escritorio (Desktop) viene con una interfaz gráfica similar a Windows o macOS. Para las máquinas de staking, la versión de escritorio no es ideal ya que tiene un sobrecargo adicional que no es necesario, pero puede ser más fácil para los nuevos usuarios que se sienten más cómodos con una interfaz gráfica.
 
-La versión de servidor (Server) es meramente una interfaz de línea de comandos. Esto puede parecer intimidante al principio, pero al seguir las [guías de solo staking](/es/tutorials/solo-staking-guides), simplemente copiarás y pegarás comandos, por lo que no es demasiado difícil. Puedes conectarte de forma remota a tu máquina de staking de manera segura utilizando protocolos como SSH, pero la forma más fácil de comenzar es conectar directamente un teclado y un monitor. [Siempre se puede utilizar SSH más adelante](/es/tutorials/connect-via-ssh).
+La versión de servidor (Server) es meramente una interfaz de línea de comandos. Esto puede parecer intimidante al principio, pero al seguir las [guías de solo staking](../../tutorials/solo-staking-guides), simplemente copiarás y pegarás comandos, por lo que no es demasiado difícil. Puedes conectarte de forma remota a tu máquina de staking de manera segura utilizando protocolos como SSH, pero la forma más fácil de comenzar es conectar directamente un teclado y un monitor. [Siempre se puede utilizar SSH más adelante](../../tutorials/connect-via-ssh).
 
 ### Crea un USB con la imagen de distribución
 
@@ -86,7 +86,7 @@ Configurar el perfil de usuario es importante, ya que es la forma en que acceder
 
 <figure><img src="/assets/img/gitbook/image (31).png" alt="Linux installation user creation screen"><figcaption></figcaption></figure>
 
-En este punto, es una buena idea configurar el servidor SSH para no tener que instalarlo manualmente más adelante. Si no tienes la intención de conectarte por SSH a tu máquina de staking y solo te conectarás directamente con un teclado y un monitor, no necesitas esta opción. Para obtener información sobre conexiones SSH, consulta el tutorial [Conectar con SSH](/es/tutorials/connect-via-ssh).
+En este punto, es una buena idea configurar el servidor SSH para no tener que instalarlo manualmente más adelante. Si no tienes la intención de conectarte por SSH a tu máquina de staking y solo te conectarás directamente con un teclado y un monitor, no necesitas esta opción. Para obtener información sobre conexiones SSH, consulta el tutorial [Conectar con SSH](../../tutorials/connect-via-ssh).
 
 <figure><img src="/assets/img/gitbook/image (21) (1).png" alt="Linux installation ssh setup"><figcaption></figcaption></figure>
 
@@ -116,4 +116,4 @@ Ingresa el nombre de usuario que creaste durante la instalación. Luego se te so
 
 ¡Felicitaciones! Has instalado correctamente Ubuntu Linux Server en tu máquina de staking.  🥳
 
-En este punto, te encuentras en la línea de comandos y puedes comenzar a trabajar con muchas de las [guías de solo staking.](/es/tutorials/solo-staking-guides)
+En este punto, te encuentras en la línea de comandos y puedes comenzar a trabajar con muchas de las [guías de solo staking.](../../tutorials/solo-staking-guides)

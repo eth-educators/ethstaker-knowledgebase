@@ -1,6 +1,6 @@
 # Validator effectiveness
 
-Validator effectiveness can be thought of as how useful an [attestation](/introduction/staking-glossary#attestation) is to the network, considering both [block production](/introduction/staking-glossary#block-proposer) and [inclusion distance](/introduction/staking-glossary#inclusion-distance).
+Validator effectiveness can be thought of as how useful an [attestation](../../staking-glossary#attestation) is to the network, considering both [block production](../../staking-glossary#block-proposer) and [inclusion distance](../../staking-glossary#inclusion-distance).
 
 ## Attestation Inclusion Process
 
@@ -8,8 +8,8 @@ How are attestations included on the Ethereum network? The process is roughly as
 
 > This is a simplified view of attesting, but can be a useful starting point.
 
-1. Every attesting validator generates an [attestation](/introduction/staking-glossary#attestation) with the data it has available about the state of the chain.
-2. The attestation is propagated around the Ethereum network to relevant [aggregators](/introduction/staking-glossary#attestation-aggregator).
+1. Every attesting validator generates an [attestation](../../staking-glossary#attestation) with the data it has available about the state of the chain.
+2. The attestation is propagated around the Ethereum network to relevant [aggregators](../../staking-glossary#attestation-aggregator).
 3. Every relevant aggregator that receives the attestation aggregates it with other attestations that have the same claims.
 4. The aggregated attestation is propagated around the Ethereum network to all nodes.
 5. Any validator that is proposing a block and has yet to see the aggregated attestation on the chain adds the aggregated attestation to the block.

@@ -35,7 +35,7 @@ sudo ufw allow 13000/tcp
 sudo ufw enable
 ```
 
-Very secure! No traffic in or out unless it is strictly Ethereum related. A full list of external ports by execution and consensus client [can be found here.](/networking/port-forwarding)
+Very secure! No traffic in or out unless it is strictly Ethereum related. A full list of external ports by execution and consensus client [can be found here.](../../networking/port-forwarding)
 
 From here additional ports can be unblocked such as SSH, the consensus HTTP API (If you are also running your validator on another machine) or the execution RPC API (If you wish to interact with the Ethereum network using your own node).
 
