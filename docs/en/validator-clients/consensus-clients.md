@@ -1,7 +1,6 @@
 # Consensus clients
 
 !!! info "Info"
-
     For more info about Execution clients and Validator clients start here:
     [Validator clients explained](../../validator-clients/validator-clients-explained) 👀
 

@@ -3,7 +3,6 @@
 !!! info "Info"
     Não é necessário ETH para executar um nó completo!🥳
 
-
 ## Por que executar um nó completo de Ethereum?
 
 🍎 Contribua para a saúde da rede Ethereum.

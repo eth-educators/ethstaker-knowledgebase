@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # What is a scaled node operator?
 
 <div data-full-width="false">
@@ -21,7 +7,6 @@ layout:
 </div>
 
 !!! info "Info"
-
     ### Optional information - Not required for solo home stakers!
 
     It's crucial to note that the recommendations and strategies presented in the following pages go above and beyond what a small-scale or solo staker would typically require. If you're staking from home with just a few validators, don't be overwhelmed; you don't need an entire incident response team or complex resource scaling strategies!

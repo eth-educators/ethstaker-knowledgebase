@@ -7,8 +7,6 @@ description: >-
 
 # Configurando el acceso VPN en casa
 
-
-
 Si estás fuera de casa durante largos períodos de tiempo, este tutorial es para ti!
 
 Pregunta: ¿Por qué debo configurar un servidor VPN? No es más fácil simplemente reenviar los puertos y conectarse?
@@ -181,7 +179,6 @@ Si eres uno de los afortunados que tuvieron que realizar el [paso 5.4](#paso-5.4
 Si estás utilizando un firewall local (lo cual se recomienda), es posible que necesites desbloquear los puertos locales según cómo lo hayas configurado.&#x20;
 
 Estos son los puertos que configuraste en el [paso 5.1](#paso-5.1-cambiar-el-puerto-del-trafico-vpn.) y [el paso 5.3](#paso-5.3-opcional-configurar-la-interfaz-de-administracion-y-la-interfaz-de-cliente-para-que-se-ejec), además del puerto 943 (el puerto de administración predeterminado). Puedes cambiar el  puerto de la interfaz de administración si lo deseas, pero como no tiene acceso externo, no es realmente necesario.
-
 
 
 ```

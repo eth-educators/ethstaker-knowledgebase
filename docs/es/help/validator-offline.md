@@ -10,8 +10,6 @@ La red Ethereum es robusta y está diseñada para manejar estas situaciones. Si 
 
 Los sistemas automáticos de conmutación por error y de copia de seguridad pueden parecer una buena idea, pero son mucho mucho más propensos a causar un evento de deducción (por ejemplo, doble propuesta) que un proceso de recuperación manual. Perder algunos días de recompensas puede parecer malo en ese momento, ¡pero ser reducido y perder potencialmente MESES de recompensas es mucho peor!
 
-
-
 ## Volviendo a estar en línea
 
 * TODO

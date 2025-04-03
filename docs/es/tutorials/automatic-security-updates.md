@@ -26,7 +26,6 @@ Unattended-Upgrade::Automatic-Reboot "true";
 Unattended-Upgrade::Automatic-Reboot-Time "02:00";
 ```
 
-
 ```bash
 sudo systemctl enable unattended-upgrades
 sudo systemctl restart unattended-upgrades

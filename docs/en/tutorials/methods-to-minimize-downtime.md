@@ -1,7 +1,6 @@
 # Methods to minimize downtime
 
 !!! info "Info"
-
     This is a reminder that you should never have your validator keys configured across multiple machines at the same time, because if the same validator key is active twice across the network _it will get_ [_slashed_](../../staking-glossary#slashable-offenses). They should _only_ ever be configured to run in one place at one time!
 
 
@@ -30,8 +29,6 @@ You can even take it a step further and have your validator client on a separate
 It can be useful to have a spare SSD ready to be swapped out in case of hardware failure. You will be able to immediately start the process to recover your nodes/validators and when that is done you can then buy a replacement drive at your own leisure.
 
 If you travel around a lot, you could even have it plugged into your machine on standby ready to go meaning your node could be recovered remotely, unless of course, the drive that fails is your OS drive.
-
-
 
 There will be times when you are offline and are missing attestations, do not stress or panic when this happens and focus on getting yourself back online. If for example, you are offline for 4 hours, it will take 4 hours of being online to be back where you started in terms of validator balance.
 

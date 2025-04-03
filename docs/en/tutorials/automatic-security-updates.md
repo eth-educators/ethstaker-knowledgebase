@@ -1,7 +1,6 @@
 # Automatic security updates
 
 !!! info "Info"
-
   If you have multiple machines, make sure to stagger the `Unattended-Upgrade::Automatic-Reboot-Time` so they don't all restart at exactly the same time!
 
 

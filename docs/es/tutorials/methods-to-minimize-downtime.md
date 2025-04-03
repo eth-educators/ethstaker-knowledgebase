@@ -3,7 +3,6 @@
 !!! info "Info"
     Recuerda que nunca se deben configurar las claves del validador en múltiples máquinas al mismo tiempo, ya que si la misma clave del validador está activa dos veces en la red, se producirá una [_deducción (slashing)_](../../staking-glossary#slashable-offenses). Las claves solo deben configurarse para un validador al mismo tiempo.
 
-
 Habiendo dicho eso, vamos a entrar en detalle. A continuación mostraremos algunas cosas que puedes hacer para minimizar el tiempo de inactividad.
 
 Siempre habrán situaciones en las que tendrás tiempo de inactividad, esto es inevitable al ejecutar un validador, por lo tanto no esperes un registro de atestaciones perfecto. Sin embargo, hay algunas cosas que puedes hacer para _minimizar_ el tiempo de inactividad.

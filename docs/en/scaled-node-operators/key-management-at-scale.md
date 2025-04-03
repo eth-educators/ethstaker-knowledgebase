@@ -28,7 +28,6 @@ Effective key management is crucial for Ethereum validators, especially at scale
 Tracking and managing a large number of keys in Ethereum validator operations is critical. This ensures that each key is accounted for and its status is known, thus reducing the risk of unauthorized access or loss.
 
 !!! info "Best Practices"
-
     * **Implement Key Management Software**: Use specialized software designed for key management. This software should provide a clear overview of all keys, their statuses, and usage history.
     * **Regular Audits**: Conduct periodic audits to verify the status and security of each key. This can be a mix of automated systems and manual checks.
 
@@ -47,7 +46,6 @@ Tracking and managing a large number of keys in Ethereum validator operations is
 Backups are essential for key management, providing a safety net in case of key loss or corruption.
 
 !!! info "Best Practices"
-
     * **Secure and Redundant Storage**: Store backups in multiple, physically secure locations. Use encryption to protect backup data.
     * **Regular Testing**: Periodically test backup keys to ensure they work as expected.
 
@@ -66,7 +64,6 @@ Backups are essential for key management, providing a safety net in case of key 
 Hot standbys can be a double-edged sword: they offer quick recovery but can be vulnerable if not properly managed.
 
 !!! info "Best Practices"
-
     * **Secure Environment**: Ensure that hot standby systems are as secure as the primary system. They should be in a controlled environment with limited access.
     * **Regular Updates and Patches**: Keep the software on hot standbys up-to-date to protect against vulnerabilities.
 
@@ -85,7 +82,6 @@ Hot standbys can be a double-edged sword: they offer quick recovery but can be v
 Web3Signer provides a secure and flexible way to manage keys for Ethereum validators, separating key management from operational duties.
 
 !!! info "Best Practices"
-
     * **Integration with Existing Systems**: Integrate Web3Signer with your existing infrastructure to streamline key management processes.
     * **Secure Configuration**: Ensure that Web3Signer is configured securely, with access controls and audit logging.
 
@@ -104,7 +100,6 @@ Web3Signer provides a secure and flexible way to manage keys for Ethereum valida
 Using secure vaults like HSMs (Hardware Security Modules) is essential for storing sensitive keys securely.
 
 !!! info "Best Practices"
-
     * **Restricted Access**: Limit physical and digital access to the vaults to authorized personnel only.
     * **Multi-Factor Authentication**: Implement MFA for accessing the vaults.
 
@@ -123,7 +118,6 @@ Using secure vaults like HSMs (Hardware Security Modules) is essential for stori
 Regular audits ensure that key management practices are up to standard and comply with relevant regulations.
 
 !!! info "Best Practices"
-
     * **Regular Internal and External Audits**: Conduct both internal reviews and external audits to ensure compliance with best practices.
     * **Maintain Detailed Logs**: Keep comprehensive logs of key management activities.
 
@@ -142,7 +136,6 @@ Regular audits ensure that key management practices are up to standard and compl
 Human error can often be a weak link in key management. Regular training and awareness programs can mitigate this risk.
 
 !!! info "Best Practices"
-
     * **Regular Training Sessions**: Conduct periodic training for staff on key management best practices and security protocols.
     * **Awareness Campaigns**: Keep staff informed about the latest security threats and the role of key management in mitigating these threats.
 

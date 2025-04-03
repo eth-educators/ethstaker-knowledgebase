@@ -1,30 +1,5 @@
 # Preguntas Frequentes de Staking
 
-* [¿Puedo ser sancionado por estar desconectado?](#puedo-ser-sancionado-por-estar-desconectado)
-* [¿Puedo dejar de correr mi validador durante unos días y luego volver a iniciarlo?](#puedo-dejar-de-correr-mi-validador-durante-unos-dias-y-luego-volver-a-iniciarlo)
-* [¿Puedo retirar mi ETH en cualquier momento?](#puedo-retirar-mi-eth-en-cualquier-momento)
-* [¿Cómo se incentiva a los validadores a permanecer activos y honestos?](#como-se-incentiva-a-los-validadores-a-permanecer-activos-y-honestos)
-* [¿Por cuanto tiempo son válidos los mensajes de salida pre firmados?](#por-cuanto-tiempo-son-validos-los-mensajes-de-salida-pre-firmados)
-* [¿Cuánto ETH necesito para hacer staking y convertirme en validador?](#cuanto-eth-necesito-para-hacer-stake-y-convertirme-en-validador)
-* [Estoy abrumado y no sé por donde empezar, ¿qué puedo hacer?](#estoy-abrumado-y-no-se-por-donde-empezar-que-puedo-hacer)
-* [¡Propuse un bloque! ¿Qué gané?](#propuse-un-bloque-que-gane)
-* [¿Se muestra la dirección de depósito u origen en algún lugar?](#se-muestra-la-direccion-de-deposito-u-origen-en-algun-lugar)
-* [¿Hay una penalización por perder una propuesta de bloque?](#hay-una-penalizacion-por-perder-una-propuesta-de-bloque)
-* [¿Hay una penalización por perder una certificación?](#hay-una-penalizacion-por-perder-una-certificacion)
-* [¿Hay alguna ventaja en tener más de 32 ETH en participación?](#hay-alguna-ventaja-en-tener-mas-de-32-eth-en-participacion)
-* [¿Debería establecer una dirección de retiro al configurar mi validador?](#deberia-establecer-una-direccion-de-retiro-al-configurar-mi-validador)
-* [¿Qué es un validador exactamente?](#que-es-un-validador-exactamente)
-* [¿Qué pasa si pierdo las llaves de mi validador?](#que-pasa-si-pierdo-las-llaves-de-mi-validador)
-* [¿Qué pasa si pierdo la frase semilla o mnemónica de mi validador?](#que-pasa-si-pierdo-la-frase-semilla-o-mnemonica-de-mi-validador)
-* [¿Y si quiero dejar de participar?](#y-si-quiero-dejar-de-participar)
-* [¿Qué es un operador de nodos?](#que-es-un-operador-de-nodos)
-* [¿Qué es un cliente del validador?](#que-es-un-cliente-del-validador)
-* [¿Qué es el contrato de depósito?](#que-es-el-contrato-de-deposito)
-* [¿Cuál es la forma más fácil de participar individualmente desde casa?](#cual-es-la-forma-mas-facil-de-participar-individualmente-desde-casa)
-* [¿Cuál es el compromiso de tiempo de correr un validador?](#cual-es-el-compromiso-de-tiempo-de-correr-un-validador)
-* [¿Cuándo debería recargar el balance de mi validador?](#cuando-deberia-recargar-el-balance-de-mi-validador)
-* [¿Por qué tengo que tener fondos en participación?](#por-que-tengo-que-tener-fondos-en-participacion)
-* [¿Por qué el máximo de 32 ETH?](#por-que-el-maximo-de-32-eth)
 
 ## ¿Puedo ser sancionado por estar desconectado?
 

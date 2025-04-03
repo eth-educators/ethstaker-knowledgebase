@@ -2,6 +2,8 @@
 *.DS_Store
 **/.DS_Store
 **/.env
+.cache
+.gitbook
 public
 site
 notes.txt

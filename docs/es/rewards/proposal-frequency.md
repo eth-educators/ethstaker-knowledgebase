@@ -13,6 +13,3 @@ Puedes usar la herramienta de [ethdo ↗](https://github.com/wealdtech/ethdo) de
 ## **Realmente no hay nada que pueda hacer?**
 
 Dentro de la comunidad nos gusta bromear con que tal vez encendiendo algunas [Vitalik prayer candles ↗](https://www.etsy.com/listing/993553315/vitalik-buterin-prayer-candle-ethereum) puedan aumentar las probabilidades, pero realmente no, no existe forma en que se pueda aumentar la probabilidad de las propuestas ya que es totalmente aleatoria.&#x20;
-
-
-

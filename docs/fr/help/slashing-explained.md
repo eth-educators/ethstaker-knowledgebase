@@ -7,7 +7,6 @@ L'exclusion est un terme effrayant. Mais qu'est-ce que c'est exactement, comment
 
     **Il n'y a pas d'exclusion pour avoir été hors ligne pour maintenance.**
 
-
 ### Qu'est ce que cette exclusion ?
 
 L'exclusion ("slashing" en anglais) est un terme utilisé pour décrire la réaction du réseau Ethereum face à un validateur agissant contre les règles du réseau. Les validateurs exécutent un certain nombre de devoirs (par exemple, [attestations](../../staking-glossary#attestation) et [proposer blocs](../../staking-glossary#block-proposer)).

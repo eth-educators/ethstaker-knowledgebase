@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # MEV at scale
 
 <figure><img src="/assets/img/gitbook/image (2).png" alt="" width="563"><figcaption></figcaption></figure>

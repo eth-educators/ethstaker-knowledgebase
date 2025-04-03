@@ -90,8 +90,6 @@ Esto es básicamente lo mismo que usar una preconstruida. Sin embargo, construir
 
 **Consumo energético:** 20-25 watts.
 
-
-
 Los NUC son muy lindos, y su pequeño factor de forma les da un factor de aprobación significativamente alto. Desafortunadamente, esto viene con un precio un poco más alto y un rendimiento ligeramente inferior que la opción de escritorio más grande. Sin embargo, estas son pequeñas desventajas. Probablemente esta es la mejor opción para la mayoría de las personas.
 
 ### **Servidor**
@@ -119,8 +117,6 @@ Definitivamente, señalaría que, si bien los servidores son excelentes para el 
 Avado es una solución fácil para realizar staking desde casa para personas con conocimientos técnicos limitados o poco tiempo. Los dispositivos Avado vienen preconfigurados con una interfaz de usuario amigable que permite usar y administrar el dispositivo desde cualquier parte del mundo.&#x20;
 
 Usar un Avado es conveniente, seguro y **fiel al espíritu de la descentralización**.
-
-
 
 ### [**M1 Mac Mini**](https://www.apple.com/shop/buy-mac/mac-mini)
 

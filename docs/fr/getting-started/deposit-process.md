@@ -7,7 +7,6 @@
 
     [https://ethereum.org/staking/deposit-contract/](https://ethereum.org/staking/deposit-contract/)
 
-
 Une fois que vous avez configuré votre machine avec un [client d'exécution](../../validator-clients/execution-clients) et un [client de consensus](../../validator-clients/consensus-clients), vous êtes prêt à commencer le processus de dépôt.
 
 Les dépôts de staking sont traités via la plateforme de lancement ethereum.org :

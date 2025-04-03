@@ -31,7 +31,6 @@ Projects such as [Metanulls ETH2-Grafana dashboards](https://github.com/metanull
 ### &#x20;**🔔 Alerting and Metrics**
 
 !!! info "Info"
-
     **Check out the "**[**Alerting at scale**](../../scaled-node-operators/alerting-at-scale)**" page for more detailed information on alerting.**
 
 

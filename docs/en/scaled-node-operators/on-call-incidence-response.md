@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # On-Call/Incidence response
 
 <figure><img src="/assets/img/gitbook/image (107).png" alt="" width="563"><figcaption></figcaption></figure>
@@ -31,7 +17,6 @@ Monitor performance and error metrics such as missed attestations, node latency,
 Set predefined thresholds for raising an alarm. For example, if more than 5% of validators are underperforming or if you observe an unusual surge in network requests, it should immediately trigger an alarm.
 
 !!! info "Incident response example from GatewayFM"
-
     Once one of our machines went offline in one of our new bare metal providers, and we could only ask for help using the use website support ticket because we didn't have all the contacts yet. The communication was done via emails and there weren't not many updates from their side. After one hour our CEO called our account manager and we managed to create a Slack channel with their engineers. And things went quickly after that. In the end, they had to go to the data center physically and examine the machine. When the machine started again, our service was offline for 4 hours. In retrospect, it could have been longer if we didn't have the Slack channel.
 
     Lesson learned, always ask for a direct support/communication channel (phone, Slack, etc) when on-boarding a new data center provider.

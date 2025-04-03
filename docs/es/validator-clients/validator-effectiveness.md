@@ -3,7 +3,6 @@
 La efectividad de un validador se puede entender como la utilidad de una [attestation](../../staking-glossary#attestation) para la red, eniendo en cuenta tanto la [producción de bloques ](../../staking-glossary#block-proposer)como la [idistancia de inclusión](../../staking-glossary#inclusion-distance).
 
 
-
 ## Proceso de inclusión de attestations&#x20;
 
 ¿Cómo se incluyen las attestations en la red de Ethereum? En grandes rasgos el proceso es el siguiente:

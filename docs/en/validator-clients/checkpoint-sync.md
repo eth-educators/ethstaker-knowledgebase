@@ -1,7 +1,6 @@
 # Checkpoint sync
 
 !!! info "Info"
-
     A community maintained list of checkpoint sync endpoints can be found here: [Ethereum Beacon Chain checkpoint sync endpoints ↗](https://eth-clients.github.io/checkpoint-sync-endpoints/)
 
     The endpoint maintained by EthStaker can be found [here](https://beaconstate.ethstaker.cc/)

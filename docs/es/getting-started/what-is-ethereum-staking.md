@@ -65,9 +65,6 @@ La desventaja aquí es que los exchanges centralizados consolidan grandes agrupa
 
 Si no te sientes cómodo manteniendo sus propias llaves, no pasa nada. Te ofrecemos las siguientes alternativas. Mientras tanto, consulte nuestra [página de carteras](https://ethereum.org/wallets/) , donde aprenderá a tomar la verdadera posesión de sus fondos. Cuando esté listo, regrese y eleve el nivel de su participación probando uno de los servicios de participación agrupada de autocustodia que se ofrecen.
 
-
-
-\
 Como puede haber notado, hay muchas maneras de hacer staking en Ethereum. Estas rutas apuntan a una amplia variedad de usuarios y en última instancia son únicos y varían en términos de riesgos, recompensas y supuestos de confianza. Algunos son más descentralizados, probados en producción y/o arriesgados que otros. Proporcionamos información sobre proyectos populares en el espacio, aunque le aconsejamos que siempre _investigue por su propia cuenta_ antes de enviar ETH a cualquier lugar.
 
 [Source ↗](https://ethereum.org/en/staking/)

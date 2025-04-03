@@ -7,7 +7,6 @@ El slashing es una palabra que asusta. Pero, ¿qué es exactamente, cómo puede 
 
     **El slashing no puede ocurrir por estar desconectado por mantenimiento**.
 
-
 ### ¿Qué es el Slashing?
 
 El slashing es un término utilizado para describir la respuesta de la red Ethereum a un validador que actúa en contra de las reglas de la red. Los validadores realizan una serie de tareas (por ejemplo, [atestaciones](../../staking-glossary#attestation) y [proponer bloques](../../staking-glossary#block-proposer)).\

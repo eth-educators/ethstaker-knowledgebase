@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Security at scale
 
 <figure><img src="/assets/img/gitbook/image (1) (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
@@ -25,7 +11,6 @@ Security is non-negotiable when you're running Ethereum validators at scale. Thi
 Maintaining a precise inventory of all active servers is critical. Each unidentified machine is a potential security risk.
 
 !!! info "Best Practices"
-
     * Keep an updated inventory list, including the server type, purpose, and responsible team.
     * Use automation tools to detect and report any unauthorized machines.
 
@@ -39,7 +24,6 @@ To mitigate these risks, employ automated tools that continuously monitor your n
 Multi-Factor Authentication (MFA) adds an additional layer of security, reducing the risk of unauthorized access.
 
 !!! info "Best Practices"
-
     * Implement MFA for all administrative access.
     * Use hardware-based authentication methods when possible.
 
@@ -67,7 +51,6 @@ Employing SSH private keys instead of passwords for secure shell access is a cor
 A Bastion or Jump Host serves as an intermediary between your local machine and critical infrastructure.
 
 !!! info "Best Practices"
-
     * This host should be highly secured, monitored, and only accessible via MFA.
     * "[Defence in Depth](https://www.cyberteamsecurity.com/defence-depth-security-model.html)" model
 
@@ -83,7 +66,6 @@ To ensure the Bastion Host provides effective security, it should have stringent
 Start with a 'deny all' default firewall rule and open only those ports necessary for operations.
 
 !!! info "Best Practices"
-
     * No direct SSH/RDP should be accessible from the internet.
     * Access should be enabled through an MFA-enabled VPN.
 
@@ -101,7 +83,6 @@ For remote administrative access, such as SSH (Secure Shell) for Unix-based syst
 IP-based DDoS attacks can incapacitate your network.
 
 !!! info "Best Practices"
-
     * Utilize DDoS protection services.
     * Regularly monitor network traffic for anomalies.
 
@@ -119,7 +100,6 @@ In addition to employing external DDoS mitigation services, it's crucial to regu
 Your Engine API is an attack surface that needs to be minimized.
 
 !!! info "Best Practices"
-
     * Filter access to the Engine API.
     * Implement authentication mechanisms like API tokens.
 
@@ -139,7 +119,6 @@ By carefully managing who can access the Engine API and requiring secure, authen
 Using VLANs can effectively segregate different types of traffic and reduce the attack surface.
 
 !!! info "Best Practices"
-
     * Group related servers and services into VLANs.
     * Limit inter-VLAN routing to only necessary services.
 
@@ -157,7 +136,6 @@ Furthermore, it's critical to limit inter-VLAN routing. While some communication
 Hardening the Operating System can reduce the number of vulnerabilities.
 
 !!! info "Best Practices"
-
     * Follow guidelines like [NIST SP 800-123](https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-123.pdf) for detailed steps.
     * Use hardening playbooks that automate many of these processes.
 
@@ -177,7 +155,6 @@ Such playbooks not only save time and reduce the possibility of human error but 
 Endpoint Detection and Response (EDR), Security Information and Event Management (SIEM), and Network Detection and Response (NDR) are powerful tools for monitoring and responding to security events.
 
 !!! info "Best Practices"
-
     * EDR for endpoint-level visibility.
     * SIEM for comprehensive security event management and reporting.
     * NDR for network-level monitoring and response.

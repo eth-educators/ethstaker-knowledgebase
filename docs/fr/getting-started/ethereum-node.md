@@ -1,9 +1,7 @@
 # Faire fonctionner un nœud sans aucun ETH
 
-
 !!! info "Info"
     Aucun ETH n'est nécessaire pour exécuter un nœud complet ! 🥳
-
 
 ## Pourquoi avoir un nœud complet (ou full node) sur Ethereum ?
 

@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
----
-
 # Node health checks
 
 <figure><img src="/assets/img/gitbook/image (106).png" alt="" width="563"><figcaption></figcaption></figure>

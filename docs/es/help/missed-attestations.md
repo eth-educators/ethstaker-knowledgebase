@@ -20,8 +20,6 @@ Para profundizar y aprender todo sobre la tarea de atestación, los tiempos, la 
 
 Como staker, no puedes hacer mucho sobre las causas que están fuera de tu control. Lo que puedes hacer es trabajar en los elementos de tu configuración que están bajo tu control para maximizar tus recompensas. Incluso si tienes una configuración que funcionaba bien antes del merge, es posible que con el trabajo adicional que se está introduciendo, alguna parte que tu configuración pasó por alto podría ser la causa de atestaciones adicionales perdidas o una menor efectividad desde que se realizó el merge. Por eso deberías revisar todos estos elementos.
 
-
-
 1. Asegúrate de que tus clientes estén actualizados. Las actualizaciones del cliente a menudo incluyen optimizaciones y mejoras que ayudarán a realizar tus tareas a tiempo.
 2. Asegúrate de que tu máquina tenga consistentemente suficientes recursos (CPU, RAM, disco, etc). Usar una máquina dedicada puede ayudar. Si tus clientes están escasos de alguno de estos recursos, probablemente será una causa de más atestaciones perdidas y menor efectividad.
 3. Asegúrate de que tu hora esté correctamente sincronizada. El protocolo del beacon chain es bastante sensible al tiempo. chrony es una buena herramienta para mejorar la sincronización de tu tiempo. En distribuciones de Ubuntu o Debian, la instalación de chrony a menudo es tan fácil como `sudo apt install chrony`. En Windows, puedes usar [estas instrucciones ↗](https://www.reddit.com/r/ethstaker/comments/nfca22/an\_opiniated\_solution\_to\_improve\_time\_sync\_on/) para mejorar la sincronización de tu tiempo.

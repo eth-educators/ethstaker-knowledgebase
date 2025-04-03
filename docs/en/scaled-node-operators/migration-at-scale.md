@@ -30,7 +30,6 @@ Before commencing the migration of Ethereum validators, a comprehensive pre-migr
    * Document interdependencies between software components to ensure that updates or changes to one component do not adversely affect others, thereby maintaining a stable and predictable server environment.
 
 !!! warning "Warning"
-
       If a backup isn't checked and verified, then it's not a backup, but a Schrodinger's backup box where the data is both restorable and not restorable at the same time. You'll only find out when it's too late, so you _**MUST**_ test your backups!
 
 
@@ -77,7 +76,6 @@ After the migration of Ethereum validators to new servers, it's crucial to ensur
    * Regularly review and analyze the network logs for a period post-migration to ensure that there are no traces of the old validators. This thorough analysis helps in confirming the success of the migration process and the decommissioning of the old servers.
 
 !!! warning "Do not blindly trust monitoring tools! Implement "fail-safe" processes."
-
       Monitoring tools can fail. [Slashing incidents occur](https://blog.lido.fi/post-mortem-launchnodes-slashing-incident/) when things don't work as expected and tools that alert to those anomalies fail.&#x20;
 
       Processes should be designed to be "fail-safe" such that if something does go wrong, the outcome is a safe mode of failure. Scenarios often happen like this:

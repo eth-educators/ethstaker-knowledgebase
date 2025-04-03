@@ -3,7 +3,6 @@
 === "Descarga la aplicación CLI "
     Paso 1: Descargue [la aplicación de interfaz de línea de comando de depósito↗](https://github.com/ethereum/staking-deposit-cli/releases/) para su sistema operativo.
 
-
     !!! info "Info"
         Asegúrese de descargar desde la cuenta oficial de GitHub de la Fundación Ethereum verificando la URL: https://github.com/ethereum/staking-deposit-cli/releases/
 

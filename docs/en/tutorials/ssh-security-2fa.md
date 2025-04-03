@@ -7,7 +7,6 @@ For example, you may be familiar with logging into a website such as a crypto ex
 SSH can also be configured to require a Google Authenticator code, which means that an attacker that somehow compromised your SSH key and its passphrase would **still need the device with the authenticator app on it** (presumably your phone). This adds an extra layer of security to your system.
 
 !!! warning "Warning"
-
     It is **strongly recommended** that you open a second terminal with an SSH connection to your node, just in case you misconfigure something. This way, you will have a backup that is still connected in case you lock yourself out, so you can easily undo your mistakes.
 
     If you **do** manage to lock yourself out, you will need to physically access your node via its local monitor and keyboard to log in and repair the misconfiguration.

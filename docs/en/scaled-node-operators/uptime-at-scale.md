@@ -24,7 +24,6 @@ For Ethereum node operators managing a large number of validators, high uptime i
 Threshold signing involves distributing the signing responsibility among multiple entities. A transaction or a block is only valid when a certain number of these entities (the threshold) agree and provide their signatures.
 
 !!! info "Best Practices"
-
     * Distribute signers across different physical and network environments to reduce the risk of simultaneous failures.
     * Regularly test the threshold mechanism to ensure it functions correctly under various scenarios.
     * Keep the threshold number optimal to balance between security and efficiency.
@@ -51,7 +50,6 @@ This setup involves having one active validator client and one or more passive c
   Operators must balance the cost, performance, and uptime benefits. Cross-region redundancy increases uptime but can add latency and costs.
 
 !!! info "Best Practices"
-
     * Evaluate critical points in the infrastructure and determine which components would benefit most from geographical redundancy.
     * Regularly review and update the disaster recovery and failover plans to ensure they are effective across different regions.
 

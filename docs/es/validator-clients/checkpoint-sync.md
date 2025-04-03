@@ -1,7 +1,5 @@
 # Sincronización de puntos de control
 
-
-
 !!! info "Info"
     Se puede encontrar una lista mantenida por la comunidad de puntos finales de sincronización de checkpoints aquí: [Ethereum Beacon Chain checkpoint sync endpoints ↗](https://eth-clients.github.io/checkpoint-sync-endpoints/)&#x20;
 
@@ -14,8 +12,6 @@ En la práctica, esto significa que tu nodo se conecta a un servicio remoto para
 Debes validar el slot y el state\_root contra una fuente conocida y confiable. Esto puede ser un amigo, alguien de la comunidad que conozcas o cualquier otra fuente en la que confíes. Existe una lista mantenida de puntos finales de sincronización de checkpoints alojados públicamente [aquí↗](https://eth-clients.github.io/checkpoint-sync-endpoints/),  pero se recomienda usar tu propia fuente confiable en primer lugar, si es posible.&#x20;
 
 Es importante que conozcas la dirección IP y el puerto de tu nodo beacon.
-
-
 
 #### Obtener el número de slot y el valor de state&#x20;
 

@@ -25,7 +25,6 @@ maxretry = 5
 !!! info "Info"
     Si estás utilizando un puerto SSH no estándar que no sea el 22, deberás cambiarlo en el archivo de configuración anterior.
 
-
 Puedes modificar la configuración de `maxretry` que es el número de intentos permitidos antes de bloquear la dirección ofensiva.
 
 Guarda el archivo y reinicia el servicio.
