@@ -18,7 +18,7 @@ layout:
 
 To serve as a validator, both CL and EL need to be up to date with the network. There are a couple of techniques of how to check that.
 
-All this health check data should lead to a [monitoring tool](https://github.com/gateway-fm/validator-kb/blob/main/reference/nodes/monitoring.md) of your choice.
+All this health check data should lead to a [monitoring tool](https://github.com/gateway-fm/validator-kb/blob/main/reference/ha/monitoring.md) of your choice.
 
 ### Internal health checks
 
@@ -32,7 +32,7 @@ For EL that is a response to [`eth_getBlockByNumber("latest", false)`](https://d
 
 It has a field called `timestamp`. By knowing the timestamp of the block and the block production rate (1 block per 12 seconds), it is possible to see how "old" is the current block of the node.
 
-Since sometimes the block proposals could be missed, it doesn't make sense to keep this threshold too tight, but if it is > 5 minutes old, it makes sense to mark the node as "unhealthy" and notify your [monitoring system](https://github.com/gateway-fm/validator-kb/blob/main/reference/nodes/monitoring.md).
+Since sometimes the block proposals could be missed, it doesn't make sense to keep this threshold too tight, but if it is > 5 minutes old, it makes sense to mark the node as "unhealthy" and notify your [monitoring system](https://github.com/gateway-fm/validator-kb/blob/main/reference/ha/monitoring.md).
 
 ### Source Of Truth Checks (Forks)
 
