@@ -1,6 +1,6 @@
 # Firewalls and subnetting
 
-A firewall is a security mechanism that monitors both incoming and outgoing network connections and can either accept or reject traffic based on a set of configurable rules. It is heavily recommended to have one configured to improve the security of your node/validator setup.
+A firewall is a security mechanism that monitors both incoming and outgoing network connections and can either accept or reject traffic based on a set of configurable rules. It is strongly recommended to have one configured to improve the security of your node/validator setup.
 
 There are two kinds of firewalls:
 
