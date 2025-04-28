@@ -32,7 +32,7 @@ If you miss your block proposal, the [slot](https://github.com/Buttaa/ethstaker/
 
 ### Can I be slashed for being offline?
 
-No. Realistically, the only condition that can cause a [slashing event](https://github.com/Buttaa/ethstaker/blob/main/help/staking-glossary.md#slashable-offenses) is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and you won't get slashed. **Slashing cannot occur from being offline for maintenance**.
+No. Realistically, the only condition that can cause a [slashing event](https://github.com/Buttaa/ethstaker/blob/main/help/staking-glossary.md#slashable-offenses) is if you run your validator's keys on two nodes at the same time (such as a failover / redundancy setup, where your backup node accidentally turns on while your main node is still running). Don't let this happen, and you won't get slashed. **A slashing event cannot occur from being offline for maintenance**.
 
 ## What if I can't recover my validator and/or I want to stop staking?
 
