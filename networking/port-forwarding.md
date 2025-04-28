@@ -12,13 +12,14 @@ Below are a list of the default ports that the software(s) are set to listen on.
 | [Erigon](https://github.com/ledgerwatch/erigon#default-ports-and-protocols--firewalls)                        | 30303 TCP/UDP, 30304 TCP/UDP |
 | [Geth](https://geth.ethereum.org/docs/fundamentals/security#networking-security)                              | 30303 TCP/UDP                |
 | [Nethermind](https://docs.nethermind.io/nethermind/ethereum-client/configuration/network)                     | 30303 TCP/UDP                |
+| [Reth](https://reth.rs/run/ports.html)                                                                        | 30303 TCP/UDP                |
 
 
 
 | Consensus client                                                                                            | Port(s)              |
 | ----------------------------------------------------------------------------------------------------------- | -------------------- |
 | [Lighthouse](https://lighthouse-book.sigmaprime.io/advanced\_networking.html#nat-traversal-port-forwarding) | 9000 TCP/UDP         |
-| [Lodestar](https://chainsafe.github.io/lodestar/reference/cli/#beacon)                                      | 9000 TCP/UDP         |
+| [Lodestar](https://chainsafe.github.io/lodestar/run/beacon-management/networking/#nat-traversal)            | 9000 TCP/UDP         |
 | [Nimbus](https://nimbus.guide/networking.html)                                                              | 9000 TCP/UDP         |
 | [Prysm](https://docs.prylabs.network/docs/prysm-usage/p2p-host-ip#incoming-p2p-connection-prerequisites)    | 12000 UDP, 13000 TCP |
 | [Teku](https://docs.teku.consensys.net/Reference/CLI/CLI-Syntax/#p2p-port)                                  | 9000 TCP/UDP         |
