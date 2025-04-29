@@ -15,7 +15,7 @@ Slashing is a term used to describe the response of the Ethereum network to a va
 If someone wanted to attack the Ethereum network they could propose multiple blocks or attest to multiple conflicting blocks. To disincentivize attacks on the network, in a [Proof of Stake (PoS)](../staking-glossary.md#proof-of-stake-pos) system, validators have something at stake, which is currently 32 ETH per validator. When a validator breaks the rules of the network, two things will happen:
 
 1. The validator has some amount of ETH taken from that initial 32 ETH staked balance.
-2. The validator is force exited and removed from the [validator pool](../staking-glossary.md#validator-pool).
+2. The validator is forced exit and removed from the [validator pool](../staking-glossary.md#validator-pool).
 
 The amount of ETH taken as a penalty varies on the state of the network. If a small number of validators are slashed simultaneously, then a rough estimate of the slashing penalty is 1 or 2 ETH. In an incredibly rare Black Swan event, when a large portion of the network is simultaneously offline or breaking the rules (e.g. in a coordinated attack) then the slashing penalty can be up to and including 100% of the stake.
 
