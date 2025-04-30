@@ -6,7 +6,7 @@ The penalty for missing attestations is exactly the same as the reward for a suc
 
 [Proposing a block is rare](../rewards/proposal-frequency.md). Depending on the size of the [validator pool](../staking-glossary.md#validator-pool), a single validator will on average only propose a block every few months. If you are unlucky enough to be offline at the time that your validator is asked to propose a block, that's also ok.
 
-The Ethereum network is robust and designed to handle these situations. If you miss your block proposal, the [slot](../staking-glossary.md#slot) that should have contained your block will be empty. Other than the lost [rewards](broken-reference) from missing the block proposal, there are **no penalties or slashing** that occurs from a missed block proposal.
+The Ethereum network is robust and designed to handle these situations. If you miss your block proposal, the [slot](../staking-glossary.md#slot) that should have contained your block will be empty. Other than the lost [rewards](broken-reference) from missing the block proposal, there are **no penalties or slashing** that occur from a missed block proposal.
 
 If you have a large number of validators or want to minimize your downtime, [consider running a second consensus and execution client pair and adding this endpoint to your already running validator client. ](https://docs.ethstaker.cc/ethstaker-knowledge-base/tutorials/methods-to-minimize-downtime#running-multiple-consensus-execution-client-pairs)This will ensure that if one of your client pairs goes down, your validator client will automatically fallback to the other one.
 
