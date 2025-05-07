@@ -2,7 +2,7 @@
 
 ## Connect existing EC & BN clients
 
-If you are already running an Execution Client (EC) e.g. Geth and a Beacon Node (BN) e.g. Lighthouse you can connect your Obol DVT node to them. This allows you to reuse existing hardware and continue to run your solo staking validator alongside Obol DVT validators.
+If you are already running an Execution Client (EC), e.g., Geth and a Beacon Node (BN) e.g. Lighthouse you can connect your Obol DVT node to them. This allows you to reuse existing hardware and continue to run your solo staking validator alongside Obol DVT validators.
 
 <table data-card-size="large" data-column-title-hidden data-view="cards"><thead><tr><th align="center"></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td align="center"><p></p><p><img src="../.gitbook/assets/image (15).png" alt="" data-size="original"></p></td><td></td><td></td></tr></tbody></table>
 
@@ -68,7 +68,7 @@ Uncomment (remove the `#`) the line `CHARON_BEACON_NODE_ENDPOINTS`. Add your exi
 ```
 ...
 
-# Connect to one or more external beacon nodes. Use a comma separated list excluding spaces.
+# Connect to one or more external beacon nodes. Use a сomma-separated list excluding spaces.
 CHARON_BEACON_NODE_ENDPOINTS="http://<EXISTING_BEACON_NODE_IP_ADDRESS>:<PORT>"
 
 ...
