@@ -16,11 +16,11 @@ To go on a deep dive and learn everything about the attestation duty, timings, e
 - [Exploring ETH2: Attestation Inclusion ↗](https://www.symphonious.net/2020/09/08/exploring-eth2-attestation-inclusion/) by Adrian Sutton
 - [Defining Attestation Effectiveness ↗](https://www.attestant.io/posts/defining-attestation-effectiveness/) by Jim McDonald
 
-As a staker, you cannot do much about the causes that are outside of your control. What you can do is work on elements of your setup that are under your control to maximize your rewards. Even if you have a setup that was performing well before the merge, it's possible that with the additional work being introduced, some overlooked part of your setup might be the cause of additional misses or lower effectiveness since the merge happened. That's why you should double check all these items.
+As a staker, you cannot do much about the causes that are outside of your control. What you can do is work on elements of your setup that are under your control to maximize your rewards. Even if you have a setup that was performing well before the merge, it's possible that with the additional work being introduced, some overlooked part of your setup might be the cause of additional misses or lower effectiveness since the merge happened. That's why you should double-check all these items.
 
 1. Make sure your clients are _up-to-date_. Client updates often include optimizations and improvements that will help perform your duties on time.
 
-2. Make sure your machine consistently has enough _resources_ (CPU, RAM, disk, etc). Using a dedicated machine can help. If your clients are starved of any of these resources, it will likely be a cause for more misses and lower effectiveness.
+2. Make sure your machine consistently has enough _resources_ (CPU, RAM, disk, etc). Using a dedicated machine can help. If your clients are starved of these resources, it will likely be a cause for more misses and lower effectiveness.
 
 3. Make sure your _time_ is properly in sync. The beacon chain protocol is quite time sensitive. chrony is a good tool to improve your time sync. On Ubuntu or Debian derivatives, installing chrony is often as easy as `sudo apt install chrony`. On Windows, you can use [these instructions ↗](https://www.reddit.com/r/ethstaker/comments/nfca22/an_opiniated_solution_to_improve_time_sync_on/) to improve your time sync.
 
