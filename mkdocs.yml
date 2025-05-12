@@ -190,11 +190,6 @@ nav:
     - Migration at scale: scaled-node-operators/migration-at-scale.md
     - Monitoring at scale: scaled-node-operators/monitoring-at-scale.md
     - Uptime at scale: scaled-node-operators/uptime-at-scale.md
-  - Get Involved: 
-    - Content ideas: get-involved/content-ideas.md
-    - Code of conduct: get-involved/code-of-conduct.md
-    - How to contribute: get-involved/how-to-contribute.md
-    - Privacy policy: privacy-policy.md
   - Guides:
     - Router:
       - Overview: guides/router/overview.md
@@ -207,12 +202,22 @@ nav:
     - Holesky Testnet:
       - Lighthouse/Nethermind: guides/holesky-testnet/holesky-nethermind-lighthouse.md
       - Lodestar/Reth: guides/holesky-testnet/holesky-reth-lodestar.md
+    - Hoodi Testnet:
+      - Lighthouse/Nethermind: guides/hoodi-testnet/hoodi-nethermind-lighthouse.md
+      - Lodestar/Reth: guides/hoodi-testnet/hoodi-reth-lodestar.md
     - Monitoring and Maintenance:
       - Monitoring: guides/monitoring-maintenance/monitoring.md
       - Alerting: guides/monitoring-maintenance/alerting.md
       - Maintenance and Security: guides/monitoring-maintenance/security-maintenance.md
       - Migrate to a larger disk: guides/monitoring-maintenance/migrating-to-a-larger-disk.md
     - MEV relay list: guides/MEV-relay-list.md
+  - Upgrades:
+      - Pectra Features: upgrades/pectra-features.md
+  - Get Involved: 
+    - Content ideas: get-involved/content-ideas.md
+    - Code of conduct: get-involved/code-of-conduct.md
+    - How to contribute: get-involved/how-to-contribute.md
+    - Privacy policy: privacy-policy.md
 
 
 

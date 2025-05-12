@@ -64,7 +64,7 @@ Pruning your execution client database is a good strategy for managing your exec
 
 Other execution clients have different strategies for managing data growth. Some are leaner in terms of disk size usage to get started with and some include automatic online pruning. You should consider running [a minority execution client](#execution-client-diversity).
 
-I suggest you implement [monitoring](../../../guides/monitoring-maintenance/monitoring) and [alerting](../../../guides/monitoring-maintenance/alerting) to help you find out when you are low on available disk space.
+I suggest you implement [monitoring](../monitoring-maintenance/monitoring.md) and [alerting](../monitoring-maintenance/alerting.md) to help you find out when you are low on available disk space.
 
 ### Managing your execution client bandwidth usage
 
@@ -115,7 +115,7 @@ As usual, when changing the configuration for your consensus client, you will ne
 
 ## Configuring a JWT token file
 
-The new Engine API used to communicate between the execution client and the consensus client requires [authentication](https://github.com/ethereum/execution-apis/blob/main/docs/src/engine/authentication) which is provided with a JWT token stored in a file. There are various ways to configure this. Here is a simple one.
+The new Engine API used to communicate between the execution client and the consensus client requires [authentication](https://github.com/ethereum/execution-apis/blob/main/docs/src/engine/authentication.md) which is provided with a JWT token stored in a file. There are various ways to configure this. Here is a simple one.
 
 ### Creating the JWT token file
 
@@ -181,7 +181,7 @@ Here are the detailed configuration options for the fee recipient for each clien
 
 The use of mev-boost and obtaining MEV by a validator is entirely optional. A validator might want to avoid obtaining MEV for any reason. There are plenty of good reasons to avoid MEV. It is a decision left to each staker. However, if you want to maximize your profits, you should consider obtaining that additional value.
 
-A preview of MEV and mev-boost can be seen on <https://youtu.be/sZYJiLxp9ow>.
+A preview of MEV and mev-boost can be seen on https://youtu.be/sZYJiLxp9ow
 
 ### Installing mev-boost
 
@@ -191,25 +191,25 @@ Create a user account for the service to run under. This account will not be abl
 $ sudo useradd --no-create-home --shell /bin/false mevboost
 ```
 
-Download the latest stable version of mev-boost from <https://github.com/flashbots/mev-boost/releases> (avoid any pre-release version). As of this date, the latest stable release version is 1.8 . Adjust the following instructions accordingly if there is a newer stable release version with a different archive name. The file name should likely end with *linux_amd64.tar.gz* (for linux and AMD64 instructions set). Use a different archive if you are on a different architecture or a different operating system.
+Download the latest stable version of mev-boost from https://github.com/flashbots/mev-boost/releases (avoid any pre-release version). As of this date, the latest stable release version is 1.9 . Adjust the following instructions accordingly if there is a newer stable release version with a different archive name. The file name should likely end with *linux_amd64.tar.gz* (for linux and AMD64 instructions set). Use a different archive if you are on a different architecture or a different operating system.
 
 ```console
 $ cd ~
-$ wget https://github.com/flashbots/mev-boost/releases/download/v1.8/mev-boost_1.8_linux_amd64.tar.gz
+$ wget https://github.com/flashbots/mev-boost/releases/download/v1.9/mev-boost_1.9_linux_amd64.tar.gz
 ```
 
 Verify that the SHA256 Checksum as shown [in the checksums.txt file](https://github.com/flashbots/mev-boost/releases) is the same as the file we just downloaded.
 
 ```console
-$ sha256sum mev-boost_1.8_linux_amd64.tar.gz
+$ sha256sum mev-boost_1.9_linux_amd64.tar.gz
 ```
 
 Extract the archive. Install mev-boost globally and remove the download leftovers.
 
 ```console
-$ tar xvf mev-boost_1.8_linux_amd64.tar.gz
+$ tar xvf mev-boost_1.9_linux_amd64.tar.gz
 $ sudo cp mev-boost /usr/local/bin
-$ rm mev-boost LICENSE README.md mev-boost_1.8_linux_amd64.tar.gz
+$ rm mev-boost LICENSE README.md mev-boost_1.9_linux_amd64.tar.gz
 $ sudo chown mevboost:mevboost /usr/local/bin/mev-boost
 ```
 
@@ -219,7 +219,7 @@ Create a systemd service file to store the service config which tells systemd to
 $ sudo nano /etc/systemd/system/mevboost.service
 ```
 
-Paste the following into the file to run mev-boost on Mainnet. You **must** replace `https://example.com` in this configuration with one or many existing relays. We have [a list of relays](../../../guides/MEV-relay-list) you can explore. Exit and save once done (`Ctrl` + `X`, `Y`, `Enter`).
+Paste the following into the file to run mev-boost on Mainnet. You **must** replace `https://example.com` in this configuration with one or many existing relays. We have [a list of relays](../MEV-relay-list.md) you can explore. Exit and save once done (`Ctrl` + `X`, `Y`, `Enter`).
 
 ```ini
 [Unit]
@@ -292,16 +292,16 @@ And restart the service(s) you changed: `sudo systemctl restart SERVICENAME`
 
 ### Update mev-boost
 
-When a new version is released, you can update mev-boost. Find the latest stable version of mev-boost from <https://github.com/flashbots/mev-boost/releases>. Download the archive. The file name should likely end with *linux_amd64.tar.gz* (for linux and AMD64 instructions set). Use a different archive if you are on a different architecture or a different operating system. Verify the archive checksum, extract the archive, stop the service, install mev-boost globally, remove the download leftovers and restart the service.
+When a new version is released, you can update mev-boost. Find the latest stable version of mev-boost from https://github.com/flashbots/mev-boost/releases. Download the archive. The file name should likely end with *linux_amd64.tar.gz* (for linux and AMD64 instructions set). Use a different archive if you are on a different architecture or a different operating system. Verify the archive checksum, extract the archive, stop the service, install mev-boost globally, remove the download leftovers and restart the service.
 
 ```console
 $ cd ~
-$ wget https://github.com/flashbots/mev-boost/releases/download/v1.8/mev-boost_1.8_linux_amd64.tar.gz
-$ sha256sum mev-boost_1.8_linux_amd64.tar.gz
-$ tar xvf mev-boost_1.8_linux_amd64.tar.gz
+$ wget https://github.com/flashbots/mev-boost/releases/download/v1.9/mev-boost_1.9_linux_amd64.tar.gz
+$ sha256sum mev-boost_1.9_linux_amd64.tar.gz
+$ tar xvf mev-boost_1.9_linux_amd64.tar.gz
 $ sudo systemctl stop mevboost
 $ sudo cp mev-boost /usr/local/bin
-$ rm mev-boost LICENSE README.md mev-boost_1.8_linux_amd64.tar.gz
+$ rm mev-boost LICENSE README.md mev-boost_1.9_linux_amd64.tar.gz
 $ sudo chown mevboost:mevboost /usr/local/bin/mev-boost
 $ sudo systemctl start mevboost
 ```

@@ -2,6 +2,14 @@
 
 [Pectra](https://eips.ethereum.org/EIPS/eip-7600), combining changes on the consensus layer ([Electra](https://github.com/ethereum/consensus-specs/tree/dev/specs/electra)) with changes on the execution layer (Prague), is the next hard fork planned to upgrade the Ethereum protocol. This document covers the new staking-related features and changes included in this upgrade.
 
+## Fork Schedule
+
+Pectra was [officially announced on Holesky and Sepolia](https://blog.ethereum.org/2025/02/14/pectra-testnet-announcement) and [Mainnet](https://blog.ethereum.org/2025/04/23/pectra-mainnet). Here is the planned schedule for these forks:
+
+- [Holesky](https://github.com/eth-clients/holesky) at epoch 115968 (Feb. 24, 2025, 21:55 UTC)
+- [Sepolia](https://github.com/eth-clients/sepolia) at epoch 222464 (Mar. 5, 2025, 7:29 UTC)
+- [Mainnet](https://github.com/eth-clients/mainnet) at epoch 364032 (May 07, 2025, 10:05:11 UTC)
+
 ## Consolidated or Compounding Validators
 
 [EIP-7251: Increase the MAX_EFFECTIVE_BALANCE](https://eips.ethereum.org/EIPS/eip-7251) defines a new type of validator called a consolidated or compounding validator. It enables stakers to earn compounding rewards on a single validator that can have up to 2048 effective ETH on its balance. This can be referred to as a type 2 or `0x02` validator, with `0x02` being the first 2 bytes of its withdrawal credentials. Previously, only type 0 (`0x00`) and type 1 (`0x01`) validators existed. Here are all the validator types available after Pectra:
@@ -25,7 +33,7 @@ New validators can be deposited directly as type 2 validators. There is also a m
 1. Transform an existing type 1 validator to a type 2 validator
 2. Transfer the balance from a type 1 or type 2 validator to a type 2 validator. This will exit the source validator and consolidate its balance on the target validator
 
-For this operation to work, the validators must be active on the consensus layer and share the same withdrawal address. The withdrawal address must match the address sending the transaction, as the withdrawal address controls this consolidation request operation.
+For a consolidation to work, the validator you're moving from must still be active (not exited), and the request must come from the same wallet that controls the withdrawal address of that validator. This is to ensure that only the person who owns the validator can approve moving its balance. The withdrawal address of the target validator (the one being consolidated into) does not have to match the withdrawal address of the source validator (the one being converted).
 
 While it has always been possible to deposit additional funds into an existing validator, this practice will likely become more common with the new compounding validator type. Previously, 32 ETH was the only possible maximum effective ETH balance, and most well-behaved validators' balances stayed near 32 ETH. After Pectra, we will see a wider distribution of validator balances on the consensus layer. Every integer increment in your validator's balance increases your potential rewards. For type 0 and type 1 validators, this caps at 32 ETH, but for type 2 validators, it caps at 2048 ETH. For example, if you have a type 2 validator with 44 ETH and want to stake an additional ETH, you can deposit it to increase your rewards. New deposits or top-ups must include at least 1 ETH to be valid.
 
@@ -48,6 +56,10 @@ Various delays apply after performing an exit or withdrawal using this new mecha
 [EIP-7691: Blob throughput increase](https://eips.ethereum.org/EIPS/eip-7691) increases the number of blobs to scale Ethereum via L2 solutions. It raises the target number of blobs per block from 3 to 6 and increases the maximum number of blobs per block from 6 to 9.
 
 This will likely increase bandwidth requirements for stakers until PeerDAS is included in a later fork.
+
+## Faster deposits
+
+[EIP-6110: Supply validator deposits on chain](https://eips.ethereum.org/EIPS/eip-6110) improves the validator deposit mechanism on the beacon chain. This change reduces the delay between making a deposit and its recognition by the beacon chain from over 9 hours to approximately 13 minutes.
 
 ## Support
 
