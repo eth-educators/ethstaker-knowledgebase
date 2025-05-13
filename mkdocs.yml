@@ -199,9 +199,6 @@ nav:
         - Port Forwarding: guides/router/netgear/rs300-port-forwarding.md
       - Final Switchover:
         - Comcast: guides/router/final-switchover/comcast-bridge.md
-    - Holesky Testnet:
-      - Lighthouse/Nethermind: guides/holesky-testnet/holesky-nethermind-lighthouse.md
-      - Lodestar/Reth: guides/holesky-testnet/holesky-reth-lodestar.md
     - Hoodi Testnet:
       - Lighthouse/Nethermind: guides/hoodi-testnet/hoodi-nethermind-lighthouse.md
       - Lodestar/Reth: guides/hoodi-testnet/hoodi-reth-lodestar.md
