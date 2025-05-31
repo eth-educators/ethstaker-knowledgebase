@@ -13,7 +13,7 @@ To execute/build locally:
 1. Or run each command individually:
     1. Start python virtual environment: `. venv/bin/activate`
     1. Install dependencies: `pip install -r requirements.txt`
-    1. Run the script: `python build.py`
+    1. Run the script: `mkdocs serve`
 1. Go to <http://127.0.0.1:8000/> to view changes
 1. Close virtual environment: `deactivate`
 

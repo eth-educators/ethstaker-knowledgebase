@@ -3,12 +3,13 @@
 
 
 # english
-
+/ethstaker-knowledge-base  /
 
 # french
 /french/pour-debuter/what-is-ethereum-staking  /french/getting-started/what-is-ethereum-staking
 /french/recompenses/*  /fr/recompenses/:splat
 /french/*  /fr/:splat
+
 
 # spanish
 /spanish/claves-del-validador/*  /es/validator-keys/:splat
@@ -33,6 +34,7 @@
 /malay/tolong/*  /ms/help/:splat
 /malay/*  /ms/:splat
 
+
 # dutch
 /dutch/*  /nl/:splat
 
@@ -40,10 +42,12 @@
 # turkish
 /turkish/*  /tr/:splat
 
+
 # portuguese
 /portuguese/*  /pt/:splat
 
 
-
+# all
+/:lang/ethstaker-knowledge-base  /:lang/
 
 
