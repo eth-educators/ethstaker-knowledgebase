@@ -2,6 +2,7 @@ site_name: EthStaker Knowledge Base
 site_url: https://docs.ethstaker.org
 theme:
   name: material
+  custom_dir: overrides
   language: en
   palette:
     # Palette toggle for automatic mode
