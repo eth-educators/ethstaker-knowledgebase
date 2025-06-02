@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    (function() {
+      // open external links and pdfs in new tab
+      const links = document.querySelectorAll("a");
+      const currentUrl = window.location.href.split('//')[1].split('/')[0];
+      // console.log(currentUrl);
+      for (let el in links) {
+        link = links[el];
+        // console.log(link);
+        try {
+          let targetUrl = link.href;
+          // set all absolute links to open in new tab
+          if (/^(https?:)?\/\//.test(targetUrl)) {
+            link.target = "_blank";
+          }
+          // if target url contains current domain, use same tab
+          if (targetUrl.includes(currentUrl)) {
+            link.target = "_self";
+          }
+          // covers relative and anchor links
+          if (!targetUrl.includes("https")) {
+            link.target = "_self";
+          }
+          // open all .pdf, .png, .jpg, .mp4 in new tab
+          if (/(\.pdf$|\.png$|\.jpe*g$|\.mp4)/.test(targetUrl)) {
+            link.target = "_blank";
+          }
+        } catch (error) {
+          console.error("Target link error:", el);
+        }
+      }
+    })();
+  </script>
+{% endblock %}
