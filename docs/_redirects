@@ -4,6 +4,7 @@
 
 # english
 /ethstaker-knowledge-base  /
+/ethstaker-knowledge-base/:splat  /:splat
 
 # french
 /french/pour-debuter/what-is-ethereum-staking  /french/getting-started/what-is-ethereum-staking
