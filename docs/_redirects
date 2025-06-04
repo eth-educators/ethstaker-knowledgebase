@@ -48,6 +48,7 @@
 
 
 # all
+/:lang/ethstaker-knowledge-base/:splat  /:lang/:splat
 /:lang/ethstaker-knowledge-base  /:lang/
 
 
