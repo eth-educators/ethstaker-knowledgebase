@@ -24,20 +24,19 @@
       const targetUrlWithRef = `${target404Path}?ref=${currentPath}`;
       
       // If not already on the correct language path with the ref parameter, redirect to it
-      if (window.location.pathname !== target404Path || !window.location.search.includes('ref=')) {
+      if (window.location.href.includes('?') & window.location.href.includes('404')) {
+        console.log('abort redirect')
+      } else if (window.location.pathname !== target404Path || !window.location.search.includes('ref=')) {
         window.location.href = targetUrlWithRef;
       }
 
-      // Fix language change links since a bug makes it default to Turkish
+      // Fix nav links since a bug makes it default to Turkish
       document.querySelectorAll("a.md-nav__link").forEach(link => {
-        console.log('href', link.href)
         let langPath = (langCode === 'en') ? '/' : `/${langCode}/`;
-        console.log('lang path', langPath)
         link.href = link.href.replaceAll('/tr/',langPath);
-        console.log('href new', link.href)
       })
 
-      // Fix language change links since a bug makes it default to /validator-keys/slashing-protection/
+      // Fix ltranslations dropdown links since a bug makes it default to /validator-keys/slashing-protection/
       document.querySelectorAll("a.md-select__link").forEach(link => {
         let hrefBase = link.href.split('//')[1].split('/')[0] // no trailing slash
         let lang = link.href.split('//')[1].split('/')[1];

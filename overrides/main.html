@@ -7,10 +7,8 @@
       // open external links and pdfs in new tab
       const links = document.querySelectorAll("a");
       const currentUrl = window.location.href.split('//')[1].split('/')[0];
-      // console.log(currentUrl);
       for (let el in links) {
         link = links[el];
-        // console.log(link);
         try {
           let targetUrl = link.href;
           // set all absolute links to open in new tab
