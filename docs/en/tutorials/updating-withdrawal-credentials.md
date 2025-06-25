@@ -6,7 +6,7 @@ It is possible upon validator creation to specify a withdrawal address and, if y
 
 **Please note**: If at any point you are confused as to what to do, please ask the EthStaker community for guidance. There are no stupid questions and we always strive to be welcoming first and knowledgeable second.
 
-**eth-docker users:** There is a standalone guide if you use eth-docker [here](https://github.com/eth-educators/eth-docker/tree/main/.eth/ethdo). The following guide can be considered a companion as the steps are very similar.
+**eth-docker users:** There is a standalone guide if you use eth-docker [here](https://github.com/ethstaker/eth-docker/tree/main/.eth/ethdo). The following guide can be considered a companion as the steps are very similar.
 
 ## Warnings
 
