@@ -225,7 +225,7 @@ Requesting or obtaining enough Hoodi ETH to perform your validator deposit can b
 There are 2 great tools to create your validator keys:
 
 * GUI based: [Wagyu Key Gen](https://github.com/stake-house/wagyu-key-gen)
-* CLI based: [ethstaker-deposit-cli](https://github.com/eth-educators/ethstaker-deposit-cli)
+* CLI based: [ethstaker-deposit-cli](https://github.com/ethstaker/ethstaker-deposit-cli)
 
 If you choose the *Wagyu Key Gen* application, make sure to select the *Hoodi* network and follow the instructions provided. If you are using the #cheap-hoodi-validator process, you will need to use `0x4D496CcC28058B1D74B7a19541663E21154f9c84` as your withdrawal address. This is only required for that process. When on Mainnet, you should use a withdrawal address you control if you want to use one.
 
@@ -233,7 +233,7 @@ If you choose the *ethstaker-deposit-cli* application, here is how to create you
 
 ```console
 $ cd ~
-$ wget https://github.com/eth-educators/ethstaker-deposit-cli/releases/download/v1.1.0/ethstaker_deposit-cli-08f1e66-linux-amd64.tar.gz
+$ wget https://github.com/ethstaker/ethstaker-deposit-cli/releases/download/v1.1.0/ethstaker_deposit-cli-08f1e66-linux-amd64.tar.gz
 $ tar xvf ethstaker_deposit-cli-08f1e66-linux-amd64.tar.gz
 $ rm ethstaker_deposit-cli-08f1e66-linux-amd64.tar.gz
 $ cd ethstaker_deposit-cli-08f1e66-linux-amd64/

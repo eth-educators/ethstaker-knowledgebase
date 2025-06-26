@@ -426,7 +426,7 @@ I created a simple script to ease the pain of updating Alertmanager. You can fin
 You can easily download this script with:
 
 ```console
-$ wget https://raw.githubusercontent.com/eth-educators/ethstaker-guides/main/docs/scripts/update-alertmanager.py
+$ wget https://docs.ethstaker.org/assets/scripts/update-alertmanager.py
 ```
 
 To run the Alertmanager update script, use this command:

@@ -12,7 +12,7 @@ Es posible durante la creación de un validador especificar una dirección de re
 
 Tenga en cuenta: Si en algún momento está confundido con qué debería hacer, pida orientación a la comunidad de EthStaker. No hay preguntas tontas y siempre nos esforzamos por dar la bienvenida a quien llegue antes de ayudarles.
 
-Usuarios de eth-docker: Hay una guía independiente si usas eth-docker[ aquí](https://github.com/eth-educators/eth-docker/tree/main/.eth/ethdo). La siguiente guía puede considerarse un complemento ya que los pasos son muy similares.
+Usuarios de eth-docker: Hay una guía independiente si usas eth-docker[ aquí](https://github.com/ethstaker/eth-docker/tree/main/.eth/ethdo). La siguiente guía puede considerarse un complemento ya que los pasos son muy similares.
 
 ## Advertencias
 

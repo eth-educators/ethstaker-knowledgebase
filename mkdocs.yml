@@ -77,8 +77,8 @@ plugins:
         - locale: tr
           name: Turkish
           build: true
-repo_url: https://github.com/eth-educators/ethstaker-knowledgebase
-repo_name: eth-educators/ethstaker-knowledgebase
+repo_url: https://github.com/ethstaker/ethstaker-knowledgebase
+repo_name: ethstaker/ethstaker-knowledgebase
 edit_uri: edit/main/docs/
 extra:
   analytics:
@@ -89,7 +89,7 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://dsc.gg/ethstaker
     - icon: fontawesome/brands/github
-      link: https://github.com/eth-educators
+      link: https://github.com/ethstaker
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/ethstaker
 extra_css:
