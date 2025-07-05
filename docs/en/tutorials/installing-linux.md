@@ -36,7 +36,9 @@ Once you have booted from a USB you will be presented with an installation menu.
 
 <figure><img src="/assets/img/gitbook/image (56).png" alt="Linux installation page"><figcaption></figcaption></figure>
 
-After selecting `Try or Install Ubuntu Server` you will see a screen like this. You don't need to do anything at this point, the system is just starting up.
+After selectingsudo chown -R goeth:goeth /var/lib/goethereum/geth/chaindata
+sudo chmod 755 /var/lib/goethereum/geth/chaindata
+sudo chmod 755 /var/lib/goethereum/geth/chaindata/ancient `Try or Install Ubuntu Server` you will see a screen like this. You don't need to do anything at this point, the system is just starting up.
 
 <figure><img src="/assets/img/gitbook/image (26).png" alt="Linux installation loading screen"><figcaption></figcaption></figure>
 
@@ -48,7 +50,9 @@ Select the keyboard layout.
 
 <figure><img src="/assets/img/gitbook/image (85).png" alt="Linux installation keyboard selection"><figcaption></figcaption></figure>
 
-Select the installation type you want to use. For this, select `Ubuntu Server`.
+Select the installation type you want to use. For this, selectsudo chown -R goeth:goeth /var/lib/goethereum/geth/chaindata
+sudo chmod 755 /var/lib/goethereum/geth/chaindata
+sudo chmod 755 /var/lib/goethereum/geth/chaindata/ancient `Ubuntu Server`.
 
 <figure><img src="/assets/img/gitbook/image (93).png" alt="Linux installation type selection"><figcaption></figcaption></figure>
 
@@ -64,7 +68,7 @@ Select where you want to download the updates for the operating system from. Thi
 
 <figure><img src="/assets/img/gitbook/image (36).png" alt="Linux installation archive mirror selection"><figcaption></figcaption></figure>
 
-Select the storage configuration. As your staking machine is most likely a dedicated machine selecting `Use an entire disk` is the best option. Don't worry about encryption as you want your machine to be able to automatically restart, and encrypted disks make that process much more complex.
+Select the storage configuration. As your staking machine is most likely a dedicated machine selectingsudo mv /var/lib/goethereum/geth/ancient /var/lib/goethereum/geth/chaindata `Use an entire disk` is the best option. Don't worry about encryption as you want your machine to be able to automatically restart, and encrypted disks make that process much more complex.
 
 <figure><img src="/assets/img/gitbook/image (72).png" alt="Linux installation storage selection"><figcaption></figcaption></figure>
 
@@ -102,8 +106,9 @@ Once the system reboots you'll see startup information similar to the output bel
 
 <figure><img src="/assets/img/gitbook/image (19).png" alt="Linux startup screen "><figcaption></figcaption></figure>
 
-This is the login screen for your validator machine. The name of this machine is `eridian-validator`.
-
+This is the login screen for your validator machine. The name of this machine is `eridian-validat or`.
+sudo rm -rf /var/lib/goethereum/geth/chaindata
+sudo mkdir /var/lib/goethereum/geth/chaindata
 <figure><img src="/assets/img/gitbook/image (6).png" alt="Linux login screen "><figcaption></figcaption></figure>
 
 Enter the username you created during the installation. You will then be prompted for your password. As you type your password nothing will be shown on the command line (so it will look like it's not working!) but don't worry, this is for security and the typing is working.&#x20;
