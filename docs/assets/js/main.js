@@ -26,7 +26,7 @@ function updateLinkTargets() {
       link.target = '_self';
     }
     // open all .pdf, .png, .jpg, .mp4 in new tab
-    if (/(\.pdf$|\.png$|\.jpe*g$|\.mp4)/.test(href)) {
+    if (/(\.pdf$|\.png$|\.jpe?g$|\.mp4)/.test(href)) {
       link.target = '_blank';
     }
     // if new-tab class, use new tab
